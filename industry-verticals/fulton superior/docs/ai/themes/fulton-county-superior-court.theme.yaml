@@ -1,0 +1,128 @@
+# Client Brand Theme — Superior Court of Fulton County
+# Extracted from user-provided homepage mockup (screenshot-only).
+# Confidence: medium (no live CSS scrape; colors sampled visually from mockup).
+
+client:
+  name: "Superior Court of Fulton County"
+  sourceUrl: ""
+  extractedAt: "2026-09-17T21:05:00Z"
+  extractedBy: "cursor"
+
+colors:
+  primary: "#1a1a1a"
+  primaryForeground: "#ffffff"
+  secondary: "#2c3e50"
+  secondaryForeground: "#ffffff"
+  accent: "#c73e1d"
+  accentForeground: "#ffffff"
+  background: "#ffffff"
+  foreground: "#1a1a1a"
+  muted: "#f5f5f5"
+  mutedForeground: "#5a5a5a"
+  headerBackground: "#1a1a1a"
+  headerForeground: "#ffffff"
+  footerBackground: "#f5f5f5"
+  footerForeground: "#1a1a1a"
+  border: "#e0e0e0"
+  ring: "#c73e1d"
+  extra:
+    - { name: "utilityBar", value: "#c73e1d" }
+    - { name: "iconCircle", value: "#b5d0e3" }
+    - { name: "iconStroke", value: "#1a2a3a" }
+    - { name: "sectionUnderline", value: "#c73e1d" }
+    - { name: "cardBanner", value: "#c73e1d" }
+    - { name: "announcementOverlay", value: "#0a1628" }
+    - { name: "socialIcon", value: "#7ba3c9" }
+
+typography:
+  headingFamily: "'Montserrat', sans-serif"
+  headingWeight: "700"
+  bodyFamily: "'Source Sans 3', sans-serif"
+  bodyWeight: "400"
+  monoFamily: "ui-monospace, monospace"
+  googleFontsUrl: "https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:ital@0;1&display=swap"
+  scale:
+    hero: "2.5rem"
+    h1: "2rem"
+    h2: "1.5rem"
+    h3: "1.125rem"
+    body: "1rem"
+    small: "0.875rem"
+  headingTransform: "uppercase"
+  letterSpacing: "0.04em"
+  lineHeight: "1.5"
+
+spacing:
+  density: "comfortable"
+  sectionGap: "4.5rem"
+  containerMaxWidth: "1200px"
+  containerPadding: "1.5rem"
+
+shape:
+  borderRadius: "0"
+  buttonRadius: "0"
+  cardRadius: "0"
+  imageRadius: "0"
+  shadowStyle: "subtle"
+  borderStyle: "none"
+
+tone:
+  overall: "civic"
+  colorMode: "mixed"
+  contrast: "high"
+  imagery: "photography"
+  heroStyle: "full-bleed-image"
+  cardStyle: "flat"
+  navStyle: "transparent-overlay"
+
+tailwind:
+  colors:
+    brand:
+      primary: "#1a1a1a"
+      secondary: "#2c3e50"
+      accent: "#c73e1d"
+  fontFamily:
+    heading: ["Montserrat", "sans-serif"]
+    body: ["Source Sans 3", "sans-serif"]
+  borderRadius:
+    DEFAULT: "0"
+    button: "0"
+    card: "0"
+
+cssVariables: |
+  :root {
+    --brand-primary: #1a1a1a;
+    --brand-primary-foreground: #ffffff;
+    --brand-secondary: #2c3e50;
+    --brand-secondary-foreground: #ffffff;
+    --brand-accent: #c73e1d;
+    --brand-accent-foreground: #ffffff;
+    --brand-bg: #ffffff;
+    --brand-fg: #1a1a1a;
+    --brand-muted: #f5f5f5;
+    --brand-muted-fg: #5a5a5a;
+    --brand-header-bg: #1a1a1a;
+    --brand-header-fg: #ffffff;
+    --brand-footer-bg: #f5f5f5;
+    --brand-footer-fg: #1a1a1a;
+    --brand-border: #e0e0e0;
+    --brand-ring: #c73e1d;
+    --brand-heading-font: 'Montserrat', sans-serif;
+    --brand-body-font: 'Source Sans 3', sans-serif;
+    --brand-radius: 0;
+    --brand-button-radius: 0;
+    --brand-card-radius: 0;
+    --brand-utility: #c73e1d;
+    --brand-icon-circle: #b5d0e3;
+  }
+
+extraction:
+  confidence: "medium"
+  method: "screenshot-only"
+  notes:
+    - "Accent is burnt orange-red used for utility bar, Search button, section underlines, The Court tile banners, and announcement CTA."
+    - "Hero/nav sit on a dark photographic overlay with white logo and uppercase nav."
+    - "Quick Links use light-blue circular icon wells with dark line-art icons."
+    - "Important Announcements uses a full-bleed night skyline with a white featured card."
+    - "Sharp corners throughout (0 radius). Headings are bold uppercase sans-serif; hero subprompt uses a serif face."
+    - "No live URL scrape — hex values are approximate from the mockup; refine if official brand guide is provided."

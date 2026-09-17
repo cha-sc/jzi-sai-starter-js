@@ -1,0 +1,214 @@
+.two-column-cta {
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  img {
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+    border-radius: var(--roundness) var(--roundness) 0 0;
+    margin-bottom: 1em;
+  }
+
+  .row {
+    @include respond-to(mobile-large) {
+      gap: 3em;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1em;
+    height: 100%;
+    background-color: var(--bg-body);
+    border-radius: var(--roundness);
+    overflow: hidden;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  h2,
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .button {
+    margin-top: auto;
+  }
+
+  &.colored {
+    .content-wrapper {
+      background-color: var(--bg-main);
+    }
+
+    .dark & {
+      .button {
+        background-color: var(--text-body);
+        color: var(--bg-body);
+
+        &:hover {
+          filter: brightness(85%);
+        }
+      }
+    }
+  }
+
+  /* Fulton County — district finder (navy search + map) */
+  &.two-column-cta-fulton {
+    background-color: var(--bg-saturated);
+    padding: 3.5rem 0;
+    border-radius: 0;
+
+    @include respond-to(mobile-large) {
+      padding: 2.5rem $size-padding;
+    }
+
+    .fulton-district-panel {
+      height: 100%;
+      padding: 2.5rem 2rem;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .fulton-district-title {
+      margin: 0 0 1rem;
+      font-family: var(--heading-font-family);
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .fulton-district-helper {
+      margin: 0 0 1.5rem;
+      font-family: var(--font-family);
+      font-size: 1rem;
+      line-height: 1.55;
+      color: rgb(255 255 255 / 90%);
+      max-width: 36rem;
+    }
+
+    .fulton-district-search {
+      display: flex;
+      align-items: stretch;
+      width: 100%;
+      max-width: 32rem;
+      background: #fff;
+      border-radius: 0;
+      overflow: hidden;
+
+      input[type='search'] {
+        flex: 1;
+        min-width: 0;
+        border: none;
+        outline: none;
+        padding: 0.875rem 1rem;
+        font-family: var(--font-family);
+        font-size: 0.9375rem;
+        color: var(--text-body);
+        border-radius: 0;
+
+        &::placeholder {
+          color: #6c757d;
+          opacity: 1;
+        }
+      }
+
+      .fulton-district-search-editing {
+        flex: 1;
+        padding: 0.875rem 1rem;
+        color: var(--text-body);
+        font-size: 0.9375rem;
+      }
+    }
+
+    .fulton-district-search-btn {
+      flex-shrink: 0;
+      border: none;
+      border-radius: 0;
+      background: var(--bg-accent);
+      color: #fff;
+      font-family: var(--heading-font-family);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.875rem 1.5rem;
+      cursor: pointer;
+
+      &:hover {
+        filter: brightness(1.08);
+      }
+    }
+
+    .fulton-district-map {
+      height: 100%;
+      padding: 2rem;
+      background: var(--bg-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+
+      img {
+        width: 100%;
+        max-width: 28rem;
+        height: auto;
+        max-height: 18rem;
+        object-fit: contain;
+        border-radius: 0;
+        margin-bottom: 1.25rem;
+      }
+    }
+
+    .fulton-district-map-title {
+      margin: 0 0 0.75rem;
+      font-family: var(--heading-font-family);
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #fff;
+    }
+
+    .fulton-district-map-text {
+      margin: 0 0 1.25rem;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      color: rgb(255 255 255 / 90%);
+      max-width: 28rem;
+    }
+
+    .fulton-district-learn-more {
+      display: inline-block;
+      margin-top: auto;
+      padding: 0.65rem 1.5rem;
+      background: var(--bg-accent);
+      color: #fff !important;
+      font-family: var(--heading-font-family);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 0;
+
+      &:hover {
+        filter: brightness(1.08);
+        color: #fff !important;
+      }
+    }
+  }
+}

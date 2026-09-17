@@ -1,0 +1,153 @@
+@import 'src/assets/sass/abstracts/mixins';
+@import 'src/assets/sass/abstracts/vars';
+
+.navigation {
+  .button-nav-item a {
+    @extend .button;
+    @extend .button-main;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  .level0,
+  .level1 {
+    &:not(.button-nav-item) {
+      > .navigation-title > a {
+        font-size: $navigation-font-basic;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  li {
+    &.submenu {
+      margin-bottom: 0;
+    }
+
+    > .navigation-title {
+      > a {
+        text-decoration: none;
+      }
+    }
+
+    > ul a {
+      font-size: $navigation-font-basic-submenu;
+    }
+  }
+
+  .submenu > ul {
+    padding-left: 10px;
+  }
+
+  &.navigation-centered {
+    .component-content ul li.level1:not(.button-nav-item) > .navigation-title > a {
+      font-weight: normal;
+    }
+
+    @media (width > 992px) {
+      > .menu-mobile-navigate-wrapper {
+        width: 100%;
+
+        > .component-content {
+          width: 100%;
+        }
+      }
+
+      li.level1.item0.first,
+      li.button-nav-item {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+// Fulton County main nav — uppercase navy links + search icon CTA
+.site-financial {
+  .header {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .navigation.navigation-horizontal {
+    .component-content ul {
+      gap: 1.25rem;
+    }
+
+    .level0:not(.button-nav-item) > .navigation-title > a,
+    .level1:not(.button-nav-item) > .navigation-title > a {
+      color: #002d53;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      font-size: 0.75rem;
+      font-family: var(--font-family, 'Open Sans', sans-serif);
+      padding: 0.25rem 0;
+
+      &:hover,
+      &:focus {
+        color: #174a7c;
+        text-decoration: none;
+      }
+    }
+
+    // Replace "Get a loan" button styling with a search icon
+    .button-nav-item {
+      margin-left: 0.75rem;
+      padding-left: 1rem;
+      border-left: 1px solid #cfd8e3;
+      list-style: none;
+
+      > .navigation-title > a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0 !important;
+        margin: 0;
+        border: none !important;
+        border-radius: 0 !important;
+        background: transparent !important;
+        color: transparent !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        box-shadow: none !important;
+        text-indent: 0;
+        position: relative;
+
+        &::before {
+          content: '';
+          display: block;
+          width: 1.15rem;
+          height: 1.15rem;
+          background-color: #002d53;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E")
+            center / contain no-repeat;
+          -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E")
+            center / contain no-repeat;
+        }
+
+        &:hover,
+        &:focus {
+          background: transparent !important;
+          filter: none;
+
+          &::before {
+            background-color: #174a7c;
+          }
+        }
+      }
+    }
+  }
+}
+
+@import 'src/assets/sass/components/navigation/navigation-main-horizontal-vertical';
+@import 'src/assets/sass/components/navigation/navigation-mobile';
+@import 'src/assets/sass/components/navigation/navigation-sidebar';
+@import 'src/assets/sass/components/navigation/sitemap-navigation';
+@import 'src/assets/sass/components/navigation/navigation-fat';

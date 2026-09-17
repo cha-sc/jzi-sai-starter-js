@@ -1,0 +1,2316 @@
+{
+  "url": "https://www.fultoncountyga.gov/",
+  "extractedAt": "2026-09-17T04:36:17.439Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 7,
+  "totalImages": 54,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 1,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 15
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "header-main",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/fultoninfo?lang=en",
+          "target": "_blank"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/fultoninfo/?hl=en",
+          "target": "_blank"
+        },
+        {
+          "text": "Facebook",
+          "href": "https://www.facebook.com/fultoninfo/",
+          "target": "_blank"
+        },
+        {
+          "text": "Elections",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+          "target": ""
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.fultoncountyga.gov/Jobs",
+          "target": ""
+        },
+        {
+          "text": "Calendar",
+          "href": "https://www.fultoncountyga.gov/Calendar",
+          "target": ""
+        },
+        {
+          "text": "Commission District Finder",
+          "href": "https://www.fultoncountyga.gov/Commission-District-Finder",
+          "target": ""
+        },
+        {
+          "text": "Payments",
+          "href": "https://www.fultoncountyga.gov/Payments",
+          "target": ""
+        },
+        {
+          "text": "News",
+          "href": "https://www.fultoncountyga.gov/News",
+          "target": ""
+        },
+        {
+          "text": "Maps",
+          "href": "https://www.fultoncountyga.gov/Maps",
+          "target": ""
+        },
+        {
+          "text": "Customer Service",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service",
+          "target": "_blank"
+        },
+        {
+          "text": "Watch FGTV",
+          "href": "https://www.fultoncountyga.gov/Watch-FGTV",
+          "target": ""
+        },
+        {
+          "text": "Translate",
+          "href": "https://translate.google.com/",
+          "target": "_blank"
+        },
+        {
+          "text": "Email Newsletters",
+          "href": "https://visitor.r20.constantcontact.com/manage/optin?v=001pRmNkNNhb38xsI9BKzPGAT6VX8gu-AdhuhhypsqgiD4L_n71y2QtjvjalpJ0jMH4yHmAnfjHZ4_UY1WVZXtiAPhvFMP23kGALCNjleiUzU0%3D",
+          "target": ""
+        },
+        {
+          "text": "License & Certificates",
+          "href": "https://www.fultoncountyga.gov/Services/Licenses-and-Certificates",
+          "target": ""
+        },
+        {
+          "text": "Birth Certificate",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Marriage License",
+          "href": "https://www.fultonprobatega.org/195/Marriage-Licenses",
+          "target": ""
+        },
+        {
+          "text": "Weapons Carry Licenses",
+          "href": "https://www.fultonprobatega.org/201/Weapons-Carry-Licenses-WCL",
+          "target": ""
+        },
+        {
+          "text": "Passports",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Passports",
+          "target": ""
+        },
+        {
+          "text": "Notary",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Notary",
+          "target": ""
+        },
+        {
+          "text": "See All License & Certificates links",
+          "href": "https://www.fultoncountyga.gov/Services/Licenses-and-Certificates",
+          "target": ""
+        },
+        {
+          "text": "Voting & Elections",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+          "target": ""
+        },
+        {
+          "text": "Absentee Voting",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Absentee-Voting",
+          "target": "_blank"
+        },
+        {
+          "text": "Become a Poll Worker",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Become-a-Poll-Worker",
+          "target": "_blank"
+        },
+        {
+          "text": "Early Voting Locations",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Early-Voting-Locations",
+          "target": ""
+        },
+        {
+          "text": "Voter Registration",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections/Voter-Registration",
+          "target": "_blank"
+        },
+        {
+          "text": "See All Voting & Elections links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+          "target": ""
+        },
+        {
+          "text": "Health Services",
+          "href": "https://www.fultoncountyga.gov/Services/Health-Services",
+          "target": ""
+        },
+        {
+          "text": "Behavioral Health & Developmental Disabilities",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Behavioral-Health-and-Developmental-Disabilities",
+          "target": ""
+        },
+        {
+          "text": "Food Services",
+          "href": "https://fultoncountyboh.com/environmental-health/food-service/",
+          "target": ""
+        },
+        {
+          "text": "HIV Services",
+          "href": "https://www.fultoncountyga.gov/Services/Health-Services/HIV-Services",
+          "target": ""
+        },
+        {
+          "text": "Public Health",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "See All Health Services links",
+          "href": "https://www.fultoncountyga.gov/Services/Health-Services",
+          "target": ""
+        },
+        {
+          "text": "Libraries & Arts",
+          "href": "https://www.fultoncountyga.gov/Services/Libraries-Arts-and-Cooperative-Extension",
+          "target": ""
+        },
+        {
+          "text": "Library Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Library",
+          "target": ""
+        },
+        {
+          "text": "Art Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Arts-and-Culture",
+          "target": ""
+        },
+        {
+          "text": "Community Gardening",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/Become-a-Community-Gardener",
+          "target": ""
+        },
+        {
+          "text": "Cooperative Extension",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension",
+          "target": ""
+        },
+        {
+          "text": "See All Libraries & Arts links",
+          "href": "https://www.fultoncountyga.gov/Services/Libraries-Arts-and-Cooperative-Extension",
+          "target": ""
+        },
+        {
+          "text": "Animal Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services",
+          "target": ""
+        },
+        {
+          "text": "Adopt/Foster",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Adopt-or-Foster",
+          "target": ""
+        },
+        {
+          "text": "Pet Registration",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Pet-Registration",
+          "target": ""
+        },
+        {
+          "text": "Report a Stray",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Report-a-Stray",
+          "target": ""
+        },
+        {
+          "text": "Rescue Groups",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Rescue-Groups",
+          "target": ""
+        },
+        {
+          "text": "Animal Shelter Volunteers",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Animal-Shelter-Volunteer",
+          "target": ""
+        },
+        {
+          "text": "See All Animal Services links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services",
+          "target": ""
+        },
+        {
+          "text": "Youth",
+          "href": "https://www.fultoncountyga.gov/Services/Youth",
+          "target": ""
+        },
+        {
+          "text": "4-H Program",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/4H-Program",
+          "target": ""
+        },
+        {
+          "text": "Child & Adolescent Behavioral Health",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Behavioral-Health-and-Developmental-Disabilities/Child-or-Adolescent-Behavioral-Health-Services",
+          "target": ""
+        },
+        {
+          "text": "Job Training & GED Resources",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/WorkSource-Fulton/Job-Training-and-GED-Resources",
+          "target": ""
+        },
+        {
+          "text": "Youth Commission",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Youth-Commission",
+          "target": ""
+        },
+        {
+          "text": "See All Youth links",
+          "href": "https://www.fultoncountyga.gov/Services/Youth",
+          "target": ""
+        },
+        {
+          "text": "Seniors",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services",
+          "target": ""
+        },
+        {
+          "text": "Senior Virtual Classes",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Virtual-Classes",
+          "target": ""
+        },
+        {
+          "text": "Home Delivered Meals",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Home-Delivered-Meals",
+          "target": ""
+        },
+        {
+          "text": "Home Repair Services",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "In-Home Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/In-Home-Services",
+          "target": ""
+        },
+        {
+          "text": "Senior Centers",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Centers",
+          "target": ""
+        },
+        {
+          "text": "See All Seniors links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services",
+          "target": ""
+        },
+        {
+          "text": "Water",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services",
+          "target": ""
+        },
+        {
+          "text": "2026 Water Quality Report",
+          "href": "https://www.fultoncountyga.gov/-/media/Departments/Public-Works/Water-Quality-Reports/2022-CCR_FINAL.pdf",
+          "target": ""
+        },
+        {
+          "text": "Emergency Water/ Sewer Repairs",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services/Emergency-Repairs",
+          "target": ""
+        },
+        {
+          "text": "Establish New Water Services",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services/Establish-New-Water-Services",
+          "target": ""
+        },
+        {
+          "text": "Pay Your Water Bill",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services/Pay-Your-Water-Bill",
+          "target": ""
+        },
+        {
+          "text": "Water Conservation",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services/Water-Conservation",
+          "target": ""
+        },
+        {
+          "text": "See All Water links",
+          "href": "https://www.fultoncountyga.gov/Services/Water-Services",
+          "target": ""
+        },
+        {
+          "text": "Public Safety",
+          "href": "https://www.fultoncountyga.gov/Services/Public-Safety",
+          "target": ""
+        },
+        {
+          "text": "911 (Emergency Services)",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Emergency-Services",
+          "target": ""
+        },
+        {
+          "text": "Death Investigations",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Medical-Examiner/Death-Investigations",
+          "target": ""
+        },
+        {
+          "text": "Jail Information",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff/Jail",
+          "target": ""
+        },
+        {
+          "text": "Plan and Prepare",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Atlanta-Fulton-Emergency-Management-Agency/Plan-and-Prepare",
+          "target": ""
+        },
+        {
+          "text": "Police Reports",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Police/Obtaining-a-Police-Report",
+          "target": ""
+        },
+        {
+          "text": "Sex Offender Information",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff/Law-Enforcement/Sex-Offender-Search",
+          "target": ""
+        },
+        {
+          "text": "See All Public Safety links",
+          "href": "https://www.fultoncountyga.gov/Services/Public-Safety",
+          "target": ""
+        },
+        {
+          "text": "Courts",
+          "href": "https://www.fultoncountyga.gov/Services/Court-Services",
+          "target": ""
+        },
+        {
+          "text": "Estates and Wills",
+          "href": "https://www.fultonprobatega.org/196/Decedents-Estates",
+          "target": ""
+        },
+        {
+          "text": "Evictions",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Evictions",
+          "target": ""
+        },
+        {
+          "text": "Jury Duty",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Superior-Court/Jury-Duty",
+          "target": ""
+        },
+        {
+          "text": "Probate Information Center",
+          "href": "https://www.fultonprobatega.org/",
+          "target": ""
+        },
+        {
+          "text": "See All Courts links",
+          "href": "https://www.fultoncountyga.gov/Services/Court-Services",
+          "target": ""
+        },
+        {
+          "text": "Human Services",
+          "href": "https://www.fultoncountyga.gov/Services/Human-Services",
+          "target": ""
+        },
+        {
+          "text": "Homeless Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Homeless-Services",
+          "target": ""
+        },
+        {
+          "text": "Indigent Burials",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Indigent-Burials",
+          "target": ""
+        },
+        {
+          "text": "Tenant-Based Rental Assistance",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Community Service Programs",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Community-Service-Programs",
+          "target": ""
+        },
+        {
+          "text": "See All Human Services links",
+          "href": "https://www.fultoncountyga.gov/Services/Human-Services",
+          "target": ""
+        },
+        {
+          "text": "Other",
+          "href": "https://www.fultoncountyga.gov/Services/Other-Government",
+          "target": ""
+        },
+        {
+          "text": "City Services",
+          "href": "https://www.fultoncountyga.gov/Services/Other-Government/City-Services",
+          "target": ""
+        },
+        {
+          "text": "Disability Affairs/Accommodation",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Diversity-and-Civil-Rights-Compliance/Disability-Affairs-and-Accommodation",
+          "target": ""
+        },
+        {
+          "text": "Title VI",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Office-of-the-County-Auditor/Title-VI-Reports",
+          "target": ""
+        },
+        {
+          "text": "Trash Services for Cities",
+          "href": "https://www.fultoncountyga.gov/Services/Other-Government/Trash-Services-for-Cities",
+          "target": ""
+        },
+        {
+          "text": "Veteran Resources",
+          "href": "https://www.fultoncountyga.gov/Services/Other-Government/Veteran-Resources",
+          "target": ""
+        },
+        {
+          "text": "See All Other links",
+          "href": "https://www.fultoncountyga.gov/Services/Other-Government",
+          "target": ""
+        },
+        {
+          "text": "See All Services Services links",
+          "href": "https://www.fultoncountyga.gov/Services",
+          "target": ""
+        },
+        {
+          "text": "Property",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Property",
+          "target": ""
+        },
+        {
+          "text": "Boards of Equalization",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Boards-of-Equalization",
+          "target": ""
+        },
+        {
+          "text": "File an Appeal",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Appealing-Your-Assessment",
+          "target": ""
+        },
+        {
+          "text": "Homestead Exemptions",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Homestead-Exemptions",
+          "target": ""
+        },
+        {
+          "text": "Property Assessments",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Board-of-Assessors/Property-Assessments",
+          "target": ""
+        },
+        {
+          "text": "Property Taxes",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Tax-Commissioner/Property-Taxes",
+          "target": ""
+        },
+        {
+          "text": "See All Property links",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Property",
+          "target": ""
+        },
+        {
+          "text": "Vehicles",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Vehicles",
+          "target": ""
+        },
+        {
+          "text": "Get a Vehicle Out of Impound",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Get-Vehicle-Out-of-Impound",
+          "target": ""
+        },
+        {
+          "text": "Vehicle Tags",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Tax-Commissioner/Vehicle-Tags",
+          "target": ""
+        },
+        {
+          "text": "See All Vehicles links",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Vehicles",
+          "target": ""
+        },
+        {
+          "text": "Water",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water",
+          "target": "_blank"
+        },
+        {
+          "text": "Emergency Water/Sewer Repairs",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Emergency-Repairs",
+          "target": "_blank"
+        },
+        {
+          "text": "Establish New Water Services",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Establish-New-Water-Services",
+          "target": "_blank"
+        },
+        {
+          "text": "Pay Your Water Bill",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Pay-Your-Water-Bill",
+          "target": "_blank"
+        },
+        {
+          "text": "Water Conservation",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Water-Conservation",
+          "target": "_blank"
+        },
+        {
+          "text": "Water Leak Adjustment",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water/Water-Leak-Adjustment-Request",
+          "target": "_blank"
+        },
+        {
+          "text": "See All Water links",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles/Water",
+          "target": "_blank"
+        },
+        {
+          "text": "See All Property and Vehicles links",
+          "href": "https://www.fultoncountyga.gov/Property-and-Vehicles",
+          "target": ""
+        },
+        {
+          "text": "Doing Business with FC",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Do-Business-with-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Vendor Registration Information",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Vendor-Registration-Information",
+          "target": ""
+        },
+        {
+          "text": "Bid Board (Bid Opportunities)",
+          "href": "https://www.bidnetdirect.com/georgia/fultoncounty",
+          "target": "_blank"
+        },
+        {
+          "text": "MFBE Registration",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/MFBE-Registration",
+          "target": ""
+        },
+        {
+          "text": "Purchasing & Contract Compliance Contact Us",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance",
+          "target": ""
+        },
+        {
+          "text": "Vendor Training",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Vendor-Workshops",
+          "target": ""
+        },
+        {
+          "text": "Bid Opportunity FAQs",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Purchasing-and-Contract-Compliance/Bid-Opportunities",
+          "target": ""
+        },
+        {
+          "text": "See All Doing Business with FC links",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Do-Business-with-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Bid Opportunities",
+          "href": "https://www.bidnetdirect.com/georgia/fultoncounty",
+          "target": "_blank"
+        },
+        {
+          "text": "Bid Board Archives",
+          "href": "http://bidboard.fultoncountyga.gov/Apps/bidboard/MainSearchPage.php",
+          "target": ""
+        },
+        {
+          "text": "Surplus Real Estate for Sale",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Real-Estate-and-Asset-Management/Land-Division/Surplus-Real-Estate-for-Sale",
+          "target": ""
+        },
+        {
+          "text": "Bid Opportunities Bid Opportunities links",
+          "href": "https://www.bidnetdirect.com/georgia/fultoncounty",
+          "target": "_blank"
+        },
+        {
+          "text": "Economic Development",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Economic-Development",
+          "target": ""
+        },
+        {
+          "text": "Select Fulton",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton",
+          "target": ""
+        },
+        {
+          "text": "Fulton Films",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton/Fulton-Films",
+          "target": ""
+        },
+        {
+          "text": "Locate a Business in Fulton",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Select-Fulton",
+          "target": ""
+        },
+        {
+          "text": "Workforce Development",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/WorkSource-Fulton",
+          "target": ""
+        },
+        {
+          "text": "See All Economic Development links",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Economic-Development",
+          "target": ""
+        },
+        {
+          "text": "Permits and Inspections",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Permits-and-Inspections",
+          "target": ""
+        },
+        {
+          "text": "Restaurant Inspections",
+          "href": "https://fultoncountyboh.com/environmental-health/food-service/",
+          "target": ""
+        },
+        {
+          "text": "Hotel and Motel Inspections",
+          "href": "https://fultoncountyboh.com/environmental-health/inspections-non-food/hotel-motel-inspections/",
+          "target": ""
+        },
+        {
+          "text": "Pool Inspections",
+          "href": "https://fultoncountyboh.com/environmental-health/inspections-non-food/pool-inspections/",
+          "target": ""
+        },
+        {
+          "text": "Business Licenses",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Finance/Business-Licenses",
+          "target": ""
+        },
+        {
+          "text": "E-Plan Tier II Reporting",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Atlanta-Fulton-Emergency-Management-Agency/LEPC-E-Plan-Tier-II-Reporting",
+          "target": ""
+        },
+        {
+          "text": "See All Permits and Inspections links",
+          "href": "https://www.fultoncountyga.gov/Business-Services/Permits-and-Inspections",
+          "target": ""
+        },
+        {
+          "text": "See All Business Services links",
+          "href": "https://www.fultoncountyga.gov/Business-Services",
+          "target": ""
+        },
+        {
+          "text": "Courts",
+          "href": "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+          "target": ""
+        },
+        {
+          "text": "Superior Court",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Superior-Court",
+          "target": ""
+        },
+        {
+          "text": "State Court",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/State-Court",
+          "target": ""
+        },
+        {
+          "text": "Probate Court",
+          "href": "https://www.fultonprobatega.org/",
+          "target": ""
+        },
+        {
+          "text": "Magistrate Court",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Magistrate-Court",
+          "target": ""
+        },
+        {
+          "text": "Juvenile Court",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Juvenile-Court",
+          "target": ""
+        },
+        {
+          "text": "See All Courts links",
+          "href": "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+          "target": ""
+        },
+        {
+          "text": "Justice Agencies",
+          "href": "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+          "target": "_blank"
+        },
+        {
+          "text": "Sheriff",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Sheriff",
+          "target": ""
+        },
+        {
+          "text": "District Attorney",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/District-Attorney",
+          "target": ""
+        },
+        {
+          "text": "Solicitor General",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Solicitor-General",
+          "target": ""
+        },
+        {
+          "text": "Public Defender",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Public-Defender",
+          "target": ""
+        },
+        {
+          "text": "Marshal",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal",
+          "target": ""
+        },
+        {
+          "text": "See All Justice Agencies links",
+          "href": "https://www.fultoncountyga.gov/Courts-and-Justice-Agencies",
+          "target": "_blank"
+        },
+        {
+          "text": "Court Services",
+          "href": "https://www.fultoncountyga.gov/Services/Court-Services",
+          "target": "_blank"
+        },
+        {
+          "text": "Marriage Licenses",
+          "href": "https://www.fultonprobatega.org/195/Marriage-Licenses",
+          "target": ""
+        },
+        {
+          "text": "Becoming a Notary",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Clerk-of-Superior-Court/Notary",
+          "target": ""
+        },
+        {
+          "text": "Victim Services",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Solicitor-General/Victims-Services",
+          "target": ""
+        },
+        {
+          "text": "Court Services Court Services links",
+          "href": "https://www.fultoncountyga.gov/Services/Court-Services",
+          "target": "_blank"
+        },
+        {
+          "text": "Board of Commissioners",
+          "href": "https://www.fultoncountyga.gov/Commissioners",
+          "target": ""
+        },
+        {
+          "text": "Chairman Robb Pitts",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Robb-Pitts",
+          "target": ""
+        },
+        {
+          "text": "Commissioner Bridget Thorne",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne",
+          "target": ""
+        },
+        {
+          "text": "Commissioner Bob Ellis",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bob-Ellis",
+          "target": ""
+        },
+        {
+          "text": "Commissioner Dana Barrett",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Dana-Barrett",
+          "target": ""
+        },
+        {
+          "text": "Commissioner Marvin Arrington",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Marvin-Arrington",
+          "target": ""
+        },
+        {
+          "text": "Vice Chair Khadijah Abdur-Rahman",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Khadijah-Abdur-Rahman",
+          "target": ""
+        },
+        {
+          "text": "Commissioners Board of Commissioners links",
+          "href": "https://www.fultoncountyga.gov/Commissioners",
+          "target": ""
+        },
+        {
+          "text": "Clerk to the Commission",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission",
+          "target": ""
+        },
+        {
+          "text": "Code of Ethics",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Ethics",
+          "target": ""
+        },
+        {
+          "text": "Code of Georgia",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Georgia",
+          "target": ""
+        },
+        {
+          "text": "Code of Law",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Code-of-Laws",
+          "target": ""
+        },
+        {
+          "text": "Public Notices",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Public-Notices",
+          "target": ""
+        },
+        {
+          "text": "See All Clerk to the Commission links",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission",
+          "target": ""
+        },
+        {
+          "text": "BOC Meeting Schedule",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Board-of-Commissioners-Meeting-Schedule",
+          "target": ""
+        },
+        {
+          "text": "Agendas and Minutes",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Agenda-Minutes",
+          "target": ""
+        },
+        {
+          "text": "Watch Previous Board Meetings",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Watch-Past-Meetings",
+          "target": "_blank"
+        },
+        {
+          "text": "See All Commissioners links",
+          "href": "https://www.fultoncountyga.gov/Commissioners",
+          "target": "_blank"
+        },
+        {
+          "text": "Citizen Engagement",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Citizen-Engagement",
+          "target": ""
+        },
+        {
+          "text": "Calendar of Events",
+          "href": "https://www.fultoncountyga.gov/Calendar",
+          "target": ""
+        },
+        {
+          "text": "Fulton County Citizen University",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Fulton-County-Citizens-University",
+          "target": ""
+        },
+        {
+          "text": "CourtWatch",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/District-Attorney/CourtWatch",
+          "target": ""
+        },
+        {
+          "text": "See All Citizen Engagement links",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Citizen-Engagement",
+          "target": ""
+        },
+        {
+          "text": "Tours and Requests",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Tours-and-Requests",
+          "target": ""
+        },
+        {
+          "text": "Request a Fulton County Speaker",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Request-a-Fulton-County-Speaker",
+          "target": ""
+        },
+        {
+          "text": "Request a Proclamation",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Request-Proclamation",
+          "target": ""
+        },
+        {
+          "text": "Tour a Fulton County Facility",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Tour-a-Fulton-County-Facility",
+          "target": ""
+        },
+        {
+          "text": "Tour a Water Facility",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Public-Works/Public-Education-and-Outreach/Facility-Tours",
+          "target": ""
+        },
+        {
+          "text": "See All Tours and Requests links",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Tours-and-Requests",
+          "target": ""
+        },
+        {
+          "text": "Volunteer Opportunities",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Volunteer-Opportunities",
+          "target": ""
+        },
+        {
+          "text": "AmeriCorps Senior Companion Program",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/AmeriCorps-Senior-Companion-Program",
+          "target": ""
+        },
+        {
+          "text": "Senior Center Volunteers",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Center-Volunteers",
+          "target": ""
+        },
+        {
+          "text": "Animal Shelter Volunteer",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Animal-Services/Animal-Shelter-Volunteer",
+          "target": ""
+        },
+        {
+          "text": "Become a Master Gardener",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/Become-a-Master-Gardener",
+          "target": ""
+        },
+        {
+          "text": "See All Volunteer Opportunities links",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Volunteer-Opportunities",
+          "target": ""
+        },
+        {
+          "text": "Youth Programs",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Youth-Programs",
+          "target": ""
+        },
+        {
+          "text": "4-H Youth Development",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Cooperative-Extension/4H-Program?4-H%20Youth%20Development",
+          "target": "_blank"
+        },
+        {
+          "text": "Marshal's Department Jr Deputy Program",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Marshal/Marshals-Jr-Deputy-Program",
+          "target": ""
+        },
+        {
+          "text": "Summer Youth Job Training Program",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Fulton County Youth Commission",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Community-Development/Youth-Commission",
+          "target": ""
+        },
+        {
+          "text": "See All Youth Programs links",
+          "href": "https://www.fultoncountyga.gov/Get-Involved/Youth-Programs",
+          "target": ""
+        },
+        {
+          "text": "See All Get Involved links",
+          "href": "https://www.fultoncountyga.gov/Get-Involved",
+          "target": ""
+        },
+        {
+          "text": "About Fulton County",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Demographics",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Demographics",
+          "target": ""
+        },
+        {
+          "text": "Governance",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Governance",
+          "target": ""
+        },
+        {
+          "text": "History",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/History",
+          "target": ""
+        },
+        {
+          "text": "Organizational Chart",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County/Organizational-Chart",
+          "target": ""
+        },
+        {
+          "text": "See All About Fulton County links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/About-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Executive Leadership",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership",
+          "target": "_blank"
+        },
+        {
+          "text": "County Manager and Team",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/County-Manager-and-Team",
+          "target": ""
+        },
+        {
+          "text": "County Attorney",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/County-Attorney",
+          "target": ""
+        },
+        {
+          "text": "County Auditor",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/County-Auditor",
+          "target": "_blank"
+        },
+        {
+          "text": "Clerk to the Commission",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership/Clerk-to-the-Commission",
+          "target": ""
+        },
+        {
+          "text": "See All Executive Leadership links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Executive-Leadership",
+          "target": "_blank"
+        },
+        {
+          "text": "Fulton County Departments",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments",
+          "target": "_blank"
+        },
+        {
+          "text": "Fulton County Initiatives",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives",
+          "target": ""
+        },
+        {
+          "text": "End Human Trafficking",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/End-Human-Trafficking",
+          "target": ""
+        },
+        {
+          "text": "End Opioid Abuse",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/End-Opioid-Abuse",
+          "target": ""
+        },
+        {
+          "text": "Infrastructure For All",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Infrastructure-For-All",
+          "target": ""
+        },
+        {
+          "text": "Renew the District",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Renew-the-District",
+          "target": ""
+        },
+        {
+          "text": "Sustainable Fulton",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives/Sustainable-Fulton",
+          "target": ""
+        },
+        {
+          "text": "See All Fulton County Initiatives links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Initiatives",
+          "target": ""
+        },
+        {
+          "text": "Open Government",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government",
+          "target": ""
+        },
+        {
+          "text": "Audit Reports",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Office-of-the-County-Auditor/Audit-Report",
+          "target": ""
+        },
+        {
+          "text": "Budget",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Budget",
+          "target": ""
+        },
+        {
+          "text": "Performance Reporting",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Performance-Reporting",
+          "target": ""
+        },
+        {
+          "text": "Strategic Plan",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government/Strategic-Plan",
+          "target": ""
+        },
+        {
+          "text": "See All Open Government links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Open-Government",
+          "target": ""
+        },
+        {
+          "text": "See All Inside Fulton County links",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "141 Pryor St. SW Atlanta, GA 30303",
+          "href": "https://www.google.com/maps/place/141+Pryor+St+SW,+Atlanta,+GA+30303/@33.751422,-84.393632,17z/data=!3m1!4b1!4m5!3m4!1s0x88f5039da35b24a5:0xb7d97e7eb909787b!8m2!3d33.751422!4d-84.3914433",
+          "target": ""
+        },
+        {
+          "text": "404-612-4000",
+          "href": "tel:404-612-4000",
+          "target": ""
+        },
+        {
+          "text": "customerservice@fultoncountyga.gov",
+          "href": "mailto:customerservice@fultoncountyga.gov",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+          "alt": "Google Translate",
+          "type": "img",
+          "width": 42,
+          "height": 16
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/ful-logo-mobile.png?la=en&h=250&w=181&hash=B1A7375DCA167C71DED76C2986039C1B",
+          "alt": "Fulton County home",
+          "type": "img",
+          "width": 181,
+          "height": 250
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/horizontal-Fulton-County-logo-hi-res.png?la=en&h=68&w=170&hash=D2811D88E61F3889E75973A7A4008A83",
+          "alt": "Fulton County home",
+          "type": "img",
+          "width": 170,
+          "height": 68
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/Twitter_Social_Icon_Circle_Color.png?la=en&h=400&w=400&hash=94D0E36B809A50290536643C31F1BA1D",
+          "alt": "twitter",
+          "type": "img",
+          "width": 400,
+          "height": 400
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/IG-Navy-circle.png?la=en&h=1500&w=1500&hash=ECE22A42F5BCC5D132317DFB964FFA84",
+          "alt": "instagram",
+          "type": "img",
+          "width": 1500,
+          "height": 1500
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/f_logo_RGB-Blue_58.png?la=en&h=130&w=130&hash=5A230B87CD9CCC487689D86C19FB27AB",
+          "alt": "facebook",
+          "type": "img",
+          "width": 130,
+          "height": 130
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "Translate",
+            "href": "https://translate.google.com/"
+          },
+          "image": {
+            "src": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+            "alt": "Google Translate"
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "div",
+      "classHint": "hero ",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/Hero-Images/Home-page/Government_Center_Panorama94-crop.jpg",
+          "alt": "Government Center",
+          "type": "img",
+          "width": 1920,
+          "height": 500
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Common-SVG/icon-search-orange.svg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "cta-grid services-grid cta-grid--theme-dark-blue container-fluid theme-dark-blue",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "fulton county government top services"
+        },
+        {
+          "tag": "h3",
+          "text": "Registration and Elections"
+        },
+        {
+          "tag": "h3",
+          "text": "Commission District Finder"
+        },
+        {
+          "tag": "h3",
+          "text": "Employment opportunities"
+        },
+        {
+          "tag": "h3",
+          "text": "Watch FGTV"
+        },
+        {
+          "tag": "h3",
+          "text": "Senior Centers"
+        },
+        {
+          "tag": "h3",
+          "text": "boc meeting schedule"
+        },
+        {
+          "tag": "h3",
+          "text": "Experience Fulton the Podcast"
+        },
+        {
+          "tag": "h3",
+          "text": "A - Z Directory"
+        }
+      ],
+      "paragraphs": [
+        "fulton county government"
+      ],
+      "links": [
+        {
+          "text": "More about Registration and Elections",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections",
+          "target": ""
+        },
+        {
+          "text": "View Interactive Maps about Commission District Finder",
+          "href": "https://www.fultoncountyga.gov/Commission-District-Finder",
+          "target": ""
+        },
+        {
+          "text": "Read More about Employment opportunities",
+          "href": "https://www.fultoncountyga.gov/Springboard-Page?fromtext=Fulton%20County%20Website&totext=Government%20Jobs&destination=https://www.governmentjobs.com/careers/fulton",
+          "target": ""
+        },
+        {
+          "text": "READ MORE about Watch FGTV",
+          "href": "https://www.fultoncountyga.gov/Watch-FGTV",
+          "target": ""
+        },
+        {
+          "text": "Read More about Senior Centers",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Centers",
+          "target": ""
+        },
+        {
+          "text": "Read More about boc meeting schedule",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Board-of-Commissioners-Meeting-Schedule",
+          "target": ""
+        },
+        {
+          "text": "Read More about Experience Fulton the Podcast",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Experience-Fulton-the-Podcast",
+          "target": ""
+        },
+        {
+          "text": "View Guide about A - Z Directory",
+          "href": "https://www.fultoncountyga.gov/A-ZGuide",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout-01.png?la=en&h=600&w=600&hash=DE78700E999690785B3FE147D20CB871",
+          "alt": "icon representing early voting turnout",
+          "type": "img",
+          "width": 600,
+          "height": 600
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout_white-01.png?la=en&h=600&w=600&hash=26EA3F4CC1449D1CA31CA1D43BC17D76",
+          "alt": "white icon representing early voting turnout",
+          "type": "img",
+          "width": 600,
+          "height": 600
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer.png?la=en&h=144&w=144&hash=3C29F54406A4AA625D86C4F31E699D61",
+          "alt": "icon representing property map viewer",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer-WHITE.png?la=en&h=144&w=144&hash=20A4138E47E278AFD3B8E404EE8BDF52",
+          "alt": "white icon representing property map viewer",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities.png?la=en&h=144&w=144&hash=F96AAE13C17F5B02627EF5BAD5F4BF97",
+          "alt": "icon representing employment opportunities",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities-white.png?la=en&h=104&w=104&hash=C487C45580467C04A654762A49ACF021",
+          "alt": "white icon representing employment opportunities",
+          "type": "img",
+          "width": 104,
+          "height": 104
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC.png?la=en&h=144&w=144&hash=4C0C3D1A81344B16CA8FCB2F268C3DF5",
+          "alt": "icon representing filming in Fulton County",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC-WHITE.png?la=en&h=144&w=144&hash=BA58F0CA8202D13AE58485D15664A47F",
+          "alt": "white icon representing filming in Fulton County",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-Thumbnail.png?la=en&h=144&w=144&hash=D79AD4F4DDDE511FAE3BE9DEB7D1B8B3",
+          "alt": "icon representing senior centers",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-WHITE.png?la=en&h=144&w=144&hash=ED4E2A563470B9045ADB9C81374075CE",
+          "alt": "white icon representing senior centers",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners.png?la=en&h=144&w=144&hash=3A9491F373A6F937709BCFDAAD444A91",
+          "alt": "icon representing the board of commissioners",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners-WHITE.png?la=en&h=144&w=144&hash=61705FFA5B817541B8640B85461F539A",
+          "alt": "white icon representing the board of commissioners",
+          "type": "img",
+          "width": 144,
+          "height": 144
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-blue-transparent.png?la=en&h=100&w=100&hash=BC75F4441AD1077DB723A23D945598FB",
+          "alt": "Blue microphone outline",
+          "type": "img",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-white-transparent.png?la=en&h=100&w=100&hash=4B95E9CFE6FAC4F9E993E7A3B2EBFB54",
+          "alt": "White microphone icon",
+          "type": "img",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-01.png?la=en&h=601&w=601&hash=EE27B513EA15E9CFFACC3E9231F47855",
+          "alt": "",
+          "type": "img",
+          "width": 601,
+          "height": 601
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-02.png?la=en&h=601&w=601&hash=EA10D4B90FCDBEC67BE5DDEF30F3A732",
+          "alt": "",
+          "type": "img",
+          "width": 601,
+          "height": 601
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/CTA-images/Voting-and-Elections/voting-and-elections_board-of-registration-and-elections.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/CTA-images/Maps/printable-maps-275x350.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/CTA-images/Jobs/employment-opportunities-275x350.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/CTA-images/FGTV-275x350.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/CTA-images/Senior-Services/senior_senior-center.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/IMAGES-TO-KEEP/Assembly-Hall-resized.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-Fulton-CTA-card-hover-image.png",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Registration and Elections",
+          "link": {
+            "text": "More about Registration and Elections",
+            "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Registration-and-Elections"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout-01.png?la=en&h=600&w=600&hash=DE78700E999690785B3FE147D20CB871",
+            "alt": "icon representing early voting turnout"
+          }
+        },
+        {
+          "title": "Commission District Finder",
+          "link": {
+            "text": "View Interactive Maps about Commission District Finder",
+            "href": "https://www.fultoncountyga.gov/Commission-District-Finder"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer.png?la=en&h=144&w=144&hash=3C29F54406A4AA625D86C4F31E699D61",
+            "alt": "icon representing property map viewer"
+          }
+        },
+        {
+          "title": "Employment opportunities",
+          "link": {
+            "text": "Read More about Employment opportunities",
+            "href": "https://www.fultoncountyga.gov/Springboard-Page?fromtext=Fulton%20County%20Website&totext=Government%20Jobs&destination=https://www.governmentjobs.com/careers/fulton"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities.png?la=en&h=144&w=144&hash=F96AAE13C17F5B02627EF5BAD5F4BF97",
+            "alt": "icon representing employment opportunities"
+          }
+        },
+        {
+          "title": "Watch FGTV",
+          "link": {
+            "text": "READ MORE about Watch FGTV",
+            "href": "https://www.fultoncountyga.gov/Watch-FGTV"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC.png?la=en&h=144&w=144&hash=4C0C3D1A81344B16CA8FCB2F268C3DF5",
+            "alt": "icon representing filming in Fulton County"
+          }
+        },
+        {
+          "title": "Senior Centers",
+          "link": {
+            "text": "Read More about Senior Centers",
+            "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Senior-Services/Senior-Centers"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-Thumbnail.png?la=en&h=144&w=144&hash=D79AD4F4DDDE511FAE3BE9DEB7D1B8B3",
+            "alt": "icon representing senior centers"
+          }
+        },
+        {
+          "title": "boc meeting schedule",
+          "link": {
+            "text": "Read More about boc meeting schedule",
+            "href": "https://www.fultoncountyga.gov/Commissioners/Clerk-to-the-Commission/Board-of-Commissioners-Meeting-Schedule"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners.png?la=en&h=144&w=144&hash=3A9491F373A6F937709BCFDAAD444A91",
+            "alt": "icon representing the board of commissioners"
+          }
+        },
+        {
+          "title": "Experience Fulton the Podcast",
+          "link": {
+            "text": "Read More about Experience Fulton the Podcast",
+            "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/External-Affairs/Experience-Fulton-the-Podcast"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-blue-transparent.png?la=en&h=100&w=100&hash=BC75F4441AD1077DB723A23D945598FB",
+            "alt": "Blue microphone outline"
+          }
+        },
+        {
+          "title": "A - Z Directory",
+          "link": {
+            "text": "View Guide about A - Z Directory",
+            "href": "https://www.fultoncountyga.gov/A-ZGuide"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-01.png?la=en&h=601&w=601&hash=EE27B513EA15E9CFFACC3E9231F47855",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "div",
+      "classHint": "news-promo container-fluid theme-light-gray",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Your fulton County News & Information"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Marks Suicide Prevention Month with Community Training Summits"
+        },
+        {
+          "tag": "h3",
+          "text": "CONNECTED Youth Leadership Program CYLP Returns in Partnership with 21st Century Leaders"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Hosts Annual Rebound for Recovery"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Educates Voters in Recognition of Civic Holidays"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Board of Commissioners Hold Second Regular September Meeting"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Arts & Culture Unveils “A Dope Piece of Fruit, Closed Mouths Get Fed Strange Fruit” Exhibit"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Recognizes National Preparedness Month"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Board of Registration and Elections Hold Regularly Scheduled September Meeting"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Continuum of Care Announces Virtual Board Meeting on September 17, 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "\"Forever Fridays\" Wedding Ceremonies are Back in Fulton County"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Champions National Recovery Month This September"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Strong Track Record of Health and Human Services Investments Continues"
+        },
+        {
+          "tag": "h3",
+          "text": "Registration Underway in Fulton County for the 3rd Annual Mighty 6 Cleared for Takeoff"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton Fresh Mobile Market Unveils the Fall 2026 Schedule"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Issues Property Tax Bills"
+        }
+      ],
+      "paragraphs": [
+        "Your fulton County",
+        "Fulton County has announced two suicide prevention training sessions for September 2026 in recognition of National Suicide Prevention Month.",
+        "The Fulton County Department of Community Development, in partnership with 21st Century Leaders, Georgia’s premier youth leadership nonprofit organization, is once again engaging, empowering, and inspiring high school students from across Fulton County to become the next generation of leaders.",
+        "Fulton County is once again preparing to hit the court! In recognition of National Recovery Month, the Fulton County Accountability Courts and the Department of Behavioral Health & Developmental Disabilities (BHDD) are hosting the \"Rebound for Recovery\" 3-on-3 Basketball Tournament",
+        "Election season kicks off in Fulton County in less than 60 days. To prepare voters, the Department of Registration and Elections is preparing for 2 major celebrations.",
+        "The Fulton County Board of Commissioners will hold the scheduled Second September Meeting at Fulton County Government Center’s Assembly Hall on Wednesday, September 16, 2026 at 10 a.m. in the Fulton County Government Center Assembly Hall, 141 Pryor Street, NW Atlanta, GA 30303.",
+        "The Department of Arts & Culture presents, “A Dope Piece of Fruit, Closed Mouths Get Fed Strange Fruit,” a solo exhibition featuring the work of contemporary artist Brian Hebert from Friday, September 11 – Saturday, October 17, 2026 at the Emma Darnell Aviation Museum and Conference Center, 3900 Aviation Circle, NW Atlanta, GA 30336 and Fulton County Government Center, 141 Pryor Street, SW Atlanta, GA 30303.",
+        "In recognition of National Preparedness Month, the Atlanta-Fulton County Emergency Management Agency (AFCEMA), in partnership with the Georgia Emergency Management and Homeland Security Agency (GEMA/HS) and the Federal Emergency Management Agency (FEMA), is encouraging residents to prepare for emergencies and disasters before they occur.",
+        "The Fulton County Board of Registration & Elections will convene for its regularly scheduled September meeting on Thursday, September 10, 2026, at 11 a.m. at the Fulton County Government Center, 141 Pryor Street, SW, Atlanta, GA 30303.",
+        "The Fulton County Continuum of Care Board will meet virtually on Thursday, September 17, 2026, from 8 a.m. to 10 a.m. to receive updates and discuss business items. Citizens who wish to participate in the CoC Board Meeting must register in advance.",
+        "Love is back on the calendar. Fulton County’s Probate Court is officially relaunching its popular “Forever Fridays” wedding ceremonies beginning Friday, September 4, 2026, giving couples a fun, memorable and completely free way to say, “I do.”",
+        "This September, Fulton County recognizes National Recovery Month to build deeper community understanding around mental health and substance use disorders.",
+        "Georgia counties are charged with responsibility for health and human services, and Fulton County takes that responsibility seriously. In 2026, Fulton County will invest more than $100 million in health & human service programs.",
+        "Fulton County Vice Chair Khadijah Abdur-Rahman is inviting community members to join her for the 3rd Annual Mighty 6 'Cleared for Takeoff\" Domestic Violence Awareness 5K. The race kicks off at 9 a.m. on Saturday, October 10, 2026, at the Fulton County Executive Airport at 3977 Aviation Cir NW, Atlanta, GA 30336.",
+        "The Fulton Fresh Mobile Market is once again gearing up to travel across the county this autumn to provide fresh, nutritious produce to local residents.",
+        "The Fulton County Tax Commissioner will mail all 2026 property tax bills on Saturday, August 15. Tax bills can also be viewed online at www.fultoncountytaxes.org."
+      ],
+      "links": [
+        {
+          "text": "Read More about Fulton County Marks Suicide Prevention Month with Community Training Summits",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/16/Fulton-County-Marks-Suicide-Prevention-Month-with-Community-Training-Summits",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Hosts Annual Rebound for Recovery",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/14/Fulton-County-Hosts-Annual-Rebound-for-Recovery",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Educates Voters in Recognition of Civic Holidays",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/14/Fulton-County-Educates-Voters-in-Recognition-of-Civic-Holidays",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Board of Commissioners Hold Second Regular September Meeting",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/11/Fulton-County-Board-of-Commissioners-Hold-Second-Regular-September-Meeting",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Recognizes National Preparedness Month",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/09/Fulton-County-Recognizes-National-Preparedness-Month",
+          "target": ""
+        },
+        {
+          "text": "Read More about \"Forever Fridays\" Wedding Ceremonies are Back in Fulton County",
+          "href": "https://www.fultoncountyga.gov/News/2026/09/01/Forever-Fridays--Wedding-Ceremonies-are-Back-in-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Champions National Recovery Month This September",
+          "href": "https://www.fultoncountyga.gov/News/2026/08/31/Fulton-County-Champions-National-Recovery-Month-This-September",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Strong Track Record of Health and Human Services Investments Continues",
+          "href": "https://www.fultoncountyga.gov/News/2026/08/26/Fulton-County-Strong-Track-Record-of-Health-and-Human-Services-Investments-Continues",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton Fresh Mobile Market Unveils the Fall 2026 Schedule",
+          "href": "https://www.fultoncountyga.gov/News/2026/08/19/Fulton-Fresh-Mobile-Market-Unveils-the-Fall-2026-Schedule",
+          "target": ""
+        },
+        {
+          "text": "Read More about Fulton County Issues Property Tax Bills",
+          "href": "https://www.fultoncountyga.gov/News/2026/08/14/Fulton-County-Issues-Property-Tax-Bills",
+          "target": ""
+        },
+        {
+          "text": "See More Fulton County News",
+          "href": "https://www.fultoncountyga.gov/News",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/general-Fulton-County-news.png?la=en&h=683&w=1217&hash=9DA022FA81D9A7F7023F191248EB644B",
+          "alt": "Fulton County News",
+          "type": "img",
+          "width": 1217,
+          "height": 683
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/Connected-Youth-Leadership-Program/CYLP-Program.png?la=en&h=940&w=1672&hash=8C82ABAF067843F20578E04347545EAB",
+          "alt": "",
+          "type": "img",
+          "width": 1672,
+          "height": 940
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Behavioral-Health/f904c950-1f95-4993-90a4-64afda5f0429.jpg?la=en&h=676&w=1218&hash=33B774F32093A1A4300CD6FCF906E3ED",
+          "alt": "",
+          "type": "img",
+          "width": 1218,
+          "height": 676
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/2026-Election/Civic_Web.jpg?la=en&h=1013&w=1825&hash=3E767EE73AB461EAFF37DC9446A30A86",
+          "alt": "",
+          "type": "img",
+          "width": 1825,
+          "height": 1013
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Media-Flyers-and-Graphics/updated-BOC-meeting-web-graphic-2.jpg?la=en&h=1367&w=2958&hash=9975A5C685B89C43531268BF0705B91A",
+          "alt": "",
+          "type": "img",
+          "width": 2958,
+          "height": 1367
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Arts-and-Culture/A-Dope-Piece-of-Art.png?la=en&h=328&w=584&hash=B039E3D78EAF197DD48A5697A6262A87",
+          "alt": "A Dope Piece of Art Graphic",
+          "type": "img",
+          "width": 584,
+          "height": 328
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/News/Fulton-County-Recognizes-National-Prepardness-Month.jpg?la=en&h=324&w=584&hash=868B144E3FCFFF83E017802F0DAB1268",
+          "alt": "",
+          "type": "img",
+          "width": 584,
+          "height": 324
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/Calendar-Images-625-x-258/Generic-Calendar-Images/BRE-meetings-and-events_v2.png?la=en&h=892&w=1583&hash=84EE33488145154D077745BDE729286B",
+          "alt": "Board of Registration & elections pic of flag",
+          "type": "img",
+          "width": 1583,
+          "height": 892
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/Homeless-Services/Continuum-of-Care/Continuum-of-Cares-Meetings-and-Events.png?la=en&h=328&w=584&hash=E2CCAD8FF79A83C9237B4DB01771A3DC",
+          "alt": "Updated Continuum of Cares Meetings and Events Flyer",
+          "type": "img",
+          "width": 584,
+          "height": 328
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Probate-Court/Forever-Fridays-Web-Graphic-Sep-2026.png?la=en&h=941&w=1672&hash=9170835D92FC7ADCD8CD87063E18D5B9",
+          "alt": "",
+          "type": "img",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/WEB-GRAPHICS--nATIONAL-rECOVERY-mONTH-V2_WEB.jpg?la=en&h=675&w=1217&hash=C09FA0DFEC78DD5D049906A644C7B68B",
+          "alt": "2026 National Recovery Month graphic",
+          "type": "img",
+          "width": 1217,
+          "height": 675
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/News/Fulton-County-Invests-$100-Million-in-Health-and-Human-Service-Programs.png?la=en&h=328&w=584&hash=24F078CE7B168024E61D66F4B8EDF17D",
+          "alt": "",
+          "type": "img",
+          "width": 584,
+          "height": 328
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Abdur-Rahman/Might-Six-Cleared-for-Takeoff-Graphic.jpg?la=en&h=676&w=1218&hash=06E64594E65C39226A7F7F377A100219",
+          "alt": "",
+          "type": "img",
+          "width": 1218,
+          "height": 676
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/Cooperative-Extension/Fulton-Fresh-Fall.jpg?la=en&h=324&w=584&hash=4EB442063A3F68C3E9E4E2B1161868C5",
+          "alt": "",
+          "type": "img",
+          "width": 584,
+          "height": 324
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Fulton County Marks Suicide Prevention Month with Community Training Summits",
+          "description": "Fulton County has announced two suicide prevention training sessions for September 2026 in recognition of National Suicide Prevention Month.",
+          "badge": "News",
+          "link": {
+            "text": "Read More about Fulton County Marks Suicide Prevention Month with Community Training Summits",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/16/Fulton-County-Marks-Suicide-Prevention-Month-with-Community-Training-Summits"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/general-Fulton-County-news.png?la=en&h=683&w=1217&hash=9DA022FA81D9A7F7023F191248EB644B",
+            "alt": "Fulton County News"
+          }
+        },
+        {
+          "title": "CONNECTED Youth Leadership Program CYLP Returns in Partnership with 21st Century Leaders",
+          "description": "The Fulton County Department of Community Development, in partnership with 21st Century Leaders, Georgia’s premier youth leadership nonprofit organization, is once again engaging, empowering, and inspiring high school students from across Fulton County to become the next generation of leaders.",
+          "link": {
+            "text": "Read More about CONNECTED Youth Leadership Program CYLP Returns in Partnership with 21st Century Leaders",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/16/CONNECTED-Youth-Leadership-Program-CYLP-Returns-in-Partnership-with-21st-Century-Leaders"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/Connected-Youth-Leadership-Program/CYLP-Program.png?la=en&h=940&w=1672&hash=8C82ABAF067843F20578E04347545EAB",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Fulton County Educates Voters in Recognition of Civic Holidays",
+          "description": "Election season kicks off in Fulton County in less than 60 days. To prepare voters, the Department of Registration and Elections is preparing for 2 major celebrations.",
+          "badge": "News",
+          "link": {
+            "text": "Read More about Fulton County Educates Voters in Recognition of Civic Holidays",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/14/Fulton-County-Educates-Voters-in-Recognition-of-Civic-Holidays"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/2026-Election/Civic_Web.jpg?la=en&h=1013&w=1825&hash=3E767EE73AB461EAFF37DC9446A30A86",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Fulton County Arts & Culture Unveils “A Dope Piece of Fruit, Closed Mouths Get Fed Strange Fruit” Exhibit",
+          "description": "The Department of Arts & Culture presents, “A Dope Piece of Fruit, Closed Mouths Get Fed Strange Fruit,” a solo exhibition featuring the work of contemporary artist Brian Hebert from Friday, September 11 – Saturday, October 17, 2026 at the Emma Darnell Aviation Museum and Conference Center, 3900 Aviation Circle, NW Atlanta, GA 30336 and Fulton County Government Center, 141 Pryor Street, SW Atlanta, GA 30303.",
+          "badge": "News",
+          "link": {
+            "text": "Read More about Fulton County Arts & Culture Unveils “A Dope Piece of Fruit, Closed Mouths Get Fed Strange Fruit” Exhibit",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/11/Arts-and-Culture-Unveils-A-Dope-Piece-of-Fruit-Closed-Mouths-Get-Fed-Strange-Fruit-Exhibit"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/Arts-and-Culture/A-Dope-Piece-of-Art.png?la=en&h=328&w=584&hash=B039E3D78EAF197DD48A5697A6262A87",
+            "alt": "A Dope Piece of Art Graphic"
+          }
+        },
+        {
+          "title": "Fulton County Board of Registration and Elections Hold Regularly Scheduled September Meeting",
+          "description": "The Fulton County Board of Registration & Elections will convene for its regularly scheduled September meeting on Thursday, September 10, 2026, at 11 a.m. at the Fulton County Government Center, 141 Pryor Street, SW, Atlanta, GA 30303.",
+          "badge": "News",
+          "link": {
+            "text": "Read More about Fulton County Board of Registration and Elections Hold Regularly Scheduled September Meeting",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/04/Fulton-County-Board-of-Registration-and-Elections-Hold-Regularly-Scheduled-September-Meeting"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/Calendar-Images-625-x-258/Generic-Calendar-Images/BRE-meetings-and-events_v2.png?la=en&h=892&w=1583&hash=84EE33488145154D077745BDE729286B",
+            "alt": "Board of Registration & elections pic of flag"
+          }
+        },
+        {
+          "title": "\"Forever Fridays\" Wedding Ceremonies are Back in Fulton County",
+          "description": "Love is back on the calendar. Fulton County’s Probate Court is officially relaunching its popular “Forever Fridays” wedding ceremonies beginning Friday, September 4, 2026, giving couples a fun, memorable and completely free way to say, “I do.”",
+          "badge": "News",
+          "link": {
+            "text": "Read More about \"Forever Fridays\" Wedding Ceremonies are Back in Fulton County",
+            "href": "https://www.fultoncountyga.gov/News/2026/09/01/Forever-Fridays--Wedding-Ceremonies-are-Back-in-Fulton-County"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/Probate-Court/Forever-Fridays-Web-Graphic-Sep-2026.png?la=en&h=941&w=1672&hash=9170835D92FC7ADCD8CD87063E18D5B9",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Fulton County Strong Track Record of Health and Human Services Investments Continues",
+          "description": "Georgia counties are charged with responsibility for health and human services, and Fulton County takes that responsibility seriously. In 2026, Fulton County will invest more than $100 million in health & human service programs.",
+          "link": {
+            "text": "Read More about Fulton County Strong Track Record of Health and Human Services Investments Continues",
+            "href": "https://www.fultoncountyga.gov/News/2026/08/26/Fulton-County-Strong-Track-Record-of-Health-and-Human-Services-Investments-Continues"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/News/Fulton-County-Invests-$100-Million-in-Health-and-Human-Service-Programs.png?la=en&h=328&w=584&hash=24F078CE7B168024E61D66F4B8EDF17D",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Fulton Fresh Mobile Market Unveils the Fall 2026 Schedule",
+          "description": "The Fulton Fresh Mobile Market is once again gearing up to travel across the county this autumn to provide fresh, nutritious produce to local residents.",
+          "badge": "News",
+          "link": {
+            "text": "Read More about Fulton Fresh Mobile Market Unveils the Fall 2026 Schedule",
+            "href": "https://www.fultoncountyga.gov/News/2026/08/19/Fulton-Fresh-Mobile-Market-Unveils-the-Fall-2026-Schedule"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/Cooperative-Extension/Fulton-Fresh-Fall.jpg?la=en&h=324&w=584&hash=4EB442063A3F68C3E9E4E2B1161868C5",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "tagName": "div",
+      "classHint": "district-locator container-fluid",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "What is my District?"
+        },
+        {
+          "tag": "h3",
+          "text": "Fulton County Districts"
+        },
+        {
+          "tag": "h3",
+          "text": "District 1 - Bridget Thorne"
+        },
+        {
+          "tag": "h3",
+          "text": "District 2 - Bob Ellis"
+        },
+        {
+          "tag": "h3",
+          "text": "District 3 - Dana Barrett"
+        },
+        {
+          "tag": "h3",
+          "text": "District 4 - Vacant"
+        },
+        {
+          "tag": "h3",
+          "text": "District 5 - Marvin S. Arrington, Jr."
+        },
+        {
+          "tag": "h3",
+          "text": "District 6 - Khadijah Abdur-Rahman"
+        }
+      ],
+      "paragraphs": [
+        "Enter your address to find out which district you live in (City, State & Zip Code are not required). If you live in an apartment complex, please use the main address to the leasing office.",
+        "Fulton County is the most populous County in Georgia. According to the U.S. Census Bureau's 2025 estimates, the population of Fulton County is 1,098,791. Each commission district is home to approximately 183,131 residents."
+      ],
+      "links": [
+        {
+          "text": "Learn More",
+          "href": "https://www.fultoncountyga.gov/Commissioners",
+          "target": ""
+        },
+        {
+          "text": "Learn More District 1",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne",
+          "target": ""
+        },
+        {
+          "text": "Learn More District 2",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bob-Ellis",
+          "target": ""
+        },
+        {
+          "text": "Learn More District 3",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Dana-Barrett",
+          "target": ""
+        },
+        {
+          "text": "Learn More District 5",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Marvin-Arrington",
+          "target": ""
+        },
+        {
+          "text": "Learn More District 6",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Khadijah-Abdur-Rahman",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Common-SVG/Location-Search-SVG.svg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "div",
+      "classHint": "bios-section container-fluid ",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "fulton county board of Commissioners"
+        },
+        {
+          "tag": "h3",
+          "text": "board of Commissioners"
+        },
+        {
+          "tag": "h4",
+          "text": "Robb Pitts"
+        },
+        {
+          "tag": "h4",
+          "text": "Bridget Thorne"
+        },
+        {
+          "tag": "h4",
+          "text": "Bob Ellis"
+        },
+        {
+          "tag": "h4",
+          "text": "Dana Barrett"
+        },
+        {
+          "tag": "h4",
+          "text": "Marvin S. Arrington, Jr."
+        },
+        {
+          "tag": "h4",
+          "text": "Vice Chair Khadijah Abdur-Rahman"
+        }
+      ],
+      "paragraphs": [
+        "fulton county",
+        "Fulton County is governed by a seven-member Board of Commissioners who are elected to four-year terms. Six of the members are district commissioners, and the Chairman is At-Large, representing all of Fulton County. The Board of Commissioners meets on the first and third Wednesday of each month at 10 a.m. Meetings are live streamed on FGTV.",
+        "Bridget Thorne is the Commissioner for District 1 which encompasses Johns Creek, and parts of Roswell, Alpharetta, and Sandy Springs.",
+        "Bob Ellis is the Commissioner for District 2 which encompasses Milton, Mountain Park and large parts of Alpharetta, Roswell and Sandy Springs.",
+        "Dana Barrett is the Fulton County Commissioner representing District 3 which includes all of Buckhead, and parts of both Sandy Springs and Midtown.",
+        "Vice Chair Khadijah Abdur-Rahman is the Fulton County Commissioner for District 6, popularly known as “The Mighty6” commission district."
+      ],
+      "links": [
+        {
+          "text": "on FGTV",
+          "href": "https://www.fultoncountyga.gov/Watch-FGTV",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Robb-Pitts",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Bob-Ellis",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Dana-Barrett",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Marvin-Arrington",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncountyga.gov/Commissioners/Khadijah-Abdur-Rahman",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Pitts/2023_ROBB-PITTS-200x200.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Departments/District-Attorney/DA-headshots-2023/BRIDGET-THORNE_200x200.png",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Ellis/Ellis-02-01.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Barrett/Barrett-01.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Arrington/2023-_MARVIN-ARRINGTON-200X200.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Abdur-Rahman/2023_KHADIJAH-ABDUR-RAHMAN-200x200.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "board of Commissioners",
+          "description": "Fulton County is governed by a seven-member Board of Commissioners who are elected to four-year terms. Six of the members are district commissioners, and the Chairman is At-Large, representing all of Fulton County. The Board of Commissioners meets on the first and third Wednesday of each month at 10 a.m. Meetings are live streamed on FGTV.",
+          "link": {
+            "text": "on FGTV",
+            "href": "https://www.fultoncountyga.gov/Watch-FGTV"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Pitts/2023_ROBB-PITTS-200x200.jpg",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Bridget Thorne",
+          "description": "Bridget Thorne is the Commissioner for District 1 which encompasses Johns Creek, and parts of Roswell, Alpharetta, and Sandy Springs.",
+          "link": {
+            "text": "Read More",
+            "href": "https://www.fultoncountyga.gov/Commissioners/Bridget-Thorne"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Departments/District-Attorney/DA-headshots-2023/BRIDGET-THORNE_200x200.png",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "tagName": "footer",
+      "classHint": "footer container-fluid",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h4",
+          "text": "Contact Us"
+        },
+        {
+          "tag": "h4",
+          "text": "Helpful Links"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "141 Pryor St. SW Atlanta, GA 30303",
+          "href": "https://www.google.com/maps/place/141%20Pryor%20St.%20SWAtlanta,%20GA%2030303",
+          "target": ""
+        },
+        {
+          "text": "404-612-4000",
+          "href": "tel:404-612-4000",
+          "target": ""
+        },
+        {
+          "text": "customerservice@fultoncountyga.gov",
+          "href": "mailto:customerservice@fultoncountyga.gov",
+          "target": ""
+        },
+        {
+          "text": "Cities of Fulton County",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Cities-in-Fulton-County",
+          "target": ""
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service",
+          "target": "_blank"
+        },
+        {
+          "text": "Departments",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments",
+          "target": ""
+        },
+        {
+          "text": "Emergency Notifications",
+          "href": "https://member.everbridge.net/371776664109117/new",
+          "target": ""
+        },
+        {
+          "text": "Languages",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service",
+          "target": ""
+        },
+        {
+          "text": "Privacy Statement",
+          "href": "https://www.fultoncountyga.gov/Privacy-Statement",
+          "target": "_blank"
+        },
+        {
+          "text": "Jury Duty",
+          "href": "https://www.fultoncountyga.gov/Springboard-Page?fromtext=Fulton%20County%20Website&totext=Fulton%20County%20Courts&destination=https://www.fultoncourt.org/jurors/",
+          "target": ""
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Customer-Service/Customer-Service-FAQs",
+          "target": "_blank"
+        },
+        {
+          "text": "Strategic Plan",
+          "href": "https://performance.fultoncountyga.gov/",
+          "target": ""
+        },
+        {
+          "text": "Open Records Request",
+          "href": "https://www.fultoncountyga.gov/Inside-Fulton-County/Fulton-County-Departments/Office-of-the-County-Attorney/Open-Records-Requests",
+          "target": ""
+        },
+        {
+          "text": "For Employees",
+          "href": "https://www.fultoncountyga.gov/For-Employees",
+          "target": ""
+        },
+        {
+          "text": "For Retirees",
+          "href": "https://www.fultoncountyga.gov/For-Retirees",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/fulton-logo-text-bottom.png?la=en&h=611&w=501&hash=C8FE115F00C8C9CF050091F1BA311B97",
+          "alt": "",
+          "type": "img",
+          "width": 501,
+          "height": 611
+        },
+        {
+          "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/In-2CRev-54px-TM.png?la=en&h=54&w=66&hash=630F07948DA68EAC7C6C463C0E9A9434",
+          "alt": "linked-in",
+          "type": "img",
+          "width": 66,
+          "height": 54
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "",
+            "href": "https://www.facebook.com/fultoninfo/"
+          },
+          "image": {
+            "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/f_logo_RGB-Blue_58.png?la=en&h=130&w=130&hash=5A230B87CD9CCC487689D86C19FB27AB",
+            "alt": "facebook"
+          }
+        }
+      ]
+    }
+  ]
+}

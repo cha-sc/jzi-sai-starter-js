@@ -1,0 +1,128 @@
+# Client Brand Theme — Fulton County Government
+# Extracted from: https://www.fultoncountyga.gov/
+# Cross-checked with official brand guide (2019) and live Playwright scrape.
+
+client:
+  name: "Fulton County Government"
+  sourceUrl: "https://www.fultoncountyga.gov/"
+  extractedAt: "2026-09-16T04:45:00Z"
+  extractedBy: "cursor"
+
+colors:
+  primary: "#002d53"
+  primaryForeground: "#ffffff"
+  secondary: "#174a7c"
+  secondaryForeground: "#ffffff"
+  accent: "#e46e2b"
+  accentForeground: "#ffffff"
+  background: "#ffffff"
+  foreground: "#212529"
+  muted: "#f0f4f8"
+  mutedForeground: "#5a6872"
+  headerBackground: "#ffffff"
+  headerForeground: "#002d53"
+  footerBackground: "#002353"
+  footerForeground: "#c8d0d8"
+  border: "#dee2e6"
+  ring: "#174a7c"
+  extra:
+    - { name: "utilityBar", value: "#002353" }
+    - { name: "logoBlue", value: "#144b7c" }
+    - { name: "logoOrange", value: "#e26e2a" }
+    - { name: "linkOrange", value: "#d34400" }
+    - { name: "accentBlue", value: "#077ec3" }
+    - { name: "accentGreen", value: "#6db750" }
+    - { name: "accentYellow", value: "#ffbe0b" }
+
+typography:
+  headingFamily: "'Oswald', sans-serif"
+  headingWeight: "500"
+  bodyFamily: "'Open Sans', sans-serif"
+  bodyWeight: "400"
+  monoFamily: "ui-monospace, monospace"
+  googleFontsUrl: "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@400;500;600;700&display=swap"
+  scale:
+    hero: "3.5rem"
+    h1: "2.25rem"
+    h2: "1.75rem"
+    h3: "1.25rem"
+    body: "1rem"
+    small: "0.875rem"
+  headingTransform: "uppercase"
+  letterSpacing: "0.02em"
+  lineHeight: "normal"
+
+spacing:
+  density: "normal"
+  sectionGap: "4rem"
+  containerMaxWidth: "1250px"
+  containerPadding: "1.5rem"
+
+shape:
+  borderRadius: "0"
+  buttonRadius: "0"
+  cardRadius: "0"
+  imageRadius: "0"
+  shadowStyle: "subtle"
+  borderStyle: "subtle"
+
+tone:
+  overall: "corporate"
+  colorMode: "light"
+  contrast: "high"
+  imagery: "photography"
+  heroStyle: "full-bleed-image"
+  cardStyle: "flat"
+  navStyle: "solid-bar"
+
+tailwind:
+  colors:
+    brand:
+      primary: "#002d53"
+      secondary: "#174a7c"
+      accent: "#e46e2b"
+  fontFamily:
+    heading: ["Oswald", "sans-serif"]
+    body: ["Open Sans", "sans-serif"]
+  borderRadius:
+    DEFAULT: "0"
+    button: "0"
+    card: "0"
+
+cssVariables: |
+  :root {
+    --brand-primary: #002d53;
+    --brand-primary-foreground: #ffffff;
+    --brand-secondary: #174a7c;
+    --brand-secondary-foreground: #ffffff;
+    --brand-accent: #e46e2b;
+    --brand-accent-foreground: #ffffff;
+    --brand-bg: #ffffff;
+    --brand-fg: #212529;
+    --brand-muted: #f0f4f8;
+    --brand-muted-fg: #5a6872;
+    --brand-header-bg: #ffffff;
+    --brand-header-fg: #002d53;
+    --brand-footer-bg: #002353;
+    --brand-footer-fg: #c8d0d8;
+    --brand-border: #dee2e6;
+    --brand-ring: #174a7c;
+    --brand-heading-font: 'Oswald', sans-serif;
+    --brand-body-font: 'Open Sans', sans-serif;
+    --brand-radius: 0;
+    --brand-button-radius: 0;
+    --brand-card-radius: 0;
+  }
+
+extraction:
+  confidence: "high"
+  method: "playwright-full"
+  notes:
+    - "Live site uses Oswald (headings, uppercase) + Open Sans (body/nav) via Google Fonts."
+    - "Primary dark navy from live CTA buttons: #002d53 (rgb 0,45,83). Brand guide dark navy: #002353."
+    - "Brand guide primary blue: #174a7c / logo blue #144b7c. Used as secondary."
+    - "Brand guide orange: #e46e2b / logo orange #e26e2a. Live link orange: #d34400 — demo uses brand #e46e2b."
+    - "Utility bar + dark section bands use near-#002353 navy; main nav bar is white."
+    - "Shape is sharp (0 radius) across buttons/cards; search overlay uses subtle drop shadow."
+    - "Hero is full-bleed photography with centered search overlay (no hero headline)."
+    - "Official brand fonts also list Roboto/Myriad Pro (headings) and Garamond/Minion Pro (body); live website uses Oswald + Open Sans — demo follows the live site."

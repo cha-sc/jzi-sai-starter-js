@@ -1,0 +1,240 @@
+# Demo Build Plan — Superior Court of Fulton County
+# Mapped to PLAY Financial component kit in industry-verticals/fulton superior
+# Content: /sitecore/content/fulton-county/fulton-county-superior-court
+
+client:
+  name: "Superior Court of Fulton County"
+  sourceUrl: ""
+  themeFile: "docs/ai/themes/fulton-county-superior-court.theme.yaml"
+  analyzedAt: "2026-09-17T21:10:00Z"
+  contentRoot: "/sitecore/content/fulton-county/fulton-county-superior-court"
+  homePageId: "edaa5cd9-ee86-4628-9a12-7981e0531c8d"
+  homePagePath: "/sitecore/content/fulton-county/fulton-county-superior-court/Home"
+  codeRoot: "industry-verticals/fulton superior"
+
+pageAnalysis:
+  screenshotFiles:
+    userProvided: "docs/ai/demos/fulton-county-superior-court/user-screenshot.jpg"
+    desktop: "docs/ai/themes/fulton-county-superior-court/screenshot-desktop.jpg"
+  totalSections: 8
+  templateMatches: 6
+  customRequired: 0
+  variantCustomNeeded: 5
+  libraryNote: "Using existing PLAY Page Content components. Create SuperiorCourt named variants for pixel-perfect layout (do not reuse County Government FultonCounty navy variants)."
+  homeStateNote: "Home currently has County Government leftover components (Hero, dual Four Column CTA, Promo CTA, Two Column CTA, Article List, Author List, Documents List). Rewire content + variants; remove District Finder / BOC / Documents leftovers."
+
+sections:
+  - position: 1
+    description: "Thin orange-red utility bar with right-aligned Select Language dropdown"
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "accent"
+    content:
+      languageLabel: "Select Language"
+    notes: "Header partial — restyle utility bar to accent #c73e1d; keep Language Switcher"
+
+  - position: 2
+    description: "Dark transparent header over hero: white court seal + SUPERIOR COURT OF FULTON COUNTY wordmark + uppercase nav"
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      brand: "SUPERIOR COURT OF FULTON COUNTY"
+      nav:
+        - "ABOUT US"
+        - "HOW DO I..."
+        - "LINKS"
+        - "CALENDAR"
+        - "CONTACT US"
+    notes: "Partial design — logo + Navigation labels; white text on dark/transparent bar"
+
+  - position: 3
+    description: "Full-bleed city street photo with centered welcome headline, serif prompt, search bar + Search CTA, and popular search links"
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "SuperiorCourt"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "partial"
+      customVariantNeeded:
+        name: "SuperiorCourt"
+        description: "Full-bleed image, centered uppercase welcome title, serif 'What would you like to do?', search input + orange Search button, popular searches row"
+        parentComponent: "Hero"
+    sectionBackground: "default"
+    content:
+      title: "WELCOME TO SUPERIOR COURT OF FULTON COUNTY"
+      subtitle: "What would you like to do?"
+      searchButton: "Search"
+      popularSearches:
+        - "Juror Information"
+        - "Temporary Protective Orders"
+        - "Jury Duty"
+        - "Pay Traffic Ticket"
+      image: "High-angle city street / downtown buildings"
+    notes: "Existing FultonCounty variant is search-only without headline — SuperiorCourt variant adds title + popular links"
+
+  - position: 4
+    description: "QUICK LINKS heading with orange underline + 4 circular light-blue icon wells (Jurors, Vendor Services, Self-Help, Live Proceedings)"
+    matchedComponent:
+      registryId: "four-column-cta"
+      manifestName: "FourColumnCta"
+      variant: "SuperiorCourtQuickLinks"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "none"
+      customVariantNeeded:
+        name: "SuperiorCourtQuickLinks"
+        description: "White section, centered uppercase title with short orange underline, 4 circular icon CTAs with labels below"
+        parentComponent: "FourColumnCta"
+    sectionBackground: "default"
+    content:
+      title: "QUICK LINKS"
+      cards:
+        - { title: "JURORS" }
+        - { title: "VENDOR SERVICES" }
+        - { title: "SELF-HELP" }
+        - { title: "LIVE PROCEEDINGS" }
+    notes: "Reuse one Four Column CTA instance already on Home; replace County Top Services content"
+
+  - position: 5
+    description: "THE COURT heading + intro paragraph + 4 vertical photo tiles with orange-red bottom banners"
+    matchedComponent:
+      registryId: "four-column-cta"
+      manifestName: "FourColumnCta"
+      variant: "SuperiorCourtTiles"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "none"
+      customVariantNeeded:
+        name: "SuperiorCourtTiles"
+        description: "Centered title + intro, 4 equal photo cards with full-width orange banner labels at bottom"
+        parentComponent: "FourColumnCta"
+    sectionBackground: "default"
+    content:
+      title: "THE COURT"
+      description: "Introductory paragraph about the court (from screenshot / site copy)."
+      cards:
+        - { title: "MEET OUR JUDGES", image: "Courthouse columns" }
+        - { title: "EXPLORE OUR SERVICES", image: "Reception / counter area" }
+        - { title: "COURT ADMINISTRATION", image: "Ornate historic hallway" }
+        - { title: "WORK WITH US", image: "Person writing at desk" }
+    notes: "Second Four Column CTA on Home — rewire from Top Services row 2"
+
+  - position: 6
+    description: "IMPORTANT ANNOUNCEMENTS on night skyline: featured white card (judge portrait + headline) + VIEW ALL ANNOUNCEMENTS button"
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "PromoCta"
+      variant: "SuperiorCourtAnnouncement"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+      variantMatch: "partial"
+      customVariantNeeded:
+        name: "SuperiorCourtAnnouncement"
+        description: "Full-bleed dark skyline background, section title with orange underline, left featured card (image + headline + summary + Read More), centered orange View All button"
+        parentComponent: "PromoCta"
+    sectionBackground: "dark"
+    content:
+      title: "IMPORTANT ANNOUNCEMENTS"
+      cardTitle: "JUDGE GLANVILLE TO BEGIN 2ND TERM AS CHIEF JUDGE"
+      cardCta: "READ MORE >"
+      sectionCta: "VIEW ALL ANNOUNCEMENTS"
+      image: "Judge portrait + night Atlanta skyline background"
+    notes: "Promo CTA WithBackgroundImage is closest baseline; may need Article List child for multi-announcement later. Remove Author List (BOC) from this demo."
+
+  - position: 7
+    description: "NEWS AND EVENTS heading with View All link + 4 news cards (image + uppercase headline + summary)"
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "ArticleList"
+      variant: "SuperiorCourt"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "partial"
+      customVariantNeeded:
+        name: "SuperiorCourt"
+        description: "Section title left + View All right, 4-column news grid with photo, bold caps headline, gray summary"
+        parentComponent: "ArticleList"
+    sectionBackground: "default"
+    content:
+      title: "NEWS AND EVENTS"
+      viewAll: "VIEW ALL NEWS & EVENTS"
+      articles:
+        - "TWO FULTON COUNTY ACCOUNTABILITY COURTS EARN TOP STATEWIDE HONOR"
+        - "SUPERIOR COURT EMPLOYEES PROMOTE TEAMWORK WITH OFFICE RETREAT"
+        - "SHERIFF'S INTERNS SPEND THE WEEK AT SUPERIOR COURT"
+        - "HOW FULTON COUNTY'S COMPETENCY ROCKET IS GETTING IT RIGHT"
+    notes: "Existing Article List on Home — retitle articles folder + SuperiorCourt styling (not County navy)"
+
+  - position: 8
+    description: "Light footer: Office of the Court Administrator contact, resource link columns, social icons, copyright bar"
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "muted"
+    content:
+      office: "OFFICE OF THE COURT ADMINISTRATOR"
+      links:
+        - "Parking"
+        - "Directions"
+        - "Court Rules"
+        - "Privacy Policy"
+        - "Sitemap"
+        - "ADA"
+      social: ["Twitter/X", "Facebook", "LinkedIn"]
+    notes: "Footer partial — content + light gray background (not County navy footer)"
+
+buildOrder:
+  phase1_sitecore:
+    - "Hero (SuperiorCourt) — create/replace Superior Court - Hero datasource"
+    - "FourColumnCta Quick Links — rewire first Four Column CTA"
+    - "FourColumnCta The Court — rewire second Four Column CTA"
+    - "PromoCta Important Announcements — rewire Promo CTA"
+    - "ArticleList News and Events — update articles + variant"
+  phase2_theme:
+    - "Apply Superior Court CSS variables to site-financial / colors"
+    - "Google Fonts: Montserrat + Source Sans 3 + Libre Baskerville"
+  phase3_variants:
+    - "Hero.SuperiorCourt"
+    - "FourColumnCta.SuperiorCourtQuickLinks"
+    - "FourColumnCta.SuperiorCourtTiles"
+    - "PromoCta.SuperiorCourtAnnouncement"
+    - "ArticleList.SuperiorCourt"
+  phase4_partials:
+    - "Eyebrow utility bar accent color + language"
+    - "Header logo/wordmark + nav labels"
+    - "Footer contact + links + social"
+  removeFromHome:
+    - "Two Column CTA (District Finder — County leftover)"
+    - "Author List (Board of Commissioners — County leftover)"
+    - "Documents List"
+    - "Empty/orphan Four Column CTA in row-1-7 if unused"
+
+renderings:
+  Hero: "b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae"
+  FourColumnCta: "35075000-760e-4ff3-bd1c-f2eeba251dcb"
+  PromoCta: "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80"
+  ArticleList: "52733592-6f5d-4fb4-8003-9b8223c5bc76"
+  TwoColumnCta: "3a9a9d22-c092-4b54-9511-eb202ceabe8d"
+  AuthorList: "69e8a90f-59ca-4638-b53e-bdce65835230"
+  DocumentsList: "ccc3a815-5de9-4529-bad5-874548667d66"

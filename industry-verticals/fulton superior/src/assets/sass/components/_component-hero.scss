@@ -1,0 +1,324 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.hero {
+  padding: 0;
+  height: 640px;
+  color: rgb(0 0 0 / 95%);
+  width: 100%;
+
+  a {
+    @extend .button-main;
+  }
+
+  &.dark {
+    color: rgb(255 255 255 / 95%);
+
+    a {
+      @extend .button-accent;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.rounded-corners {
+    img {
+      border-radius: var(--roundness);
+    }
+  }
+
+  .content-container {
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .title {
+      font-size: 50px;
+      line-height: 60px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 26px;
+      line-height: 32px;
+    }
+  }
+
+  /* Fulton County — full-bleed search overlay */
+  &.hero-fulton-county {
+    position: relative;
+    height: clamp(320px, 48vw, 560px);
+    overflow: hidden;
+    border-radius: 0;
+
+    picture,
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0;
+    }
+
+    .hero-fulton-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0 1rem 3rem;
+      z-index: 1;
+      background: linear-gradient(to top, rgb(0 45 83 / 35%) 0%, transparent 45%);
+    }
+
+    .hero-fulton-kicker {
+      color: #fff;
+      text-align: center;
+      margin-bottom: 1rem;
+      font-family: var(--heading-font-family);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .hero-fulton-search {
+      position: relative;
+      display: flex;
+      align-items: stretch;
+      width: min(720px, 100%);
+      margin: 0 auto;
+      background: #fff;
+      border: none;
+      border-radius: 0;
+      box-shadow: 0 4px 24px rgb(0 0 0 / 25%);
+      z-index: 2;
+
+      /* Sitecore Search PreviewSearch widget */
+      > div,
+      [data-radix-popper-content-wrapper],
+      form {
+        width: 100%;
+        flex: 1;
+      }
+
+      form {
+        display: flex;
+        margin: 0;
+      }
+
+      input,
+      input[type='search'],
+      input[type='text'] {
+        flex: 1;
+        width: 100%;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        padding: 1rem 1.25rem !important;
+        font-family: var(--font-family);
+        font-size: 1.125rem !important;
+        color: var(--text-body);
+        border-radius: 0 !important;
+        line-height: 1.4;
+
+        &::placeholder {
+          color: var(--bg-accent);
+          opacity: 1;
+        }
+
+        &:focus {
+          border: none !important;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        &::-webkit-search-cancel-button {
+          appearance: none;
+        }
+      }
+
+      .hero-fulton-search-editing {
+        flex: 1;
+        padding: 1rem 1.25rem;
+        color: var(--bg-accent);
+        font-size: 1.125rem;
+      }
+    }
+  }
+
+  /* Superior Court — welcome + search + popular links */
+  &.hero-superior-court {
+    position: relative;
+    height: clamp(420px, 56vw, 640px);
+    overflow: hidden;
+    border-radius: 0;
+
+    picture,
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0;
+    }
+
+    .hero-sc-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(
+        to bottom,
+        rgb(0 0 0 / 55%) 0%,
+        rgb(0 0 0 / 45%) 50%,
+        rgb(0 0 0 / 60%) 100%
+      );
+      padding: 5rem 1rem 3rem;
+    }
+
+    .hero-sc-content {
+      text-align: center;
+      color: #fff;
+      max-width: 920px;
+    }
+
+    .hero-sc-title {
+      margin: 0 0 1rem;
+      font-family: var(--heading-font-family);
+      font-size: clamp(1.5rem, 3.2vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.2;
+      color: #fff;
+    }
+
+    .hero-sc-prompt {
+      margin: 0 0 1.5rem;
+      font-family: var(--serif-font-family, Georgia, serif);
+      font-size: clamp(1.125rem, 2vw, 1.5rem);
+      font-weight: 400;
+      color: #fff;
+
+      p {
+        margin: 0 0 0.75rem;
+      }
+
+      ul,
+      .hero-sc-popular {
+        list-style: none;
+        padding: 0;
+        margin: 1.25rem 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem 1.25rem;
+        font-family: var(--font-family);
+        font-size: 0.875rem;
+        text-transform: none;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+
+        &:hover {
+          color: #fff;
+          opacity: 0.85;
+        }
+      }
+    }
+
+    .hero-sc-search-row {
+      display: flex;
+      align-items: stretch;
+      width: min(720px, 100%);
+      margin: 0 auto;
+      box-shadow: 0 4px 24px rgb(0 0 0 / 30%);
+    }
+
+    .hero-sc-search {
+      flex: 1;
+      background: #fff;
+      min-width: 0;
+
+      > div,
+      form {
+        width: 100%;
+      }
+
+      form {
+        display: flex;
+        margin: 0;
+      }
+
+      input,
+      input[type='search'],
+      input[type='text'] {
+        flex: 1;
+        width: 100%;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        padding: 1rem 1.25rem !important;
+        font-family: var(--font-family);
+        font-size: 1.0625rem !important;
+        color: var(--text-body);
+        border-radius: 0 !important;
+
+        &::placeholder {
+          color: #888;
+          opacity: 1;
+        }
+      }
+
+      .hero-sc-search-editing {
+        padding: 1rem 1.25rem;
+        color: #888;
+        text-align: left;
+        font-size: 1.0625rem;
+      }
+    }
+
+    .hero-sc-search-btn {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1.75rem;
+      background: var(--bg-accent) !important;
+      color: #fff !important;
+      font-family: var(--heading-font-family);
+      font-size: 0.9375rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none !important;
+      border-radius: 0 !important;
+      border: none !important;
+
+      &:hover {
+        filter: brightness(1.08);
+        color: #fff !important;
+      }
+    }
+  }
+}

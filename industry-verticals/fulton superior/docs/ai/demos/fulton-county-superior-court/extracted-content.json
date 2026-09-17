@@ -1,0 +1,501 @@
+{
+  "url": "https://www.fultoncourt.org/",
+  "extractedAt": "2026-09-17T21:13:21.618Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 2,
+  "totalImages": 15,
+  "totalVideos": 1,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 1
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "div",
+      "classHint": "content-element",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "WELCOME TO SUPERIOR COURT OF FULTON COUNTY"
+        },
+        {
+          "tag": "h2",
+          "text": "POPULAR SEARCHES"
+        },
+        {
+          "tag": "h2",
+          "text": "QUICK LINKS"
+        },
+        {
+          "tag": "h3",
+          "text": "JURORS"
+        },
+        {
+          "tag": "h3",
+          "text": "Vendor Services"
+        },
+        {
+          "tag": "h3",
+          "text": "SELF-HELP"
+        },
+        {
+          "tag": "h3",
+          "text": "Live Proceedings"
+        },
+        {
+          "tag": "h2",
+          "text": "The Court"
+        },
+        {
+          "tag": "h3",
+          "text": "MeetOur Judges"
+        },
+        {
+          "tag": "h4",
+          "text": "MeetOur Judges"
+        },
+        {
+          "tag": "h3",
+          "text": "ExploreOur Services"
+        },
+        {
+          "tag": "h4",
+          "text": "ExploreOur Services"
+        },
+        {
+          "tag": "h3",
+          "text": "CourtAdministration"
+        },
+        {
+          "tag": "h4",
+          "text": "CourtAdministration"
+        },
+        {
+          "tag": "h3",
+          "text": "Work With Us"
+        },
+        {
+          "tag": "h4",
+          "text": "Work With Us"
+        },
+        {
+          "tag": "h2",
+          "text": "Important Announcements"
+        },
+        {
+          "tag": "h3",
+          "text": "Judge Glanville to Begin 2nd Term as Chief Judge"
+        },
+        {
+          "tag": "h2",
+          "text": "News and events"
+        },
+        {
+          "tag": "h3",
+          "text": "Two Fulton County Accountability Courts Earn Top Statewide Honor"
+        },
+        {
+          "tag": "h3",
+          "text": "Superior Court Employees Promote Teamwork with Office Retreat"
+        },
+        {
+          "tag": "h3",
+          "text": "Sheriff's Interns Spend the Week at Superior Court"
+        },
+        {
+          "tag": "h3",
+          "text": "How Fulton County's Competency Docket is Getting it Right"
+        }
+      ],
+      "paragraphs": [
+        "What would you like to do?",
+        "Click Here to Review Jurors Information",
+        "Vendor Process Requirements",
+        "Available Self-Help Resources",
+        "Click Here to View Live Proceedings",
+        "The Superior Courts of Georgia are courts of general jurisdiction handling both civil and criminal law actions.Fulton County constitutes the Atlanta Judicial Circuit, Fifth Judicial Administrative District.",
+        "Learn more about our 20 judges and review current court terms.",
+        "We provide a number of services to the public through our many divisions. Find out here how we may be able to best assist your legal needs.",
+        "The court administrator functions as the administrative arm of the court which manages divisions and special projects and provides administrative support to the Superior Court Bench.",
+        "Interested in working with us? Find out more here about our open positions, benefits and employee wellness initiatives.",
+        "Judge Glanville will begin a second term as Chief Judge, effective January 2025 - December 2026…",
+        "Two of our accountability courts have been recognized as Model Courts.",
+        "Team members assigned to Fulton County Superior Court's Family Division and the Alternative…",
+        "Fulton County Superior Court proudly hosted a group of eight sheriff's office interns.…",
+        "The intersection of mental health and the legal system is not a yield sign at the crossing of a…"
+      ],
+      "links": [
+        {
+          "text": "Presiding Judge",
+          "href": "https://www.fultoncourt.org/judge/judge-scott-mcafee",
+          "target": "_blank"
+        },
+        {
+          "text": "Temporary Protective Order",
+          "href": "https://www.fultoncourt.org/family/domestic-violence-resources",
+          "target": ""
+        },
+        {
+          "text": "Jury Duty",
+          "href": "https://www.fultoncourt.org/jurors-old",
+          "target": ""
+        },
+        {
+          "text": "Process Servers",
+          "href": "https://www.fultoncourt.org/process-server-application",
+          "target": ""
+        },
+        {
+          "text": "Click Here to Review Jurors Information",
+          "href": "https://www.fultoncourt.org/jurors",
+          "target": ""
+        },
+        {
+          "text": "JURORS",
+          "href": "https://www.fultoncourt.org/jurors",
+          "target": ""
+        },
+        {
+          "text": "Vendor Process Requirements",
+          "href": "https://www.fultoncourt.org/vendor-services",
+          "target": ""
+        },
+        {
+          "text": "Vendor Services",
+          "href": "https://www.fultoncourt.org/vendor-services",
+          "target": ""
+        },
+        {
+          "text": "Available Self-Help Resources",
+          "href": "https://www.fultoncourt.org/justice-resource-center",
+          "target": ""
+        },
+        {
+          "text": "SELF-HELP",
+          "href": "https://www.fultoncourt.org/justice-resource-center",
+          "target": ""
+        },
+        {
+          "text": "Click Here to View Live Proceedings",
+          "href": "https://www.fultoncourt.org/live-hearings",
+          "target": ""
+        },
+        {
+          "text": "Live Proceedings",
+          "href": "https://www.fultoncourt.org/live-hearings",
+          "target": ""
+        },
+        {
+          "text": "MeetOur Judges",
+          "href": "https://www.fultoncourt.org/judges",
+          "target": ""
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.fultoncourt.org/judges",
+          "target": ""
+        },
+        {
+          "text": "ExploreOur Services",
+          "href": "https://www.fultoncourt.org/programs-and-services",
+          "target": ""
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.fultoncourt.org/programs-and-services",
+          "target": ""
+        },
+        {
+          "text": "CourtAdministration",
+          "href": "https://www.fultoncourt.org/office-of-court-administrator",
+          "target": ""
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.fultoncourt.org/office-of-court-administrator",
+          "target": ""
+        },
+        {
+          "text": "Work With Us",
+          "href": "https://www.fultoncourt.org/work-with-us",
+          "target": ""
+        },
+        {
+          "text": "READ MORE",
+          "href": "https://www.fultoncourt.org/work-with-us",
+          "target": ""
+        },
+        {
+          "text": "Judge Glanville to Begin 2nd Term as Chief Judge",
+          "href": "https://www.fultoncourt.org/important-announcements/judge-glanville-begin-2nd-term-chief-judge",
+          "target": ""
+        },
+        {
+          "text": "Read More",
+          "href": "https://www.fultoncourt.org/important-announcements/judge-glanville-begin-2nd-term-chief-judge",
+          "target": ""
+        },
+        {
+          "text": "VIEW ALL ANNOUNCEMENTS",
+          "href": "https://www.fultoncourt.org/important-announcements",
+          "target": ""
+        },
+        {
+          "text": "VIEW ALL RELEASES",
+          "href": "https://www.fultoncourt.org/news",
+          "target": ""
+        },
+        {
+          "text": "Two Fulton County Accountability Courts Earn Top Statewide Honor",
+          "href": "https://www.fultoncourt.org/news/two-fulton-county-accountability-courts-earn-top-statewide-honor",
+          "target": ""
+        },
+        {
+          "text": "Superior Court Employees Promote Teamwork with Office Retreat",
+          "href": "https://www.fultoncourt.org/news/superior-court-employees-promote-teamwork-office-retreat",
+          "target": ""
+        },
+        {
+          "text": "Sheriff's Interns Spend the Week at Superior Court",
+          "href": "https://www.fultoncourt.org/news/sheriffs-interns-spend-week-superior-court",
+          "target": ""
+        },
+        {
+          "text": "How Fulton County's Competency Docket is Getting it Right",
+          "href": "https://www.fultoncourt.org/news/how-fulton-countys-competency-docket-getting-it-right",
+          "target": ""
+        },
+        {
+          "text": "Feedback",
+          "href": "#",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2022-06/HomePageMobile.png",
+          "alt": "Home Banner Image",
+          "type": "img",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2021-10/1.svg",
+          "alt": "JURORS",
+          "type": "img",
+          "width": 90,
+          "height": 90
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2022-09/icons8-exchange-80.png",
+          "alt": "vendor",
+          "type": "img",
+          "width": 80,
+          "height": 80
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2021-10/3.svg",
+          "alt": "SELF HELP",
+          "type": "img",
+          "width": 90,
+          "height": 90
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2022-05/4_0.svg",
+          "alt": "Live Proceedings",
+          "type": "img",
+          "width": 90,
+          "height": 90
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2022-08/courthouse_looking_up.jpg",
+          "alt": "courthouse",
+          "type": "img",
+          "width": 1000,
+          "height": 664
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2023-08/trsy_0.jpg",
+          "alt": "services",
+          "type": "img",
+          "width": 407,
+          "height": 322
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2022-08/entry.jpg",
+          "alt": "entry",
+          "type": "img",
+          "width": 664,
+          "height": 1000
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2021-10/4.jpg",
+          "alt": "Work With Us",
+          "type": "img",
+          "width": 442,
+          "height": 618
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2025-12/judge_glanville_compressed.jpg",
+          "alt": "Judge Glanville to Begin 2nd Term as Chief Judge Image",
+          "type": "img",
+          "width": 1067,
+          "height": 1600
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2026-09/accountability_court_2.jpeg",
+          "alt": "Two Fulton County Accountability Courts Earn Top Statewide Honor",
+          "type": "img",
+          "width": 3714,
+          "height": 2274
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2026-08/adr_pic_3_0.jpg",
+          "alt": "Superior Court Employees Promote Teamwork with Office Retreat",
+          "type": "img",
+          "width": 1750,
+          "height": 1153
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2026-07/interns_dunaway_july_2026_mb.jpeg",
+          "alt": "Sheriff's Interns Spend the Week at Superior Court",
+          "type": "img",
+          "width": 4032,
+          "height": 3024
+        },
+        {
+          "src": "https://www.fultoncourt.org/sites/default/files/2026-07/judge_shukura_ingram_headshot_july_2026_mb.jpg",
+          "alt": "How Fulton County's Competency Docket is Getting it Right",
+          "type": "img",
+          "width": 3439,
+          "height": 4299
+        },
+        {
+          "src": "https://www.fultonsuperiorcourtga.gov/sites/default/files/2021-10/8.jpg",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "WELCOME TO SUPERIOR COURT OF FULTON COUNTY"
+        },
+        {
+          "description": "What would you like to do?"
+        },
+        {
+          "title": "POPULAR SEARCHES",
+          "link": {
+            "text": "Presiding Judge",
+            "href": "https://www.fultoncourt.org/judge/judge-scott-mcafee"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "type": "video",
+          "sources": [
+            {
+              "src": "https://www.fultoncourt.org/sites/default/files/banner/Homepage_reduced.mp4",
+              "type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "footer",
+      "classHint": "",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h5",
+          "text": "Office of the Court Administrator"
+        }
+      ],
+      "paragraphs": [
+        "Superior Court of Fulton County136 Pryor Street SW​, Suite J2-640​Atlanta, GA 30303​",
+        "Office Number: 404-612-4518​​",
+        "Fax Number: 404-612-2550",
+        "Jury Fax Number: 404-612-2613",
+        "Public Business Hours: 8:30 a.m. - 5:00 p.m.",
+        "Copyrights 2025. All Rights Reserved. The Superior Court of Fulton County. See Disclaimer and Privacy Statement HERE"
+      ],
+      "links": [
+        {
+          "text": "Basic Rules of Court Conduct",
+          "href": "https://www.fultoncourt.org/basic-rules-of-court-conduct",
+          "target": "_blank"
+        },
+        {
+          "text": "Building Security",
+          "href": "https://www.fultoncourt.org/building-security",
+          "target": ""
+        },
+        {
+          "text": "Court Holidays",
+          "href": "https://www.fultoncourt.org/court-holidays",
+          "target": ""
+        },
+        {
+          "text": "Disclaimer",
+          "href": "https://www.fultoncourt.org/disclaimer",
+          "target": ""
+        },
+        {
+          "text": "Frequently Requested Numbers",
+          "href": "https://www.fultoncourt.org/frequently-requested-numbers",
+          "target": ""
+        },
+        {
+          "text": "Interpreter Services",
+          "href": "https://www.fultoncourt.org/interpreters",
+          "target": ""
+        },
+        {
+          "text": "Jobs",
+          "href": "https://www.fultoncourt.org/work-with-us",
+          "target": ""
+        },
+        {
+          "text": "Media and Public Access",
+          "href": "https://www.fultoncourt.org/media-public-access",
+          "target": ""
+        },
+        {
+          "text": "Open Records Request",
+          "href": "https://www.fultoncourt.org/springboard-page?external_title=undefined&goback_url=https://www.fultonsuperiorcourtga.gov/&goforward_url=https://fultoncountyga.mycusthelp.com/WEBAPP/_rs/(S(ympbyghncqzrcuoeq1cuiyxl))/supporthome.aspx",
+          "target": ""
+        },
+        {
+          "text": "Process Servers",
+          "href": "https://www.fultoncourt.org/process-server-application",
+          "target": ""
+        },
+        {
+          "text": "HERE",
+          "href": "https://www.fultoncourt.org/disclaimer",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "title": "Office of the Court Administrator",
+          "description": "Office of the Court AdministratorSuperior Court of Fulton County136 Pryor Street SW​, Suite J2-640​Atlanta, GA 30303​Office Number: 404-612-4518​​Fax Number: 404-612-2550Jury Fax Number: 404-612-2613Public Business Hours: 8:30 a.m. - 5:00 p.m."
+        }
+      ]
+    }
+  ]
+}

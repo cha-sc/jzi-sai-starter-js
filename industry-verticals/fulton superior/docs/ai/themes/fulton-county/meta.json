@@ -1,0 +1,318 @@
+{
+  "title": "Fulton County Government",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": null,
+  "ogDescription": null,
+  "ogImage": null,
+  "ogSiteName": null,
+  "googleFontsLinks": [
+    "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Oswald:500"
+  ],
+  "fontFaces": [
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Open Sans",
+      "src": "url(\"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2\") format(\"woff2\")",
+      "weight": "800"
+    },
+    {
+      "family": "Oswald",
+      "src": "url(\"https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUtiZSSUhiCXABTV.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Oswald",
+      "src": "url(\"https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUJiZSSUhiCXABTV.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Oswald",
+      "src": "url(\"https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUliZSSUhiCXABTV.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Oswald",
+      "src": "url(\"https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUhiZSSUhiCXABTV.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Oswald",
+      "src": "url(\"https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvsUZiZSSUhiCXAA.woff2\") format(\"woff2\")",
+      "weight": "500"
+    }
+  ],
+  "logoCandidates": [
+    "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/ful-logo-mobile.png?la=en&h=250&w=181&hash=B1A7375DCA167C71DED76C2986039C1B",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/horizontal-Fulton-County-logo-hi-res.png?la=en&h=68&w=170&hash=D2811D88E61F3889E75973A7A4008A83",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/Twitter_Social_Icon_Circle_Color.png?la=en&h=400&w=400&hash=94D0E36B809A50290536643C31F1BA1D",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/IG-Navy-circle.png?la=en&h=1500&w=1500&hash=ECE22A42F5BCC5D132317DFB964FFA84",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/f_logo_RGB-Blue_58.png?la=en&h=130&w=130&hash=5A230B87CD9CCC487689D86C19FB27AB",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout-01.png?la=en&h=600&w=600&hash=DE78700E999690785B3FE147D20CB871",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout_white-01.png?la=en&h=600&w=600&hash=26EA3F4CC1449D1CA31CA1D43BC17D76",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer.png?la=en&h=144&w=144&hash=3C29F54406A4AA625D86C4F31E699D61",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer-WHITE.png?la=en&h=144&w=144&hash=20A4138E47E278AFD3B8E404EE8BDF52",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities.png?la=en&h=144&w=144&hash=F96AAE13C17F5B02627EF5BAD5F4BF97",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities-white.png?la=en&h=104&w=104&hash=C487C45580467C04A654762A49ACF021",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC.png?la=en&h=144&w=144&hash=4C0C3D1A81344B16CA8FCB2F268C3DF5",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC-WHITE.png?la=en&h=144&w=144&hash=BA58F0CA8202D13AE58485D15664A47F",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-Thumbnail.png?la=en&h=144&w=144&hash=D79AD4F4DDDE511FAE3BE9DEB7D1B8B3",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-WHITE.png?la=en&h=144&w=144&hash=ED4E2A563470B9045ADB9C81374075CE",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners.png?la=en&h=144&w=144&hash=3A9491F373A6F937709BCFDAAD444A91",
+    "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners-WHITE.png?la=en&h=144&w=144&hash=61705FFA5B817541B8640B85461F539A",
+    "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-blue-transparent.png?la=en&h=100&w=100&hash=BC75F4441AD1077DB723A23D945598FB",
+    "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-white-transparent.png?la=en&h=100&w=100&hash=4B95E9CFE6FAC4F9E993E7A3B2EBFB54",
+    "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-01.png?la=en&h=601&w=601&hash=EE27B513EA15E9CFFACC3E9231F47855",
+    "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-02.png?la=en&h=601&w=601&hash=EA10D4B90FCDBEC67BE5DDEF30F3A732",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/f_logo_RGB-Blue_58.png?la=en&h=130&w=130&hash=5A230B87CD9CCC487689D86C19FB27AB",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/IG-Navy-circle.png?la=en&h=1500&w=1500&hash=ECE22A42F5BCC5D132317DFB964FFA84",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/Twitter_Social_Icon_Circle_Color.png?la=en&h=400&w=400&hash=94D0E36B809A50290536643C31F1BA1D",
+    "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Social-Icons/In-2CRev-54px-TM.png?la=en&h=54&w=66&hash=630F07948DA68EAC7C6C463C0E9A9434"
+  ],
+  "heroBgImage": null
+}

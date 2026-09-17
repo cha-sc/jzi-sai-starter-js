@@ -1,0 +1,422 @@
+[
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/ful-logo-mobile.png?la=en&h=250&w=181&hash=B1A7375DCA167C71DED76C2986039C1B",
+    "alt": "Fulton County home",
+    "localFile": "section1-img2.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 83929,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Global/horizontal-Fulton-County-logo-hi-res.png?la=en&h=68&w=170&hash=D2811D88E61F3889E75973A7A4008A83",
+    "alt": "Fulton County home",
+    "localFile": "section1-img3.png",
+    "extension": "png",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 7633,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/Hero-Images/Home-page/Government_Center_Panorama94-crop.jpg",
+    "alt": "Government Center",
+    "localFile": "section2-img7.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 533279,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Common-SVG/icon-search-orange.svg",
+    "alt": "",
+    "localFile": "section2-img8.svg",
+    "extension": "svg",
+    "sectionPosition": 2,
+    "type": "background",
+    "fileSize": 277,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout-01.png?la=en&h=600&w=600&hash=DE78700E999690785B3FE147D20CB871",
+    "alt": "icon representing early voting turnout",
+    "localFile": "section3-img9.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 16092,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Voting--Elections/Early-voting-turnout_white-01.png?la=en&h=600&w=600&hash=26EA3F4CC1449D1CA31CA1D43BC17D76",
+    "alt": "white icon representing early voting turnout",
+    "localFile": "section3-img10.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 14635,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer.png?la=en&h=144&w=144&hash=3C29F54406A4AA625D86C4F31E699D61",
+    "alt": "icon representing property map viewer",
+    "localFile": "section3-img11.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1894,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Maps/Property-Map-Viewer-WHITE.png?la=en&h=144&w=144&hash=20A4138E47E278AFD3B8E404EE8BDF52",
+    "alt": "white icon representing property map viewer",
+    "localFile": "section3-img12.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1635,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities.png?la=en&h=144&w=144&hash=F96AAE13C17F5B02627EF5BAD5F4BF97",
+    "alt": "icon representing employment opportunities",
+    "localFile": "section3-img13.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1791,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Jobs/Employment-Opportunities-white.png?la=en&h=104&w=104&hash=C487C45580467C04A654762A49ACF021",
+    "alt": "white icon representing employment opportunities",
+    "localFile": "section3-img14.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 2498,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC.png?la=en&h=144&w=144&hash=4C0C3D1A81344B16CA8FCB2F268C3DF5",
+    "alt": "icon representing filming in Fulton County",
+    "localFile": "section3-img15.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1481,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Libraries--Arts/Filming-in-FC-WHITE.png?la=en&h=144&w=144&hash=BA58F0CA8202D13AE58485D15664A47F",
+    "alt": "white icon representing filming in Fulton County",
+    "localFile": "section3-img16.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1391,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-Thumbnail.png?la=en&h=144&w=144&hash=D79AD4F4DDDE511FAE3BE9DEB7D1B8B3",
+    "alt": "icon representing senior centers",
+    "localFile": "section3-img17.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1743,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Seniors/Senior-Centers-WHITE.png?la=en&h=144&w=144&hash=ED4E2A563470B9045ADB9C81374075CE",
+    "alt": "white icon representing senior centers",
+    "localFile": "section3-img18.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 2070,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners.png?la=en&h=144&w=144&hash=3A9491F373A6F937709BCFDAAD444A91",
+    "alt": "icon representing the board of commissioners",
+    "localFile": "section3-img19.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1791,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/ICONS/Commissioners/Board_of_Commissioners-WHITE.png?la=en&h=144&w=144&hash=61705FFA5B817541B8640B85461F539A",
+    "alt": "white icon representing the board of commissioners",
+    "localFile": "section3-img20.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 1679,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-blue-transparent.png?la=en&h=100&w=100&hash=BC75F4441AD1077DB723A23D945598FB",
+    "alt": "Blue microphone outline",
+    "localFile": "section3-img21.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 6463,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-fulton-icon-white-transparent.png?la=en&h=100&w=100&hash=4B95E9CFE6FAC4F9E993E7A3B2EBFB54",
+    "alt": "White microphone icon",
+    "localFile": "section3-img22.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 5373,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-01.png?la=en&h=601&w=601&hash=EE27B513EA15E9CFFACC3E9231F47855",
+    "alt": "",
+    "localFile": "section3-img23.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 19215,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/Guide-book_Icon-02.png?la=en&h=601&w=601&hash=EA10D4B90FCDBEC67BE5DDEF30F3A732",
+    "alt": "",
+    "localFile": "section3-img24.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 17690,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/External-Affairs/Experience-Fulton-the-Podcast-Images/Experience-Fulton-CTA-card-hover-image.png",
+    "alt": "",
+    "localFile": "section3-img31.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "background",
+    "fileSize": 122790,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/general-Fulton-County-news.png?la=en&h=683&w=1217&hash=9DA022FA81D9A7F7023F191248EB644B",
+    "alt": "Fulton County News",
+    "localFile": "section4-img32.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 39052,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/Connected-Youth-Leadership-Program/CYLP-Program.png?la=en&h=940&w=1672&hash=8C82ABAF067843F20578E04347545EAB",
+    "alt": "",
+    "localFile": "section4-img33.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1601795,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Behavioral-Health/f904c950-1f95-4993-90a4-64afda5f0429.jpg?la=en&h=676&w=1218&hash=33B774F32093A1A4300CD6FCF906E3ED",
+    "alt": "",
+    "localFile": "section4-img34.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 159988,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/2026-Election/Civic_Web.jpg?la=en&h=1013&w=1825&hash=3E767EE73AB461EAFF37DC9446A30A86",
+    "alt": "",
+    "localFile": "section4-img35.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 115810,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Media-Flyers-and-Graphics/updated-BOC-meeting-web-graphic-2.jpg?la=en&h=1367&w=2958&hash=9975A5C685B89C43531268BF0705B91A",
+    "alt": "",
+    "localFile": "section4-img36.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 571417,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Arts-and-Culture/A-Dope-Piece-of-Art.png?la=en&h=328&w=584&hash=B039E3D78EAF197DD48A5697A6262A87",
+    "alt": "A Dope Piece of Art Graphic",
+    "localFile": "section4-img37.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 328939,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/News/Fulton-County-Recognizes-National-Prepardness-Month.jpg?la=en&h=324&w=584&hash=868B144E3FCFFF83E017802F0DAB1268",
+    "alt": "",
+    "localFile": "section4-img38.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 41669,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Images/News-Images-584-x-328/Calendar-Images-625-x-258/Generic-Calendar-Images/BRE-meetings-and-events_v2.png?la=en&h=892&w=1583&hash=84EE33488145154D077745BDE729286B",
+    "alt": "Board of Registration & elections pic of flag",
+    "localFile": "section4-img39.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 333583,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/Homeless-Services/Continuum-of-Care/Continuum-of-Cares-Meetings-and-Events.png?la=en&h=328&w=584&hash=E2CCAD8FF79A83C9237B4DB01771A3DC",
+    "alt": "Updated Continuum of Cares Meetings and Events Flyer",
+    "localFile": "section4-img40.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 123642,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Probate-Court/Forever-Fridays-Web-Graphic-Sep-2026.png?la=en&h=941&w=1672&hash=9170835D92FC7ADCD8CD87063E18D5B9",
+    "alt": "",
+    "localFile": "section4-img41.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1617871,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Community-Development/WEB-GRAPHICS--nATIONAL-rECOVERY-mONTH-V2_WEB.jpg?la=en&h=675&w=1217&hash=C09FA0DFEC78DD5D049906A644C7B68B",
+    "alt": "2026 National Recovery Month graphic",
+    "localFile": "section4-img42.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 206972,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/News/Fulton-County-Invests-$100-Million-in-Health-and-Human-Service-Programs.png?la=en&h=328&w=584&hash=24F078CE7B168024E61D66F4B8EDF17D",
+    "alt": "",
+    "localFile": "section4-img43.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 119372,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Abdur-Rahman/Might-Six-Cleared-for-Takeoff-Graphic.jpg?la=en&h=676&w=1218&hash=06E64594E65C39226A7F7F377A100219",
+    "alt": "",
+    "localFile": "section4-img44.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 147722,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/Cooperative-Extension/Fulton-Fresh-Fall.jpg?la=en&h=324&w=584&hash=4EB442063A3F68C3E9E4E2B1161868C5",
+    "alt": "",
+    "localFile": "section4-img45.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 47627,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Project/FultonCountyGa/Common-SVG/Location-Search-SVG.svg",
+    "alt": "",
+    "localFile": "section5-img46.svg",
+    "extension": "svg",
+    "sectionPosition": 5,
+    "type": "background",
+    "fileSize": 498,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Pitts/2023_ROBB-PITTS-200x200.jpg",
+    "alt": "",
+    "localFile": "section6-img47.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 35517,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Departments/District-Attorney/DA-headshots-2023/BRIDGET-THORNE_200x200.png",
+    "alt": "",
+    "localFile": "section6-img48.png",
+    "extension": "png",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 71834,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Ellis/Ellis-02-01.jpg",
+    "alt": "",
+    "localFile": "section6-img49.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 157656,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Barrett/Barrett-01.jpg",
+    "alt": "",
+    "localFile": "section6-img50.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 123385,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Arrington/2023-_MARVIN-ARRINGTON-200X200.jpg",
+    "alt": "",
+    "localFile": "section6-img51.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 39190,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.fultoncountyga.gov/-/media/Commissioners/Abdur-Rahman/2023_KHADIJAH-ABDUR-RAHMAN-200x200.jpg",
+    "alt": "",
+    "localFile": "section6-img52.jpg",
+    "extension": "jpg",
+    "sectionPosition": 6,
+    "type": "background",
+    "fileSize": 36889,
+    "status": "downloaded"
+  }
+]

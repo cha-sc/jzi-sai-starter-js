@@ -1,0 +1,141 @@
+# Demo Progress Tracker — Superior Court of Fulton County
+
+client:
+  name: "Superior Court of Fulton County"
+  sourceUrl: "https://www.fultoncourt.org/"
+  startedAt: "2026-09-17T21:05:00Z"
+  lastUpdatedAt: "2026-09-17T21:25:00Z"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.fultoncourt.org/"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass-with-notes"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/fulton-county-superior-court.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/fulton-county-superior-court/build-plan.yaml"
+    totalSections: 8
+    userApproved: true
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/fulton-county-superior-court/extracted-content.json"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 5
+    totalSections: 5
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "sass-vars"
+    cssWritten: true
+    fontsAdded: true
+
+  phase5_custom:
+    status: "skipped"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 5
+    variantsCreated: 5
+    variantSpecsFile: ""
+    skippedReason: ""
+
+  phase6_assembly:
+    status: "partial"
+    componentsAdded: 0
+    datasourcesWired: 5
+    totalComponents: 5
+    notes: "Existing Home components rewired with Superior Court content. Variants must be set manually in Pages (API cannot set FieldNames)."
+
+  phase7_summary:
+    status: "complete"
+
+sections:
+  - position: 3
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "14df3650-2010-4c6c-9bd1-79ea05e1c5a6"
+      fieldsPopulated: true
+    phase5_5:
+      status: "created"
+      variantName: "SuperiorCourt"
+      variantDefinitionId: "eb82f338-a697-4998-9f7f-e6b38ea4e1af"
+    phase6:
+      status: "wired"
+      datasourceWired: true
+  - position: 4
+    componentName: "FourColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "0512ea44-d99e-46f4-ae45-dff6eba52e32"
+      fieldsPopulated: true
+    phase5_5:
+      status: "created"
+      variantName: "SuperiorCourtQuickLinks"
+      variantDefinitionId: "267471d5-4a3f-4378-aa87-2f1996329012"
+    phase6:
+      status: "wired"
+      datasourceWired: true
+  - position: 5
+    componentName: "FourColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "befd8a89-b526-4017-b357-20adbde9fa12"
+      fieldsPopulated: true
+    phase5_5:
+      status: "created"
+      variantName: "SuperiorCourtTiles"
+      variantDefinitionId: "1bb029b9-059c-438d-8b30-f8a0e612b4eb"
+    phase6:
+      status: "wired"
+      datasourceWired: true
+  - position: 6
+    componentName: "PromoCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "4187a012-3750-4fde-99ec-09a6aa455ad0"
+      fieldsPopulated: true
+    phase5_5:
+      status: "created"
+      variantName: "SuperiorCourtAnnouncement"
+      variantDefinitionId: "d0188ab8-76b0-4fd4-ab50-0580f0f27d3d"
+    phase6:
+      status: "wired"
+      datasourceWired: true
+  - position: 7
+    componentName: "ArticleList"
+    kind: "list"
+    phase3:
+      status: "populated"
+      itemId: "028d5d68-d534-47ae-a625-864cb9f06b25"
+      fieldsPopulated: true
+      childrenCreated: 4
+      childrenExpected: 4
+    phase5_5:
+      status: "created"
+      variantName: "SuperiorCourt"
+      variantDefinitionId: "bae0407b-0903-44f9-a1ce-df27ed7bc5ac"
+    phase6:
+      status: "wired"
+      datasourceWired: true

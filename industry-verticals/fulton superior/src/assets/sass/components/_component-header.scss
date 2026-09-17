@@ -1,0 +1,98 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.header {
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  @include respond-to(mobile-large) {
+    padding: 1.5rem $size-padding;
+  }
+
+  .rich-text,
+  .navigation {
+    padding: 0 !important;
+  }
+}
+
+// Superior Court header — dark bar, white wordmark
+.site-financial .header {
+  background: var(--bg-saturated);
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  h1 {
+    font-size: 1.25rem !important;
+    line-height: 1.2 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    text-align: left;
+    font-family: var(--heading-font-family, var(--font-family));
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    @media (width < 1200px) {
+      flex-direction: column;
+    }
+
+    @include respond-to(mobile-large) {
+      flex-direction: row;
+    }
+
+    .play {
+      display: flex;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+
+      svg {
+        width: 1rem;
+      }
+
+      .dark & {
+        color: #fff;
+      }
+    }
+
+    .finance {
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+
+  .navigation a,
+  .navigation .nav-link {
+    color: #fff !important;
+    font-family: var(--heading-font-family);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+// PLAY! services specific styles
+.site-services .header {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    svg {
+      width: 2.5rem;
+      margin-right: 1rem;
+    }
+
+    .services {
+      color: var(--text-accent);
+      font-weight: normal;
+    }
+  }
+}

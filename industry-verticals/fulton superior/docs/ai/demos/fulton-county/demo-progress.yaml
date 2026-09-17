@@ -1,0 +1,110 @@
+# Demo Progress Tracker — Fulton County
+
+client:
+  name: "Fulton County Government"
+  sourceUrl: "https://www.fultoncountyga.gov/"
+  startedAt: "2026-09-17T04:20:00Z"
+  lastUpdatedAt: "2026-09-17T05:15:00Z"
+  contentRoot: "/sitecore/content/fulton-county/fulton-county"
+  codeRoot: "industry-verticals/fulton"
+  homePageId: "47fa8502-55be-47d7-9544-0aabb55acc09"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.fultoncountyga.gov/"
+    notes:
+      - "User screenshot + Playwright scrapes available"
+      - "Content Hub credentials verified"
+      - "Sitecore path /sitecore/content/fulton-county/fulton-county"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass-with-warnings"
+    notes:
+      - "Stale UIIM manifest bypassed; used live PLAY Financial components"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/fulton-county.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/fulton-county/build-plan.yaml"
+    totalSections: 8
+    userApproved: true
+    decision: "pixel-perfect custom variants"
+
+  phase2_5_extract:
+    status: "complete"
+    extractedContent: "docs/ai/demos/fulton-county/extracted-content.json"
+    imagesUploaded: 42
+
+  phase3_datasources:
+    status: "complete"
+    notes:
+      - "Hero ac1d0065-5908-48bd-92c1-40a4c46970e3"
+      - "Top Services 19482599-07f2-4ebc-afe5-b9839176489e / e644f77b-2455-47e6-9b78-207228ae965a"
+      - "District 7838d74a-b0ef-48f8-9614-5d5885d0312d"
+      - "Local Home/Data copies also populated for Pages wiring"
+
+  phase5_code:
+    status: "complete"
+    notes:
+      - "FultonCounty exports on Hero, FourColumnCta, TwoColumnCta, ArticleList, AuthorList"
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 5
+    variantsCreated: 5
+    decision: "pixel-perfect"
+    notes:
+      - "Hero 0b19b372 / FourCol 89d1697a / TwoCol 7c860238 / ArticleList 33eeba9c / AuthorList 04a67d09"
+
+  phase6_assembly:
+    status: "partial"
+    componentsAdded: 0
+    datasourcesWired: 0
+    contentUpdatedInPlace: true
+    blocker: "add_component_on_page and set_component_datasource return Agent API 500"
+    manualDocs:
+      - "docs/ai/demos/fulton-county/manual-assembly.md"
+      - "docs/ai/demos/fulton-county/variant-checklist.md"
+    notes:
+      - "In-place updates on existing Home components (Two/Three/Five Column, Promos, Carousel slide 1, Articles/Authors/About)"
+      - "Home title set to Fulton County Government"
+      - "Orphan local datasources created under Home/Data from failed adds — ready to wire manually"
+
+  phase7_summary:
+    status: "complete"
+    summaryFile: "docs/ai/demos/fulton-county/demo-summary.md"
+
+sections:
+  - id: hero
+    name: "Search Hero"
+    phase6:
+      status: "failed"
+      note: "Datasource ready; add Hero + FultonCounty variant in Pages"
+  - id: top-services
+    name: "Top Services"
+    phase6:
+      status: "partial"
+      note: "Content on Five/Three Column interim; add 2× Four Column CTA + FultonCounty in Pages"
+  - id: district
+    name: "District Finder"
+    phase6:
+      status: "wired-content"
+      note: "Two Column CTA 1 fields updated; set FultonCounty variant in Pages"
+  - id: news
+    name: "News / Article List"
+    phase6:
+      status: "partial"
+      note: "Articles page retitled; set Article List FultonCounty variant"
+  - id: commissioners
+    name: "Board of Commissioners"
+    phase6:
+      status: "failed"
+      note: "Authors page retitled; add Author List + FultonCounty in Pages"

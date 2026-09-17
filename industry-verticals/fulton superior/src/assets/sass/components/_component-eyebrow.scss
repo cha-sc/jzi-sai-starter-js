@@ -1,0 +1,95 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.eyebrow {
+  color: var(--text-footer);
+  background-color: var(--bg-footer);
+  width: 100%;
+  transition: 0.4s;
+
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  .col-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+}
+
+// Superior Court: orange utility bar with white language control
+.site-financial .eyebrow,
+body.site-financial .eyebrow {
+  background-color: var(--bg-utility, #c73e1d) !important;
+  color: #fff;
+  min-height: 2.25rem;
+
+  .container {
+    max-width: 100%;
+  }
+
+  .col-placeholder {
+    justify-content: flex-end;
+    gap: 1.25rem;
+    width: 100%;
+    min-height: 2.25rem;
+  }
+
+  .link-list,
+  .link-list.utility-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+    order: 1;
+    background: transparent !important;
+  }
+
+  .language-switcher {
+    flex: 0 0 auto;
+    order: 2;
+    border-left: 1px solid rgb(255 255 255 / 40%);
+    padding-left: 1.25rem;
+    margin: 0;
+    color: #fff;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    .selected-language {
+      // Prefer "Select Language" affordance over locale name in the utility bar
+      font-size: 0;
+      line-height: 0;
+      color: #84bfe0;
+
+      &::after {
+        content: 'Select Language';
+        font-size: 0.6875rem;
+        line-height: 1.2;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #84bfe0;
+      }
+    }
+
+    .chevron-icon {
+      width: 0.7rem;
+      height: 0.7rem;
+      fill: #84bfe0;
+      color: #84bfe0;
+    }
+
+    .language-dropdown {
+      color: var(--text-body, #212529);
+      text-transform: none;
+      letter-spacing: normal;
+      font-weight: 500;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+.site-services .eyebrow .container {
+  border-bottom: 1px solid var(--border-color);
+}
