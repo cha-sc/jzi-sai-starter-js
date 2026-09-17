@@ -30,6 +30,7 @@ type PreviewSearchComponentProps = {
   defaultItemsPerPage?: number;
   isOpen: boolean;
   setIsSearchOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  placeholder?: string;
 };
 
 type InitialState = PreviewSearchInitialState<'itemsPerPage' | 'suggestionsList'>;
@@ -38,6 +39,7 @@ export const PreviewSearchComponent = ({
   defaultItemsPerPage = 6,
   isOpen,
   setIsSearchOpen,
+  placeholder = 'Ask me anything',
 }: PreviewSearchComponentProps) => {
   const router = useRouter();
   const { handleSearch } = useSearchTracking();
@@ -93,7 +95,7 @@ export const PreviewSearchComponent = ({
           className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
           onChange={keyphraseHandler}
           autoComplete="off"
-          placeholder="Ask me anything"
+          placeholder={placeholder}
         />
       </form>
 

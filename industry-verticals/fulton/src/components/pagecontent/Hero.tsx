@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent, JSX, useState } from 'react';
+import { JSX, useState } from 'react';
 import {
   Field,
   ImageField,
@@ -12,6 +12,8 @@ import {
   LinkField,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
+import PreviewSearch from 'components/search/PreviewSearch';
+import { PREVIEW_WIDGET_ID } from '../../_data/customizations';
 
 interface Fields {
   Title: Field<string>;
@@ -57,7 +59,7 @@ export const Default = (props: HeroProps): JSX.Element => {
   );
 };
 
-/* FultonCounty variant — full-bleed photo with centered search overlay */
+/* FultonCounty variant — full-bleed photo with Sitecore Search preview overlay */
 export const FultonCounty = (props: HeroProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
@@ -65,15 +67,7 @@ export const FultonCounty = (props: HeroProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
   const placeholder =
     props.fields?.Title?.value?.toString() || 'I need help finding...';
-  const [query, setQuery] = useState('');
-
-  const handleSubmit = (event: FormEvent) => {
-    event.preventDefault();
-    if (!query.trim()) return;
-    const href = props.fields?.Link?.value?.href || '/search';
-    const separator = href.includes('?') ? '&' : '?';
-    window.location.href = `${href}${separator}q=${encodeURIComponent(query.trim())}`;
-  };
+  const [isSearchOpen, setIsSearchOpen] = useState(true);
 
   return (
     <div
@@ -90,28 +84,20 @@ export const FultonCounty = (props: HeroProps): JSX.Element => {
               <RichText field={props.fields.Text} />
             </div>
           )}
-          <form className="hero-fulton-search" onSubmit={handleSubmit} role="search">
+          <div className="hero-fulton-search" role="search">
             {isPageEditing ? (
               <div className="hero-fulton-search-editing">
                 <Text field={props.fields.Title} tag="span" />
               </div>
             ) : (
-              <input
-                type="search"
-                name="q"
-                aria-label="Site search"
+              <PreviewSearch
+                rfkId={PREVIEW_WIDGET_ID}
+                isOpen={isSearchOpen}
+                setIsSearchOpen={setIsSearchOpen}
                 placeholder={placeholder}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
               />
             )}
-            <button type="submit" aria-label="Submit search">
-              <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
-                <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" strokeWidth="2" />
-                <path d="M20 20l-3.5-3.5" fill="none" stroke="currentColor" strokeWidth="2" />
-              </svg>
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </div>

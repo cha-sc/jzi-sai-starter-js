@@ -94,6 +94,7 @@
     }
 
     .hero-fulton-search {
+      position: relative;
       display: flex;
       align-items: stretch;
       width: min(720px, 100%);
@@ -102,22 +103,46 @@
       border: none;
       border-radius: 0;
       box-shadow: 0 4px 24px rgb(0 0 0 / 25%);
-      overflow: hidden;
+      z-index: 2;
 
-      input[type='search'] {
+      /* Sitecore Search PreviewSearch widget */
+      > div,
+      [data-radix-popper-content-wrapper],
+      form {
+        width: 100%;
         flex: 1;
-        border: none;
-        outline: none;
-        background: transparent;
-        padding: 1rem 1.25rem;
+      }
+
+      form {
+        display: flex;
+        margin: 0;
+      }
+
+      input,
+      input[type='search'],
+      input[type='text'] {
+        flex: 1;
+        width: 100%;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        padding: 1rem 1.25rem !important;
         font-family: var(--font-family);
-        font-size: 1.125rem;
+        font-size: 1.125rem !important;
         color: var(--text-body);
-        border-radius: 0;
+        border-radius: 0 !important;
+        line-height: 1.4;
 
         &::placeholder {
           color: var(--bg-accent);
           opacity: 1;
+        }
+
+        &:focus {
+          border: none !important;
+          outline: none !important;
+          box-shadow: none !important;
         }
 
         &::-webkit-search-cancel-button {
@@ -130,28 +155,6 @@
         padding: 1rem 1.25rem;
         color: var(--bg-accent);
         font-size: 1.125rem;
-      }
-
-      button[type='submit'] {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 4.5rem;
-        border: none;
-        border-left: 1px solid #e8ecf0;
-        background: #fff;
-        color: var(--bg-accent);
-        cursor: pointer;
-        border-radius: 0;
-        padding: 0;
-
-        &:hover {
-          background: #f8fafc;
-        }
-
-        svg {
-          display: block;
-        }
       }
     }
   }
