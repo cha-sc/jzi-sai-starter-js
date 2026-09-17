@@ -16,3 +16,8 @@ sdk: "@sitecore-content-sdk/nextjs"
 # If omitted, the agent derives them from siteCollection and siteName using defaults.
 renderingsRoot: "/sitecore/layout/Renderings/Project/fulton-county"
 projectTemplatesRoot: "/sitecore/templates/Project/fulton-county"
+
+# Content root (verified via MCP — site display name may differ from folder name)
+contentRoot: "/sitecore/content/fulton-county/fulton-county"
+homePagePath: "/sitecore/content/fulton-county/fulton-county/Home"
+dataRoot: "/sitecore/content/fulton-county/fulton-county/Data"

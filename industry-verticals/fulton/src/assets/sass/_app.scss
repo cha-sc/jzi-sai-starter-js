@@ -43,6 +43,17 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  font-family: var(--heading-font-family, var(--font-family));
+}
+
+.site-financial {
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
 }
 
 h1 {

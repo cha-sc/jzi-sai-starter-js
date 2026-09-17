@@ -177,6 +177,42 @@ const AuthorListSimple = (props: AuthorListComponentProps): JSX.Element => {
   );
 };
 
+const AuthorListFultonCounty = (props: AuthorListComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const authors = props.fields?.items?.filter((item) => item.name !== 'Data');
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <div
+      className={`component author-list author-list-fulton ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <h2 className="author-list-fulton-heading">Fulton County Board of Commissioners</h2>
+        <div className="author-list-fulton-grid">
+          {authors?.map((author) => (
+            <div className="author-list-fulton-card" key={author.url}>
+              <Link href={author.url} className="author-list-fulton-photo">
+                <NextImage field={author.fields.Photo} width={400} height={400} />
+              </Link>
+              <h3 className="author-list-fulton-name">
+                <Text field={author.fields.Name} />
+              </h3>
+              <p className="author-list-fulton-position">
+                <Text field={author.fields.Position} />
+              </p>
+              <Link href={author.url} className="author-list-fulton-read-more">
+                Read More
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Default = withDatasourceCheck()<AuthorListComponentProps>(AuthorListDefault);
 export const Slider = withDatasourceCheck()<AuthorListComponentProps>(AuthorListSlider);
 export const Simple = withDatasourceCheck()<AuthorListComponentProps>(AuthorListSimple);
+export const FultonCounty = withDatasourceCheck()<AuthorListComponentProps>(AuthorListFultonCounty);

@@ -22,6 +22,8 @@ interface Fields {
   Name: Field<string>;
   Photo: ImageField;
   Position: Field<string>;
+  /** Optional; shown in FultonCounty variant when present */
+  Date?: Field<string>;
 }
 
 export type ArticleListItemProps = {
@@ -201,7 +203,65 @@ const ArticleListGrid = (props: ArticleListComponentProps): JSX.Element => {
   );
 };
 
+const ArticleListFultonCounty = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+  const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <div
+      className={`component component-spaced article-list article-list-fulton ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <h2 className="article-list-fulton-heading">Your Fulton County News &amp; Information</h2>
+        <div className="article-list-fulton-grid">
+          {newsItems?.map((item) => {
+            const dateField = item.fields.Date;
+            const hasDate = Boolean(dateField?.value);
+
+            return (
+              <article className="article-list-fulton-card" key={item.url}>
+                <Link href={item.url} className="article-list-fulton-thumb">
+                  <NextImage field={item.fields.Thumbnail} width={600} height={360} />
+                </Link>
+                <div className="article-list-fulton-body">
+                  {hasDate && (
+                    <p className="article-list-fulton-date">
+                      <Text field={dateField} />
+                    </p>
+                  )}
+                  <h3 className="article-list-fulton-title">
+                    <Link href={item.url}>
+                      <Text field={item.fields.Title} />
+                    </Link>
+                  </h3>
+                  <p className="article-list-fulton-excerpt">
+                    <Text field={item.fields.Excerpt} />
+                  </p>
+                  <Link href={item.url} className="article-list-fulton-read-more">
+                    Read More &gt;
+                  </Link>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+        <div className="article-list-fulton-footer">
+          <Link href={allArticlesPageHref} className="article-list-fulton-see-more">
+            See More Fulton County News
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Default = withDatasourceCheck()<ArticleListComponentProps>(ArticleListDefault);
 export const ThreeColumn = withDatasourceCheck()<ArticleListComponentProps>(ArticleListThreeColumn);
 export const Simplified = withDatasourceCheck()<ArticleListComponentProps>(ArticleListSimplified);
 export const Grid = withDatasourceCheck()<ArticleListComponentProps>(ArticleListGrid);
+export const FultonCounty = withDatasourceCheck()<ArticleListComponentProps>(
+  ArticleListFultonCounty
+);

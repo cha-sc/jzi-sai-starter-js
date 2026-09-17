@@ -1,6 +1,6 @@
 'use client';
 
-import { JSX } from 'react';
+import { FormEvent, JSX } from 'react';
 import {
   Field,
   ImageField,
@@ -104,6 +104,93 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
             placeholder="two-col-placeholder-right"
             delay={500}
           />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+/* FultonCounty variant — district finder: navy address search + map */
+export const FultonCounty = (props: TwoColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const addressPlaceholder =
+    props.fields?.Text1?.value?.toString() ||
+    'Enter your address to find out which district you live in';
+  const searchHref = props.fields?.Link1?.value?.href || '#';
+
+  const handleSubmit = (event: FormEvent) => {
+    event.preventDefault();
+    if (searchHref && searchHref !== '#') {
+      window.location.href = searchHref;
+    }
+  };
+
+  return (
+    <div
+      className={`component two-column-cta two-column-cta-fulton ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row g-0 align-items-stretch">
+          <div className="col-lg-6">
+            <div className="fulton-district-panel">
+              {(isPageEditing || props.fields?.Title1?.value) && (
+                <h2 className="fulton-district-title">
+                  <Text field={props.fields.Title1} />
+                </h2>
+              )}
+              {(isPageEditing || props.fields?.Text1?.value) && (
+                <p className="fulton-district-helper">
+                  <Text field={props.fields.Text1} />
+                </p>
+              )}
+              <form className="fulton-district-search" onSubmit={handleSubmit} role="search">
+                {isPageEditing ? (
+                  <div className="fulton-district-search-editing">
+                    <Text field={props.fields.Text1} tag="span" />
+                  </div>
+                ) : (
+                  <input
+                    type="search"
+                    name="address"
+                    aria-label="Address search"
+                    placeholder={addressPlaceholder}
+                    defaultValue=""
+                  />
+                )}
+                {(isPageEditing || props.fields?.Link1?.value?.href) && (
+                  <button type="submit" className="fulton-district-search-btn">
+                    {props.fields?.Link1?.value?.text || 'SEARCH'}
+                  </button>
+                )}
+              </form>
+              <Placeholder name="two-col-placeholder-left" rendering={props.rendering} />
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="fulton-district-map">
+              {(isPageEditing || props.fields?.Image2?.value?.src) && (
+                <NextImage field={props.fields.Image2} width={800} height={600} />
+              )}
+              {(isPageEditing || props.fields?.Title2?.value) && (
+                <h3 className="fulton-district-map-title">
+                  <Text field={props.fields.Title2} />
+                </h3>
+              )}
+              {(isPageEditing || props.fields?.Text2?.value) && (
+                <p className="fulton-district-map-text">
+                  <Text field={props.fields.Text2} />
+                </p>
+              )}
+              {(isPageEditing || props.fields?.Link2?.value?.href) && (
+                <Link field={props.fields.Link2} className="fulton-district-learn-more" />
+              )}
+              <Placeholder name="two-col-placeholder-right" rendering={props.rendering} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

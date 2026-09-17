@@ -119,3 +119,88 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* FultonCounty variant — navy Top Services icon cards */
+export const FultonCounty = (props: FourColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionTitle = props.params?.SectionTitle || '';
+  const sectionEyebrow = props.params?.SectionEyebrow || 'FULTON COUNTY GOVERNMENT';
+  const showHeading = props.params?.ShowSectionHeading === '1';
+
+  const cards = [
+    {
+      image: props.fields.Image1,
+      title: props.fields.Title1,
+      text: props.fields.Text1,
+      link: props.fields.Link1,
+    },
+    {
+      image: props.fields.Image2,
+      title: props.fields.Title2,
+      text: props.fields.Text2,
+      link: props.fields.Link2,
+    },
+    {
+      image: props.fields.Image3,
+      title: props.fields.Title3,
+      text: props.fields.Text3,
+      link: props.fields.Link3,
+    },
+    {
+      image: props.fields.Image4,
+      title: props.fields.Title4,
+      text: props.fields.Text4,
+      link: props.fields.Link4,
+    },
+  ];
+
+  return (
+    <div
+      className={`component four-column-cta four-column-cta-fulton ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        {showHeading && (
+          <div className="fulton-services-heading">
+            <p className="fulton-services-eyebrow">{sectionEyebrow}</p>
+            <h2 className="fulton-services-title">{sectionTitle || 'TOP SERVICES'}</h2>
+          </div>
+        )}
+        <div className="row g-4">
+          {cards.map((card, index) => {
+            const hasContent =
+              isPageEditing ||
+              card.title?.value ||
+              card.image?.value?.src ||
+              card.link?.value?.href;
+            if (!hasContent) return null;
+
+            return (
+              <div className="col-12 col-sm-6 col-lg-3" key={index}>
+                <div className="fulton-service-card">
+                  <div className="fulton-service-icon">
+                    <NextImage field={card.image} width={72} height={72} />
+                  </div>
+                  <h3>
+                    <Text field={card.title} />
+                  </h3>
+                  {(isPageEditing || card.text?.value) && (
+                    <p className="fulton-service-text">
+                      <Text field={card.text} />
+                    </p>
+                  )}
+                  {(isPageEditing || card.link?.value?.href) && (
+                    <Link field={card.link} className="fulton-read-more" />
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+};

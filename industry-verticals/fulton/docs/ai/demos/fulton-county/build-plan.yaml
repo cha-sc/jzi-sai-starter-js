@@ -1,0 +1,215 @@
+# Demo Build Plan — Fulton County Government
+# Mapped to PLAY Financial component kit available on site "fulton-county"
+# (uiim template library is documented but not present in this codebase)
+
+client:
+  name: "Fulton County Government"
+  sourceUrl: "https://www.fultoncountyga.gov/"
+  themeFile: "docs/ai/themes/fulton-county.theme.yaml"
+  analyzedAt: "2026-09-17T04:30:00Z"
+  contentRoot: "/sitecore/content/fulton-county/fulton-county"
+  homePageId: "47fa8502-55be-47d7-9544-0aabb55acc09"
+  homePagePath: "/sitecore/content/fulton-county/fulton-county/Home"
+  codeRoot: "industry-verticals/fulton"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/fulton-county/screenshot-desktop.png"
+    mobile: "docs/ai/themes/fulton-county/screenshot-mobile.png"
+    hero: "docs/ai/themes/fulton-county/screenshot-hero.png"
+    userProvided: "docs/ai/demos/fulton-county/user-screenshot.jpg"
+  totalSections: 8
+  templateMatches: 6
+  customRequired: 2
+  libraryNote: "Using existing PLAY Page Content components (Hero, Features/CTA grids, ArticleList, AuthorList, etc.), not uiim templates."
+
+sections:
+  - position: 1
+    description: "Dark navy utility bar with quick links (Elections, Jobs, Calendar, Payments, News, Maps, Customer Service, Watch FGTV) and language selector"
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      links:
+        - "Elections"
+        - "Jobs"
+        - "Calendar"
+        - "Commission District Finder"
+        - "Payments"
+        - "News"
+        - "Maps"
+        - "Customer Service"
+        - "Watch FGTV"
+    notes: "Lives in header partial design — update Link List datasource + restyle to Fulton navy utility bar"
+
+  - position: 2
+    description: "White header with Fulton County logo (oak seal + FULTON/COUNTY wordmark) and uppercase main nav"
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "default"
+    content:
+      brand: "FULTON COUNTY"
+      nav:
+        - "Email Newsletters"
+        - "Services"
+        - "Property and Vehicles"
+        - "Business Services"
+        - "Courts"
+        - "Commissioners"
+        - "Get Involved"
+        - "Inside Fulton County"
+    notes: "Partial design — update logo media + Navigation items; wordmark colors already themed (blue/orange)"
+
+  - position: 3
+    description: "Full-bleed Government Center photo with centered white search bar overlay ('I need help finding...')"
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "SearchOverlay"
+      matchType: "custom"
+      matchConfidence: "medium"
+      apiAddable: true
+      customVariantNeeded:
+        name: "SearchOverlay"
+        description: "Full-bleed background image with centered search input overlay; minimal/no headline text"
+        parentComponent: "Hero"
+    sectionBackground: "default"
+    content:
+      placeholder: "I need help finding..."
+      image: "Fulton County Government Center exterior"
+    notes: "Existing Hero shows title/subtitle/CTA. Need SearchOverlay variant (or lightweight custom) to match live site."
+
+  - position: 4
+    description: "Navy band 'FULTON COUNTY GOVERNMENT / TOP SERVICES' with 8 white icon service cards in a 4x2 grid"
+    matchedComponent:
+      registryId: "top-services"
+      manifestName: "TopServices"
+      variant: "FourByTwo"
+      matchType: "custom"
+      matchConfidence: "medium"
+      apiAddable: true
+      customVariantNeeded:
+        name: "FourByTwo"
+        description: "Dark navy section, uppercase title, 4x2 white cards with icon + title + orange Read More"
+        parentComponent: "FourColumnCta"
+    sectionBackground: "primary"
+    content:
+      eyebrow: "FULTON COUNTY GOVERNMENT"
+      title: "TOP SERVICES"
+      cards:
+        - { title: "Registration and Elections", cta: "More about Registration and Elections" }
+        - { title: "Commission District Finder", cta: "View Interactive Maps" }
+        - { title: "Employment opportunities", cta: "Read More" }
+        - { title: "Watch FGTV", cta: "READ MORE" }
+        - { title: "Senior Centers", cta: "Read More" }
+        - { title: "BOC Meeting Schedule", cta: "Read More" }
+        - { title: "Experience Fulton the Podcast", cta: "Read More" }
+        - { title: "A - Z Directory", cta: "View Guide" }
+    notes: "Fallback if custom skipped: two stacked FourColumnCta datasources on navy background"
+
+  - position: 5
+    description: "News & Information — two-column news cards with image, date, headline, excerpt, orange Read More; Browse More News CTA"
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "ArticleList"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      title: "Your Fulton County News & Information"
+      cta: "See More Fulton County News"
+      sampleArticles:
+        - "Fulton County Hosts Annual Rebound for Recovery"
+        - "Fulton County Educates Voters in Recognition of Civic Holidays"
+        - "Fulton County Board of Commissioners Hold Second Regular September Meeting"
+        - "Fulton County Arts & Culture Unveils Exhibit"
+    notes: "Reuse ArticleList; replace PLAY finance articles with Fulton County news content + images"
+
+  - position: 6
+    description: "What is my District? — address lookup form on left, district map / district cards on right"
+    matchedComponent:
+      registryId: "district-finder"
+      manifestName: "DistrictFinder"
+      variant: "Default"
+      matchType: "custom"
+      matchConfidence: "low"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      title: "What is my District?"
+      description: "Enter your address to find out which district you live in"
+      districts:
+        - "District 1 - Bridget Thorne"
+        - "District 2 - Bob Ellis"
+        - "District 3 - Dana Barrett"
+        - "District 4 - Vacant"
+        - "District 5 - Marvin S. Arrington, Jr."
+        - "District 6 - Khadijah Abdur-Rahman"
+    notes: "Interactive GIS is out of scope for demo. Build visual DistrictFinder (form UI + map image / district cards). Fallback: TwoColumnCta with map image (non-interactive)."
+
+  - position: 7
+    description: "Board of Commissioners — intro copy + chairman feature + grid of commissioner profiles"
+    matchedComponent:
+      registryId: "author-list"
+      manifestName: "AuthorList"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "Fulton County Board of Commissioners"
+      people:
+        - { name: "Robb Pitts", position: "Chairman" }
+        - { name: "Bridget Thorne", position: "District 1" }
+        - { name: "Bob Ellis", position: "District 2" }
+        - { name: "Dana Barrett", position: "District 3" }
+        - { name: "Marvin S. Arrington, Jr.", position: "District 5" }
+        - { name: "Khadijah Abdur-Rahman", position: "Vice Chair, District 6" }
+    notes: "AuthorList maps well to people cards; may need Fulton styling variant for navy cards / orange district labels"
+
+  - position: 8
+    description: "Footer — Contact Us, Helpful Links columns, social icons, copyright"
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      address: "141 Pryor St. SW Atlanta, GA 30303"
+      phone: "404-612-4000"
+      email: "customerservice@fultoncountyga.gov"
+      copyright: "©2026 Fulton County Government"
+    notes: "Partial design — update Link Lists + contact rich text; footer already uses --bg-footer navy"
+
+buildOrder:
+  - "Update Eyebrow + Header + Footer partials (logo, nav, contact)"
+  - "Create/replace Home hero with SearchOverlay (or Hero + search chrome)"
+  - "Build Top Services (custom or dual FourColumnCta) on navy"
+  - "Repoint ArticleList to Fulton news items"
+  - "Add DistrictFinder (custom) or TwoColumnCta fallback"
+  - "Populate AuthorList with commissioners"
+  - "Remove leftover PLAY finance components (Comparison, Loan Calculator, App Promo, etc.)"
+
+removeFromHome:
+  - "Comparison"
+  - "Carousel (finance)"
+  - "Promo CTA (finance)"
+  - "Documents List (if finance-specific)"
+  - "App Promo"
+  - "Loan Calculator (if present in partials)"

@@ -66,6 +66,16 @@
   }
 }
 
+// Fulton County: uppercase main nav, matching live site
+.site-financial .navigation {
+  .level0:not(.button-nav-item) > .navigation-title > a {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-size: 0.8125rem;
+  }
+}
+
 @import 'src/assets/sass/components/navigation/navigation-main-horizontal-vertical';
 @import 'src/assets/sass/components/navigation/navigation-mobile';
 @import 'src/assets/sass/components/navigation/navigation-sidebar';

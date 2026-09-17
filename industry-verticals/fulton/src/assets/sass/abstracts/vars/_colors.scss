@@ -1,40 +1,40 @@
-// Financial
+// Fulton County (site-financial is the active demo theme class)
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --text-body: #212529;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #174a7c;
+  --text-footer: #c8d0d8;
+  --text-accent: #e46e2b;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #002353;
+  --bg-main: #f0f4f8;
+  --bg-main-alt: #f0f4f8;
+  --bg-color: #174a7c;
+  --bg-saturated: #002d53;
+  --bg-accent: #e46e2b;
+  --border-color: #dee2e6;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0;
 }
 
 body.site-financial.dark,
 .dark .site-financial {
   --text-body: #fff;
-  --text-body-inverted: #333;
-  --text-colored: #c5e4f3;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
-  --bg-body: #031827;
-  --bg-footer: #1a2f3d;
-  --bg-main: #034c81;
-  --bg-main-alt: #031827;
-  --bg-color: #034c81;
-  --bg-saturated: #5ba3d0;
-  --bg-accent: #c03021;
-  --border-color: #034c81;
+  --text-body-inverted: #212529;
+  --text-colored: #7ba3c9;
+  --text-footer: #c8d0d8;
+  --text-accent: #e46e2b;
+  --bg-body: #001a33;
+  --bg-footer: #002353;
+  --bg-main: #002d53;
+  --bg-main-alt: #001a33;
+  --bg-color: #174a7c;
+  --bg-saturated: #077ec3;
+  --bg-accent: #e46e2b;
+  --border-color: #174a7c;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0;
 }
 
 // Services

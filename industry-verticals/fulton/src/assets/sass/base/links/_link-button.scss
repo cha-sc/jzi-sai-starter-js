@@ -6,10 +6,11 @@
   --button-main-bg-color: var(--bg-saturated);
   --button-secondary-color: var(--text-colored);
   --button-simple-color: var(--text-colored);
-  --button-padding: 10px 50px;
-  --button-roundness: 40px;
-  --button-font-weight: 500;
-  --button-font-size: 1.125rem;
+  --button-padding: 12px 28px;
+  --button-roundness: 0;
+  --button-font-weight: 600;
+  --button-font-size: 0.9375rem;
+  --button-text-transform: uppercase;
 }
 
 .site-services {

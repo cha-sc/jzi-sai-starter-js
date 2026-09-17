@@ -15,7 +15,7 @@
   }
 }
 
-// PLAY! finance specific styles
+// Fulton County header wordmark colors (FULTON = blue, COUNTY = orange)
 .site-financial .header {
   h1 {
     font-size: 2rem !important;
@@ -24,6 +24,9 @@
     margin: 0 !important;
     display: flex;
     text-align: left;
+    font-family: var(--heading-font-family, var(--font-family));
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 
     @media (width < 1200px) {
       flex-direction: column;
@@ -35,9 +38,9 @@
 
     .play {
       display: flex;
-      font-weight: bold;
+      font-weight: 600;
       text-transform: uppercase;
-      color: #255be3;
+      color: #174a7c;
 
       svg {
         width: 1rem;
@@ -50,7 +53,7 @@
 
     .finance {
       color: var(--bg-accent);
-      font-weight: 300;
+      font-weight: 500;
     }
   }
 }

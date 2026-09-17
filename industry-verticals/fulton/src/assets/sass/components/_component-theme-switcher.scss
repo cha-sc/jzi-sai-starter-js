@@ -13,7 +13,7 @@
 
     &:checked {
       + .theme-switcher-slider {
-        background-color: var(--bg-saturated, #034c81);
+        background-color: var(--bg-saturated, #002d53);
 
         &::before {
           transform: translateX(22px);
@@ -26,9 +26,9 @@
   &-slider {
     position: absolute;
     inset: 0;
-    border-radius: calc(var(--roundness, 1rem) * 2.125);
-    background-color: var(--bg-main, #f0f5f7);
-    border: 1px solid var(--border-color, #d2d2d2);
+    border-radius: calc(var(--roundness, 0) * 2.125);
+    background-color: var(--bg-main, #f0f4f8);
+    border: 1px solid var(--border-color, #dee2e6);
     transition: 0.4s;
     cursor: pointer;
 
@@ -39,7 +39,7 @@
       width: 1.3rem;
       left: 0.187rem;
       bottom: calc(0.187rem - 1px);
-      background-color: var(--bg-saturated, #034c81);
+      background-color: var(--bg-saturated, #002d53);
       border-radius: 50%;
       transition: 0.4s;
     }
@@ -50,7 +50,7 @@
   margin: 0;
 
   &-slider {
-    background-color: var(--bg-main, #f0f5f7);
+    background-color: var(--bg-main, #f0f4f8);
     border-color: rgb(255 255 255 / 40%);
   }
 }
