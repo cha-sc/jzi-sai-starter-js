@@ -1,13 +1,7 @@
 'use client';
 
 import { JSX } from 'react';
-import {
-  Link,
-  LinkField,
-  Text,
-  TextField,
-  useSitecore,
-} from '@sitecore-content-sdk/nextjs';
+import { Link, LinkField, TextField, useSitecore } from '@sitecore-content-sdk/nextjs';
 
 type LinkListChild = {
   field?: {
@@ -42,6 +36,7 @@ export type LinkListProps = {
     };
     Title?: TextField;
     items?: LinkListItemShape[];
+    children?: LinkListChild[];
   };
 };
 
@@ -60,51 +55,21 @@ const getLinkFields = (props: LinkListProps): LinkField[] => {
       .filter((link): link is LinkField => Boolean(link?.value?.href || link?.value?.text));
   }
 
-  return [];
-};
-
-const getTitleField = (props: LinkListProps): TextField | undefined =>
-  props.fields?.data?.datasource?.field?.title || props.fields?.Title;
-
-export const Default = (props: LinkListProps): JSX.Element => {
-  const id = props.params?.RenderingIdentifier;
-  const sxaStyles = `${props.params?.styles || ''}`.trimEnd();
-  const links = getLinkFields(props);
-  const titleField = getTitleField(props);
-  const { page } = useSitecore();
-  const { isEditing } = page.mode;
-
-  if (!links.length && !isEditing) {
-    return <></>;
+  const children = props.fields?.children;
+  if (Array.isArray(children) && children.length > 0) {
+    return children
+      .map((item) => item?.field?.link || item?.fields?.Link)
+      .filter((link): link is LinkField => Boolean(link?.value?.href || link?.value?.text));
   }
 
-  return (
-    <nav
-      className={`component link-list ${sxaStyles}`}
-      id={id ? id : undefined}
-      aria-label="Link list"
-    >
-      <div className="component-content">
-        {(titleField?.value || isEditing) && <Text tag="h3" field={titleField} />}
-        <ul>
-          {links.map((link, index) => (
-            <li key={`${link.value?.href || 'link'}-${index}`}>
-              <div className="field-link">
-                <Link field={link} />
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </nav>
-  );
+  return [];
 };
 
 /**
  * Fulton County utility bar — horizontal uppercase links for the navy eyebrow.
- * Wire to /Data/Link Lists/Utility Nav and select this variant in Pages.
+ * Default matches UtilityNav so the component works even when FieldNames is still Default.
  */
-export const UtilityNav = (props: LinkListProps): JSX.Element => {
+const UtilityNavView = (props: LinkListProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`.trimEnd();
   const links = getLinkFields(props);
@@ -134,3 +99,7 @@ export const UtilityNav = (props: LinkListProps): JSX.Element => {
     </nav>
   );
 };
+
+export const Default = (props: LinkListProps): JSX.Element => <UtilityNavView {...props} />;
+
+export const UtilityNav = (props: LinkListProps): JSX.Element => <UtilityNavView {...props} />;
