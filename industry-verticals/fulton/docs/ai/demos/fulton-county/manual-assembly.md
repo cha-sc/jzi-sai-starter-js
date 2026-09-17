@@ -2,7 +2,22 @@
 
 `add_component_on_page` and `set_component_datasource` are currently failing on this site (Agent API 500 / “No saveItem”). Datasources were created and populated; layout placement and FieldNames must be finished in Pages.
 
-## Ready datasources (wire these)
+## Utility Navigation (eyebrow)
+
+**Code:** `LinkList` with **`UtilityNav`** variant (`src/components/navigation/LinkList.tsx`)  
+**Datasource:** `/sitecore/content/fulton-county/fulton-county/Data/Link Lists/Utility Nav` (`1727968c-0663-4a34-9ca1-89061c6a2c5b`)  
+**Variant ID:** `{9EF93F5C-323F-4688-92F0-E392E9D35D24}`  
+**Rendering:** Link List `4956263d-1195-4d6e-931b-800ea625ff6f`
+
+### Pages steps
+1. Open Partial Design **Header**
+2. On **Eyebrow** → placeholder `eyebrow-left`, add **Link List**
+3. Assign datasource **Utility Nav**
+4. Design tab → variant **UtilityNav**
+5. Save / publish
+
+Optional: rename child item `Link 1` → `Elections` and confirm sort order matches the live site (Elections → … → Watch FGTV).
+
 
 | Role | Item name | Item ID | Path |
 |------|-----------|---------|------|

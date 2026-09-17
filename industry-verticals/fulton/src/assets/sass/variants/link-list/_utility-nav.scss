@@ -1,0 +1,76 @@
+@import 'src/assets/sass/abstracts/vars';
+@import 'src/assets/sass/abstracts/mixins';
+
+// Fulton County utility navigation (navy eyebrow middle links)
+.link-list.utility-nav {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  .utility-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.15rem 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .utility-nav__item {
+    display: block;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .utility-nav__link,
+  a {
+    display: inline-block;
+    color: #fff;
+    font-family: var(--font-family, 'Open Sans', sans-serif);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.35rem 0;
+    position: static;
+    white-space: nowrap;
+
+    &::before {
+      content: none;
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      border-bottom: none;
+      opacity: 0.9;
+    }
+  }
+
+  .utility-nav__empty {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.75rem;
+  }
+
+  @include respond-to(mobile-large) {
+    .utility-nav__list {
+      justify-content: flex-start;
+      gap: 0.5rem 0.85rem;
+    }
+
+    .utility-nav__link,
+    a {
+      font-size: 0.625rem;
+      white-space: normal;
+    }
+  }
+}

@@ -3,8 +3,8 @@
 import { AppPlaceholder, ComponentMap, ImageField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { JSX, useState } from 'react';
-import PreviewSearch from "../search/PreviewSearch"
-import { PREVIEW_WIDGET_ID } from "../../_data/customizations";
+// import PreviewSearch from "../search/PreviewSearch"
+//import { PREVIEW_WIDGET_ID } from "../../_data/customizations";
 
 export type EyebrowProps = ComponentProps & {
   fields: {
@@ -16,7 +16,7 @@ export type EyebrowProps = ComponentProps & {
 export const Default = (props: EyebrowProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  // const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
     <div className={`component eyebrow	${props.params.styles?.trimEnd()}`} id={id ? id : undefined}>
@@ -26,7 +26,7 @@ export const Default = (props: EyebrowProps): JSX.Element => {
             <AppPlaceholder name="eyebrow-left" rendering={props.rendering} page={page} componentMap={props.componentMap} />
             <AppPlaceholder name="eyebrow-right" rendering={props.rendering} page={page} componentMap={props.componentMap} />
           </div>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
               <PreviewSearch rfkId={PREVIEW_WIDGET_ID} isOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen} />
 
               <button
@@ -37,7 +37,7 @@ export const Default = (props: EyebrowProps): JSX.Element => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
-            </div>
+            </div> */}
         </div>
       </div>
     </div>

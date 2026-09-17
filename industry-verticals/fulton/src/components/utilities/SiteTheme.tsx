@@ -7,6 +7,7 @@ export function SiteTheme({ siteName }: { siteName: string | undefined }): JSX.E
   useEffect(() => {
     const themeClass = getSiteThemeClass(siteName);
 
+    document.body.classList.remove('dark');
     document.body.classList.add(themeClass);
 
     return () => {

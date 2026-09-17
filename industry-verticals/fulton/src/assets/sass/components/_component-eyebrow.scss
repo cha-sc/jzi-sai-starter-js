@@ -18,6 +18,36 @@
   }
 }
 
+// Fulton County: utility links sit mid-bar; language switcher stays on the right
+.site-financial .eyebrow {
+  background-color: var(--bg-saturated, #002d53);
+  color: #fff;
+  min-height: 2.25rem;
+
+  .container {
+    max-width: 100%;
+  }
+
+  .col-placeholder {
+    justify-content: flex-end;
+    gap: 1.5rem;
+    width: 100%;
+    min-height: 2.25rem;
+  }
+
+  .link-list.utility-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .language-switcher {
+    flex: 0 0 auto;
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+    padding-left: 1.25rem;
+    margin-left: 0.25rem;
+  }
+}
+
 .site-services .eyebrow .container {
   border-bottom: 1px solid var(--border-color);
 }

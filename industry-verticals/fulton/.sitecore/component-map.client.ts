@@ -64,6 +64,7 @@ import * as IconAccent from 'src/components/non-sitecore/IconAccent';
 import * as DottedAccent from 'src/components/non-sitecore/DottedAccent';
 import * as CountUp from 'src/components/non-sitecore/CountUp';
 import * as Navigation from 'src/components/navigation/Navigation';
+import * as LinkList from 'src/components/navigation/LinkList';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
@@ -131,6 +132,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['DottedAccent', { ...DottedAccent }],
   ['CountUp', { ...CountUp }],
   ['Navigation', { ...Navigation }],
+  ['LinkList', { ...LinkList }],
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],
