@@ -12,6 +12,8 @@ import {
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 interface Fields {
   Title: Field<string>;
@@ -258,6 +260,83 @@ const ArticleListFultonCounty = (props: ArticleListComponentProps): JSX.Element 
   );
 };
 
+const ArticleListCarousel = (props: ArticleListComponentProps): JSX.Element => {
+  const id = props.params?.RenderingIdentifier;
+  const newsItems = getNewsItems(props.fields?.items, parseInt(props.params?.NumberOfItems));
+  const allArticlesPageHref = getAllArticlesPageHref(props.fields?.items);
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const itemCount = newsItems?.length || 0;
+
+  return (
+    <div
+      className={`component component-spaced article-list article-list-carousel ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <h2 className="article-list-carousel-heading">Your Fulton County News &amp; Information</h2>
+        {itemCount > 0 && (
+          <div className="article-list-carousel-viewport">
+            <Swiper
+              modules={[Autoplay, Pagination]}
+              slidesPerView={1}
+              spaceBetween={0}
+              loop={itemCount > 1}
+              allowTouchMove={false}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false,
+              }}
+              pagination={{
+                clickable: false,
+              }}
+              className="article-list-carousel-swiper"
+            >
+              {newsItems.map((item) => {
+                const dateField = item.fields.Date;
+                const hasDate = Boolean(dateField?.value);
+
+                return (
+                  <SwiperSlide key={item.url}>
+                    <article className="article-list-carousel-slide">
+                      <Link href={item.url} className="article-list-carousel-media">
+                        <NextImage field={item.fields.Thumbnail} width={1200} height={560} />
+                      </Link>
+                      <div className="article-list-carousel-content">
+                        {hasDate && (
+                          <p className="article-list-carousel-date">
+                            <Text field={dateField} />
+                          </p>
+                        )}
+                        <h3 className="article-list-carousel-title">
+                          <Link href={item.url}>
+                            <Text field={item.fields.Title} />
+                          </Link>
+                        </h3>
+                        <p className="article-list-carousel-excerpt">
+                          <Text field={item.fields.Excerpt} />
+                        </p>
+                        <Link href={item.url} className="article-list-carousel-read-more">
+                          Read More &gt;
+                        </Link>
+                      </div>
+                    </article>
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
+        )}
+        <div className="article-list-carousel-footer">
+          <Link href={allArticlesPageHref} className="article-list-carousel-see-more">
+            See More Fulton County News
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Default = withDatasourceCheck()<ArticleListComponentProps>(ArticleListDefault);
 export const ThreeColumn = withDatasourceCheck()<ArticleListComponentProps>(ArticleListThreeColumn);
 export const Simplified = withDatasourceCheck()<ArticleListComponentProps>(ArticleListSimplified);
@@ -265,3 +344,4 @@ export const Grid = withDatasourceCheck()<ArticleListComponentProps>(ArticleList
 export const FultonCounty = withDatasourceCheck()<ArticleListComponentProps>(
   ArticleListFultonCounty
 );
+export const Carousel = withDatasourceCheck()<ArticleListComponentProps>(ArticleListCarousel);

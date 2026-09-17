@@ -8,10 +8,10 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { useEffect, useState, Suspense, useCallback, useMemo, useRef } from 'react';
 import React from 'react';
 import { getSiteThemeClass } from 'lib/site-theme';
+import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Text, useSitecore, NextImage, Link, RichText, Placeholder, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import { usePreviewSearchActions, useSearchResultsActions, WidgetDataType, useSearchResults, widget, PageController, WidgetsProvider, useQuestions, usePreviewSearch, FilterEqual, useSearchResultsSelectedFilters } from '@sitecore-search/react';
@@ -45,20 +45,12 @@ import Head from 'next/head';
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import { IconAccent } from 'components/non-sitecore/IconAccent';
-import PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 from 'src/components/search/PreviewSearch';
+import PreviewSearch_2ea3ba0f40d598d351625d9652311fe0e95f0ba5 from 'components/search/PreviewSearch';
 import client from 'src/lib/sitecore-client';
 import { pageView } from '@sitecore-content-sdk/events';
 import config from 'sitecore.config';
 
 const importMap = [
-  {
-    module: 'react/jsx-runtime',
-    exports: [
-      { name: 'jsx', value: jsx },
-      { name: 'jsxs', value: jsxs },
-      { name: 'Fragment', value: Fragment },
-    ]
-  },
   {
     module: 'react',
     exports: [
@@ -75,6 +67,14 @@ const importMap = [
     module: 'lib/site-theme',
     exports: [
       { name: 'getSiteThemeClass', value: getSiteThemeClass },
+    ]
+  },
+  {
+    module: 'react/jsx-runtime',
+    exports: [
+      { name: 'jsx', value: jsx },
+      { name: 'jsxs', value: jsxs },
+      { name: 'Fragment', value: Fragment },
     ]
   },
   {
@@ -329,9 +329,9 @@ const importMap = [
     ]
   },
   {
-    module: 'src/components/search/PreviewSearch',
+    module: 'components/search/PreviewSearch',
     exports: [
-      { name: 'default', value: PreviewSearch_4de1a796917131c02c1d8f23d3df1bc9d5bbcf97 },
+      { name: 'default', value: PreviewSearch_2ea3ba0f40d598d351625d9652311fe0e95f0ba5 },
     ]
   },
   {

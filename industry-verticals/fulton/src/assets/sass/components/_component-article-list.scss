@@ -218,4 +218,199 @@
       }
     }
   }
+
+  /* Fulton County — news carousel (auto-rotate, overlay indicators) */
+  &.article-list-carousel {
+    background-color: #f0f4f8;
+    padding: 3.5rem 0 4rem;
+    border-radius: 0;
+
+    @include respond-to(mobile-large) {
+      padding: 2.5rem $size-padding 3rem;
+    }
+
+    .article-list-carousel-heading {
+      margin: 0 0 2.5rem;
+      text-align: center;
+      font-family: var(--heading-font-family);
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--bg-saturated);
+    }
+
+    .article-list-carousel-viewport {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article-list-carousel-swiper {
+      width: 100%;
+      position: relative;
+
+      .swiper-pagination {
+        position: absolute;
+        left: 0;
+        /* Align with the image column (~1.2fr of 2.2fr) so dots overlay media */
+        width: calc(1.2 / 2.2 * 100%);
+        right: auto;
+        bottom: 1.25rem;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        pointer-events: none;
+      }
+
+      .swiper-pagination-bullet {
+        width: 0.625rem;
+        height: 0.625rem;
+        margin: 0 !important;
+        background: rgba(255, 255, 255, 0.55);
+        opacity: 1;
+        border: 1px solid var(--bg-saturated);
+        border-radius: 0;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+
+        &.swiper-pagination-bullet-active {
+          background: var(--bg-accent);
+          border-color: var(--bg-accent);
+          transform: scale(1.15);
+        }
+      }
+
+      @include respond-to(mobile-large) {
+        .swiper-pagination {
+          width: 100%;
+          bottom: auto;
+          top: calc(14rem - 2rem);
+        }
+      }
+    }
+
+    .article-list-carousel-slide {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 0;
+      min-height: 22rem;
+      background: #fff;
+
+      @include respond-to(mobile-large) {
+        grid-template-columns: 1fr;
+        min-height: 0;
+      }
+    }
+
+    .article-list-carousel-media {
+      display: block;
+      position: relative;
+      min-height: 22rem;
+      overflow: hidden;
+
+      @include respond-to(mobile-large) {
+        min-height: 14rem;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0;
+        position: absolute;
+        inset: 0;
+      }
+    }
+
+    .article-list-carousel-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2.5rem 2.75rem;
+      background: #fff;
+
+      @include respond-to(mobile-large) {
+        padding: 1.75rem 1.25rem 2.5rem;
+      }
+    }
+
+    .article-list-carousel-date {
+      margin: 0 0 0.5rem;
+      font-family: var(--font-family);
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--bg-accent);
+    }
+
+    .article-list-carousel-title {
+      margin: 0 0 0.75rem;
+      font-family: var(--heading-font-family);
+      font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--bg-saturated);
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--bg-color);
+        }
+      }
+    }
+
+    .article-list-carousel-excerpt {
+      margin: 0 0 1.25rem;
+      font-family: var(--font-family);
+      font-size: 0.9375rem;
+      line-height: 1.55;
+      color: var(--text-body);
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .article-list-carousel-read-more {
+      font-family: var(--font-family);
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--bg-accent);
+      text-decoration: none;
+      align-self: flex-start;
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--bg-saturated);
+      }
+    }
+
+    .article-list-carousel-footer {
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+
+    .article-list-carousel-see-more {
+      display: inline-block;
+      padding: 0.875rem 2rem;
+      background: var(--bg-accent);
+      color: #fff;
+      font-family: var(--heading-font-family);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 0;
+
+      &:hover {
+        filter: brightness(1.08);
+        color: #fff;
+      }
+    }
+  }
 }
