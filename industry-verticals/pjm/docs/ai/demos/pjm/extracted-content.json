@@ -1,0 +1,2696 @@
+{
+  "url": "https://www.pjm.com/",
+  "extractedAt": "2026-09-26T04:40:26.978Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 6,
+  "totalImages": 30,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 7,
+    "accordionsExpanded": 2,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 1
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "div",
+      "classHint": "",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": []
+    },
+    {
+      "position": 2,
+      "tagName": "div",
+      "classHint": "backgroundHeader",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Toggle navigation",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Corporate Strategy and Value",
+          "href": "https://www.pjm.com/about-pjm/corporate-strategy-and-value",
+          "target": ""
+        },
+        {
+          "text": "PJM History",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/pjm-history",
+          "target": ""
+        },
+        {
+          "text": "Annual Report",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/annual-report",
+          "target": ""
+        },
+        {
+          "text": "Board Meetings",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/pjm-board/board-meetings",
+          "target": ""
+        },
+        {
+          "text": "Independent Market Monitor",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/pjm-board/independent-market-monitor",
+          "target": ""
+        },
+        {
+          "text": "Board Communications",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/pjm-board/public-disclosures",
+          "target": ""
+        },
+        {
+          "text": "Executive Team",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/executive-team",
+          "target": ""
+        },
+        {
+          "text": "Code of Conduct",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/code-of-conduct",
+          "target": ""
+        },
+        {
+          "text": "Territory Served",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/territory-served",
+          "target": ""
+        },
+        {
+          "text": "Culture and Community at PJM",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/culture-and-community-at-pjm",
+          "target": ""
+        },
+        {
+          "text": "Prospective Supplier Questionnaire",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/doing-business/form-prospective-suppliers",
+          "target": ""
+        },
+        {
+          "text": "Supplier Code of Conduct",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/doing-business/supplier-code-of-conduct",
+          "target": ""
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Visiting PJM",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/visiting-pjm",
+          "target": ""
+        },
+        {
+          "text": "Membership Enrollment",
+          "href": "https://www.pjm.com/about-pjm/member-services/membership-enrollment",
+          "target": ""
+        },
+        {
+          "text": "Member List",
+          "href": "https://www.pjm.com/about-pjm/member-services/member-list",
+          "target": ""
+        },
+        {
+          "text": "Distribution/Service of Filings",
+          "href": "https://www.pjm.com/about-pjm/member-services/distribution-service-of-filings",
+          "target": ""
+        },
+        {
+          "text": "Dynamic Transfers",
+          "href": "https://www.pjm.com/about-pjm/member-services/dynamic-transfers",
+          "target": ""
+        },
+        {
+          "text": "Telecommunications Access Request",
+          "href": "https://www.pjm.com/about-pjm/member-services/telecommunications-request-form-access",
+          "target": ""
+        },
+        {
+          "text": "Tie Lines",
+          "href": "https://www.pjm.com/about-pjm/member-services/tie-lines",
+          "target": ""
+        },
+        {
+          "text": "Working at PJM",
+          "href": "https://www.pjm.com/about-pjm/careers/working-at-pjm",
+          "target": ""
+        },
+        {
+          "text": "Open Positions",
+          "href": "https://www.pjm.com/about-pjm/careers/open-positions",
+          "target": ""
+        },
+        {
+          "text": "University Programs",
+          "href": "https://www.pjm.com/about-pjm/careers/university-programs",
+          "target": ""
+        },
+        {
+          "text": "Benefits",
+          "href": "https://www.pjm.com/about-pjm/careers/benefits",
+          "target": ""
+        },
+        {
+          "text": "Announcements & News Releases",
+          "href": "https://www.pjm.com/about-pjm/newsroom/announcements-and-news-releases",
+          "target": ""
+        },
+        {
+          "text": "Brand Guidelines",
+          "href": "https://www.pjm.com/about-pjm/newsroom/brand-guidelines",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds - Committees",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds/rss-feeds-committees",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds - Stakeholder Meetings",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds/rss-feeds-stakeholder-meetings",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds - Subcommittees",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds/rss-feeds-subcommittees",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds - Task Forces",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds/rss-feeds-task-forces",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds - User Groups",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds/rss-feeds-user-groups",
+          "target": ""
+        },
+        {
+          "text": "Contact Directory",
+          "href": "https://www.pjm.com/about-pjm/communications/contact-directory",
+          "target": ""
+        },
+        {
+          "text": "Civic & Community Outreach",
+          "href": "https://www.pjm.com/about-pjm/community-impact/civic-community-outreach",
+          "target": ""
+        },
+        {
+          "text": "Impact on Our Environment",
+          "href": "https://www.pjm.com/about-pjm/community-impact/impact-on-our-environment",
+          "target": ""
+        },
+        {
+          "text": "Advanced Technologies & Innovation",
+          "href": "https://www.pjm.com/about-pjm/advanced-technologies",
+          "target": ""
+        },
+        {
+          "text": "Course Catalog",
+          "href": "https://www.pjm.com/training/course-catalog",
+          "target": ""
+        },
+        {
+          "text": "Initial Training Requirements",
+          "href": "https://www.pjm.com/training/member-training-liaison/initial-training-requirements",
+          "target": ""
+        },
+        {
+          "text": "Generation Exam Resource Materials - 10.6.2025",
+          "href": "https://www.pjm.com/training/certification/resources-gen-oct-2025",
+          "target": ""
+        },
+        {
+          "text": "Transmission Exam Resource Materials - 11.22.2022",
+          "href": "https://www.pjm.com/training/certification/resources-trans-nov-2022",
+          "target": ""
+        },
+        {
+          "text": "Training Resources",
+          "href": "https://www.pjm.com/training/training-resources",
+          "target": ""
+        },
+        {
+          "text": "Webex Training Center",
+          "href": "https://pjmexternal.webex.com/mw3300/mywebex/default.do?siteurl=pjmexternal&service=7",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Center",
+          "href": "https://www.pjm.com/committees-and-groups/meeting-center",
+          "target": ""
+        },
+        {
+          "text": "Critical Issue Fast Path - Large Load Additions",
+          "href": "https://www.pjm.com/committees-and-groups/cifp-lla",
+          "target": ""
+        },
+        {
+          "text": "Critical Issue Fast Path - Reliability Backstop Procurement / Connect & Manage",
+          "href": "https://www.pjm.com/committees-and-groups/cifp-rbp",
+          "target": ""
+        },
+        {
+          "text": "Audit Advisory Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/aac",
+          "target": ""
+        },
+        {
+          "text": "Budget Process & Finance Committee Recommendations",
+          "href": "https://www.pjm.com/committees-and-groups/committees/fc/budget-process-and-fc-recommendations",
+          "target": ""
+        },
+        {
+          "text": "Financial Reporting",
+          "href": "https://www.pjm.com/committees-and-groups/committees/fc/financial-reporting",
+          "target": ""
+        },
+        {
+          "text": "PJM Administrative Cost Rates",
+          "href": "https://www.pjm.com/committees-and-groups/committees/fc/pjm-admin-cost-rates",
+          "target": ""
+        },
+        {
+          "text": "PJM Settlement Administrative Cost Rates",
+          "href": "https://www.pjm.com/committees-and-groups/committees/fc/pjm-settlement-admin-cost-rates",
+          "target": ""
+        },
+        {
+          "text": "Pass-Through Rates",
+          "href": "https://www.pjm.com/committees-and-groups/committees/fc/pass-through-rates",
+          "target": ""
+        },
+        {
+          "text": "Liaison Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/lc",
+          "target": ""
+        },
+        {
+          "text": "Market Implementation Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mic",
+          "target": ""
+        },
+        {
+          "text": "Market Monitoring Unit – Advisory Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mmuac",
+          "target": ""
+        },
+        {
+          "text": "Markets and Reliability Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mrc",
+          "target": ""
+        },
+        {
+          "text": "Members Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mc",
+          "target": ""
+        },
+        {
+          "text": "Nominating Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/nc",
+          "target": ""
+        },
+        {
+          "text": "Operating Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/oc",
+          "target": ""
+        },
+        {
+          "text": "Planning Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/pc",
+          "target": ""
+        },
+        {
+          "text": "Risk Management Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/rmc",
+          "target": ""
+        },
+        {
+          "text": "Subregional RTEP Committee - Mid-Atlantic",
+          "href": "https://www.pjm.com/committees-and-groups/committees/srrtep-ma",
+          "target": ""
+        },
+        {
+          "text": "Subregional RTEP Committee - Southern",
+          "href": "https://www.pjm.com/committees-and-groups/committees/srrtep-s",
+          "target": ""
+        },
+        {
+          "text": "Subregional RTEP Committee - Western",
+          "href": "https://www.pjm.com/committees-and-groups/committees/srrtep-w",
+          "target": ""
+        },
+        {
+          "text": "Transmission Expansion Advisory Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/teac",
+          "target": ""
+        },
+        {
+          "text": "Transmission Owners Agreement-Administrative Committee",
+          "href": "https://www.pjm.com/committees-and-groups/committees/toa-ac",
+          "target": ""
+        },
+        {
+          "text": "Affordability and Reliability for Residential Consumers User Group",
+          "href": "https://www.pjm.com/committees-and-groups/user-groups/arrcug",
+          "target": ""
+        },
+        {
+          "text": "Public Interest & Environmental Organizations User Group",
+          "href": "https://www.pjm.com/committees-and-groups/user-groups/pieoug",
+          "target": ""
+        },
+        {
+          "text": "eDART Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/edart-forum",
+          "target": ""
+        },
+        {
+          "text": "Modeling Users Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/muf",
+          "target": ""
+        },
+        {
+          "text": "Tech Change Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/tech-change-forum",
+          "target": ""
+        },
+        {
+          "text": "Emerging Technologies Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/emerging-technologies-forum",
+          "target": ""
+        },
+        {
+          "text": "Nuclear Generation Owner Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/ngof",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Process Forum",
+          "href": "https://www.pjm.com/committees-and-groups/forums/stakeholder-process-forum",
+          "target": ""
+        },
+        {
+          "text": "Station Service Rates",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/cds/starvrts",
+          "target": ""
+        },
+        {
+          "text": "Handy Whitman Index",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/cds/handy-whitman-index",
+          "target": ""
+        },
+        {
+          "text": "Distributed Resources Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/disrs",
+          "target": ""
+        },
+        {
+          "text": "Designated Entity Design Standards Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/dedss",
+          "target": ""
+        },
+        {
+          "text": "Dispatcher Training Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/dts",
+          "target": ""
+        },
+        {
+          "text": "Electric Gas Coordination Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/egcs",
+          "target": ""
+        },
+        {
+          "text": "Governing Document Enhancement & Clarification Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/gdecs",
+          "target": ""
+        },
+        {
+          "text": "Interconnection Process Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/ips",
+          "target": ""
+        },
+        {
+          "text": "Load Analysis Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/las",
+          "target": ""
+        },
+        {
+          "text": "Market Settlements Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/mss",
+          "target": ""
+        },
+        {
+          "text": "Relay Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/rs",
+          "target": ""
+        },
+        {
+          "text": "Reliability Standards & Compliance Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/rscs",
+          "target": ""
+        },
+        {
+          "text": "Resource Adequacy Analysis Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/raas",
+          "target": ""
+        },
+        {
+          "text": "System Operations Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/sos",
+          "target": ""
+        },
+        {
+          "text": "TO/TOP Matrix Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/ttms",
+          "target": ""
+        },
+        {
+          "text": "Transmission & Substation Subcommittee",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/tss",
+          "target": ""
+        },
+        {
+          "text": "DOE 202c Cost Allocation Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/202cstf",
+          "target": ""
+        },
+        {
+          "text": "Connect and Manage Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/camstf",
+          "target": ""
+        },
+        {
+          "text": "ARR FTR Market Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/afmtf",
+          "target": ""
+        },
+        {
+          "text": "Deactivation Enhancements Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/destf",
+          "target": ""
+        },
+        {
+          "text": "Effective Load Carrying Capability Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/elccstf",
+          "target": ""
+        },
+        {
+          "text": "Modeling Generation Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/mgstf",
+          "target": ""
+        },
+        {
+          "text": "Reserve Certainty Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/rcstf",
+          "target": ""
+        },
+        {
+          "text": "Regulation Market Design Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/rmdstf",
+          "target": ""
+        },
+        {
+          "text": "Resource Adequacy Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/rastf",
+          "target": ""
+        },
+        {
+          "text": "Sub-Annual Capacity Market Senior Task Force",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/sacmstf",
+          "target": ""
+        },
+        {
+          "text": "Co-Located Load Order Workshop",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/cllsco",
+          "target": ""
+        },
+        {
+          "text": "Large Load Additions Workshop",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/llaw",
+          "target": ""
+        },
+        {
+          "text": "Long-Term Regional Transmission Planning Workshop",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/ltrtp",
+          "target": ""
+        },
+        {
+          "text": "Powering Reliability Through Market Design Workshops",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/prtmdw",
+          "target": ""
+        },
+        {
+          "text": "Reliability Backstop Procurement Workshop",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/rbpw",
+          "target": ""
+        },
+        {
+          "text": "Closed Groups",
+          "href": "https://www.pjm.com/committees-and-groups/closed-groups",
+          "target": ""
+        },
+        {
+          "text": "Issue Tracking",
+          "href": "https://www.pjm.com/committees-and-groups/issue-tracking",
+          "target": ""
+        },
+        {
+          "text": "Inter-Regional Planning Stakeholder Advisory Committee - MISO",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/ipsac-midwest",
+          "target": ""
+        },
+        {
+          "text": "Annual Meeting of Members",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/annual-meeting-members",
+          "target": ""
+        },
+        {
+          "text": "General Session",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/general-session",
+          "target": ""
+        },
+        {
+          "text": "Price Formation Education Sessions",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/price-formation",
+          "target": ""
+        },
+        {
+          "text": "DER Ride-Through Workshop",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/der-ride-through-workshop",
+          "target": ""
+        },
+        {
+          "text": "Inter-Regional Planning Stakeholder Advisory Committee - New York / New England",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/ipsac-ny-ne",
+          "target": ""
+        },
+        {
+          "text": "PJM/MISO Joint & Common Market Initiative",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/pjm-miso-joint-common",
+          "target": ""
+        },
+        {
+          "text": "PJM/NYISO Joint Initiative",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/pjm-nyiso",
+          "target": ""
+        },
+        {
+          "text": "Independent State Agencies Committee",
+          "href": "https://www.pjm.com/committees-and-groups/state-commissions/isac",
+          "target": ""
+        },
+        {
+          "text": "Webex & Microsoft Teams",
+          "href": "https://www.pjm.com/committees-and-groups/webex-microsoft-teams",
+          "target": ""
+        },
+        {
+          "text": "Serial Service Request Status",
+          "href": "https://www.pjm.com/planning/service-requests/serial-service-request-status",
+          "target": ""
+        },
+        {
+          "text": "Cycle Service Request Status",
+          "href": "https://www.pjm.com/planning/m/cycle-service-request-status",
+          "target": "_blank"
+        },
+        {
+          "text": "Affected System Study",
+          "href": "https://www.pjm.com/planning/service-requests/non-cycle-study-request/affected-system-study",
+          "target": ""
+        },
+        {
+          "text": "Interim Deliverability Study",
+          "href": "https://www.pjm.com/planning/service-requests/non-cycle-study-request/interim-deliverability-study",
+          "target": ""
+        },
+        {
+          "text": "Replacement Generation Interconnection Service Request",
+          "href": "https://www.pjm.com/planning/service-requests/non-cycle-study-request/replacement-generation-interconnection-service-request",
+          "target": ""
+        },
+        {
+          "text": "Upgrade Requests",
+          "href": "https://www.pjm.com/planning/service-requests/non-cycle-study-request/upgrade-request",
+          "target": ""
+        },
+        {
+          "text": "Interconnection Process Reform",
+          "href": "https://www.pjm.com/planning/service-requests/interconnection-process-reform",
+          "target": ""
+        },
+        {
+          "text": "Application & Forms",
+          "href": "https://www.pjm.com/planning/service-requests/application-and-forms",
+          "target": ""
+        },
+        {
+          "text": "Planning Modeling Submissions (MOD-026, 027 & 032)",
+          "href": "https://www.pjm.com/planning/service-requests/planning-modeling-submissions",
+          "target": ""
+        },
+        {
+          "text": "Generator Deactivation Notices",
+          "href": "https://www.pjm.com/planning/service-requests/gen-deactivations/generator-deactivation-notices",
+          "target": ""
+        },
+        {
+          "text": "Project Status & Cost Allocation",
+          "href": "https://www.pjm.com/planning/m/project-construction",
+          "target": ""
+        },
+        {
+          "text": "Redacted Public Proposals for Current and Closed Windows",
+          "href": "https://www.pjm.com/planning/competitive-planning-process/redacted-proposals",
+          "target": ""
+        },
+        {
+          "text": "Pre-Qualification for Designated Entity Status",
+          "href": "https://www.pjm.com/planning/competitive-planning-process/pre-qualification",
+          "target": ""
+        },
+        {
+          "text": "Interconnection / Upgrade Requests",
+          "href": "https://www.pjm.com/planning/rtep-development/stakeholder-process/developers",
+          "target": ""
+        },
+        {
+          "text": "Regulators",
+          "href": "https://www.pjm.com/planning/rtep-development/stakeholder-process/regulators",
+          "target": ""
+        },
+        {
+          "text": "Transmission Owners",
+          "href": "https://www.pjm.com/planning/rtep-development/stakeholder-process/trans-owners",
+          "target": ""
+        },
+        {
+          "text": "Market Efficiency",
+          "href": "https://www.pjm.com/planning/rtep-development/market-efficiency",
+          "target": ""
+        },
+        {
+          "text": "Baseline Reports",
+          "href": "https://www.pjm.com/planning/rtep-development/baseline-reports",
+          "target": ""
+        },
+        {
+          "text": "Multiregional Modeling Working Group Base Cases",
+          "href": "https://www.pjm.com/planning/rtep-development/powerflow-cases/mmwg-base-cases",
+          "target": ""
+        },
+        {
+          "text": "Effective Load Carrying Capability (ELCC)",
+          "href": "https://www.pjm.com/planning/resource-adequacy-planning/effective-load-carrying-capability",
+          "target": ""
+        },
+        {
+          "text": "Reserve Requirement Development Process",
+          "href": "https://www.pjm.com/planning/resource-adequacy-planning/reserve-requirement-dev-process",
+          "target": ""
+        },
+        {
+          "text": "Load Forecast Development Process",
+          "href": "https://www.pjm.com/planning/resource-adequacy-planning/load-forecast-dev-process",
+          "target": ""
+        },
+        {
+          "text": "Resource Reports & Information",
+          "href": "https://www.pjm.com/planning/resource-adequacy-planning/resource-reports-info",
+          "target": ""
+        },
+        {
+          "text": "PJM Planning Criteria",
+          "href": "https://www.pjm.com/planning/planning-criteria/pjm-planning-criteria",
+          "target": ""
+        },
+        {
+          "text": "Transmission Owner Planning Criteria",
+          "href": "https://www.pjm.com/planning/planning-criteria/to-planning-criteria",
+          "target": ""
+        },
+        {
+          "text": "Transmission Owner Guidelines",
+          "href": "https://www.pjm.com/planning/design-engineering/maac-to-guidelines",
+          "target": ""
+        },
+        {
+          "text": "Transmission Owner Engineering & Construction Standards",
+          "href": "https://www.pjm.com/planning/design-engineering/to-tech-standards",
+          "target": ""
+        },
+        {
+          "text": "Eastern Interconnection Planning Collaborative (EIPC)",
+          "href": "https://www.pjm.com/planning/interregional-planning/eipc",
+          "target": ""
+        },
+        {
+          "text": "Operational Data",
+          "href": "https://dataminer2.pjm.com/list",
+          "target": "_blank"
+        },
+        {
+          "text": "Large Load",
+          "href": "https://www.pjm.com/markets-and-operations/large-load",
+          "target": ""
+        },
+        {
+          "text": "Winter Storm Elliott Info",
+          "href": "https://www.pjm.com/markets-and-operations/winter-storm-elliott",
+          "target": ""
+        },
+        {
+          "text": "Data Directory",
+          "href": "https://www.pjm.com/markets-and-operations/data-dictionary",
+          "target": ""
+        },
+        {
+          "text": "Interregional Data Map",
+          "href": "https://www.pjm.com/markets-and-operations/interregional-map",
+          "target": ""
+        },
+        {
+          "text": "Upcoming Changes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/upcoming-changes",
+          "target": ""
+        },
+        {
+          "text": "PJM Security",
+          "href": "https://www.pjm.com/markets-and-operations/etools/security",
+          "target": ""
+        },
+        {
+          "text": "System Requirements",
+          "href": "https://www.pjm.com/markets-and-operations/etools/system-requirements",
+          "target": ""
+        },
+        {
+          "text": "Train Environment",
+          "href": "https://www.pjm.com/markets-and-operations/etools/etools-info/sandbox",
+          "target": ""
+        },
+        {
+          "text": "Account Manager Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/account-manager/account-manager-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Automated Combustion Turbine Notification Program",
+          "href": "https://www.pjm.com/markets-and-operations/etools/automated-combustion-turbine-notification-program",
+          "target": ""
+        },
+        {
+          "text": "Billing Line Item Transfer",
+          "href": "https://www.pjm.com/markets-and-operations/etools/billing-line-item-transfer",
+          "target": ""
+        },
+        {
+          "text": "Bulletin Board",
+          "href": "https://www.pjm.com/markets-and-operations/etools/power-contracts-bulletin-board",
+          "target": ""
+        },
+        {
+          "text": "Capacity Exchange",
+          "href": "https://www.pjm.com/markets-and-operations/etools/capacity-exchange",
+          "target": ""
+        },
+        {
+          "text": "Cost Agent",
+          "href": "https://www.pjm.com/markets-and-operations/etools/cost-agent",
+          "target": ""
+        },
+        {
+          "text": "Data Availability",
+          "href": "https://www.pjm.com/markets-and-operations/etools/data-miner-2/data-availability",
+          "target": ""
+        },
+        {
+          "text": "Data Miner Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/data-miner-2/data-miner-2-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Data Viewer",
+          "href": "https://www.pjm.com/markets-and-operations/etools/dataviewer",
+          "target": ""
+        },
+        {
+          "text": "DER Directory",
+          "href": "https://www.pjm.com/markets-and-operations/etools/der-directory",
+          "target": ""
+        },
+        {
+          "text": "Dispatch Interactive Map Application (DIMA)",
+          "href": "https://www.pjm.com/markets-and-operations/etools/dima",
+          "target": ""
+        },
+        {
+          "text": "DR Hub Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/dr-hub/dr-hub-release-notes",
+          "target": ""
+        },
+        {
+          "text": "eCredit",
+          "href": "https://www.pjm.com/markets-and-operations/etools/ecredit",
+          "target": ""
+        },
+        {
+          "text": "eDART Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/edart/edart-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Transmission Ticket Notification Request for Generation Entities",
+          "href": "https://www.pjm.com/markets-and-operations/etools/edart/transmission-ticket-notification-request",
+          "target": ""
+        },
+        {
+          "text": "XML Documentation",
+          "href": "https://www.pjm.com/pjmfiles/pub/etools/edart/xmldocs/xmldoc.html",
+          "target": "_blank"
+        },
+        {
+          "text": "eDART Sandbox",
+          "href": "https://edartssotrain.pjm.com/edartsso",
+          "target": "_blank"
+        },
+        {
+          "text": "ELCC",
+          "href": "https://www.pjm.com/markets-and-operations/etools/elcc",
+          "target": ""
+        },
+        {
+          "text": "eGADS Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/egads/egads-release-notes",
+          "target": ""
+        },
+        {
+          "text": "eGADS User Registration Form",
+          "href": "https://www.pjm.com/markets-and-operations/etools/egads/form-egads-user-reg",
+          "target": ""
+        },
+        {
+          "text": "Emergency Procedures Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/emerg-procedure/emergency-procedures-release-notes",
+          "target": ""
+        },
+        {
+          "text": "NSI Automated Checkout Data Specification",
+          "href": "https://www.pjm.com/markets-and-operations/etools/exschedule/nsi-automated-checkout",
+          "target": ""
+        },
+        {
+          "text": "FTR Center",
+          "href": "https://www.pjm.com/markets-and-operations/etools/ftr-center",
+          "target": ""
+        },
+        {
+          "text": "Gas Pipeline",
+          "href": "https://www.pjm.com/markets-and-operations/etools/gas-pipeline",
+          "target": ""
+        },
+        {
+          "text": "Initial Cost to Price Submittal Form",
+          "href": "https://www.pjm.com/markets-and-operations/etools/form-initial-price-cost-submittal",
+          "target": ""
+        },
+        {
+          "text": "InSchedule",
+          "href": "https://www.pjm.com/markets-and-operations/etools/inschedule",
+          "target": ""
+        },
+        {
+          "text": "Jetstream",
+          "href": "https://www.pjm.com/markets-and-operations/etools/jetstream",
+          "target": ""
+        },
+        {
+          "text": "Markets Gateway Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/markets-gateway/markets-gateway-release-notes-",
+          "target": ""
+        },
+        {
+          "text": "Opportunity Cost Calculator",
+          "href": "https://www.pjm.com/markets-and-operations/etools/markets-gateway/opp-cost-calculator",
+          "target": ""
+        },
+        {
+          "text": "MSRS Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/msrs/msrs-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Member Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/member-community",
+          "target": ""
+        },
+        {
+          "text": "Membership Management Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/membership-management-community",
+          "target": ""
+        },
+        {
+          "text": "Messages",
+          "href": "https://www.pjm.com/markets-and-operations/etools/messages",
+          "target": ""
+        },
+        {
+          "text": "Merchant Transmission Facilities",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/merch-trans-facilities",
+          "target": ""
+        },
+        {
+          "text": "Special Notices",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/special-notices",
+          "target": ""
+        },
+        {
+          "text": "APSouth Interface Change",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/ap-change",
+          "target": ""
+        },
+        {
+          "text": "BGE Rating Information",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/bge-rate-info",
+          "target": ""
+        },
+        {
+          "text": "BGE Rating Information (Updated)",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/bge-rate-info-update",
+          "target": ""
+        },
+        {
+          "text": "Historical Area Control Error Data",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/historical-area-control-error-data",
+          "target": ""
+        },
+        {
+          "text": "Outage Information",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/outage-info",
+          "target": ""
+        },
+        {
+          "text": "Ratings Information",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/ratings-information",
+          "target": ""
+        },
+        {
+          "text": "Switching Solutions",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/switching-solutions",
+          "target": ""
+        },
+        {
+          "text": "Wylie Ridge Transformer Update",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/system-information/wylie-ridge-trans-update",
+          "target": ""
+        },
+        {
+          "text": "ATC Information",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/atc-information",
+          "target": ""
+        },
+        {
+          "text": "Outage Acceleration",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/outage-accel",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-apr-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics April 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-april-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics August 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-aug-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics August 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-aug-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics December 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-dec-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics February 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-feb-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics January 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-jan-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics July 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-july-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics June 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-june-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-mar-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-march-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics March 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-march-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics May 2022",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-may-2022",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2015",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2015",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics November 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-nov-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2019",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2020",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2020",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics October 2021",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-oct-2021",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics September 2016",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-sept-2016",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics September 2017",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-sept-2017",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics September 2018",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-sept-2018",
+          "target": ""
+        },
+        {
+          "text": "OASIS Performance Metrics September 2019",
+          "href": "https://www.pjm.com/markets-and-operations/etools/oasis/order-890/oasis-perf-metrics-sept-2019",
+          "target": ""
+        },
+        {
+          "text": "PJM Connect",
+          "href": "https://www.pjm.com/markets-and-operations/etools/connect-pjm-com",
+          "target": ""
+        },
+        {
+          "text": "PJM Now Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/pjm-now/pjm-now-release-notes",
+          "target": ""
+        },
+        {
+          "text": "PJM Website Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/pjm-website/pjm-website-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Planning Center Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/planning-center/planning-center-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Planning Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/planning-community",
+          "target": ""
+        },
+        {
+          "text": "Power Meter",
+          "href": "https://www.pjm.com/markets-and-operations/etools/power-meter",
+          "target": ""
+        },
+        {
+          "text": "Resource Tracker",
+          "href": "https://www.pjm.com/markets-and-operations/etools/resource-tracker",
+          "target": ""
+        },
+        {
+          "text": "TO Connection Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/to-connection/to-connection-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Secure Share",
+          "href": "https://www.pjm.com/markets-and-operations/etools/secure-share",
+          "target": ""
+        },
+        {
+          "text": "Voting Release Notes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/committee-voting/committee-voting-release-notes",
+          "target": ""
+        },
+        {
+          "text": "Drivers of Uplift",
+          "href": "https://www.pjm.com/markets-and-operations/energy/drivers-of-uplift",
+          "target": ""
+        },
+        {
+          "text": "Energy Offer Verification",
+          "href": "https://www.pjm.com/markets-and-operations/energy/energy-offer-verification",
+          "target": ""
+        },
+        {
+          "text": "Fuel Cost Policies",
+          "href": "https://www.pjm.com/markets-and-operations/energy/fuel-cost-policies",
+          "target": ""
+        },
+        {
+          "text": "LMP Model Information",
+          "href": "https://www.pjm.com/markets-and-operations/energy/lmp-model-info",
+          "target": ""
+        },
+        {
+          "text": "Market-to-Market Coordination",
+          "href": "https://www.pjm.com/markets-and-operations/energy/market-to-market",
+          "target": ""
+        },
+        {
+          "text": "Capacity Market (RPM)",
+          "href": "https://www.pjm.com/markets-and-operations/rpm",
+          "target": ""
+        },
+        {
+          "text": "Historical FTR Monthly Auction Results",
+          "href": "https://www.pjm.com/markets-and-operations/ftr/historical-ftr-auction",
+          "target": ""
+        },
+        {
+          "text": "Ancillary Services",
+          "href": "https://www.pjm.com/markets-and-operations/ancillary-services",
+          "target": ""
+        },
+        {
+          "text": "Emissions",
+          "href": "https://www.pjm.com/markets-and-operations/m/emissions",
+          "target": ""
+        },
+        {
+          "text": "Curtailment Service Providers",
+          "href": "https://www.pjm.com/markets-and-operations/demand-response/csps",
+          "target": ""
+        },
+        {
+          "text": "Demand Response Test Schedule",
+          "href": "https://www.pjm.com/markets-and-operations/demand-response/m/demand-response-test-schedule",
+          "target": ""
+        },
+        {
+          "text": "5-Minute Settlements",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/5-minute-settlements",
+          "target": ""
+        },
+        {
+          "text": "Formula Rates",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/formula-rates",
+          "target": ""
+        },
+        {
+          "text": "FRR – LSE Capacity Rates",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/frr-lse-capacity-rates",
+          "target": ""
+        },
+        {
+          "text": "Guide to Billing",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/guide-to-billing",
+          "target": ""
+        },
+        {
+          "text": "Monthly Billing Statement Example",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/msrs-reports-documentation/billing-example",
+          "target": ""
+        },
+        {
+          "text": "Preliminary Billing Reports - Ancillary Services Market Data",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/preliminary-billing-reports",
+          "target": ""
+        },
+        {
+          "text": "THEO, PLC & NSPL Methodology Inventory",
+          "href": "https://www.pjm.com/markets-and-operations/billing-settlements-and-credit/theo-plc-and-nspl",
+          "target": ""
+        },
+        {
+          "text": "Day Ahead Scheduling Reserve (DASR)",
+          "href": "https://www.pjm.com/markets-and-operations/ops-analysis/day-ahead-scheduling-reserve",
+          "target": ""
+        },
+        {
+          "text": "Dispatch Rates",
+          "href": "https://www.pjm.com/markets-and-operations/ops-analysis/dispatch-rates",
+          "target": ""
+        },
+        {
+          "text": "Gas-Electric Coordination",
+          "href": "https://www.pjm.com/markets-and-operations/ops-analysis/gas-electric-coordination",
+          "target": ""
+        },
+        {
+          "text": "Synchrophasor Technology",
+          "href": "https://www.pjm.com/markets-and-operations/ops-analysis/synchrophasor-technology",
+          "target": ""
+        },
+        {
+          "text": "Generation Onboarding",
+          "href": "https://www.pjm.com/markets-and-operations/ops-analysis/generation-onboarding",
+          "target": ""
+        },
+        {
+          "text": "Grid Enhancing Technologies",
+          "href": "https://www.pjm.com/markets-and-operations/grid-optimization-solutions",
+          "target": ""
+        },
+        {
+          "text": "Effective Documents",
+          "href": "https://www.pjm.com/library/governing-documents/effective-documents",
+          "target": ""
+        },
+        {
+          "text": "Other Agreements",
+          "href": "https://www.pjm.com/library/governing-documents/other-agreements",
+          "target": ""
+        },
+        {
+          "text": "Filings & Orders",
+          "href": "https://www.pjm.com/library/filing-order",
+          "target": ""
+        },
+        {
+          "text": "Manual Updates",
+          "href": "https://www.pjm.com/library/manuals/manual-updates",
+          "target": ""
+        },
+        {
+          "text": "Compliance Bulletins",
+          "href": "https://www.pjm.com/library/compliance/compliance-bulletins",
+          "target": ""
+        },
+        {
+          "text": "2024 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2024-rtep",
+          "target": ""
+        },
+        {
+          "text": "2023 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2023-rtep",
+          "target": ""
+        },
+        {
+          "text": "2022 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2022-rtep",
+          "target": ""
+        },
+        {
+          "text": "2021 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2021-rtep",
+          "target": ""
+        },
+        {
+          "text": "2020 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2020-rtep",
+          "target": ""
+        },
+        {
+          "text": "2019 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2019-rtep",
+          "target": ""
+        },
+        {
+          "text": "2018 Regional Transmission Expansion Plan Report",
+          "href": "https://www.pjm.com/library/reports-notices/rtep-documents/2018-rtep",
+          "target": ""
+        },
+        {
+          "text": "Maps",
+          "href": "https://www.pjm.com/library/maps",
+          "target": ""
+        },
+        {
+          "text": "FERC Form No. 715",
+          "href": "https://www.pjm.com/library/request-access/ferc-form-715",
+          "target": ""
+        },
+        {
+          "text": "Fact Sheets",
+          "href": "https://www.pjm.com/library/fact-sheets",
+          "target": ""
+        },
+        {
+          "text": "Sign In",
+          "href": "http://www.pjm.com/sso/pjmsignin?item=/",
+          "target": ""
+        },
+        {
+          "text": "Search",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Communities",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Member Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/member-community.aspx",
+          "target": ""
+        },
+        {
+          "text": "Membership Management Community",
+          "href": "https://pjm.my.site.com/membership",
+          "target": ""
+        },
+        {
+          "text": "Planning Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/planning-community.aspx",
+          "target": ""
+        },
+        {
+          "text": "Calendar",
+          "href": "https://www.pjm.com/Home/Calendar.aspx",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "description": "About PJM",
+          "link": {
+            "text": "Toggle navigation",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "container-fluid pjmContainer",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "about pjm",
+          "href": "https://www.pjm.com/about-pjm",
+          "target": ""
+        },
+        {
+          "text": "training",
+          "href": "https://www.pjm.com/training",
+          "target": ""
+        },
+        {
+          "text": "committees & groups",
+          "href": "https://www.pjm.com/committees-and-groups",
+          "target": ""
+        },
+        {
+          "text": "planning",
+          "href": "https://www.pjm.com/planning",
+          "target": ""
+        },
+        {
+          "text": "markets & operations",
+          "href": "https://www.pjm.com/markets-and-operations",
+          "target": ""
+        },
+        {
+          "text": "library",
+          "href": "https://www.pjm.com/library",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.pjm.com/assets/MVC/responsive/img/pjm-logo.png",
+          "alt": "PJM©",
+          "type": "img",
+          "width": 263,
+          "height": 97
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "",
+            "href": "https://www.pjm.com/"
+          },
+          "image": {
+            "src": "https://www.pjm.com/assets/MVC/responsive/img/pjm-logo.png",
+            "alt": "PJM©"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "div",
+      "classHint": "main-content container-fluid pjmContainer",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Interim Resource Adequacy Service Proposal PDF",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/interim-resource-adequacy-service-proposal.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Reliability Backstop Procurement Fact Sheet PDF",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/reliability-backstop-procurement-fact-sheet.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Transmission - The Grid's Electric Highway WEB",
+          "href": "https://youtu.be/I7Ud1B9fBO4?si=1iamfxSKpWiw2Fyg",
+          "target": "_blank"
+        },
+        {
+          "text": "The Value of PJM",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/the-value-of-pjm.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meetings",
+          "href": "https://www.pjm.com/#sectionMeetings",
+          "target": ""
+        },
+        {
+          "text": "Training",
+          "href": "https://www.pjm.com/#sectionTraining",
+          "target": ""
+        },
+        {
+          "text": "Meeting Center",
+          "href": "https://www.pjm.com/committees-and-groups/meeting-center",
+          "target": ""
+        },
+        {
+          "text": "Interconnection Process Subcommittee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7e41d864-7e8c-40a5-b60a-3569af7e1883}",
+          "target": ""
+        },
+        {
+          "text": "View",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Agenda",
+          "href": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260928/20260928-agenda.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7e41d864-7e8c-40a5-b60a-3569af7e1883}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/ips",
+          "target": ""
+        },
+        {
+          "text": "MC Information Webinar",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={f9f5384c-089c-4777-b006-0adb25216474}",
+          "target": ""
+        },
+        {
+          "text": "Agenda",
+          "href": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260928-web/agenda.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={f9f5384c-089c-4777-b006-0adb25216474}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mc",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/committees/pc",
+          "target": ""
+        },
+        {
+          "text": "Load Analysis Subcommittee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={a99eab91-15f3-4427-a3fe-de2636a19ae8}",
+          "target": ""
+        },
+        {
+          "text": "Agenda",
+          "href": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-agenda.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={a99eab91-15f3-4427-a3fe-de2636a19ae8}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/las",
+          "target": ""
+        },
+        {
+          "text": "Co-Located Load Order Workshop",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={ffe8aa39-3e17-4b87-9e85-b3214e52cb4f}",
+          "target": ""
+        },
+        {
+          "text": "Agenda",
+          "href": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260930/20260930-agenda.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={ffe8aa39-3e17-4b87-9e85-b3214e52cb4f}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/cllsco",
+          "target": ""
+        },
+        {
+          "text": "Special MC",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5c22eb2a-0c32-424e-935f-642cbff92a9c}",
+          "target": ""
+        },
+        {
+          "text": "Agenda",
+          "href": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/mc/2026/20260930-special/agenda.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={5c22eb2a-0c32-424e-935f-642cbff92a9c}",
+          "target": ""
+        },
+        {
+          "text": "Powering Reliability Through Market Design Workshops",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={876e95c8-af52-4800-91f8-a200e694992d}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={876e95c8-af52-4800-91f8-a200e694992d}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/workshops/prtmdw",
+          "target": ""
+        },
+        {
+          "text": "System Operations Subcommittee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={037416b0-c518-44a3-b523-2c676c1ae581}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={037416b0-c518-44a3-b523-2c676c1ae581}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/sos",
+          "target": ""
+        },
+        {
+          "text": "System Operations Subcommittee - Transmission",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={36a16469-77ea-419a-8f08-8a6118e833b4}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={36a16469-77ea-419a-8f08-8a6118e833b4}",
+          "target": ""
+        },
+        {
+          "text": "Powering Reliability Through Market Design Workshops",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7066424f-8950-4638-abaf-1f9a9582263e}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7066424f-8950-4638-abaf-1f9a9582263e}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/stakeholder-meetings/ipsac-midwest",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/cds",
+          "target": ""
+        },
+        {
+          "text": "Co-Located Load Order Workshop",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={89bf3d94-4a46-4363-85ed-8c3ba54049f0}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={89bf3d94-4a46-4363-85ed-8c3ba54049f0}",
+          "target": ""
+        },
+        {
+          "text": "Distributed Resources Subcommittee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8ad07bc9-4a08-462f-a7a0-83a36919bd74}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={8ad07bc9-4a08-462f-a7a0-83a36919bd74}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/subcommittees/disrs",
+          "target": ""
+        },
+        {
+          "text": "Planning Committee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7d80fa99-4483-4d96-8fe3-eee56c6dd1fb}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={7d80fa99-4483-4d96-8fe3-eee56c6dd1fb}",
+          "target": ""
+        },
+        {
+          "text": "Voting",
+          "href": "https://pjm.com/committees-and-groups/committees/form-voter-designation.aspx",
+          "target": "_blank"
+        },
+        {
+          "text": "Transmission Expansion Advisory Committee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={659f1e3e-f171-42a5-8533-fe8fb0fae715}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={659f1e3e-f171-42a5-8533-fe8fb0fae715}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/committees/teac",
+          "target": ""
+        },
+        {
+          "text": "Market Implementation Committee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={b08b330e-5c8e-409d-8e18-b4311c0d3e40}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={b08b330e-5c8e-409d-8e18-b4311c0d3e40}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/committees/mic",
+          "target": ""
+        },
+        {
+          "text": "Operating Committee",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0df97b14-ea27-46b8-bae3-14e6e8bc0a1a}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={0df97b14-ea27-46b8-bae3-14e6e8bc0a1a}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/committees/oc",
+          "target": ""
+        },
+        {
+          "text": "RCSTF - Tariff Page Turn",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={c32c76da-5ff4-481a-bace-ec026b7329e2}",
+          "target": ""
+        },
+        {
+          "text": "Meeting Details",
+          "href": "https://www.pjm.com/forms/registration/Meeting%20Registration.aspx?ID={c32c76da-5ff4-481a-bace-ec026b7329e2}",
+          "target": ""
+        },
+        {
+          "text": "Stakeholder Group",
+          "href": "https://www.pjm.com/committees-and-groups/task-forces/rcstf",
+          "target": ""
+        },
+        {
+          "text": "Register for meetings",
+          "href": "https://www.pjm.com/committees-and-groups/meeting-center.aspx",
+          "target": ""
+        },
+        {
+          "text": "Training Events",
+          "href": "https://www.pjm.com/training/training-events.aspx",
+          "target": ""
+        },
+        {
+          "text": "Demand Response Overview",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/October/13/v-dr-overview",
+          "target": ""
+        },
+        {
+          "text": "Register",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Virtual",
+          "href": "https://pjmexternal.webex.com/weblink/register/rebb1c0030ae6eb215639d549155f41a7",
+          "target": "_blank"
+        },
+        {
+          "text": "Economic DR in Ancillary Services Markets",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/October/27/v-eco-dr-ancillary-services-markets",
+          "target": ""
+        },
+        {
+          "text": "Virtual",
+          "href": "https://pjmexternal.webex.com/weblink/register/r1b05e7a09dfa21da6ed09519dc83a9b6",
+          "target": "_blank"
+        },
+        {
+          "text": "Market Efficiency Training",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/November/16/v-market-efficiency-training",
+          "target": ""
+        },
+        {
+          "text": "Virtual",
+          "href": "https://www4.virtualtrainingassistant.com/PJM/LearnerConnection/Security/Logon.aspx?StartPage=ClassDesc&Continue=cCrseSearch&CrseSite=01&Area=NNA&Subj=MSC&Crse=013&SessNo=1&SessDate=20261116&ClassSite=01",
+          "target": "_blank"
+        },
+        {
+          "text": "PJM Markets for Generators <span class='ampersand'>&</span> Load Serving Entities",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/November/17/ip-pjm-markets-for-generators-and-load-serving-entities",
+          "target": ""
+        },
+        {
+          "text": "In person",
+          "href": "https://www4.virtualtrainingassistant.com/PJM/LearnerConnection/Security/Logon.aspx?StartPage=ClassDesc&Continue=cCrseSearch&CrseSite=01&Area=NNA&Subj=MKS&Crse=003&SessNo=1&SessDate=20261117&ClassSite=01",
+          "target": "_blank"
+        },
+        {
+          "text": "LMP/FTR",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/November/18/ip-lmp-ftr",
+          "target": ""
+        },
+        {
+          "text": "In person",
+          "href": "https://www4.virtualtrainingassistant.com/PJM/LearnerConnection/Security/Logon.aspx?StartPage=ClassDesc&Continue=cCrseSearch&CrseSite=01&Area=NNA&Subj=LMP&Crse=101&SessNo=1&SessDate=20261118&ClassSite=01",
+          "target": "_blank"
+        },
+        {
+          "text": "Market Settlements Overview",
+          "href": "https://www.pjm.com/Calendar-Events/PJM-Calendars/Training-Events/2026/November/19/ip-market-settlements-overview",
+          "target": ""
+        },
+        {
+          "text": "In person",
+          "href": "https://www4.virtualtrainingassistant.com/PJM/LearnerConnection/Security/Logon.aspx?StartPage=ClassDesc&Continue=cCrseSearch&CrseSite=01&Area=NNA&Subj=MKS&Crse=002&SessNo=1&SessDate=20261119&ClassSite=01",
+          "target": "_blank"
+        },
+        {
+          "text": "Course Catalog",
+          "href": "https://www.pjm.com/training/course-catalog.aspx",
+          "target": ""
+        },
+        {
+          "text": "Zones",
+          "href": "https://www.pjm.com/#pricing-tab-zones",
+          "target": ""
+        },
+        {
+          "text": "Selected Hubs",
+          "href": "https://www.pjm.com/#pricing-tab-hubs",
+          "target": ""
+        },
+        {
+          "text": "Selected Interfaces",
+          "href": "https://www.pjm.com/#pricing-tab-interfaces",
+          "target": ""
+        },
+        {
+          "text": "Locational Marginal Pricing Map",
+          "href": "https://www.pjm.com/library/maps/lmp-map.aspx",
+          "target": ""
+        },
+        {
+          "text": "All Fuels",
+          "href": "https://www.pjm.com/#genfuelmix-alltypes",
+          "target": ""
+        },
+        {
+          "text": "Renewables",
+          "href": "https://www.pjm.com/#genfuelmix-renewables",
+          "target": ""
+        },
+        {
+          "text": "PJM Operations Update – Sept. 17, 2026",
+          "href": "https://insidelines.pjm.com/pjm-operations-update-sept-17-2026/",
+          "target": "_blank"
+        },
+        {
+          "text": "PJM Issues Maximum Generation Alert for Sept. 17",
+          "href": "https://insidelines.pjm.com/pjm-issues-maximum-generation-alert-for-sept-17/",
+          "target": "_blank"
+        },
+        {
+          "text": "Reminder: PJM GridAdvance Summit One Month Away",
+          "href": "https://insidelines.pjm.com/reminder-pjm-gridadvance-summit-one-month-away/",
+          "target": "_blank"
+        },
+        {
+          "text": "Read more",
+          "href": "http://insidelines.pjm.com/",
+          "target": "_blank"
+        },
+        {
+          "text": "PJM Membership Elects Janet Dietrich to Board of Managers",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260924-pjm-membership-elects-janet-dietrich-to-board-of-managers.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Lisa Drauschak Named Executive Vice President",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260810-drauschak-named-evp.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Over 700 New Generation Projects Accepted Into First Cycle of Reformed Interconnection Process",
+          "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260803-over-700-new-generation-projects-accepted-into-first-cycle-of-reformed-interconnection-process.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Read more",
+          "href": "https://www.pjm.com/about-pjm/newsroom.aspx",
+          "target": ""
+        },
+        {
+          "text": "Docket No. EL26-106-000 PDF",
+          "href": "https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260924-el26-106-000.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Docket No. EL26-105-000 PDF",
+          "href": "https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260924-el26-105-000.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Docket No. ER26-3515-000 PDF",
+          "href": "https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260923-er26-3515-000.pdf",
+          "target": "_blank"
+        },
+        {
+          "text": "Read more",
+          "href": "https://www.pjm.com/library/filing-order.aspx",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/Banner_Mobile_Image_1.png",
+          "alt": "",
+          "type": "img",
+          "width": 355,
+          "height": 295
+        },
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/2026/2026-tablet-banner-5.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 750,
+          "height": 295
+        },
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/2026/2026-desktop-banner-stakeholder-meeting.jpg",
+          "alt": "",
+          "type": "img",
+          "width": 1271,
+          "height": 296
+        },
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/about/ensuring-reliable-energy-transition/reliability-initiative-power-icon.png",
+          "alt": "",
+          "type": "img",
+          "width": 97,
+          "height": 97
+        },
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/icons/fa-lock",
+          "alt": "Access Required",
+          "type": "img",
+          "width": 131,
+          "height": 150
+        },
+        {
+          "src": "https://www.pjm.com/assets/images/view-more-white.png",
+          "alt": "",
+          "type": "img",
+          "width": 19,
+          "height": 19
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/7",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/7",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/8",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/8",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/9",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/9",
+          "alt": "",
+          "type": "img",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "src": "https://mapservices.pjm.com/arcgis/rest/services/Interregional/LMP/MapServer/export?dpi=96&transparent=true&format=png8&layers=show%3A1&bbox=-10090400.874129962%2C4072677.1587892133%2C-8011313.70477372%2C5491348.403761707&bboxSR=102100&imageSR=102100&size=425%2C290&f=image",
+          "alt": "",
+          "type": "img",
+          "width": 425,
+          "height": 290
+        },
+        {
+          "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_linkedin.png",
+          "alt": "follow us on LinkedIn",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_twitter.png",
+          "alt": "follow us on Twitter",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/icon_facebook.png",
+          "alt": "follow us on facebook",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_youtube.png",
+          "alt": "follow us on YouTube",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_threads.png",
+          "alt": "follow us on Threads",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom8_1024x1024-139x81.jpg",
+          "alt": "",
+          "type": "img",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://insidelines.pjm.com/wp-content/uploads/2019/07/control-room-1_1024x1024-139x81.jpg",
+          "alt": "",
+          "type": "img",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://insidelines.pjm.com/wp-content/uploads/2026/08/Grid-Advance_Inside-Lines-139x81.png",
+          "alt": "",
+          "type": "img",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "description": "Trending Topics Interim Resource Adequacy Service Proposal PDF Reliability Backstop Procurement Fact Sheet PDF Transmission - The Grid's Electric Highway WEB",
+          "badge": "Working to perfect the flow of energy ®",
+          "link": {
+            "text": "Interim Resource Adequacy Service Proposal PDF",
+            "href": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/fact-sheets/interim-resource-adequacy-service-proposal.pdf"
+          },
+          "image": {
+            "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/Banner_Mobile_Image_1.png",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Interconnection Process Subcommittee",
+          "description": "",
+          "badge": "Monday, September 28, 2026",
+          "link": {
+            "text": "Meetings",
+            "href": "https://www.pjm.com/#sectionMeetings"
+          },
+          "image": {
+            "src": "https://www.pjm.com/-/media/DotCom/Images/icons/fa-lock",
+            "alt": "Access Required"
+          }
+        },
+        {
+          "title": "",
+          "description": "PJM Operations Update – Sept. 17, 2026 PJM called on demand response resources across different portions of its footprint to maintain reliable system operations through unusually warm September weather and necessary outages for both generation resources and transmission. PJM activated its Pre-Emergency Demand Response and Emergency Demand Response customers across different portions of the PJM footprint the afternoon of Sept. 17 to increase reserves […]",
+          "badge": "12 a.m.12 p.m.12 a.m.",
+          "price": "Zones Selected Hubs Selected Interfaces AECO $29.87 AEP $29.33 APS $29.33 ATSI $29.21 BGE $29.64 COMED $14.30 DAY $29.44 DEOK $28.55 DOM $29.77 DPL $33.72 DUQ $28.83 EKPC $27.84 JCPL $34.33 METED $26.77 OVEC $28.38 PECO $29.39 PENELEC $29.31 PEPCO $29.56 PJM-RTO $27.69 PPL $26.79 PSEG $31.14 RECO $31.09 AEP GEN HUB $25.70 AEP-DAYTON HUB $26.00 ATSI GEN HUB $25.79 CHICAGO GEN HUB $25.03 CHICAGO HUB $25.35 DOMINION HUB $26.74 EASTERN HUB $28.02 N ILLINOIS HUB $25.21 NEW JERSEY HUB $26.48 OHIO HUB $25.98 WEST INT HUB $26.09 WESTERN HUB $26.52 HUDSONTP $26.73 IMO $25.91 LINDENVFT $26.62 MISO $25.18 NEPTUNE $26.74 NYIS $26.42 SOUTH $25.66",
+          "link": {
+            "text": "Zoom to",
+            "href": "javascript:void(0);"
+          },
+          "image": {
+            "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/7",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "tagName": "div",
+      "classHint": "site-footer",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Careers",
+          "href": "https://www.pjm.com/about-pjm/careers",
+          "target": ""
+        },
+        {
+          "text": "Communications",
+          "href": "https://www.pjm.com/about-pjm/communications",
+          "target": ""
+        },
+        {
+          "text": "PJM Glossary",
+          "href": "https://www.pjm.com/Glossary",
+          "target": ""
+        },
+        {
+          "text": "Issue Tracking",
+          "href": "https://www.pjm.com/committees-and-groups/issue-tracking",
+          "target": ""
+        },
+        {
+          "text": "Learning Center",
+          "href": "https://learn.pjm.com/",
+          "target": ""
+        },
+        {
+          "text": "Manuals",
+          "href": "https://www.pjm.com/library/manuals",
+          "target": ""
+        },
+        {
+          "text": "Operating Agreement",
+          "href": "https://agreements.pjm.com/oa",
+          "target": ""
+        },
+        {
+          "text": "Request a Speaker",
+          "href": "https://pjm.qualtrics.com/jfe/form/SV_9FyRy35j6ZJeHad",
+          "target": ""
+        },
+        {
+          "text": "Open Access Transmission Tariff",
+          "href": "https://agreements.pjm.com/oatt",
+          "target": ""
+        },
+        {
+          "text": "RSS Feeds",
+          "href": "https://www.pjm.com/about-pjm/newsroom/rss-feeds",
+          "target": ""
+        },
+        {
+          "text": "Upcoming Changes",
+          "href": "https://www.pjm.com/markets-and-operations/etools/upcoming-changes",
+          "target": ""
+        },
+        {
+          "text": "Visiting PJM",
+          "href": "https://www.pjm.com/about-pjm/who-we-are/visiting-pjm",
+          "target": ""
+        },
+        {
+          "text": "Training",
+          "href": "https://www.pjm.com/training",
+          "target": ""
+        },
+        {
+          "text": "Data Viewer",
+          "href": "https://dataviewer.pjm.com/",
+          "target": ""
+        },
+        {
+          "text": "System Map",
+          "href": "https://gis.pjm.com/esm/default.html",
+          "target": ""
+        },
+        {
+          "text": "Interregional Data Map",
+          "href": "https://www.pjm.com/markets-and-operations/interregional-map",
+          "target": ""
+        },
+        {
+          "text": "Data Miner 2",
+          "href": "https://dataminer2.pjm.com/list",
+          "target": ""
+        },
+        {
+          "text": "Data Directory",
+          "href": "https://www.pjm.com/markets-and-operations/data-dictionary",
+          "target": ""
+        },
+        {
+          "text": "Emergency Procedures",
+          "href": "https://emergencyprocedures.pjm.com/",
+          "target": ""
+        },
+        {
+          "text": "(610) 666-8980",
+          "href": "tel:(610) 666-8980",
+          "target": ""
+        },
+        {
+          "text": "(866) 400-8980",
+          "href": "tel:(866) 400-8980",
+          "target": ""
+        },
+        {
+          "text": "Email",
+          "href": "mailto: custsvc@pjm.com",
+          "target": ""
+        },
+        {
+          "text": "Contact Directory",
+          "href": "https://www.pjm.com/about-pjm/communications/contact-directory",
+          "target": ""
+        },
+        {
+          "text": "Member Community",
+          "href": "https://www.pjm.com/markets-and-operations/etools/member-community",
+          "target": ""
+        },
+        {
+          "text": "(866) 756-6397",
+          "href": "tel:(866) 756-6397",
+          "target": ""
+        },
+        {
+          "text": "Newsroom",
+          "href": "https://www.pjm.com/about-pjm/newsroom",
+          "target": ""
+        },
+        {
+          "text": "Media Relations Email",
+          "href": "mailto: PJMCorpComm@pjm.com",
+          "target": ""
+        },
+        {
+          "text": "(866) 776 6942",
+          "href": "tel:(866) 776 6942",
+          "target": ""
+        },
+        {
+          "text": "Online Reporting Tool",
+          "href": "https://www.compliance-helpline.com/welcomePagePJM.jsp",
+          "target": "_blank"
+        },
+        {
+          "text": "Legal and Privacy",
+          "href": "https://www.pjm.com/about-pjm/legal.aspx",
+          "target": ""
+        },
+        {
+          "text": "Site Map",
+          "href": "https://www.pjm.com/about-pjm/site-map",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.pjm.com/-/media/DotCom/Images/cta-buttons/PJM-Now-App.png",
+          "alt": "PJM NOW App",
+          "type": "img",
+          "width": 377,
+          "height": 149
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_insidelines.png",
+          "alt": "InsideLines",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_facebook.png",
+          "alt": "follow us on facebook",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_rss.png",
+          "alt": "rss feed",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_linkedin.png",
+          "alt": "follow us on LinkedIn",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_twitter.png",
+          "alt": "follow us on Twitter",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_youtube.png",
+          "alt": "follow us on YouTube",
+          "type": "img",
+          "width": 56,
+          "height": 56
+        },
+        {
+          "src": "https://www.pjm.com/assets/MVC/responsive/img/bg_footer.gif",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Quick Links",
+          "link": {
+            "text": "Careers",
+            "href": "https://www.pjm.com/about-pjm/careers"
+          }
+        },
+        {
+          "title": "Data Shortcuts",
+          "link": {
+            "text": "Data Viewer",
+            "href": "https://dataviewer.pjm.com/"
+          },
+          "image": {
+            "src": "https://www.pjm.com/-/media/DotCom/Images/cta-buttons/PJM-Now-App.png",
+            "alt": "PJM NOW App"
+          }
+        },
+        {
+          "title": "Contact",
+          "link": {
+            "text": "(610) 666-8980",
+            "href": "tel:(610) 666-8980"
+          }
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "div",
+      "classHint": "QSISlider SI_cMY4HDmx8SRLtOu_SliderContainer",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [],
+      "images": []
+    }
+  ]
+}

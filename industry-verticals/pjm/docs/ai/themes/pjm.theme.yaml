@@ -1,0 +1,129 @@
+# Client Brand Theme — PJM
+# Extracted from: https://www.pjm.com/ + homepage screenshot
+
+client:
+  name: "PJM"
+  sourceUrl: "https://www.pjm.com/"
+  extractedAt: "2026-09-26T04:37:00Z"
+  extractedBy: "cursor"
+
+colors:
+  primary: "#005596"
+  primaryForeground: "#ffffff"
+  secondary: "#333333"
+  secondaryForeground: "#ffffff"
+  accent: "#0077c8"
+  accentForeground: "#ffffff"
+  background: "#ffffff"
+  foreground: "#333333"
+  muted: "#f5f5f5"
+  mutedForeground: "#666666"
+  headerBackground: "#ffffff"
+  headerForeground: "#005596"
+  footerBackground: "#454545"
+  footerForeground: "#cccccc"
+  border: "#dddddd"
+  ring: "#005596"
+  extra:
+    - { name: "utilityBar", value: "#333333" }
+    - { name: "link", value: "#005596" }
+    - { name: "rainbowMagenta", value: "#c2185b" }
+    - { name: "rainbowCyan", value: "#00bcd4" }
+    - { name: "rainbowYellow", value: "#fdd835" }
+    - { name: "rainbowLime", value: "#8bc34a" }
+    - { name: "rainbowOrange", value: "#ff9800" }
+    - { name: "rainbowPurple", value: "#7b1fa2" }
+    - { name: "chartBlue", value: "#1565c0" }
+    - { name: "chartTeal", value: "#00897b" }
+
+typography:
+  headingFamily: "'Trebuchet MS', Arial, Helvetica, sans-serif"
+  headingWeight: "700"
+  bodyFamily: "'Trebuchet MS', Arial, Helvetica, sans-serif"
+  bodyWeight: "400"
+  monoFamily: "Consolas, 'Courier New', monospace"
+  googleFontsUrl: ""
+  scale:
+    hero: "1.75rem"
+    h1: "1.5rem"
+    h2: "1.25rem"
+    h3: "1.1rem"
+    body: "0.8125rem"
+    small: "0.75rem"
+  headingTransform: "lowercase"
+  letterSpacing: "normal"
+  lineHeight: "normal"
+
+spacing:
+  density: "compact"
+  sectionGap: "1.5rem"
+  containerMaxWidth: "1290px"
+  containerPadding: "1rem"
+
+shape:
+  borderRadius: "0.25rem"
+  buttonRadius: "0.25rem"
+  cardRadius: "0"
+  imageRadius: "0"
+  shadowStyle: "none"
+  borderStyle: "subtle"
+
+tone:
+  overall: "corporate-utility"
+  colorMode: "light"
+  contrast: "high"
+  imagery: "photography"
+  heroStyle: "full-bleed-image"
+  cardStyle: "flat-bordered"
+  navStyle: "solid-bar"
+
+tailwind:
+  colors:
+    brand:
+      primary: "#005596"
+      secondary: "#333333"
+      accent: "#0077c8"
+  fontFamily:
+    heading: ["Trebuchet MS", "Arial", "Helvetica", "sans-serif"]
+    body: ["Trebuchet MS", "Arial", "Helvetica", "sans-serif"]
+  borderRadius:
+    DEFAULT: "0.25rem"
+    button: "0.25rem"
+    card: "0"
+
+cssVariables: |
+  :root {
+    --brand-primary: #005596;
+    --brand-primary-foreground: #ffffff;
+    --brand-secondary: #333333;
+    --brand-secondary-foreground: #ffffff;
+    --brand-accent: #0077c8;
+    --brand-accent-foreground: #ffffff;
+    --brand-bg: #ffffff;
+    --brand-fg: #333333;
+    --brand-muted: #f5f5f5;
+    --brand-muted-fg: #666666;
+    --brand-header-bg: #ffffff;
+    --brand-header-fg: #005596;
+    --brand-footer-bg: #454545;
+    --brand-footer-fg: #cccccc;
+    --brand-utility-bar: #333333;
+    --brand-border: #dddddd;
+    --brand-ring: #005596;
+    --brand-font-heading: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    --brand-font-body: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    --brand-radius: 0.25rem;
+    --brand-button-radius: 0.25rem;
+  }
+
+extraction:
+  confidence: "high"
+  method: "playwright-scraper + homepage-screenshot"
+  notes:
+    - "Primary navy #005596 from logo/nav links; utility bar and footer use charcoal #333/#454545."
+    - "Body font from computed styles: Trebuchet MS / Arial stack; nav often lowercase."
+    - "Buttons are rectangular navy with slight radius; cards use whitespace/hairline borders, not heavy shadows."
+    - "Footer topped by thin multi-color rainbow accent stripe (magenta/cyan/yellow/lime/orange/purple)."
+    - "Hero is full-bleed control-room photography with white overlay headline."
+    - "Data viz uses blue/teal/green/yellow/orange spectrum aligned with rainbow accents."
+    - "componentLibrary: financial-sxa (not UIIM)."

@@ -1,0 +1,154 @@
+/* PJM pixel-perfect demo variants + brand accents */
+
+.hero-overlay-panel {
+  max-width: 22rem;
+  margin-left: auto;
+
+  &__inner {
+    background: rgba(51, 51, 51, 0.88);
+    color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+  }
+
+  &__header {
+    background: #5ba3d0;
+    padding: 0.65rem 1rem;
+    font-family: var(--brand-font-heading, "Trebuchet MS", Arial, sans-serif);
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  &__body {
+    padding: 0.85rem 1rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.45;
+
+    a {
+      color: #9ed0f0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+  }
+
+  &__cta {
+    padding: 0.75rem 1rem 1rem;
+
+    .button-main {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: #005596;
+      color: #fff;
+      border-radius: 0.25rem;
+      padding: 0.55rem 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+}
+
+.data-dashboard {
+  font-family: var(--brand-font-body, "Trebuchet MS", Arial, sans-serif);
+
+  &__header {
+    margin-bottom: 1.25rem;
+  }
+
+  &__eyebrow {
+    color: #005596;
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+  }
+
+  &__intro {
+    color: #666;
+    font-size: 0.875rem;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 992px) {
+      grid-template-columns: 1.4fr 1fr;
+    }
+  }
+
+  &__card {
+    border: 1px solid #dddddd;
+    background: #fff;
+    padding: 1rem;
+  }
+
+  &__media {
+    margin-bottom: 0.75rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &__title {
+    color: #005596;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+  }
+
+  &__copy {
+    color: #333;
+    font-size: 0.8125rem;
+    margin: 0 0 0.75rem;
+  }
+
+  &__cta .button-main {
+    background: #005596;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.45rem 0.9rem;
+    text-decoration: none;
+    font-size: 0.8125rem;
+  }
+}
+
+/* Rainbow accent above footer (PJM signature) */
+.footer::before,
+footer::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #c2185b 0%,
+    #00bcd4 20%,
+    #fdd835 40%,
+    #8bc34a 60%,
+    #ff9800 80%,
+    #7b1fa2 100%
+  );
+}
+
+.site-financial .eyebrow {
+  background-color: var(--brand-utility-bar, #333);
+  color: #fff;
+}
+
+.site-financial .button-main,
+.site-financial a.button-main {
+  background-color: #005596;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,227 @@
+# PJM Homepage Build Plan
+# Component library: Financial/SXA (industry-verticals/pjm)
+# Content root: /sitecore/content/PJM/PJM
+
+client:
+  name: "PJM"
+  sourceUrl: "https://www.pjm.com/"
+  analyzedAt: "2026-09-26T04:39:00Z"
+  componentLibrary: "financial-sxa"
+  registryFile: "docs/ai/catalog/financial-sxa-component-registry.yaml"
+  themeFile: "docs/ai/themes/pjm.theme.yaml"
+  contentRoot: "/sitecore/content/PJM/PJM"
+  codeRoot: "industry-verticals/pjm/"
+
+summary:
+  totalSections: 10
+  templateMatches: 8
+  customRequired: 2
+  contextOnly: 2
+
+sections:
+  - position: 1
+    name: "Utility bar"
+    description: "Dark charcoal top bar with Sign In, search+Go, Communities, Calendar"
+    matchType: "template"
+    registryId: "eyebrow"
+    manifestName: "Eyebrow"
+    reactFile: "src/components/navigation/Eyebrow.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      links: ["Sign In", "Communities", "Calendar"]
+      search: true
+
+  - position: 2
+    name: "Main header / navigation"
+    description: "White header with PJM logo and lowercase pipe-separated nav links"
+    matchType: "template"
+    registryId: "header"
+    manifestName: "Header"
+    reactFile: "src/components/navigation/Header.tsx"
+    kind: "context"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: false
+    sectionBackground: "default"
+    content:
+      logo: "pjm"
+      navLinks:
+        - "about pjm"
+        - "training"
+        - "committees & groups"
+        - "planning"
+        - "markets & operations"
+        - "library"
+    notes: "Context-only — place via header partial / page design; Navigation.tsx may compose with Header"
+
+  - position: 3
+    name: "Hero banner"
+    description: "Full-bleed control-room photo with white tagline overlay"
+    matchType: "template"
+    registryId: "hero"
+    manifestName: "Hero"
+    reactFile: "src/components/pagecontent/Hero.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "Working to perfect the flow of energy ®"
+      image: "Control room with wall of monitors and operators"
+
+  - position: 4
+    name: "Trending topics panel"
+    description: "Semi-transparent dark box on hero right with topic links and Value of PJM button"
+    matchType: "template"
+    registryId: "promo-cta"
+    manifestName: "Promo CTA"
+    reactFile: "src/components/pagecontent/PromoCta.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "medium"
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      title: "Trending Topics"
+      items:
+        - "Interim Resource Adequacy Service Proposal"
+        - "Reliability Backstop Procurement Fact Sheet"
+        - "Transmission - The Grid's Electric Highway"
+      cta: "The Value of PJM"
+    customVariantNeeded:
+      name: "HeroOverlayPanel"
+      description: "Semi-transparent panel overlaid on hero right with link list + primary CTA button"
+      parentComponent: "PromoCta"
+    notes: "Generic Promo CTA can hold content; overlay-on-hero layout needs variant or page-level composition"
+
+  - position: 5
+    name: "Meetings | Training"
+    description: "Left column list of upcoming meetings by date with View/Register links"
+    matchType: "template"
+    registryId: "documents-list"
+    manifestName: "Documents List"
+    reactFile: "src/components/pagecontent/DocumentsList.tsx"
+    kind: "list"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "medium"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "Meetings | Training"
+      link: "Meeting Center"
+      items:
+        - title: "Interconnection Process Subcommittee"
+          meta: "Monday, September 28, 2026 · 9:00 a.m. – 12:00 p.m. EPT"
+        - title: "MC Information Webinar"
+          meta: "Monday, September 28, 2026 · 1:00 – 2:30 p.m. EPT"
+        - title: "Load Analysis Subcommittee"
+          meta: "Tuesday, September 29, 2026 · 9:00 a.m. – 4:00 p.m. EPT"
+
+  - position: 6
+    name: "Current Conditions / LMP dashboard"
+    description: "Right column with LMP map, zone price table, fuel-mix donut, load forecast chart"
+    matchType: "custom"
+    registryId: null
+    manifestName: null
+    kind: "custom"
+    variant: null
+    variantMatch: "none"
+    matchConfidence: "low"
+    apiAddable: false
+    sectionBackground: "default"
+    suggestedApproach: "Compose Features + ImageGallery + StatsCounter for static demo snapshot; or one custom DataDashboard component"
+    content:
+      title: "Current Conditions"
+      subtitle: "Locational Marginal Pricing"
+      widgets: ["LMP map", "zone price table", "Generation Fuel Mix", "Load Forecast"]
+    customComponentNeeded:
+      name: "DataDashboard"
+      description: "Multi-widget energy data panel: map image, price table, fuel-mix chart image, load forecast chart image"
+      fields:
+        - { name: "Title", type: "Single-Line Text" }
+        - { name: "MapImage", type: "Image" }
+        - { name: "FuelMixImage", type: "Image" }
+        - { name: "LoadForecastImage", type: "Image" }
+        - { name: "TableHtml", type: "Rich Text" }
+
+  - position: 7
+    name: "News"
+    description: "News headlines with thumbnails and social icon row above"
+    matchType: "template"
+    registryId: "article-list"
+    manifestName: "Article List"
+    reactFile: "src/components/pagecontent/ArticleList.tsx"
+    kind: "list"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "News"
+      social: ["LinkedIn", "X", "Facebook", "YouTube", "Instagram"]
+
+  - position: 8
+    name: "Latest Filings & Orders"
+    description: "List of regulatory filings with dates, docket numbers, summaries"
+    matchType: "template"
+    registryId: "documents-list"
+    manifestName: "Documents List"
+    reactFile: "src/components/pagecontent/DocumentsList.tsx"
+    kind: "list"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "Latest Filings & Orders"
+
+  - position: 9
+    name: "Get the app CTA"
+    description: "Bright blue tile promoting PJM Now mobile app"
+    matchType: "template"
+    registryId: "app-promo"
+    manifestName: "App Promo"
+    reactFile: "src/components/pagecontent/AppPromo.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "primary"
+    content:
+      title: "Get the app! PJM Now"
+
+  - position: 10
+    name: "Footer"
+    description: "Rainbow accent stripe, dark footer with Quick Links / Data / Contact columns, copyright"
+    matchType: "template"
+    registryId: "footer"
+    manifestName: "Footer"
+    reactFile: "src/components/navigation/Footer.tsx"
+    kind: "context"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "high"
+    apiAddable: false
+    sectionBackground: "dark"
+    content:
+      columns: ["Quick Links", "Data Shortcuts", "Data Inner Circle/Directory", "Contact"]
+      copyright: "PJM © 1999-2024"
+    notes: "Context-only; rainbow stripe via theme CSS; App Promo may sit in footer area"
+
+layoutNotes:
+  - "Main content is two-column: Meetings (left) + Current Conditions (right). Use ColumnSplitter or Two Column CTA wrapper in Phase 6."
+  - "Hero + Trending Topics are visually one band; assemble as Hero then Promo CTA, or custom HeroOverlayPanel if Phase 5.5 approved."
+  - "Interactive LMP/fuel/load widgets: prefer static screenshot images in demo unless custom DataDashboard is approved."

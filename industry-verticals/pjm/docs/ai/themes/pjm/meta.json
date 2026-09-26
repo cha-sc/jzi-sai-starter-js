@@ -1,0 +1,19 @@
+{
+  "title": "PJM Website",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": null,
+  "ogDescription": null,
+  "ogImage": null,
+  "ogSiteName": null,
+  "googleFontsLinks": [],
+  "fontFaces": [
+    {
+      "family": "Glyphicons Halflings",
+      "src": "url(\"../MVC/fonts/glyphicons-halflings-regular.woff2\") format(\"woff2\"), url(\"../MVC/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"../MVC/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\")",
+      "weight": ""
+    }
+  ],
+  "logoCandidates": [],
+  "heroBgImage": null
+}

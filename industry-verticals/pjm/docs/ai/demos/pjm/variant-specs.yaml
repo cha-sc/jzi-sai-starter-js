@@ -1,0 +1,13 @@
+variants:
+  - name: HeroOverlayPanel
+    parentComponent: PromoCta
+    reactExport: HeroOverlayPanel
+    sitecorePath: /sitecore/content/PJM/PJM/Presentation/Headless Variants/Promo CTA/HeroOverlayPanel
+    sitecoreId: 9b4affaf-1d0d-49f9-b7c2-cc82f6d164b0
+    purpose: Semi-transparent trending topics panel for hero band
+  - name: DataDashboard
+    parentComponent: Features
+    reactExport: DataDashboard
+    sitecorePath: /sitecore/content/PJM/PJM/Presentation/Headless Variants/Features/DataDashboard
+    sitecoreId: 439ac85d-a198-4195-a3a6-2a50e1d0cce0
+    purpose: Two-up Current Conditions cards (LMP + fuel mix)

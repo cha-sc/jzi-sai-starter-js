@@ -86,8 +86,9 @@ steps:
     error: ""
 
   step2_build_demo:
-    status: "handed_off"
+    status: "complete"
     error: ""
 
 notes:
   - "2026-09-26T04:21:00Z — Step 1 complete. Handed off to sitecore-build-demo in industry-verticals/pjm."
+  - "2026-09-26T04:50:00Z — Demo build largely complete; Phase 6 page assembly manual due to layout API 500."

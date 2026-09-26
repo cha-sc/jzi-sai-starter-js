@@ -1,0 +1,121 @@
+# Demo Progress Tracker — PJM
+
+client:
+  name: "PJM"
+  sourceUrl: "https://www.pjm.com/"
+  startedAt: "2026-09-26T04:21:00Z"
+  lastUpdatedAt: "2026-09-26T04:50:00Z"
+
+scope:
+  codeRoot: "industry-verticals/pjm/"
+  contentRoot: "/sitecore/content/PJM/PJM"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.pjm.com/"
+    screenshotPath: "docs/ai/demos/pjm/homepage-screenshot.jpg"
+    contentHubVerified: true
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass-with-warnings"
+    decision: "financial-sxa"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/pjm.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/pjm/build-plan.yaml"
+    totalSections: 10
+    userApproved: true
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/pjm/content-map.yaml"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 7
+    totalSections: 10
+    folderId: "219c79fe-7f59-426c-9a4a-5b531594aea5"
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "financial-scss-vars"
+    cssWritten: true
+    fontsAdded: false
+
+  phase5_custom:
+    status: "skipped"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 2
+    variantsCreated: 2
+    variantSpecsFile: "docs/ai/demos/pjm/variant-specs.yaml"
+    skippedReason: ""
+    userChoice: "pixel-perfect"
+
+  phase6_assembly:
+    status: "partial"
+    componentsAdded: 0
+    datasourcesWired: 0
+    totalComponents: 7
+    error: "Page layout APIs 500 — Home Page Design empty; see manual-tasks.md"
+
+  phase7_summary:
+    status: "complete"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false }
+  - position: 2
+    componentName: "Header"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false }
+  - position: 3
+    componentName: "Hero"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "930ca713-31a5-4846-b73d-ac2ed03abd92", fieldsPopulated: true }
+  - position: 4
+    componentName: "PromoCta"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "ef7cc5ea-f356-47a6-a6e7-cecee5154621", fieldsPopulated: true }
+  - position: 5
+    componentName: "DocumentsList"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "b028cc3c-1e09-416c-8226-25119d6284f0", fieldsPopulated: true }
+  - position: 6
+    componentName: "Features"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "d9192454-a8db-4521-b71e-defccab23372", fieldsPopulated: true }
+  - position: 7
+    componentName: "DocumentsList"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "7d6ae6c3-ebf9-4e1b-8fda-757de18eb75f", fieldsPopulated: true }
+  - position: 8
+    componentName: "DocumentsList"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "fc9a2c71-2042-4941-9da3-22a4adab1c25", fieldsPopulated: true }
+  - position: 9
+    componentName: "AppPromo"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "aa76dee6-e0ac-442e-ac2d-d432ec22334f", fieldsPopulated: true }
+  - position: 10
+    componentName: "Footer"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false }
+
+notes:
+  - "2026-09-26T04:50:00Z — Phase 6 blocked on layout API; manual assembly documented."

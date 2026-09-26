@@ -1,0 +1,256 @@
+client:
+  name: "PJM"
+  sourceUrl: "https://www.pjm.com/"
+  contentRoot: "/sitecore/content/PJM/PJM"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor+screenshot"
+
+templates:
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCTA: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  AppPromo: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+  DocumentsList: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+  Features: "d3fdded9-44ae-4410-961c-3320cc82d638"
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+
+parentIds:
+  dataRoot: "0572d658-5683-46b2-a9a5-d1639124379e"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+    notes: "Placeholder-driven; style via theme. Skip datasource create."
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+    notes: "Manual header partial wiring."
+
+  - position: 3
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "PJM - Hero"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    fields:
+      Title: "Working to perfect the flow of energy ®"
+      Text: "<p>PJM Interconnection ensures the reliability of the high-voltage electric grid.</p>"
+      Link:
+        text: "The Value of PJM"
+        href: "https://www.pjm.com/about-pjm/corporate-strategy-and-value"
+        target: "_blank"
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "local:hero-control-room.png"
+        alt: "PJM control room monitoring the electric grid"
+    matchConfidence: "high"
+    contentSource: "screenshot"
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "PJM - Trending Topics"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    fields:
+      Eyebrow: "Trending Topics"
+      Title: "Trending Topics"
+      Subtitle: "Latest from PJM"
+      Text: "<ul><li>Interim Resource Adequacy Service Proposal</li><li>Reliability Backstop Procurement Fact Sheet</li><li>Transmission - The Grid's Electric Highway</li></ul>"
+      Link:
+        text: "The Value of PJM"
+        href: "https://www.pjm.com/about-pjm/corporate-strategy-and-value"
+        target: "_blank"
+      Link2:
+        text: "Meeting Center"
+        href: "https://www.pjm.com/committees-and-groups/meeting-center"
+        target: "_blank"
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    phase55Variant: "HeroOverlayPanel"
+
+  - position: 5
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM - Meetings Training"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields:
+      Title1: "Meetings | Training"
+      Link1:
+        text: "Interconnection Process Subcommittee"
+        href: "https://www.pjm.com/committees-and-groups/meeting-center"
+        target: "_blank"
+      Subtitle1: "Mon, Sep 28, 2026 · 9:00 a.m. – 12:00 p.m. EPT · View | Register"
+      Link2:
+        text: "MC Information Webinar"
+        href: "https://www.pjm.com/committees-and-groups/meeting-center"
+        target: "_blank"
+      Subtitle2: "Mon, Sep 28, 2026 · 1:00 – 2:30 p.m. EPT · View | Register"
+      Link3:
+        text: "Load Analysis Subcommittee"
+        href: "https://www.pjm.com/committees-and-groups/meeting-center"
+        target: "_blank"
+      Subtitle3: "Tue, Sep 29, 2026 · 9:00 a.m. – 4:00 p.m. EPT · View | Register"
+      Link4:
+        text: "Meeting Center"
+        href: "https://www.pjm.com/committees-and-groups/meeting-center"
+        target: "_blank"
+      Subtitle4: "All upcoming meetings and training"
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "screenshot"
+
+  - position: 6
+    componentName: "Features"
+    manifestName: "Features"
+    kind: "simple"
+    datasourceItemName: "PJM - Current Conditions"
+    apiAddable: true
+    templateId: "d3fdded9-44ae-4410-961c-3320cc82d638"
+    fields:
+      Eyebrow: "Current Conditions"
+      Text: "<p>Locational Marginal Pricing, Generation Fuel Mix, and Load Forecast — demo snapshot.</p>"
+      Title1: "Locational Marginal Pricing"
+      Text1: "Real-time LMP map and zone prices across the PJM RTO."
+      Title2: "Generation Fuel Mix"
+      Text2: "Share of generation by fuel type for the operating day."
+      Link:
+        text: "Locational Marginal Pricing Map"
+        href: "https://www.pjm.com/markets-and-operations"
+        target: "_blank"
+    children: []
+    imageFields: []
+    matchConfidence: "low"
+    contentSource: "screenshot"
+    phase55Variant: "DataDashboard"
+    notes: "Placeholder until Phase 5.5 DataDashboard; static images from scrape."
+
+  - position: 7
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM - News Highlights"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields:
+      Title1: "News"
+      Link1:
+        text: "PJM Newsroom"
+        href: "https://www.pjm.com/media"
+        target: "_blank"
+      Subtitle1: "Latest headlines and media updates"
+      Link2:
+        text: "Corporate Strategy and Value"
+        href: "https://www.pjm.com/about-pjm/corporate-strategy-and-value"
+        target: "_blank"
+      Subtitle2: "How PJM creates value for members and consumers"
+      Link3:
+        text: "Annual Report"
+        href: "https://www.pjm.com/about-pjm/who-we-are/annual-report"
+        target: "_blank"
+      Subtitle3: "Year in review"
+      Link4:
+        text: "Careers at PJM"
+        href: "https://www.pjm.com/about-pjm/careers/working-at-pjm"
+        target: "_blank"
+      Subtitle4: "Working at PJM"
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Article List is GraphQL-driven; Documents List used for demo news links."
+
+  - position: 8
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM - Latest Filings"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields:
+      Title1: "Latest Filings & Orders"
+      Link1:
+        text: "Interim Resource Adequacy Service Proposal"
+        href: "https://www.pjm.com/"
+        target: "_blank"
+      Subtitle1: "PDF · Filing"
+      Link2:
+        text: "Reliability Backstop Procurement Fact Sheet"
+        href: "https://www.pjm.com/"
+        target: "_blank"
+      Subtitle2: "PDF · Fact sheet"
+      Link3:
+        text: "Transmission - The Grid's Electric Highway"
+        href: "https://www.pjm.com/"
+        target: "_blank"
+      Subtitle3: "Web · Overview"
+      Link4:
+        text: "Library"
+        href: "https://www.pjm.com/library"
+        target: "_blank"
+      Subtitle4: "All documents and filings"
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+
+  - position: 9
+    componentName: "AppPromo"
+    manifestName: "App Promo"
+    kind: "simple"
+    datasourceItemName: "PJM - App Promo"
+    apiAddable: true
+    templateId: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+    fields:
+      Title: "Get the app! PJM Now"
+      Text: "<p>Stay connected to markets, operations, and meeting updates on the go.</p>"
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+
+  - position: 10
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+    notes: "Manual footer partial; rainbow stripe via theme CSS."
+
+summary:
+  totalSections: 10
+  simpleDatasources: 6
+  listDatasources: 0
+  contextOnly: 3
+  customPhase55: 2
+  imageFieldsMapped: 2
