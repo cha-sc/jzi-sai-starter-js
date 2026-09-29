@@ -1,0 +1,219 @@
+# Financial / SXA Component Registry for PJM demo
+# Used by site analysis when UIIM library is unavailable.
+# Maps homepage sections to React components under src/components/
+# that exist in the ProsperaFinancial / Financial SXA stack.
+
+components:
+
+  - id: eyebrow
+    name: "Eyebrow"
+    kind: simple
+    category: Navigation
+    priority: 1
+    reactFile: "src/components/navigation/Eyebrow.tsx"
+    sitecoreName: "Eyebrow"
+    variants: [Default]
+    visualKeywords:
+      - thin utility bar at top
+      - sign in link
+      - search box
+      - communities calendar links
+      - top dark bar
+
+  - id: header
+    name: "Header"
+    kind: context
+    category: Navigation
+    priority: 2
+    reactFile: "src/components/navigation/Header.tsx"
+    sitecoreName: "Header"
+    variants: [Default]
+    apiAddable: false
+    visualKeywords:
+      - logo with navigation links
+      - main header bar
+      - horizontal nav menu
+      - solid white header
+
+  - id: navigation
+    name: "Navigation"
+    kind: context
+    category: Navigation
+    priority: 2
+    reactFile: "src/components/navigation/Navigation.tsx"
+    sitecoreName: "Navigation"
+    variants: [Default]
+    apiAddable: false
+    visualKeywords:
+      - navigation links
+      - menu bar
+      - pipe-separated links
+
+  - id: hero
+    name: "Hero"
+    kind: simple
+    category: Banners
+    priority: 3
+    reactFile: "src/components/pagecontent/Hero.tsx"
+    sitecoreName: "Hero"
+    variants: [Default]
+    visualKeywords:
+      - full-bleed hero image
+      - cinematic banner
+      - headline overlay on photo
+      - control room imagery
+
+  - id: hero-banner
+    name: "Hero Banner"
+    kind: simple
+    category: Banners
+    priority: 3
+    reactFile: "src/components/pagecontent/HeroBanner.tsx"
+    sitecoreName: "Hero Banner"
+    variants: [Default]
+    visualKeywords:
+      - hero with trending topics box
+      - banner with side panel
+      - overlay callout on hero
+
+  - id: two-column-cta
+    name: "Two Column CTA"
+    kind: simple
+    category: Content
+    priority: 4
+    reactFile: "src/components/pagecontent/TwoColumnCta.tsx"
+    sitecoreName: "Two Column CTA"
+    variants: [Default]
+    visualKeywords:
+      - two column layout
+      - sidebar and main content
+      - meetings list beside dashboard
+
+  - id: three-column-cta
+    name: "Three Column CTA"
+    kind: simple
+    category: Content
+    priority: 5
+    reactFile: "src/components/pagecontent/ThreeColumnCta.tsx"
+    sitecoreName: "Three Column CTA"
+    variants: [Default]
+    visualKeywords:
+      - three column cards
+      - data widgets row
+      - map chart forecast trio
+
+  - id: features
+    name: "Features"
+    kind: list
+    category: Content
+    priority: 5
+    reactFile: "src/components/pagecontent/Features.tsx"
+    sitecoreName: "Features"
+    variants: [Default]
+    visualKeywords:
+      - feature cards grid
+      - icon or image cards
+      - multi-item feature section
+
+  - id: article-list
+    name: "Article List"
+    kind: list
+    category: Content
+    priority: 6
+    reactFile: "src/components/pagecontent/ArticleList.tsx"
+    sitecoreName: "Article List"
+    variants: [Default]
+    visualKeywords:
+      - news headlines with thumbnails
+      - article cards
+      - latest news list
+
+  - id: documents-list
+    name: "Documents List"
+    kind: list
+    category: Content
+    priority: 7
+    reactFile: "src/components/pagecontent/DocumentsList.tsx"
+    sitecoreName: "Documents List"
+    variants: [Default]
+    visualKeywords:
+      - filings and orders list
+      - document links with dates
+      - regulatory list
+
+  - id: cta-banner
+    name: "CTA Banner"
+    kind: simple
+    category: Banners
+    priority: 8
+    reactFile: "src/components/pagecontent/CtaBanner.tsx"
+    sitecoreName: "CTA Banner"
+    variants: [Default]
+    visualKeywords:
+      - get the app banner
+      - promotional CTA strip
+      - blue rectangular CTA tile
+
+  - id: promo-cta
+    name: "Promo CTA"
+    kind: simple
+    category: Content
+    priority: 8
+    reactFile: "src/components/pagecontent/PromoCta.tsx"
+    sitecoreName: "Promo CTA"
+    variants: [Default]
+    visualKeywords:
+      - promo with image and link
+      - call to action block
+
+  - id: stats-counter
+    name: "Stats Counter"
+    kind: list
+    category: Content
+    priority: 5
+    reactFile: "src/components/pagecontent/StatsCounter.tsx"
+    sitecoreName: "Stats Counter"
+    variants: [Default]
+    visualKeywords:
+      - data metrics
+      - pricing table
+      - numerical dashboard
+
+  - id: rich-text
+    name: "Rich Text"
+    kind: simple
+    category: Content
+    priority: 9
+    reactFile: "src/components/pagecontent/RichText.tsx"
+    sitecoreName: "RichText"
+    variants: [Default]
+    visualKeywords:
+      - body copy section
+      - text block
+
+  - id: image-gallery
+    name: "Image Gallery"
+    kind: list
+    category: Media
+    priority: 6
+    reactFile: "src/components/pagecontent/ImageGallery.tsx"
+    sitecoreName: "Image Gallery"
+    variants: [Default]
+    visualKeywords:
+      - thumbnail row
+      - image grid
+
+  - id: footer
+    name: "Footer"
+    kind: context
+    category: Navigation
+    priority: 99
+    reactFile: "src/components/navigation/Footer.tsx"
+    sitecoreName: "Footer"
+    variants: [Default]
+    apiAddable: false
+    visualKeywords:
+      - dark footer with link columns
+      - rainbow accent stripe
+      - contact and quick links
+      - copyright bar

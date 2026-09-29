@@ -1,0 +1,27 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(51, 51, 51)",
+    "headerBackground": "rgba(0, 0, 0, 0)",
+    "headerColor": "rgb(51, 51, 51)",
+    "footerBackground": "rgb(69, 69, 69)",
+    "footerColor": "rgb(204, 204, 204)",
+    "heroBackground": null,
+    "linkColor": "rgb(204, 204, 204)"
+  },
+  "typography": {
+    "bodyFontFamily": "\"Trebuchet MS\", Arial, Helvetica, sans-serif",
+    "bodyFontSize": "13px",
+    "bodyFontWeight": "300",
+    "bodyLineHeight": "normal"
+  },
+  "shape": {
+    "imgBorderRadius": "0px"
+  },
+  "spacing": {
+    "heroMinHeight": "0px",
+    "heroPadding": "10px 0px",
+    "containerMaxWidth": "1290px"
+  },
+  "cssVariables": {}
+}

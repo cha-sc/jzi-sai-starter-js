@@ -189,6 +189,71 @@ export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
   );
 };
 
+/** ISO-NE-style dark ops dashboard: three equal widgets (map / mix / demand) */
+export const OpsDashboard = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const Widget = ({
+    image,
+    text,
+    subText,
+    link,
+  }: {
+    image: ImageField;
+    text: Field<string>;
+    subText: Field<string>;
+    link: LinkField;
+  }) => (
+    <article className="ops-dashboard__widget">
+      <div className="ops-dashboard__media">
+        <NextImage field={image} width={480} height={320} />
+      </div>
+      <h3 className="ops-dashboard__title">
+        <Text field={text} />
+      </h3>
+      <p className="ops-dashboard__copy">
+        <Text field={subText} />
+      </p>
+      {(isPageEditing || link?.value?.href) && (
+        <Link field={link} className="ops-dashboard__link" />
+      )}
+    </article>
+  );
+
+  return (
+    <section
+      className={`component three-column-cta ops-dashboard ${sxaStyles}`}
+      id={id || undefined}
+    >
+      <div className="container container-wide-fluid">
+        <div className="ops-dashboard__grid">
+          <Widget
+            image={props.fields.Image1}
+            text={props.fields.Text1}
+            subText={props.fields.SubText1}
+            link={props.fields.Link1}
+          />
+          <Widget
+            image={props.fields.Image2}
+            text={props.fields.Text2}
+            subText={props.fields.SubText2}
+            link={props.fields.Link2}
+          />
+          <Widget
+            image={props.fields.Image3}
+            text={props.fields.Text3}
+            subText={props.fields.SubText3}
+            link={props.fields.Link3}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();

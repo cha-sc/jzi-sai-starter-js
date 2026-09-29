@@ -1,14 +1,11 @@
-# Demo Progress Tracker
-# Created automatically at the start of a demo build.
-# Updated after each MCP call or phase completion.
-# Used by "resume demo" to skip completed work.
+# Demo Progress Tracker — PJM Next
 
 client:
   name: "PJM Next"
   sourceUrl: "https://www.pjm.com/"
   layoutUrl: "https://www.iso-ne.com/"
   startedAt: "2026-09-29T14:23:06Z"
-  lastUpdatedAt: "2026-09-29T14:24:00Z"
+  lastUpdatedAt: "2026-09-29T14:50:00Z"
 
 scope:
   codeRoot: "industry-verticals/pjm-next/"
@@ -21,7 +18,6 @@ phases:
     url: "https://www.pjm.com/"
     layoutUrl: "https://www.iso-ne.com/"
     screenshotPath: "docs/ai/demos/pjm-next/homepage-screenshot.jpg"
-    screenshotNote: "ISO-NE homepage for layout/components; brand from pjm.com"
     contentHubVerified: false
 
   phase0_5_manifest:
@@ -31,55 +27,60 @@ phases:
     decision: "financial-sxa"
 
   phase1_theme:
-    status: "pending"
-    themeFile: ""
-    userApproved: false
+    status: "complete"
+    themeFile: "docs/ai/themes/pjm-next.theme.yaml"
+    userApproved: true
 
   phase2_analysis:
-    status: "pending"
-    buildPlanFile: ""
-    totalSections: 0
-    userApproved: false
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/pjm-next/build-plan.yaml"
+    totalSections: 11
+    userApproved: true
+    quality: "pixel-perfect"
 
   phase2_5_content:
-    status: "pending"
-    contentMapFile: ""
-    extractorUsed: false
+    status: "complete"
+    contentMapFile: "docs/ai/demos/pjm-next/content-map.yaml"
+    extractorUsed: true
 
   phase3_content:
-    status: "pending"
-    completedSections: 0
-    totalSections: 0
+    status: "complete"
+    completedSections: 8
+    totalSections: 11
+    folderId: "7b50bacf-6a04-424d-af3b-0af17f3cf48b"
+    notes: "Context-only header/footer/eyebrow skipped; images pending CH 503"
 
   phase4_theme:
-    status: "pending"
-    themeDelivery: ""
-    cssWritten: false
+    status: "complete"
+    themeDelivery: "globals-inlined"
+    cssWritten: true
     fontsAdded: false
 
   phase5_custom:
-    status: "pending"
+    status: "skipped"
     customComponentsNeeded: 0
     customComponentsBuilt: 0
 
   phase5_5_variants:
-    status: "pending"
-    variantsNeeded: 0
-    variantsCreated: 0
-    variantSpecsFile: ""
+    status: "complete"
+    variantsNeeded: 3
+    variantsCreated: 3
+    variantSpecsFile: "docs/ai/demos/pjm-next/variant-specs.yaml"
     skippedReason: ""
 
   phase6_assembly:
-    status: "pending"
+    status: "partial"
     componentsAdded: 0
     datasourcesWired: 0
-    totalComponents: 0
+    totalComponents: 9
+    notes: "Manual assembly — see manual-tasks.md (same Page Design limitation as prior PJM)"
 
   phase7_summary:
-    status: "pending"
+    status: "complete"
 
 sections: []
 
 notes:
-  - "2026-09-29T14:24:00Z — Dual input: brand/theme from pjm.com; layout/components from iso-ne.com screenshot."
-  - "2026-09-29T14:24:00Z — Content Hub auth returned 503; will retry before Phase 3 image uploads."
+  - "2026-09-29T14:24:00Z — Dual input: brand from pjm.com; layout from iso-ne.com."
+  - "2026-09-29T14:35:00Z — Theme + build plan approved (pixel-perfect)."
+  - "2026-09-29T14:50:00Z — Content, theme CSS, OpsDashboard/DarkMissionBand variants done. CH upload + Home assembly manual."

@@ -151,3 +151,35 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/** ISO-NE-style dark mission band above the ops dashboard */
+export const DarkMissionBand = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component heading-cta dark-mission-band ${sxaStyles}`}
+      id={id || undefined}
+    >
+      <div className="container">
+        <div className="dark-mission-band__inner text-center">
+          <p className="dark-mission-band__eyebrow">
+            <Text field={props.fields?.Eyebrow} />
+          </p>
+          <h1 className="dark-mission-band__heading">
+            <Text field={props.fields?.Heading} />
+          </h1>
+          <p className="dark-mission-band__text">
+            <Text field={props.fields?.Text} />
+          </p>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="button button-mission" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};

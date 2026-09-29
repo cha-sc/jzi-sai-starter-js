@@ -86,7 +86,7 @@ steps:
     error: ""
 
   step2_build_demo:
-    status: "handed_off"
+    status: "complete"
     error: ""
 
 notes:
@@ -96,3 +96,4 @@ notes:
   - "2026-09-29T14:20:00Z — Site PJMNext created; still under Financial. Waiting on Content Editor move into PJM."
   - "2026-09-29T14:21:00Z — Move verified: PJMNext now in PJM collection."
   - "2026-09-29T14:23:00Z — Editing host pjm-next (bSOSFaIkhliJCDL1LWIrr) created; SEARCH vars upserted. Step 2 handed off."
+  - "2026-09-29T14:50:00Z — Step 2 largely complete (pixel-perfect). Home assembly + CH images remain manual."

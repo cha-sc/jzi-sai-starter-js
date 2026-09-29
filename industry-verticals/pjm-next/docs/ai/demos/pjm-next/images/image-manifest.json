@@ -1,0 +1,299 @@
+[
+  {
+    "src": "https://www.pjm.com/assets/MVC/responsive/img/pjm-logo.png",
+    "alt": "PJM©",
+    "localFile": "section3-img1.png",
+    "extension": "png",
+    "sectionPosition": 3,
+    "type": "img",
+    "fileSize": 6229,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/Banner_Mobile_Image_1.png",
+    "alt": "",
+    "localFile": "section4-img2.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 58642,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/2026/2026-tablet-banner-4.jpg",
+    "alt": "",
+    "localFile": "section4-img3.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 131191,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/hero-images/2026/2026-desktop-banner-staff-meeting.jpg",
+    "alt": "",
+    "localFile": "section4-img4.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 221158,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/about/ensuring-reliable-energy-transition/reliability-initiative-power-icon.png",
+    "alt": "",
+    "localFile": "section4-img5.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 8478,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/icons/fa-lock",
+    "alt": "Access Required",
+    "localFile": "section4-img6.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 492,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/images/view-more-white.png",
+    "alt": "",
+    "localFile": "section4-img7.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 321,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/7",
+    "alt": "",
+    "localFile": "section4-img8.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 4070,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/7",
+    "alt": "",
+    "localFile": "section4-img9.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 4725,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/8",
+    "alt": "",
+    "localFile": "section4-img10.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 6970,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/8",
+    "alt": "",
+    "localFile": "section4-img11.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 4781,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/11/9",
+    "alt": "",
+    "localFile": "section4-img12.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 5754,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/5/12/9",
+    "alt": "",
+    "localFile": "section4-img13.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 4401,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://mapservices.pjm.com/arcgis/rest/services/Interregional/LMP/MapServer/export?dpi=96&transparent=true&format=png8&layers=show%3A1&bbox=-10090400.874129962%2C4072677.1587892133%2C-8011313.70477372%2C5491348.403761707&bboxSR=102100&imageSR=102100&size=425%2C290&f=image",
+    "alt": "",
+    "localFile": "section4-img14.jpg",
+    "extension": "jpg",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 11644,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_linkedin.png",
+    "alt": "follow us on LinkedIn",
+    "localFile": "section4-img15.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1926,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_twitter.png",
+    "alt": "follow us on Twitter",
+    "localFile": "section4-img16.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 932,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/icon_facebook.png",
+    "alt": "follow us on facebook",
+    "localFile": "section4-img17.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1613,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/mvc/images/Redesign/Home/logo_youtube.png",
+    "alt": "follow us on YouTube",
+    "localFile": "section4-img18.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1458,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_threads.png",
+    "alt": "follow us on Threads",
+    "localFile": "section4-img19.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 1093,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://insidelines.pjm.com/wp-content/uploads/2019/07/controlroom8_1024x1024-139x81.jpg",
+    "alt": "",
+    "localFile": null,
+    "sectionPosition": 4,
+    "type": "img",
+    "status": "failed",
+    "error": "HTTP 403"
+  },
+  {
+    "src": "https://insidelines.pjm.com/wp-content/uploads/2019/07/control-room-1_1024x1024-139x81.jpg",
+    "alt": "",
+    "localFile": null,
+    "sectionPosition": 4,
+    "type": "img",
+    "status": "failed",
+    "error": "HTTP 403"
+  },
+  {
+    "src": "https://insidelines.pjm.com/wp-content/uploads/2026/08/Grid-Advance_Inside-Lines-139x81.png",
+    "alt": "",
+    "localFile": null,
+    "sectionPosition": 4,
+    "type": "img",
+    "status": "failed",
+    "error": "HTTP 403"
+  },
+  {
+    "src": "https://www.pjm.com/-/media/DotCom/Images/cta-buttons/PJM-Now-App.png",
+    "alt": "PJM NOW App",
+    "localFile": "section5-img23.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 7301,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_insidelines.png",
+    "alt": "InsideLines",
+    "localFile": "section5-img24.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 1714,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/icon_facebook.png",
+    "alt": "follow us on facebook",
+    "localFile": "section5-img25.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 1613,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_rss.png",
+    "alt": "rss feed",
+    "localFile": "section5-img26.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 2479,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_linkedin.png",
+    "alt": "follow us on LinkedIn",
+    "localFile": "section5-img27.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 1926,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_twitter.png",
+    "alt": "follow us on Twitter",
+    "localFile": "section5-img28.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 932,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/images/Redesign/Home/logo_youtube.png",
+    "alt": "follow us on YouTube",
+    "localFile": "section5-img29.png",
+    "extension": "png",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 1458,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.pjm.com/assets/MVC/responsive/img/bg_footer.gif",
+    "alt": "",
+    "localFile": "section5-img30.gif",
+    "extension": "gif",
+    "sectionPosition": 5,
+    "type": "background",
+    "fileSize": 493,
+    "status": "downloaded"
+  }
+]

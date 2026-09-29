@@ -1,21 +1,37 @@
-// Financial
+// Financial — skinned for PJM demo (navy utility brand)
 body.site-financial,
 .site-financial {
+  --brand-primary: #005596;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #333333;
+  --brand-accent: #0077c8;
+  --brand-bg: #ffffff;
+  --brand-fg: #333333;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #005596;
+  --brand-footer-bg: #454545;
+  --brand-footer-fg: #cccccc;
+  --brand-utility-bar: #333333;
+  --brand-border: #dddddd;
+  --brand-font-heading: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  --brand-font-body: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  --brand-radius: 0.25rem;
+  --brand-button-radius: 0.25rem;
   --text-body: #333;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #005596;
+  --text-footer: #ccc;
+  --text-accent: #0077c8;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #454545;
+  --bg-main: #f5f5f5;
+  --bg-main-alt: #f5f5f5;
+  --bg-color: #e8f1f8;
+  --bg-saturated: #005596;
+  --bg-accent: #0077c8;
+  --border-color: #dddddd;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.25rem;
 }
 
 body.site-financial.dark,

@@ -1,0 +1,293 @@
+# PJM Next Homepage Build Plan
+# Layout source: https://www.iso-ne.com/ (screenshot)
+# Brand source: https://www.pjm.com/
+# Component library: Financial/SXA
+# Content root: /sitecore/content/PJM/PJMNext
+
+client:
+  name: "PJM Next"
+  sourceUrl: "https://www.pjm.com/"
+  layoutUrl: "https://www.iso-ne.com/"
+  analyzedAt: "2026-09-29T14:35:00Z"
+  componentLibrary: "financial-sxa"
+  registryFile: "docs/ai/catalog/financial-sxa-component-registry.yaml"
+  themeFile: "docs/ai/themes/pjm-next.theme.yaml"
+  contentRoot: "/sitecore/content/PJM/PJMNext"
+  codeRoot: "industry-verticals/pjm-next/"
+  screenshotPath: "docs/ai/demos/pjm-next/homepage-screenshot.jpg"
+
+summary:
+  totalSections: 11
+  templateMatches: 9
+  customRequired: 1
+  contextOnly: 2
+  pixelPerfectTarget: true
+
+sections:
+  - position: 1
+    name: "Utility bar"
+    description: "Light top bar with Calendar, Library, Careers, Contact Us, Sign Up, Sign In, and Search"
+    matchType: "template"
+    registryId: "eyebrow"
+    manifestName: "Eyebrow"
+    reactFile: "src/components/navigation/Eyebrow.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      links: ["Calendar", "Library", "Careers", "Contact Us", "Sign Up", "Sign In"]
+      search: true
+    brandNote: "Restyle with PJM navy utility tones; keep ISO-NE link pattern"
+
+  - position: 2
+    name: "Main header / navigation"
+    description: "Logo left + dark slate primary nav: About Us, Participate, Committees and Groups, System Planning, Markets and Operations"
+    matchType: "template"
+    registryId: "header"
+    manifestName: "Header"
+    reactFile: "src/components/navigation/Header.tsx"
+    kind: "context"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: false
+    sectionBackground: "dark"
+    content:
+      logo: "PJM logo (brand) — not ISO-NE map mark"
+      navLinks:
+        - "About Us"
+        - "Participate"
+        - "Committees and Groups"
+        - "System Planning"
+        - "Markets and Operations"
+    notes: "Context-only via header partial. Nav labels can mirror ISO-NE IA structure or map to PJM equivalents in Phase 3."
+
+  - position: 3
+    name: "Mission headline band"
+    description: "Dark patterned band with mission headline and primary CTA button"
+    matchType: "template"
+    registryId: "heading-cta"
+    manifestName: "Heading CTA"
+    reactFile: "src/components/pagecontent/HeadingCta.tsx"
+    kind: "simple"
+    variant: "Centered"
+    variantMatch: "partial"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      title: "Reliable Electricity. Competitive Prices. Clean-Energy Transition."
+      cta: "Our Mission"
+    brandNote: "Swap headline to PJM mission language if preferred; keep ISO-NE layout (centered headline + single CTA on dark)"
+    customVariantNeeded:
+      name: "DarkMissionBand"
+      description: "Full-bleed dark slate band with energy icon pattern, white headline, light-blue outline/primary CTA"
+      parentComponent: "HeadingCta"
+    notes: "Centered Heading CTA is close; pattern background + pill CTA may need Phase 5.5 polish"
+
+  - position: 4
+    name: "Real-time data dashboard"
+    description: "Three-column dark dashboard: price map, resource-mix donuts, system demand line chart"
+    matchType: "custom"
+    registryId: "features"
+    manifestName: "Features"
+    reactFile: "src/components/pagecontent/Features.tsx"
+    kind: "custom"
+    variant: "DataDashboard"
+    variantMatch: "none"
+    matchConfidence: "low"
+    apiAddable: true
+    sectionBackground: "dark"
+    suggestedApproach: "Port/adapt Features.DataDashboard from prior PJM demo; use static chart/map images for demo"
+    content:
+      title: null
+      widgets:
+        - "Price map (REAL-TIME / DAY-AHEAD toggle)"
+        - "Resources + Renewables donut charts with legend"
+        - "System Demand forecast vs actual line chart"
+      sampleStats:
+        forecastedPeak: "11,870 MW"
+        actualLoad: "11,772 MW"
+    customVariantNeeded:
+      name: "DataDashboard"
+      description: "Dark three-up energy ops dashboard: map image, dual donuts image/legend, demand chart image; optional status chip"
+      parentComponent: "Features"
+      fields:
+        - { name: "Title", type: "Single-Line Text" }
+        - { name: "MapImage", type: "Image" }
+        - { name: "MixImage", type: "Image" }
+        - { name: "DemandImage", type: "Image" }
+        - { name: "StatusLabel", type: "Single-Line Text" }
+        - { name: "PrimaryLink", type: "General Link" }
+        - { name: "SecondaryLink", type: "General Link" }
+
+  - position: 5
+    name: "System status + Today's Snapshot"
+    description: "Green NORMAL status pill + four large MW metrics in a row"
+    matchType: "template"
+    registryId: "stats-counter"
+    manifestName: "Stats Counter"
+    reactFile: "src/components/pagecontent/StatsCounter.tsx"
+    kind: "list"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      status: "NORMAL"
+      stats:
+        - { label: "Available Capacity (MW)", value: "19,459" }
+        - { label: "Forecasted Peak Demand (MW)", value: "14,600" }
+        - { label: "Surplus Capacity (MW)", value: "2,656" }
+        - { label: "Yesterday's Peak Demand (MW)", value: "14,410" }
+    notes: "Status chip may sit in DataDashboard; StatsCounter holds the four snapshot numbers"
+
+  - position: 6
+    name: "Dashboard action buttons"
+    description: "Two primary buttons under snapshot: More Real-Time Data + Morning Report"
+    matchType: "template"
+    registryId: "two-column-cta"
+    manifestName: "Two Column CTA"
+    reactFile: "src/components/pagecontent/TwoColumnCta.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "medium"
+    apiAddable: true
+    sectionBackground: "dark"
+    content:
+      buttons:
+        - "More Real-Time Data"
+        - "Morning Report"
+    notes: "May fold into DataDashboard footer CTAs if Phase 5.5 consolidates dark band"
+
+  - position: 7
+    name: "Featured"
+    description: "Left column of three-up content band: FEATURED label + two image cards + More Featured Content"
+    matchType: "template"
+    registryId: "article-list"
+    manifestName: "Article List"
+    reactFile: "src/components/pagecontent/ArticleList.tsx"
+    kind: "list"
+    variant: "Simplified"
+    variantMatch: "partial"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "Featured"
+      items:
+        - "Oversight and Decision-Making"
+        - "2026 Regional Electricity Outlook"
+      cta: "More Featured Content"
+    brandNote: "Replace cards with PJM featured stories/images from pjm.com"
+
+  - position: 8
+    name: "News Feed"
+    description: "Center column: NEWS FEED + two article cards with thumbnails + More News"
+    matchType: "template"
+    registryId: "article-list"
+    manifestName: "Article List"
+    reactFile: "src/components/pagecontent/ArticleList.tsx"
+    kind: "list"
+    variant: "Simplified"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      title: "News Feed"
+      items:
+        - "500 'duck curves' and counting..."
+        - "Summer 2026 recap: New England"
+      cta: "More News"
+    brandNote: "Populate with PJM news headlines"
+
+  - position: 9
+    name: "Upcoming Events / Today's Notices"
+    description: "Right column tabbed list of meetings with dates/times + Visit the Full Calendar"
+    matchType: "template"
+    registryId: "documents-list"
+    manifestName: "Documents List"
+    reactFile: "src/components/pagecontent/DocumentsList.tsx"
+    kind: "list"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "medium"
+    apiAddable: true
+    sectionBackground: "default"
+    content:
+      tabs: ["Upcoming Events", "Today's Notices"]
+      title: "Upcoming Events"
+      items:
+        - "NEPOOL Transmission Sector Meeting"
+        - "ISO-NE Longer-Term Transmission Planning"
+      cta: "Visit the Full Calendar"
+    customVariantNeeded:
+      name: "EventsTabs"
+      description: "Tabbed event list (Upcoming Events | Today's Notices) with date/time rows"
+      parentComponent: "DocumentsList"
+    brandNote: "Use PJM Meeting Center events in Phase 3"
+    notes: "Tabs are partial match; Default Documents List works for demo if tabs deferred"
+
+  - position: 10
+    name: "Most Popular + Latest Published"
+    description: "Two-column lower band: numbered popular pages (1–10) and latest documents with date/type/size"
+    matchType: "template"
+    registryId: "two-column-cta"
+    manifestName: "Two Column CTA"
+    reactFile: "src/components/pagecontent/TwoColumnCta.tsx"
+    kind: "simple"
+    variant: "Default"
+    variantMatch: "partial"
+    matchConfidence: "medium"
+    apiAddable: true
+    sectionBackground: "muted"
+    content:
+      left:
+        title: "Most Popular Pages"
+        items:
+          - "ISO Express"
+          - "Morning Report"
+          - "Resource Mix"
+      right:
+        title: "Latest Published"
+        cta: "View Latest Published"
+    composition:
+      - "Documents List (popular links, numbered via CSS)"
+      - "Documents List (latest published metadata)"
+    notes: "Prefer two Documents List instances inside a column splitter / Two Column CTA placeholder composition in Phase 6"
+
+  - position: 11
+    name: "Footer"
+    description: "Dark four-column link footer + centered logo, copyright, social icons"
+    matchType: "template"
+    registryId: "footer"
+    manifestName: "Footer"
+    reactFile: "src/components/navigation/Footer.tsx"
+    kind: "context"
+    variant: "Default"
+    variantMatch: "exact"
+    matchConfidence: "high"
+    apiAddable: false
+    sectionBackground: "dark"
+    content:
+      columns:
+        - "Applications"
+        - "Markets and Operations Forecasting"
+        - "About Us"
+        - "Participant Support"
+      social: ["LinkedIn", "X", "YouTube", "Facebook"]
+    brandNote: "PJM logo + PJM footer link taxonomy; keep ISO-NE four-column mega layout"
+
+layoutNotes:
+  - "Primary composition follows ISO-NE: utility → dark nav → dark ops dashboard band → white 3-col content → 2-col lists → dark footer."
+  - "Brand (colors, logo, fonts, imagery) from pjm.com theme; do not carry ISO-NE logo or map mark into the demo."
+  - "Dark dashboard band (sections 3–6) is the hero composition — prefer consolidating into Features.DataDashboard + StatsCounter for pixel-perfect."
+  - "Featured / News / Events are one three-column row — assemble with column splitter or three Article/Documents List placements."
+  - "Interactive charts: static images for demo (same approach as prior PJM DataDashboard)."
+  - "Content Phase 2.5: scrape pjm.com for brand copy where parallel; keep ISO-NE section structure as layout skeleton."

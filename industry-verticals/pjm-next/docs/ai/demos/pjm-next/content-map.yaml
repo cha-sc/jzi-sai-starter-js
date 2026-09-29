@@ -1,0 +1,181 @@
+# PJM Next content map
+client:
+  name: "PJM Next"
+  sourceUrl: "https://www.pjm.com/"
+  layoutUrl: "https://www.iso-ne.com/"
+  contentRoot: "/sitecore/content/PJM/PJMNext"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor+screenshot+iso-ne-layout"
+  folderId: "7b50bacf-6a04-424d-af3b-0af17f3cf48b"
+  folderPath: "/sitecore/content/PJM/PJMNext/Data/PJM Next Demo"
+
+templates:
+  HeadingCTA: "fa136527-6302-471d-83ab-e66fc72bda99"
+  ThreeColumnCTA: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+  StatsCounter: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+  TwoColumnCTA: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+  DocumentsList: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+  Features: "d3fdded9-44ae-4410-961c-3320cc82d638"
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 3
+    componentName: "HeadingCta"
+    manifestName: "Heading CTA"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Mission Band"
+    itemId: "3c019fa4-97ec-40ad-8c92-4b869a50ddc5"
+    apiAddable: true
+    templateId: "fa136527-6302-471d-83ab-e66fc72bda99"
+    phase55Variant: "DarkMissionBand"
+    fields:
+      Eyebrow: "PJM Interconnection"
+      Heading: "Reliable Electricity. Competitive Prices. Clean-Energy Transition."
+      Text: "Working to perfect the flow of energy across 13 states and the District of Columbia."
+      Link: { text: "Our Mission", href: "https://www.pjm.com/about-pjm", target: "_blank" }
+    children: []
+    imageFields: []
+
+  - position: 4
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Ops Dashboard"
+    itemId: "81e1ca95-ff43-4efc-855a-99a4a90688ce"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    phase55Variant: "OpsDashboard"
+    fields:
+      Text1: "Locational Marginal Pricing"
+      SubText1: "Real-time hub prices across the PJM footprint"
+      Text2: "Resource Mix"
+      SubText2: "Generation by fuel type and renewables breakdown"
+      Text3: "System Demand"
+      SubText3: "Forecasted vs actual load over 24 hours"
+    children: []
+    imageFields:
+      - { field: "Image1", src: "local:dashboard-map.jpg", alt: "LMP price map" }
+      - { field: "Image2", src: "local:dashboard-mix.jpg", alt: "Resource mix charts" }
+      - { field: "Image3", src: "local:dashboard-demand.jpg", alt: "System demand chart" }
+
+  - position: 5
+    componentName: "StatsCounter"
+    manifestName: "Stats Counter"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Today Snapshot"
+    itemId: "e7e428b8-7543-4093-acb2-baae9be98441"
+    apiAddable: true
+    templateId: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+    fields:
+      Value1: "19459"
+      Caption1: "Available Capacity (MW)"
+      Value2: "14600"
+      Caption2: "Forecasted Peak Demand (MW)"
+      Value3: "2656"
+      Caption3: "Surplus Capacity (MW)"
+    children: []
+    imageFields: []
+
+  - position: 6
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Dashboard CTAs"
+    itemId: "37d06587-b82f-41d7-a7c4-0697b135ee2b"
+    apiAddable: true
+    templateId: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+    fields:
+      Title1: "More Real-Time Data"
+      Title2: "Morning Report"
+    children: []
+    imageFields: []
+
+  - position: 7
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Featured"
+    itemId: "4b85e65c-758d-4f48-8acb-f5b8b8826ec5"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 8
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM Next - News Feed"
+    itemId: "7eac6c60-93bc-4313-87e8-79a5f6f00315"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 9
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Upcoming Events"
+    itemId: "80282eae-428a-49f8-9cfc-e6be541c2e31"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 10
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Most Popular"
+    itemId: "905545d8-0151-4975-a64f-4c1007b99a91"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 11
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "PJM Next - Latest Published"
+    itemId: "ef989766-5908-48d3-a3d2-3b304f70b3d0"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    fields: {}
+    children: []
+    imageFields: []
+
+  - position: 12
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
