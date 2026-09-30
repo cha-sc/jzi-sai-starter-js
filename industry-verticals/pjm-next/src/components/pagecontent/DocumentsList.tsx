@@ -79,7 +79,7 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
           <Text field={props.fields?.Title1} />
         </div>
         <div className="documents-container">
-          <div className="row row-cols-1 row-cols-xl-2 gx-4 justify-content-center">
+          <div className="row row-cols-1 gx-4 justify-content-center">
             <DocumentItem
               image={props.fields?.Image1}
               subtitle={props.fields?.Subtitle1}

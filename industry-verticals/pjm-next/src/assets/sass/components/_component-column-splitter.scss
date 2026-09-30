@@ -1,13 +1,45 @@
 .row.column-splitter {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 5px * 0.5;
-    padding-right: 5px * 0.5;
-    max-width: none;
-    row-gap: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 5px * 0.5;
+  padding-right: 5px * 0.5;
+  max-width: none;
+  row-gap: 1rem;
 
+  > div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  // Hard guarantee for ISO-NE-style 3-up rows.
+  // Sitecore often leaves ColumnWidth* as bare col-6 (50%) after enabling a 3rd column.
+  &[data-columns='3'],
+  &:has(> :nth-child(3)):not(:has(> :nth-child(4))) {
     > div {
-       padding-left: 5px;
-       padding-right: 5px;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      width: 100% !important;
+
+      @media (min-width: 768px) {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+        width: 33.333333% !important;
+      }
     }
+  }
+
+  &[data-columns='4'],
+  &:has(> :nth-child(4)):not(:has(> :nth-child(5))) {
+    > div {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      width: 100% !important;
+
+      @media (min-width: 768px) {
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+        width: 25% !important;
+      }
+    }
+  }
 }

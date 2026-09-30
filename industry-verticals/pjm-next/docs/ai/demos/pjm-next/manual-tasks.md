@@ -28,7 +28,7 @@ Datasources and pixel-perfect variants are created. Home page layout APIs often 
 4. Two Column CTA → Dashboard CTAs
 5. Column splitter (3): Featured · News · Events  
    - Enable placeholders `1,2,3`  
-   - Set **ColumnWidth1/2/3** to `col-12 col-md-4` (or rely on the app equal-width fallback for 3+ columns)
+   - Set **ColumnWidth1/2/3** to `col-12 col-md-4` (Sitecore often leaves bare `col-6`; the app now forces equal thirds for 3-column splitters + CSS override — redeploy EH after pull)
 6. Column splitter (2): Most Popular · Latest Published  
    - Placeholders `1,2` with `col-12 col-md-6`
 
