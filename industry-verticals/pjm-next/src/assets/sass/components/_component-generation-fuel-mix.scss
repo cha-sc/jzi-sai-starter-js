@@ -1,0 +1,144 @@
+.generation-fuel-mix {
+  .container {
+    max-width: 720px;
+  }
+
+  &__card {
+    background: #ffffff;
+    border: 1px solid #e4e8ee;
+    border-radius: 8px;
+    padding: 1.5rem 1.75rem 1.25rem;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  }
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+  }
+
+  &__as-of {
+    margin: 0.25rem 0 0;
+    font-size: 0.875rem;
+    color: #5a6570;
+  }
+
+  &__toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-shrink: 0;
+    font-size: 0.875rem;
+
+    button {
+      appearance: none;
+      background: none;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      color: #5b8fd4;
+      font: inherit;
+
+      &.is-active {
+        color: #1a1a1a;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__toggle-sep {
+    color: #9aa5b1;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: minmax(180px, 240px) 1fr;
+    gap: 1.5rem 2rem;
+    align-items: start;
+
+    @media (max-width: 575.98px) {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+
+  &__chart {
+    display: flex;
+    justify-content: center;
+
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    width: 100%;
+  }
+
+  &__legend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-size: 0.9rem;
+      color: #6681a6;
+    }
+  }
+
+  &__swatch {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__totals {
+    margin: 1.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    align-items: flex-end;
+    text-align: right;
+    color: #3a4550;
+    font-size: 0.95rem;
+
+    div {
+      display: flex;
+      gap: 0.5rem;
+      align-items: baseline;
+    }
+
+    dt {
+      margin: 0;
+      font-weight: 400;
+    }
+
+    dd {
+      margin: 0;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+  }
+}

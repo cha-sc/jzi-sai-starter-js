@@ -38,6 +38,8 @@ Header / Footer / Eyebrow via page design / partials — **PJM logo**, not ISO-N
 
 - `/Presentation/Headless Variants/Heading CTA/DarkMissionBand` → `6028f4e0-0b6e-4a65-9324-717c229c0dfc`
 - `/Presentation/Headless Variants/Three Column CTA/OpsDashboard` → `aeafcece-9088-493c-af49-7dd5c6b0d063`
+- `/Presentation/Headless Variants/Generation Fuel Mix/` → Default, MorningPeak, Midday, EveningPeak, Overnight (mock JSON ±5%)
+- Rendering: `/sitecore/layout/Renderings/Project/Financial/Page Content/Generation Fuel Mix` → `{398B86FC-A0B8-419E-9CBF-2E7461616F6F}` (no datasource; registered in Available Renderings)
 - `/Presentation/Headless Variants/Features/DataDashboard` → `8db4e1bd-7b01-4abc-8fef-e03492e08be8`
 
 

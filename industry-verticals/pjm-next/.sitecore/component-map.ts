@@ -50,6 +50,7 @@ import * as Accordion from 'src/components/pagecontent/Accordion';
 import * as ProfileIdWidget from 'src/components/non-sitecore/ProfileIdWidget';
 import * as ParallaxBackgroundImage from 'src/components/non-sitecore/ParallaxBackgroundImage';
 import * as IconAccent from 'src/components/non-sitecore/IconAccent';
+import * as GenerationFuelMix from 'src/components/non-sitecore/GenerationFuelMix';
 import * as DottedAccent from 'src/components/non-sitecore/DottedAccent';
 import * as CountUp from 'src/components/non-sitecore/CountUp';
 import * as Navigation from 'src/components/navigation/Navigation';
@@ -123,6 +124,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ProfileIdWidget', { ...ProfileIdWidget, componentType: 'client' }],
   ['ParallaxBackgroundImage', { ...ParallaxBackgroundImage, componentType: 'client' }],
   ['IconAccent', { ...IconAccent, componentType: 'client' }],
+  ['GenerationFuelMix', { ...GenerationFuelMix, componentType: 'client' }],
   ['DottedAccent', { ...DottedAccent, componentType: 'client' }],
   ['CountUp', { ...CountUp, componentType: 'client' }],
   ['Navigation', { ...Navigation, componentType: 'client' }],
