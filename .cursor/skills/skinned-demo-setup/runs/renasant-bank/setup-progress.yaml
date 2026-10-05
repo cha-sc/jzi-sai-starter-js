@@ -1,0 +1,100 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Renasant Bank"
+  systemName: "RenasantBank"
+  folder: "renasant-bank"
+  url: "https://www.renasantbank.com/"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/renasant-bank/assets/renasant-homepage.jpg"
+  startedAt: "2026-10-05T14:22:00Z"
+  lastUpdatedAt: "2026-10-05T14:37:00Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "RenasantBank"
+  collectionId: "6d032e57a50048b9b24b8d1a68048115"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "05b1b256-dad0-4ec0-99a8-3b845dc7ea18"
+  ehEnvironmentId: ""
+  cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
+  renderingHostKey: "renasant-bank"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    tempSiteName: "RenasantBank-copy"
+    error: ""
+
+  step1a_rename:
+    status: "complete"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-10-05T14:22:00Z — Inputs collected: Renasant Bank, https://www.renasantbank.com/, homepage screenshot saved."
+  - "2026-10-05T14:24:00Z — Pre-flight blocked: SITECORE_AUTOMATION_CLIENT_ID/SECRET not in env; Marketer MCP needsAuth."
+  - "2026-10-05T14:25:00Z — Marketer MCP auth verified via list_sites. Waiting on Sites API automation client credentials."
+  - "2026-10-05T14:27:00Z — Sites API JWT verified (GET /api/v1/sites 200). CM env id recorded. Waiting on collection mode."
+  - "2026-10-05T14:30:00Z — New collection RenasantBank; source ProsperaFinancial / industry-verticals/prospera; needsMove true."
+  - "2026-10-05T14:34:00Z — Collection 6d032e57a50048b9b24b8d1a68048115 created. Site RenasantBank (05b1b256-dad0-4ec0-99a8-3b845dc7ea18) still under Financial. Waiting on Content Editor move; continuing local copy."
+  - "2026-10-05T14:36:00Z — Local folder copied; NEXT_PUBLIC_DEFAULT_SITE_NAME=RenasantBank; renderingHosts.renasant-bank added. Move not verified yet."
+  - "2026-10-05T14:37:00Z — Move verified: RenasantBank now in collection 6d032e57a50048b9b24b8d1a68048115. Waiting on editing-host opt-in."
