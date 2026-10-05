@@ -76,6 +76,12 @@ steps:
     status: "pending"       # pending | complete | skipped | failed
     error: ""
 
+  offer_commit:
+    status: "pending"       # pending | complete | skipped
+    # complete = user answered; skipped only if already committed / nothing to commit
+    committed: null         # true | false
+    error: ""
+
   step1d_editing_host:
     status: "pending"       # pending | complete | skipped | failed
     optedIn: null           # true | false

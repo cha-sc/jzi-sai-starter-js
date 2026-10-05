@@ -116,6 +116,7 @@ Skinned Demo Setup
 - [ ] Step 1c: NEXT_PUBLIC_DEFAULT_SITE_NAME set in customer .env.local
 - [ ] Step 1c: xmcloud.build.json renderingHosts entry added
 - [ ] Move verified (or skipped if !<needs-move>)
+- [ ] User offered commit of Step 1 code changes (esp. xmcloud.build.json)
 - [ ] Step 1d: Editing host (skipped or created)
 - [ ] Step 1 verification complete
 - [ ] Step 2: Invoked sitecore-build-demo in customer folder
@@ -338,7 +339,7 @@ If a `renderingHosts` key for that customer already exists, ask before overwriti
 
 ## Verify move (after local copy + Step 1c)
 
-**If `<needs-move>` is false:** skip verification; proceed to **Step 1d**.
+**If `<needs-move>` is false:** skip verification; continue to **Offer commit**.
 
 **If `<needs-move>` is true:**
 
@@ -347,8 +348,22 @@ If a `renderingHosts` key for that customer already exists, ask before overwriti
 
 | Result | Action |
 |---|---|
-| Site is under the target collection | Proceed to **Step 1d** |
+| Site is under the target collection | Continue to **Offer commit** |
 | Site is **not** under the target collection | Ask the user to finish the Content Editor move, then re-check. Do not continue until verified. |
+
+---
+
+## Offer commit (after move verify)
+
+After move verification succeeds (or is skipped), **ask the user** before continuing to Step 1d:
+
+> Step 1 scaffolding is on disk (customer folder under `industry-verticals/<customer-folder>/`, `xmcloud.build.json` rendering host, and related local wiring). Want me to **commit** these code changes now?
+
+**If yes:** follow the repo’s commit protocol (stage only the intended Step 1 files; never commit `.env.local` or secrets). Prefer a focused message noting the new customer folder and `xmcloud.build.json` rendering host. Then continue to **Step 1d**.
+
+**If no:** record the decline in progress/`notes`, then continue to **Step 1d** without committing.
+
+Do **not** commit unprompted. Do **not** push unless the user explicitly asks.
 
 ---
 
