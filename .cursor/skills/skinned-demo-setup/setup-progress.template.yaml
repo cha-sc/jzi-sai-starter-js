@@ -24,6 +24,8 @@ selection:
 
 artifacts:
   newSiteId: ""
+  copyJobHandle: ""
+  collectionJobHandle: ""   # if collection create returned a handle
   ehEnvironmentId: ""
   cmEnvironmentId: ""       # authoring env id if editing host path used
   renderingHostKey: ""
@@ -51,11 +53,7 @@ steps:
 
   step1a_duplicate:
     status: "pending"       # pending | complete | failed
-    tempSiteName: ""
-    error: ""
-
-  step1a_rename:
-    status: "pending"       # pending | complete | failed
+    siteName: ""            # <customer-system-name> used on copy (final name)
     error: ""
 
   step1a_move_notify:

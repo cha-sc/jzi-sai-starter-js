@@ -50,7 +50,9 @@ Optional query on most endpoints: `environmentId`.
 
 Copy does **not** accept a target `collectionId`. The duplicate stays in the source site’s collection.
 
-### Rename site body
+This skill copies with the **final** `<customer-system-name>` as `name`. Do not use a `-copy` suffix. An existing site with the same name is not a conflict for copy.
+
+### Rename site body (not used by this skill)
 
 ```json
 {

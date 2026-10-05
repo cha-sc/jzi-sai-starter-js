@@ -2,8 +2,8 @@
 name: skinned-demo-setup
 description: >-
   Sets up a skinned Sitecore demo from ProsperaFinancial (or another chosen base
-  site): selects or creates a Site Collection, duplicates/renames a Site via Sites
-  API, prompts Content Editor move when needed while copying an industry-verticals
+  site): selects or creates a Site Collection, duplicates a Site via Sites
+  API (final customer system name on copy), prompts Content Editor move when needed while copying an industry-verticals
   source folder to a customer-named folder, wires .env.local and xmcloud.build.json,
   optionally creates an XM Cloud editing host, then hands off to sitecore-build-demo.
   Tracks progress in setup-progress.yaml for resume. Use when the user asks for
@@ -56,6 +56,7 @@ If the user says **"resume skinned demo"**, **"continue setup"**, **"pick up whe
 4. Resume at the first step with `status: "pending"`, `"failed"`, or (for move) still waiting — read `notes` / `error`.
 5. Show the running plan summary (Done / Next / Blocked) and confirm before continuing.
 6. **Do not re-run completed steps.** Re-auth (Sites API / Marketer MCP) if tokens may have expired, even when `preflight_auth` was complete.
+7. Older progress files may still have `steps.step1a_rename`. **Skip it.** Copy now uses `<customer-system-name>` as the final name; do not POST rename. If `tempSiteName` is set (e.g. `*-copy`) and `newSiteId` exists, treat the duplicate as done and continue from move notify / 1b — report the existing ids rather than copying again.
 
 If Step 2 is `handed_off` or `complete`, resume inside the customer folder via `sitecore-build-demo` and its `demo-progress.yaml`, not by redoing Step 1.
 
@@ -71,7 +72,7 @@ Derive names:
 
 | Use | Rule |
 |---|---|
-| Site Collection / Site system `name` | Sanitize to Sites API pattern: letters, digits, `_`, `-`, spaces; no leading/trailing space or leading `-`. Prefer PascalCase or spaced display-friendly form matching the customer name. Max 50 for site rename, 100 for collection. |
+| Site Collection / Site system `name` | Sanitize to Sites API pattern: letters, digits, `_`, `-`, spaces; no leading/trailing space or leading `-`. Prefer PascalCase or spaced display-friendly form matching the customer name. Max 50 for site name, 100 for collection. |
 | Local folder (`<customer-folder>`) | Prefer lowercase kebab-case under `industry-verticals/` (e.g. `Acme Bank` → `acme-bank`). If that path exists, ask before overwriting. |
 
 Confirm derived names with the user once, then:
@@ -109,8 +110,7 @@ Skinned Demo Setup
 - [ ] Source site + source folder resolved
 - [ ] Source site and industry-verticals/<source-folder> verified
 - [ ] Step 1a: Target collection ready (created or selected)
-- [ ] Step 1a: Site duplicated from <source-site-name>
-- [ ] Step 1a: Site renamed to customer name
+- [ ] Step 1a: Site duplicated from <source-site-name> as <customer-system-name>
 - [ ] User notified of Content Editor move if <needs-move> — continue without waiting
 - [ ] Step 1b: Local folder copied from <source-folder>
 - [ ] Step 1c: NEXT_PUBLIC_DEFAULT_SITE_NAME set in customer .env.local
@@ -220,7 +220,7 @@ Then proceed to Step 1a.
 
 ---
 
-## Step 1a — Sites API (collection + duplicate + rename)
+## Step 1a — Sites API (collection + duplicate)
 
 Base URL: `https://xmapps-api.sitecorecloud.io`  
 Details: [sites-api-reference.md](sites-api-reference.md)
@@ -241,7 +241,7 @@ Details: [sites-api-reference.md](sites-api-reference.md)
 }
 ```
 
-Record `<collectionId>`. Poll jobs if a `handle` is returned ([job polling](sites-api-reference.md#job-polling)). Keep `<needs-move>` = `true`.
+Record `<collectionId>` and `artifacts.collectionJobHandle` if a `handle` is returned. Poll jobs if a `handle` is returned ([job polling](sites-api-reference.md#job-polling)). Report `<collectionId>` to the user. Keep `<needs-move>` = `true`.
 
 **If `<collection-mode>` = `existing`:**
 
@@ -249,29 +249,24 @@ Skip create. Use the already selected `<collectionId>` / `<customer-collection>`
 
 ### 2. Duplicate source site
 
+Use **`<customer-system-name>`** as the copy `name`. Do **not** append `-copy` and do **not** run a separate rename. A site already existing with that name is not a conflict for this copy.
+
 1. Confirm `<source-site-id>` for `<source-site-name>` (re-fetch if needed).
-2. `POST /api/v1/sites/{source-site-id}/copy` with a **temporary** unique name (e.g. `<customer-system-name>-copy`):
+2. `POST /api/v1/sites/{source-site-id}/copy`:
 
 ```json
 {
-  "name": "<customer-system-name>-copy",
+  "name": "<customer-system-name>",
   "displayName": "<customer name>"
 }
 ```
 
-3. Poll until `Completed`. Resolve the new site id (`GET /api/v1/sites` by the temp name).
+3. Poll until `Completed` ([job polling](sites-api-reference.md#job-polling)). Resolve the new site id (`GET /api/v1/sites` by `<customer-system-name>`). If several sites share that name, pick the newly created one (newest / matching the copy job) and still report **all** matching ids.
+4. Persist `artifacts.newSiteId` and `artifacts.copyJobHandle`. **Report to the user** (chat + progress file): `<collectionId>`, `<newSiteId>`, copy job `handle`, `<source-site-id>`, and `<source-collection-id>`. Authors need these ids if they have to fix collection placement or other follow-up in Content Editor.
 
-### 3. Rename duplicated site
+Skip `POST /api/v1/sites/{siteId}/rename`. Copy already sets the final system name.
 
-`POST /api/v1/sites/{newSiteId}/rename`
-
-```json
-{ "name": "<customer-system-name>" }
-```
-
-Poll until `Completed`. Confirm via `GET /api/v1/sites` that the renamed site exists.
-
-### 4. Notify — Content Editor move (only if `<needs-move>`)
+### 3. Notify — Content Editor move (only if `<needs-move>`)
 
 **If `<needs-move>` is false** (duplicate already in the target collection): skip this notify. Continue to Step 1b.
 
@@ -279,7 +274,8 @@ Poll until `Completed`. Confirm via `GET /api/v1/sites` that the renamed site ex
 
 > Sites API work is done:
 > - Site Collection: `<customer-collection>` (`<collectionId>`)
-> - Site: `<customer-system-name>` (`<newSiteId>`) — still under the source site’s collection
+> - Site: `<customer-system-name>` (`<newSiteId>`) — still under the source site’s collection (`<source-collection-id>`)
+> - Copy job handle: `<copy-job-handle>` | source site: `<source-site-name>` (`<source-site-id>`)
 >
 > **Your action (while I continue):** The Sites API cannot move sites between collections. Please use **Content Editor** to move the duplicated site into `<customer-collection>`.
 >
@@ -346,7 +342,7 @@ If a `renderingHosts` key for that customer already exists, ask before overwriti
 
 **If `<needs-move>` is true:**
 
-1. `GET /api/v1/collections/{collectionId}/sites` — confirm the renamed site is listed.
+1. `GET /api/v1/collections/{collectionId}/sites` — confirm `<customer-system-name>` (`<newSiteId>`) is listed.
 2. Optionally cross-check with Marketer MCP `list_sites` / `get_site_information`.
 
 | Result | Action |
@@ -471,7 +467,7 @@ Confirm all artifacts:
 | Editing host (if opted in) | `eh-environment-id` captured; Type was `eh`; `NEXT_PUBLIC_SEARCH_*` vars verified via `variable list` (or none to upsert) |
 | Inputs retained | Customer name, URL, and homepage screenshot available for Step 2 |
 
-Report IDs, names, source site/folder, and local path to the user.
+Report IDs, names, source site/folder, and local path to the user (at minimum `<collectionId>`, `<newSiteId>`, copy job handle, `<source-site-id>`, `<source-collection-id>`, `renderingHostKey`, and `eh-environment-id` if created).
 
 Then continue immediately to **Step 2** (do not wait for an extra “continue” prompt unless Step 1 verification failed).
 
@@ -494,7 +490,7 @@ Where:
 
 - `<customer-folder>` — local folder from Step 1b
 - `<customer-collection>` — target Site Collection system name
-- `<customer-site>` — Site system name from Step 1a rename (`<customer-system-name>`)
+- `<customer-site>` — Site system name from Step 1a copy (`<customer-system-name>`)
 
 **Do not** edit the source codebase under `industry-verticals/<source-folder>/`, or write content under `<source-site-name>` (or any other site) paths.
 
@@ -547,7 +543,7 @@ Set `steps.step2_build_demo.status: "handed_off"` in `setup-progress.yaml` befor
 - Sites API or Marketer MCP auth fails after prompting
 - User declines collection mode / collection pick / source site / source folder confirmation
 - Chosen `<source-site-name>` or `industry-verticals/<source-folder>` missing
-- Copy/rename job status `Failed`
+- Copy job status `Failed`
 - `<needs-move>` and move verification fails / user will not complete the Content Editor move
 - User declines overwrite of an existing local customer folder
 - User declines overwrite of an existing `xmcloud.build.json` renderingHosts key
