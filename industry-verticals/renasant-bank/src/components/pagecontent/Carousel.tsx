@@ -135,3 +135,69 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
     </section>
   );
 };
+
+/* Renasant Bank — peeking story cards with prev/next */
+export const ArticleCarousel = (props: CarouselComponentProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const [index, setIndex] = useState(0);
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const items = props.fields?.items || [];
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const handleNext = () => {
+    setIndex((prev) => (prev < items.length - 1 ? prev + 1 : 0));
+  };
+
+  const handlePrev = () => {
+    setIndex((prev) => (prev > 0 ? prev - 1 : Math.max(items.length - 1, 0)));
+  };
+
+  const visible = items.slice(index, index + 3);
+  const cards =
+    visible.length < 3 && items.length > 3
+      ? [...visible, ...items.slice(0, 3 - visible.length)]
+      : visible.length
+        ? visible
+        : items.slice(0, 3);
+
+  return (
+    <section
+      className={`component carousel article-carousel ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="article-carousel__track">
+          {cards.map((item, i) => (
+            <article key={`${item.id}-${i}`} className="article-carousel__card">
+              <div className="article-carousel__media">
+                <NextImage field={item.fields.Image} width={400} height={267} />
+              </div>
+              <div className="article-carousel__body">
+                <h3 className="article-carousel__title">
+                  <Text field={item.fields.Title} />
+                </h3>
+                <div className="article-carousel__excerpt">
+                  <RichText field={item.fields.Text} />
+                </div>
+                {(isPageEditing || item.fields?.Link?.value?.href) && (
+                  <Link field={item.fields.Link} className="article-carousel__cta" />
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+        {items.length > 1 && (
+          <div className="article-carousel__nav">
+            <button type="button" className="article-carousel__arrow" onClick={handlePrev} aria-label="Previous">
+              ‹
+            </button>
+            <button type="button" className="article-carousel__arrow" onClick={handleNext} aria-label="Next">
+              ›
+            </button>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+};

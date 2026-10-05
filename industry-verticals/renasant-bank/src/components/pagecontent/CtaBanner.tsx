@@ -86,6 +86,25 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
   );
 };
 
+/* Renasant Bank — slim security notice band */
+export const SecurityBanner = (props: CtaBannerProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <div
+      className={`component cta-banner security-banner ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="security-banner__inner">
+        <p className="security-banner__text">
+          <Text field={props.fields.Title} />
+        </p>
+      </div>
+    </div>
+  );
+};
+
 export const LargeImage = (props: CtaBannerProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();

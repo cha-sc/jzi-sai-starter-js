@@ -1,0 +1,1287 @@
+{
+  "url": "https://www.renasantbank.com/",
+  "extractedAt": "2026-10-05T15:06:22.945Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 7,
+  "totalImages": 15,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 4,
+    "tabsClicked": 5,
+    "accordionsExpanded": 1,
+    "carouselDotsClicked": 1,
+    "carouselArrowSlides": 12,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "header-refresh",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Checking"
+        },
+        {
+          "tag": "h3",
+          "text": "Savings"
+        },
+        {
+          "tag": "h3",
+          "text": "Wealth Management"
+        },
+        {
+          "tag": "h3",
+          "text": "Digital Banking"
+        },
+        {
+          "tag": "h3",
+          "text": "Cards"
+        },
+        {
+          "tag": "h3",
+          "text": "Loans"
+        },
+        {
+          "tag": "h3",
+          "text": "Mortgage"
+        },
+        {
+          "tag": "h3",
+          "text": "Resource Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Checking"
+        },
+        {
+          "tag": "h3",
+          "text": "Savings"
+        },
+        {
+          "tag": "h3",
+          "text": "Wealth Management"
+        },
+        {
+          "tag": "h3",
+          "text": "Digital Banking"
+        },
+        {
+          "tag": "h3",
+          "text": "Cards"
+        },
+        {
+          "tag": "h3",
+          "text": "Loans"
+        },
+        {
+          "tag": "h3",
+          "text": "Mortgage"
+        },
+        {
+          "tag": "h3",
+          "text": "Resource Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Checking"
+        },
+        {
+          "tag": "h3",
+          "text": "Savings"
+        },
+        {
+          "tag": "h3",
+          "text": "Loans"
+        },
+        {
+          "tag": "h3",
+          "text": "Cards"
+        },
+        {
+          "tag": "h3",
+          "text": "Corporate Banking"
+        },
+        {
+          "tag": "h3",
+          "text": "Treasury Management"
+        },
+        {
+          "tag": "h3",
+          "text": "Resource Center"
+        },
+        {
+          "tag": "h3",
+          "text": "Checking"
+        },
+        {
+          "tag": "h3",
+          "text": "Savings"
+        },
+        {
+          "tag": "h3",
+          "text": "Loans"
+        },
+        {
+          "tag": "h3",
+          "text": "Cards"
+        },
+        {
+          "tag": "h3",
+          "text": "Corporate Banking"
+        },
+        {
+          "tag": "h3",
+          "text": "Treasury Management"
+        },
+        {
+          "tag": "h3",
+          "text": "Resource Center"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "LOGIN",
+          "href": "https://www.renasantbank.com/#Login",
+          "target": ""
+        },
+        {
+          "text": "Personal",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Personal Banking",
+          "href": "https://www.renasantbank.com/#personalbanking",
+          "target": ""
+        },
+        {
+          "text": "Checking",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Checking",
+          "href": "https://www.renasantbank.com/checking",
+          "target": ""
+        },
+        {
+          "text": "Compare Checking Accounts",
+          "href": "https://www.renasantbank.com/checking/account-comparison",
+          "target": ""
+        },
+        {
+          "text": "Interest Checking",
+          "href": "https://www.renasantbank.com/checking/interest-checking",
+          "target": ""
+        },
+        {
+          "text": "Simple Checking",
+          "href": "https://www.renasantbank.com/checking/simple-checking",
+          "target": ""
+        },
+        {
+          "text": "Rewards Extra Checking",
+          "href": "https://www.renasantbank.com/checking/rewards-extra",
+          "target": ""
+        },
+        {
+          "text": "Order Checks",
+          "href": "https://www.renasantbank.com/order-checks",
+          "target": ""
+        },
+        {
+          "text": "Savings",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Savings",
+          "href": "https://www.renasantbank.com/savings",
+          "target": ""
+        },
+        {
+          "text": "Regular Savings",
+          "href": "https://www.renasantbank.com/savings/regular-savings",
+          "target": ""
+        },
+        {
+          "text": "Rewards Savings",
+          "href": "https://www.renasantbank.com/savings/rewards-savings",
+          "target": ""
+        },
+        {
+          "text": "CDs",
+          "href": "https://www.renasantbank.com/savings/certificate-of-deposits",
+          "target": ""
+        },
+        {
+          "text": "Childrens Savings Account",
+          "href": "https://www.renasantbank.com/savings/childrens-savings",
+          "target": ""
+        },
+        {
+          "text": "Health Savings Account",
+          "href": "https://www.renasantbank.com/savings/health-savings-account",
+          "target": ""
+        },
+        {
+          "text": "Personal Money Market Account",
+          "href": "https://www.renasantbank.com/savings/personal-money-market",
+          "target": ""
+        },
+        {
+          "text": "IRAs",
+          "href": "https://www.renasantbank.com/retirement-and-investing/individual-retirement-account",
+          "target": ""
+        },
+        {
+          "text": "Wealth Management",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Wealth Management",
+          "href": "https://www.renasantbank.com/retirement-and-investing",
+          "target": ""
+        },
+        {
+          "text": "Financial Services",
+          "href": "https://www.renasantbank.com/retirement-and-investing/financial-services",
+          "target": ""
+        },
+        {
+          "text": "Trust Services",
+          "href": "https://www.renasantbank.com/retirement-and-investing/trust-services",
+          "target": ""
+        },
+        {
+          "text": "Park Place Capital",
+          "href": "https://parkplacecapital.com/",
+          "target": "_blank"
+        },
+        {
+          "text": "Medical Banking",
+          "href": "https://renasantbank.com/private-client-medical-banking",
+          "target": ""
+        },
+        {
+          "text": "Private Client Banking",
+          "href": "https://www.renasantbank.com/private-client",
+          "target": ""
+        },
+        {
+          "text": "Digital Banking",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Digital Banking",
+          "href": "https://www.renasantbank.com/digital-banking",
+          "target": ""
+        },
+        {
+          "text": "Mobile Wallet",
+          "href": "https://www.renasantbank.com/mobile-wallet",
+          "target": ""
+        },
+        {
+          "text": "Click to Pay",
+          "href": "https://www.renasantbank.com/digital-banking/click-to-pay",
+          "target": ""
+        },
+        {
+          "text": "Zelle ®",
+          "href": "https://www.renasantbank.com/digital-banking/zelle",
+          "target": ""
+        },
+        {
+          "text": "Bill Pay",
+          "href": "https://www.renasantbank.com/digital-banking/bill-pay",
+          "target": ""
+        },
+        {
+          "text": "Online Banking",
+          "href": "https://www.renasantbank.com/digital-banking",
+          "target": ""
+        },
+        {
+          "text": "Mobile Banking",
+          "href": "https://www.renasantbank.com/mobile-banking",
+          "target": ""
+        },
+        {
+          "text": "Mobile Check Deposit",
+          "href": "https://www.renasantbank.com/mobile-check-deposit",
+          "target": ""
+        },
+        {
+          "text": "Digital Discovery",
+          "href": "https://www.renasantbank.com/digital-discovery",
+          "target": ""
+        },
+        {
+          "text": "Cards",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Cards",
+          "href": "https://www.renasantbank.com/cards",
+          "target": ""
+        },
+        {
+          "text": "Credit Cards",
+          "href": "https://www.renasantbank.com/cards/credit-cards",
+          "target": ""
+        },
+        {
+          "text": "Debit Cards",
+          "href": "https://www.renasantbank.com/cards/debit-cards",
+          "target": ""
+        },
+        {
+          "text": "Affinity Debit Cards",
+          "href": "https://www.renasantbank.com/cards/branded-debit-cards",
+          "target": ""
+        },
+        {
+          "text": "Loans",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Loans",
+          "href": "https://www.renasantbank.com/loans",
+          "target": ""
+        },
+        {
+          "text": "Personal Loans",
+          "href": "https://www.renasantbank.com/loans/personal-loans",
+          "target": ""
+        },
+        {
+          "text": "Auto Loans",
+          "href": "https://www.renasantbank.com/loans/auto-loans",
+          "target": ""
+        },
+        {
+          "text": "Home Equity Line of Credit",
+          "href": "https://www.renasantbank.com/loans/home-equity-line-of-credit",
+          "target": ""
+        },
+        {
+          "text": "One-Time Loan Payment",
+          "href": "https://secure4.billerweb.com/ren/JustPayIt/index.html?unitCode=774",
+          "target": "_blank"
+        },
+        {
+          "text": "Schedule Loan Payments",
+          "href": "https://secure4.billerweb.com/ren/index.html?unitCode=774",
+          "target": "_blank"
+        },
+        {
+          "text": "Mortgage",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Mortgage",
+          "href": "https://www.renasantbank.com/mortgage",
+          "target": ""
+        },
+        {
+          "text": "Get Prequalified",
+          "href": "javascript:void($('.generic-modal').modal('show') )",
+          "target": ""
+        },
+        {
+          "text": "Renovation and Repair",
+          "href": "https://www.renasantbank.com/mortgage/renovation-and-repair",
+          "target": ""
+        },
+        {
+          "text": "Community Homebuyer Program",
+          "href": "https://www.renasantbank.com/mortgage/community-homebuyer-program",
+          "target": ""
+        },
+        {
+          "text": "Affordable Mortgage Products",
+          "href": "https://www.renasantbank.com/mortgage/affordable-mortgage-products",
+          "target": ""
+        },
+        {
+          "text": "Resource Center",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Resource Center",
+          "href": "https://www.renasantbank.com/resources",
+          "target": ""
+        },
+        {
+          "text": "Getting Started",
+          "href": "https://www.renasantbank.com/resources/getting-started",
+          "target": ""
+        },
+        {
+          "text": "Investors",
+          "href": "https://investors.renasant.com/",
+          "target": ""
+        },
+        {
+          "text": "Renasant Culture",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "e-Statements",
+          "href": "https://www.renasantbank.com/resources/estatements",
+          "target": ""
+        },
+        {
+          "text": "Resources",
+          "href": "https://www.renasantbank.com/resources",
+          "target": "|Custom"
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.renasantbank.com/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Calculators",
+          "href": "https://www.renasantbank.com/calculators",
+          "target": ""
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.renasantbank.com/resources/faqs",
+          "target": ""
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.renasantbank.com/locations",
+          "target": ""
+        },
+        {
+          "text": "Investors",
+          "href": "https://investors.renasant.com/corporateprofile?_gl=1*gaor16*_gcl_au*NDAzODI2NjQ1LjE3MzA5MjAzODI.*_ga*Mzc5NDI5NzY5LjE3MDcyNDAzNTE.*_ga_LXT1P9JW4L*MTczODYwNzIyNi4yMTAuMC4xNzM4NjA3MjI2LjYwLjAuMA..*_ga_937LX4KQMN*MTczODYwNzIyNi41NC4wLjE3Mzg2MDcyMjYuMC4wLjA.*_ga_RWZEW240N8*MTczODYwNzIyNi4xNTYuMC4xNzM4NjA3MjI2LjAuMC4w",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.renasantbank.com/about/careers",
+          "target": ""
+        },
+        {
+          "text": "Renasant Nation",
+          "href": "https://renasantnation.com/",
+          "target": ""
+        },
+        {
+          "text": "Business",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Business Banking",
+          "href": "https://www.renasantbank.com/business",
+          "target": ""
+        },
+        {
+          "text": "Checking",
+          "href": "https://www.renasantbank.com/business/checking",
+          "target": ""
+        },
+        {
+          "text": "Compare Business Accounts",
+          "href": "https://www.renasantbank.com/business/checking/checking-comparison",
+          "target": ""
+        },
+        {
+          "text": "Not for Profit Checking",
+          "href": "https://www.renasantbank.com/business/checking/not-for-profit-checking",
+          "target": ""
+        },
+        {
+          "text": "Business Basics",
+          "href": "https://www.renasantbank.com/business/checking/renasant-business-basics",
+          "target": ""
+        },
+        {
+          "text": "Business Extra Checking",
+          "href": "https://www.renasantbank.com/business/checking/business-extra",
+          "target": ""
+        },
+        {
+          "text": "Commercial Analysis Checking",
+          "href": "https://www.renasantbank.com/business/checking/commercial-analysis-checking",
+          "target": ""
+        },
+        {
+          "text": "Compare Public Funds Account",
+          "href": "https://www.renasantbank.com/business/checking/compare-public-funds-accounts",
+          "target": ""
+        },
+        {
+          "text": "Savings",
+          "href": "https://www.renasantbank.com/business/savings",
+          "target": "|Custom"
+        },
+        {
+          "text": "Commercial Savings",
+          "href": "https://www.renasantbank.com/business/commercial-savings",
+          "target": ""
+        },
+        {
+          "text": "Commercial Money Market",
+          "href": "https://www.renasantbank.com/business/money-market",
+          "target": ""
+        },
+        {
+          "text": "Loans",
+          "href": "https://www.renasantbank.com/business/loans",
+          "target": ""
+        },
+        {
+          "text": "SBA Loan",
+          "href": "https://www.renasantbank.com/business/loans/sba",
+          "target": ""
+        },
+        {
+          "text": "Schedule Loan Payments",
+          "href": "https://secure4.billerweb.com/ren/inetSrv",
+          "target": "_blank"
+        },
+        {
+          "text": "Cards",
+          "href": "https://www.renasantbank.com/business/cards",
+          "target": ""
+        },
+        {
+          "text": "Credit Cards",
+          "href": "https://www.renasantbank.com/business/cards/credit-cards",
+          "target": ""
+        },
+        {
+          "text": "Debit Cards",
+          "href": "https://www.renasantbank.com/business/cards/debit-cards",
+          "target": ""
+        },
+        {
+          "text": "Corporate Banking",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Corporate Banking",
+          "href": "https://www.renasantbank.com/business/corporate-banking",
+          "target": ""
+        },
+        {
+          "text": "Asset Based Lending",
+          "href": "https://www.renasantbank.com/business/corporate-banking/asset-based-lending",
+          "target": ""
+        },
+        {
+          "text": "Equipment Financing and Leasing",
+          "href": "https://www.renasantbank.com/business/corporate-banking/equipment-finance",
+          "target": ""
+        },
+        {
+          "text": "Retirement Plan Services",
+          "href": "https://www.renasantbank.com/retirement-and-investing/retirement-plan-services",
+          "target": ""
+        },
+        {
+          "text": "Financial Institutions",
+          "href": "https://www.renasantbank.com/financial-institutions",
+          "target": ""
+        },
+        {
+          "text": "Treasury Management",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Treasury Management",
+          "href": "https://www.renasantbank.com/business/treasury-management",
+          "target": ""
+        },
+        {
+          "text": "ACH Positive Pay",
+          "href": "https://www.renasantbank.com/business/treasury-management/ach-positive-pay",
+          "target": ""
+        },
+        {
+          "text": "ACH Services",
+          "href": "https://www.renasantbank.com/business/treasury-management/ach-services",
+          "target": ""
+        },
+        {
+          "text": "Business Check Express",
+          "href": "https://www.renasantbank.com/business/treasury-management/business-check-express",
+          "target": ""
+        },
+        {
+          "text": "Business Mobile Banking",
+          "href": "https://www.renasantbank.com/business/treasury-management/business-mobile-banking",
+          "target": ""
+        },
+        {
+          "text": "Commercial Cards",
+          "href": "https://www.renasantbank.com/business/treasury-management/commercial-cards",
+          "target": ""
+        },
+        {
+          "text": "Enhanced Internet Banking",
+          "href": "https://www.renasantbank.com/business/treasury-management/enhanced-internet-banking",
+          "target": ""
+        },
+        {
+          "text": "Investment Sweep Account",
+          "href": "https://www.renasantbank.com/business/treasury-management/investment-sweep-account",
+          "target": ""
+        },
+        {
+          "text": "LockBox",
+          "href": "https://www.renasantbank.com/business/treasury-management/lockbox",
+          "target": ""
+        },
+        {
+          "text": "Merchant Card Processing",
+          "href": "https://www.renasantbank.com/business/treasury-management/merchant-card-processing",
+          "target": ""
+        },
+        {
+          "text": "Positive Pay",
+          "href": "https://www.renasantbank.com/business/treasury-management/fraud-protection",
+          "target": ""
+        },
+        {
+          "text": "Target Balance Account",
+          "href": "https://www.renasantbank.com/business/treasury-management/target-balance-account",
+          "target": ""
+        },
+        {
+          "text": "Business Banking e-Statements",
+          "href": "https://www.renasantbank.com/resources/business-internet-banking-estatements",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/header-refresh/renasant-logo.png",
+          "alt": "Renasant Bank",
+          "type": "img",
+          "width": 180,
+          "height": 40
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Checking",
+          "link": {
+            "text": "Checking",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Savings",
+          "link": {
+            "text": "Savings",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Wealth Management",
+          "link": {
+            "text": "Wealth Management",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Digital Banking",
+          "link": {
+            "text": "Digital Banking",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Cards",
+          "link": {
+            "text": "Cards",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Loans",
+          "link": {
+            "text": "Loans",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Mortgage",
+          "link": {
+            "text": "Mortgage",
+            "href": "javascript:void(0);"
+          }
+        },
+        {
+          "title": "Resource Center",
+          "link": {
+            "text": "Resource Center",
+            "href": "javascript:void(0);"
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "section",
+      "classHint": "stripe bg-blue",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "Renasant will never email, text or call you requesting personal information or user credentials."
+      ],
+      "links": [],
+      "images": [],
+      "listItems": [
+        {
+          "description": "Renasant will never email, text or call you requesting personal information or user credentials."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "section",
+      "classHint": "carousel__section",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Pick 6.00% APY*It's a winning play."
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Learn how to get 6.00% APY*",
+          "href": "https://www.renasantbank.com/checking/rewards-extra",
+          "target": ""
+        },
+        {
+          "text": "Business",
+          "href": "https://renasantbank.ebanking-services.com/eAM/Credential/Index?appId=beb&brand=renasantbank",
+          "target": "_blank"
+        },
+        {
+          "text": "Forgot Username/Password?",
+          "href": "https://consumer.renasant.online-banking-services.com/LCDDigitalOneConsumer/#/TroubleSignin",
+          "target": "_blank"
+        },
+        {
+          "text": "Enroll in Online Banking",
+          "href": "https://ole.renasant.online-banking-services.com/onlineEnrollment/?fiIdent=RNST&_gl=1*lmrwtw*_gcl_au*MTg0MjgwODQ4OC4xNzQ2ODA0NDg1*_ga*MTc1MTIyNzg2NS4xNzQ2ODA0NDg1*_ga_LXT1P9JW4L*czE3NDY4MTU4MTYkbzMkZzEkdDE3NDY4MTkyMzIkajU5JGwwJGgw*_ga_937LX4KQMN*czE3NDY4MTU4MTYkbzMkZzEkdDE3NDY4MTkyMzIkajAkbDAkaDA.*_ga_RWZEW240N8*czE3NDY4MTU4MTYkbzMkZzEkdDE3NDY4MTkyMzIkajAkbDAkaDA.#!/sb-enrollment",
+          "target": "_blank"
+        },
+        {
+          "text": "Open an Account",
+          "href": "https://www.renasantbank.com/resources/getting-started",
+          "target": "_self"
+        },
+        {
+          "text": "Apply for a Loan",
+          "href": "https://rsnt.lendsmart.ai/getstarted",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/background-images/personal-headers/pick-6-hero-header_090926-(1).png",
+          "alt": "pick six",
+          "type": "img",
+          "width": 3750,
+          "height": 1667
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/background-images/personal-headers/pick-6-hero-header_090926_400-x-410.png",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Pick 6.00% APY*It's a winning play.",
+          "description": "",
+          "link": {
+            "text": "Learn how to get 6.00% APY*",
+            "href": "https://www.renasantbank.com/checking/rewards-extra"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "section",
+      "classHint": "account__section",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Renasant offers the best banking solutions for you"
+        }
+      ],
+      "paragraphs": [
+        "We offer a wide variety of personal checking accounts, and finding the right one for your financial needs is easy. See Checking Accounts Recommend Products for Me @media (min-width: 768px) { .open { width: 45%; } @media (min-width: 768px) { a.btn.btn-ternary.apply { width: 45%; }",
+        "We offer several secure, simple and accessible savings plans. We also offer services like direct deposit, online banking and automatic fund transfers that can help make saving easier and more convenient. See Savings Accounts Recommend Products for Me",
+        "Renasant Bank provides personal, auto, mortgage and home equity lending services. Whether you are getting ready to buy a car or refinance your home, Renasant Bank has a loan option for you.",
+        "Purchasing a new home? Refinancing your current home? We offer solutions that can help you. Our experienced mortgage-lending professionals will guide you through the process. They’ll make you feel right at home. See Mortgage Loans",
+        "Are you looking for ways to prepare for your future? Whether it’s short-term growth or long-term planning, Renasant Bank can help you prepare for what’s next with our retirement and investing options. See Wealth Management"
+      ],
+      "links": [
+        {
+          "text": "Checking",
+          "href": "https://www.renasantbank.com/#Checking",
+          "target": ""
+        },
+        {
+          "text": "Savings",
+          "href": "https://www.renasantbank.com/#Savings",
+          "target": ""
+        },
+        {
+          "text": "Loans",
+          "href": "https://www.renasantbank.com/#Loans",
+          "target": ""
+        },
+        {
+          "text": "Mortgage",
+          "href": "https://www.renasantbank.com/#Mortgage",
+          "target": ""
+        },
+        {
+          "text": "Wealth",
+          "href": "https://www.renasantbank.com/#Wealth",
+          "target": ""
+        },
+        {
+          "text": "See Checking Accounts",
+          "href": "https://www.renasantbank.com/checking/account-comparison",
+          "target": ""
+        },
+        {
+          "text": "Recommend Products for Me",
+          "href": "https://renasantconsumeronline.moneymatch.com/guide?source=home1",
+          "target": ""
+        },
+        {
+          "text": "See Savings Accounts",
+          "href": "https://www.renasantbank.com/savings",
+          "target": ""
+        },
+        {
+          "text": "Recommend Products for Me",
+          "href": "https://renasantconsumeronline.moneymatch.com/guide?source=home2",
+          "target": ""
+        },
+        {
+          "text": "See Loan Options",
+          "href": "https://www.renasantbank.com/loans",
+          "target": ""
+        },
+        {
+          "text": "Recommend Products for Me",
+          "href": "https://renasantconsumeronline.moneymatch.com/guide?source=home3",
+          "target": ""
+        },
+        {
+          "text": "See Mortgage Loans",
+          "href": "https://www.renasantbank.com/mortgage",
+          "target": ""
+        },
+        {
+          "text": "See Wealth Management",
+          "href": "https://www.renasantbank.com/retirement-and-investing",
+          "target": ""
+        }
+      ],
+      "images": []
+    },
+    {
+      "position": 5,
+      "tagName": "section",
+      "classHint": "column_2_herobanner",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Access your account anytime, anywhere."
+        }
+      ],
+      "paragraphs": [
+        "@media (min-width: 1024px) { .column_2_herobanner { background-color: #15467b; } } .column_2_herobanner { background-color: #15467b; } @media (min-width: 1024px) { .column_2_herobanner .container-content .column_2_herobanner_left .column_2_herobanner_img img { width: 400px; } }"
+      ],
+      "links": [
+        {
+          "text": "Enroll in Online Banking",
+          "href": "https://ole.renasant.online-banking-services.com/onlineEnrollment/?fiIdent=RNST#!/sb-enrollment",
+          "target": ""
+        },
+        {
+          "text": "Download the Renasant Mobile App",
+          "href": "https://www.renasantbank.com/mobile-banking",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/assets/laptop--phone300ppi.png?h=1384&w=2155&la=en&hash=7AD41C24CC7F241EE8DB34982BA2A73A",
+          "alt": "new app icon",
+          "type": "img",
+          "width": 2155,
+          "height": 1384
+        }
+      ],
+      "listItems": [
+        {
+          "image": {
+            "src": "https://www.renasantbank.com/-/media/renasantbank/assets/laptop--phone300ppi.png?h=1384&w=2155&la=en&hash=7AD41C24CC7F241EE8DB34982BA2A73A",
+            "alt": "new app icon"
+          }
+        },
+        {
+          "title": "Access your account anytime, anywhere.",
+          "description": "@media (min-width: 1024px) { .column_2_herobanner { background-color: #15467b; } } .column_2_herobanner { background-color: #15467b; } @media (min-width: 1024px) { .column_2_herobanner .container-content .column_2_herobanner_left .column_2_herobanner_img img { width: 400px; } }",
+          "link": {
+            "text": "Enroll in Online Banking",
+            "href": "https://ole.renasant.online-banking-services.com/onlineEnrollment/?fiIdent=RNST#!/sb-enrollment"
+          }
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "section",
+      "classHint": "gallery_sectionsecond",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "Card controls can give you added peace of mind while you're away. With digital banking, you can manage your card settings and temporarily lock your card if it's misplaced.",
+        "Life doesn't slow down, and your banking shouldn't either. Renasant's digital banking tools give you the flexibility to manage your money, make payments and stay connected to your accounts wherever life takes you.",
+        "Taking care of your health doesn't have to mean spending more. Renasant Rewards Extra account holders can access health-related savings on prescriptions, vision care and hearing services through their BaZing Health Savings Card.",
+        "Identity theft can happen in ways you may not expect, but a few simple habits can help reduce your risk. From protecting your Social Security number to monitoring your accounts and staying alert for suspicious messages, being proactive can help keep your information safer.",
+        "Discover a banking relationship that starts with Understanding You.",
+        "The Lane Train came rolling into Oxford with LSU undefeated, ranked in the top 10, and feeling pretty good about its final destination. Unfortunately, the Rebels had other plans.",
+        "On this episode of Crafted, Ashla Taylor travels to Lake City, Florida, to sit down with Scott Stewart and the family behind Ellianos Coffee.",
+        "Graduation brings a new level of financial independence, from managing a full-time income and paying bills to planning for the future. Learn practical steps to help you build a strong financial foundation as you begin your career."
+      ],
+      "links": [
+        {
+          "text": "Explore Card Controls",
+          "href": "https://renasantnation.com/travel-with-confidence",
+          "target": ""
+        },
+        {
+          "text": "Digital Banking",
+          "href": "https://renasantnation.com/save-time-and-money-in-banking-from-home-with-renasant",
+          "target": ""
+        },
+        {
+          "text": "Explore Rewards Extra",
+          "href": "https://renasantnation.com/get-healthy-with-extra-savings-and-discounts",
+          "target": ""
+        },
+        {
+          "text": "Learn More",
+          "href": "https://renasantnation.com/protecting-your-identity",
+          "target": ""
+        },
+        {
+          "text": "Best Regional Bank",
+          "href": "https://renasantnation.com/renasant-named-best-regional-bank-in-2026",
+          "target": ""
+        },
+        {
+          "text": "College Football Comedy",
+          "href": "https://renasantnation.com/episodes/ole-miss-derails-the-lane-train",
+          "target": ""
+        },
+        {
+          "text": "Crafted",
+          "href": "https://renasantnation.com/episodes/ellianos-coffee",
+          "target": ""
+        },
+        {
+          "text": "Read the Guide",
+          "href": "https://renasantnation.com/life-after-graduation",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/travel-with-confidence-(1).png?mw=400&hash=A36407C4C55C15B13D4C7EF59F333D22",
+          "alt": "fraud awareness",
+          "type": "img",
+          "width": 400,
+          "height": 267
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/banking-that-moves.png?mw=400&hash=5C187E5BBB622DCAFC2DFA12FC377D4A",
+          "alt": "banking that moves",
+          "type": "img",
+          "width": 400,
+          "height": 267
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/get-healthy-with-extra-savings.png?mw=400&hash=F0B92E8AB4B2AA328C62EB075EAB00F4",
+          "alt": "savings",
+          "type": "img",
+          "width": 400,
+          "height": 267
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/protect-your-identity-article.png?mw=400&hash=9247D8EB8763E068927DD85E5C9863C4",
+          "alt": "protect identity",
+          "type": "img",
+          "width": 400,
+          "height": 267
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/best-regional-banners_083126_1250-x-500.png?mw=400&hash=7A2C705DBBA95ED54B1DDF284E24D58A",
+          "alt": "best regional bank in the south",
+          "type": "img",
+          "width": 400,
+          "height": 160
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/carousel-images/maxresdefault.jpg?mw=400&hash=73C18D02C1B93E35E76465985A0C3769",
+          "alt": "college football comedy",
+          "type": "img",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/carousel-images/ellianos_coffee_1024.jpg?mw=400&hash=6EDD15D39700E039E12FF7BC1E91C1EF",
+          "alt": "ellianso coffee",
+          "type": "img",
+          "width": 400,
+          "height": 225
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/financial-guide.png?mw=400&hash=5CF404D19C57E296163FB8B6232399C7",
+          "alt": "financial guide",
+          "type": "img",
+          "width": 400,
+          "height": 267
+        }
+      ],
+      "listItems": [
+        {
+          "description": "Card controls can give you added peace of mind while you're away. With digital banking, you can manage your card settings and temporarily lock your card if it's misplaced.",
+          "badge": "Keep Your Cards in Check While You Travel Card controls can give you added peace of mind while you're away. With digital banking, you can manage your card settings and temporarily lock your card if it's misplaced. Explore Card Controls Banking That Moves With You Life doesn't slow down, and your banking shouldn't either. Renasant's digital banking tools give you the flexibility to manage your money, make payments and stay connected to your accounts wherever life takes you. Digital Banking Get Healthy With Extra Savings & Discounts Taking care of your health doesn't have to mean spending more. Renasant Rewards Extra account holders can access health-related savings on prescriptions, vision care and hearing services through their BaZing Health Savings Card. Explore Rewards Extra Protecting Your Identity Identity theft can happen in ways you may not expect, but a few simple habits can help reduce your risk. From protecting your Social Security number to monitoring your accounts and staying alert for suspicious messages, being proactive can help keep your information safer. Learn More Best Regional Bank in the South 2026 Discover a banking relationship that starts with Understanding You. Best Regional Bank College Football Comedy The Lane Train came rolling into Oxford with LSU undefeated, ranked in the top 10, and feeling pretty good about its final destination. Unfortunately, the Rebels had other plans. College Football Comedy Crafted: Ellianos Coffee On this episode of Crafted, Ashla Taylor travels to Lake City, Florida, to sit down with Scott Stewart and the family behind Ellianos Coffee. Crafted A Financial Guide for New Graduates Graduation brings a new level of financial independence, from managing a full-time income and paying bills to planning for the future. Learn practical steps to help you build a strong financial foundation as you begin your career. Read the Guide Keep Your Cards in Check While You Travel Card controls can give you added peace of mind while you're away. With digital banking, you can manage your card settings and temporarily lock your card if it's misplaced. Explore Card Controls Banking That Moves With You Life doesn't slow down, and your banking shouldn't either. Renasant's digital banking tools give you the flexibility to manage your money, make payments and stay connected to your accounts wherever life takes you. Digital Banking Get Healthy With Extra Savings & Discounts Taking care of your health doesn't have to mean spending more. Renasant Rewards Extra account holders can access health-related savings on prescriptions, vision care and hearing services through their BaZing Health Savings Card. Explore Rewards Extra Protecting Your Identity Identity theft can happen in ways you may not expect, but a few simple habits can help reduce your risk. From protecting your Social Security number to monitoring your accounts and staying alert for suspicious messages, being proactive can help keep your information safer. Learn More Best Regional Bank in the South 2026 Discover a banking relationship that starts with Understanding You. Best Regional Bank College Football Comedy The Lane Train came rolling into Oxford with LSU undefeated, ranked in the top 10, and feeling pretty good about its final destination. Unfortunately, the Rebels had other plans. College Football Comedy Crafted: Ellianos Coffee On this episode of Crafted, Ashla Taylor travels to Lake City, Florida, to sit down with Scott Stewart and the family behind Ellianos Coffee. Crafted A Financial Guide for New Graduates Graduation brings a new level of financial independence, from managing a full-time income and paying bills to planning for the future. Learn practical steps to help you build a strong financial foundation as you begin your career. Read the Guide",
+          "link": {
+            "text": "Explore Card Controls",
+            "href": "https://renasantnation.com/travel-with-confidence"
+          },
+          "image": {
+            "src": "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/travel-with-confidence-(1).png?mw=400&hash=A36407C4C55C15B13D4C7EF59F333D22",
+            "alt": "fraud awareness"
+          }
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "tagName": "footer",
+      "classHint": "footer",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "NOTICE: Renasant Bank is not responsible for and has no control over the websites that have links here. Our Terms of Use linked above state your agreement when you access such third party sites. Please contact us with any concerns or comments.",
+        "Investment and Insurance Products:"
+      ],
+      "links": [
+        {
+          "text": "Learn More about Renasant",
+          "href": "https://www.renasantbank.com/about",
+          "target": ""
+        },
+        {
+          "text": "Understanding Community",
+          "href": "https://www.renasantbank.com/about/understanding-community",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.renasantbank.com/about/careers",
+          "target": ""
+        },
+        {
+          "text": "Personal Banking",
+          "href": "https://www.renasantbank.com/checking",
+          "target": ""
+        },
+        {
+          "text": "Business Banking",
+          "href": "https://www.renasantbank.com/business",
+          "target": ""
+        },
+        {
+          "text": "Digital Banking",
+          "href": "https://www.renasantbank.com/digital-banking",
+          "target": ""
+        },
+        {
+          "text": "Mortgage",
+          "href": "https://www.renasantbank.com/mortgage",
+          "target": ""
+        },
+        {
+          "text": "Wealth Management",
+          "href": "https://www.renasantbank.com/retirement-and-investing",
+          "target": ""
+        },
+        {
+          "text": "Renasant Nation",
+          "href": "https://renasantnation.com/",
+          "target": ""
+        },
+        {
+          "text": "Marketing Proposal",
+          "href": "https://www.renasantbank.com/marketing-proposal",
+          "target": ""
+        },
+        {
+          "text": "Bank-Owned Properties",
+          "href": "https://www.renasantbank.com/-/media/renasantbank/pdfs/rnst-ore-for-sale-list.pdf",
+          "target": ""
+        },
+        {
+          "text": "Fraud Prevention",
+          "href": "https://www.renasantbank.com/fraudresources",
+          "target": ""
+        },
+        {
+          "text": "Calculators",
+          "href": "https://www.renasantbank.com/calculators",
+          "target": ""
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://www.renasantbank.com/accessible-banking",
+          "target": ""
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.renasantbank.com/resources/faqs",
+          "target": ""
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.renasantbank.com/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Locations",
+          "href": "https://www.renasantbank.com/locations",
+          "target": ""
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.renasantbank.com/resources/privacy-policy",
+          "target": ""
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.renasantbank.com/resources/terms-of-use",
+          "target": ""
+        },
+        {
+          "text": "Patriot Act",
+          "href": "https://www.renasantbank.com/resources/usa-patriot-act",
+          "target": ""
+        },
+        {
+          "text": "FDIC Deposit Insurance Estimator",
+          "href": "https://edie.fdic.gov/",
+          "target": ""
+        },
+        {
+          "text": "CCPA",
+          "href": "https://www.renasantbank.com/ccpa",
+          "target": ""
+        },
+        {
+          "text": "Your Privacy Choices",
+          "href": "#",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.renasantbank.com/assets/includes/reb/img/privacychoices.svg",
+          "alt": "Cookie Preferences",
+          "type": "img",
+          "width": 300,
+          "height": 140
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/logos/ehl-logo.png?h=30&w=30&hash=42171F3B365FB9BB8DE5984D064C820B",
+          "alt": "Equal Housing Lender",
+          "type": "img",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "src": "https://www.renasantbank.com/-/media/renasantbank/logos/fdic-logo.png?h=30&w=49&hash=66B2E464AE699D49670398730971F90F",
+          "alt": "FDIC-Insured",
+          "type": "img",
+          "width": 49,
+          "height": 30
+        }
+      ],
+      "listItems": [
+        {
+          "title": "About Renasant",
+          "link": {
+            "text": "Learn More about Renasant",
+            "href": "https://www.renasantbank.com/about"
+          }
+        },
+        {
+          "title": "Products",
+          "link": {
+            "text": "Personal Banking",
+            "href": "https://www.renasantbank.com/checking"
+          }
+        },
+        {
+          "title": "Resources",
+          "link": {
+            "text": "Renasant Nation",
+            "href": "https://renasantnation.com/"
+          }
+        },
+        {
+          "title": "Need Help?",
+          "link": {
+            "text": "Accessibility",
+            "href": "https://www.renasantbank.com/accessible-banking"
+          }
+        }
+      ]
+    }
+  ]
+}

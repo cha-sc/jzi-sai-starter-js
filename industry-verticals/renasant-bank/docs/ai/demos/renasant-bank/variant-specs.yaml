@@ -1,0 +1,53 @@
+# Pixel-perfect variant specs — Renasant Bank
+client: "Renasant Bank"
+variantSpecs:
+  - position: 3
+    componentName: "CtaBanner"
+    variantName: "SecurityBanner"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "full-bleed single-line text band, no image/icon/eyebrow chrome"
+      spacing: "py-3, text centered, no card padding"
+      typography: "14–16px regular, white on medium blue"
+      background: "solid #1B6BB8 (brand secondary)"
+      distinctive: "security notice strip under header"
+
+  - position: 4
+    componentName: "Hero"
+    variantName: "HeroWithLoginPanel"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "full-bleed photo; left headline+orange CTA; right navy demo panel"
+      spacing: "min-height ~560px; panel max-width 22rem"
+      typography: "Outfit 700 ~48px white headline"
+      background: "hero image with blue gradient wash"
+      distinctive: "Personal/Business tabs + demo banking CTAs only (no credential submit)"
+
+  - position: 6
+    componentName: "FiveColumnCta"
+    variantName: "ProductTabs"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "five equal icon+label tabs in a row; active underlined"
+      spacing: "compact icon row under heading"
+      typography: "label under icon, medium weight"
+      distinctive: "tab-like product selector (static links)"
+
+  - position: 7
+    componentName: "TwoColumnCta"
+    variantName: "DualButtonRow"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "two side-by-side buttons, no images/columns of copy"
+      spacing: "centered button group with gap"
+      buttons: "outline primary + solid secondary"
+      distinctive: "replaces image columns with CTA pair"
+
+  - position: 9
+    componentName: "Carousel"
+    variantName: "ArticleCarousel"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "horizontal peeking cards with prev/next arrows below"
+      spacing: "card image top, title, excerpt, solid blue button"
+      distinctive: "story cards instead of full-bleed slide carousel"

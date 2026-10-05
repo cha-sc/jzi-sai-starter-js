@@ -1,0 +1,351 @@
+# Renasant Bank content map — Financial / SXA
+client:
+  name: "Renasant Bank"
+  sourceUrl: "https://www.renasantbank.com/"
+  contentRoot: "/sitecore/content/RenasantBank/RenasantBank"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/RenasantBank/RenasantBank/Data/Renasant Bank Demo"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  CtaBanner: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  HeadingCta: "fa136527-6302-471d-83ab-e66fc72bda99"
+  FiveColumnCta: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+  TwoColumnCta: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+  AppPromo: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+  Carousel: "c7b8468f-4290-400f-93bb-d46c5f8db126"
+  CarouselItem: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields:
+      - field: "LogoImage"
+        src: "https://www.renasantbank.com/-/media/renasantbank/header-refresh/renasant-logo.png"
+        alt: "Renasant Bank"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Security Banner"
+    itemId: "cee0494c-c6a3-4060-b09f-c13ca5337958"
+    apiAddable: true
+    templateId: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+    phase55Variant: "SecurityBanner"
+    fields:
+      Eyebrow: ""
+      Title: "Renasant will never email, text or call you requesting personal information or user credentials."
+      Text: ""
+      Link: { text: "", href: "#", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 4
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Hero"
+    itemId: "5c8b740b-11ef-4ecc-90fc-0f364b9f1b77"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    phase55Variant: "HeroWithLoginPanel"
+    fields:
+      Title: "Pick 6.00% APY* It's a winning play."
+      Text: "<p>* Annual percentage yield (APY) accurate as of 9/9/26.</p>"
+      Link: { text: "Learn how to get 6.00% APY*", href: "https://www.renasantbank.com/checking/rewards-extra", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.renasantbank.com/-/media/renasantbank/background-images/personal-headers/pick-6-hero-header_090926-(1).png"
+        alt: "Pick 6 football promotion"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    demoPanelLinks:
+      - { text: "Open an Account", href: "https://www.renasantbank.com/resources/getting-started" }
+      - { text: "Apply for a Loan", href: "https://rsnt.lendsmart.ai/getstarted" }
+      - { text: "Enroll in Online Banking", href: "https://www.renasantbank.com/digital-banking" }
+
+  - position: 5
+    componentName: "HeadingCta"
+    manifestName: "Heading CTA"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Banking Solutions"
+    itemId: "687c14cd-52c5-470d-870e-b9d33d7064ad"
+    apiAddable: true
+    templateId: "fa136527-6302-471d-83ab-e66fc72bda99"
+    fields:
+      Eyebrow: "Personal Banking"
+      Heading: "Renasant offers the best banking solutions for you"
+      Text: "We offer a wide variety of personal checking accounts, and finding the right one for your financial needs is easy."
+      Link: { text: "See Checking Accounts", href: "https://www.renasantbank.com/checking/account-comparison", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "FiveColumnCta"
+    manifestName: "Five Column CTA"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Product Icons"
+    itemId: "76dd5aae-c5a2-408e-ab66-ac9ede430fe4"
+    apiAddable: true
+    templateId: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+    phase55Variant: "ProductTabs"
+    fields:
+      Text1: "Checking"
+      Link1: { text: "Checking", href: "https://www.renasantbank.com/checking", target: "_blank" }
+      Text2: "Savings"
+      Link2: { text: "Savings", href: "https://www.renasantbank.com/savings", target: "_blank" }
+      Text3: "Loans"
+      Link3: { text: "Loans", href: "https://www.renasantbank.com/loans", target: "_blank" }
+      Text4: "Mortgage"
+      Link4: { text: "Mortgage", href: "https://www.renasantbank.com/mortgage", target: "_blank" }
+      Text5: "Wealth"
+      Link5: { text: "Wealth", href: "https://www.renasantbank.com/retirement-and-investing", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 7
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Product CTAs"
+    itemId: "89b75954-3c50-4a8d-8687-618c4ca0eacc"
+    apiAddable: true
+    templateId: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+    phase55Variant: "DualButtonRow"
+    fields:
+      Title1: "See Checking Accounts"
+      Text1: "Compare personal checking options and find the right fit."
+      Link1: { text: "See Checking Accounts", href: "https://www.renasantbank.com/checking/account-comparison", target: "_blank" }
+      Title2: "Recommend Products for Me"
+      Text2: "Answer a few questions and get personalized product suggestions."
+      Link2: { text: "Recommend Products for Me", href: "https://renasantconsumeronline.moneymatch.com/guide?source=h", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 8
+    componentName: "AppPromo"
+    manifestName: "App Promo"
+    kind: "simple"
+    datasourceItemName: "Renasant Bank - Digital Banking"
+    itemId: "ed6a2c91-062f-457c-9d13-d54a138f7e70"
+    apiAddable: true
+    templateId: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+    fields:
+      Title: "Access your account anytime, anywhere."
+      Text: "<ul><li><strong>Check Account Balances</strong></li><li><strong>Control Debit Cards</strong></li><li><strong>Create Budgets</strong></li><li><strong>Transfer Funds</strong></li><li><strong>Make Deposits</strong></li></ul><p><a href=\"https://ole.renasant.online-banking-services.com/onlineEnrol\">Enroll in Online Banking</a> · <a href=\"https://www.renasantbank.com/mobile-banking\">Download the Renasant Mobile App</a></p>"
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.renasantbank.com/-/media/renasantbank/assets/laptop--phone300ppi.png?h=1384&w=2155&la=en&hash=7AD41C24CC7F241EE8DB34982BA2A73A"
+        alt: "Renasant digital banking on laptop and phone"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 9
+    componentName: "Carousel"
+    manifestName: "Carousel"
+    kind: "list"
+    datasourceItemName: "Renasant Bank - Stories"
+    itemId: "bbe1312b-d4d7-4829-a24c-2e81a44a7aee"
+    apiAddable: true
+    templateId: "c7b8468f-4290-400f-93bb-d46c5f8db126"
+    childTemplateId: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+    phase55Variant: "ArticleCarousel"
+    fields: {}
+    children:
+      - name: "Renasant Bank - Card Controls"
+        fields:
+          Title: "Keep Your Cards in Check While You Travel"
+          Text: "<p>Card controls can give you added peace of mind while you're away. With digital banking, you can manage your card settings and temporarily lock your card if it's misplaced.</p>"
+          Link: { text: "Explore Card Controls", href: "https://renasantnation.com/travel-with-confidence", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/travel-with-confidence-(1).png?mw=400&hash=A36407C4C55C15B13D4C7EF59F333D22"
+            alt: "Travel with confidence"
+      - name: "Renasant Bank - Digital Banking Story"
+        fields:
+          Title: "Banking That Moves With You"
+          Text: "<p>Life doesn't slow down, and your banking shouldn't either. Renasant's digital banking tools give you the flexibility to manage your money wherever life takes you.</p>"
+          Link: { text: "Digital Banking", href: "https://renasantnation.com/save-time-and-money-in-banking-fr", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/banking-that-moves.png?mw=400&hash=5C187E5BBB622DCAFC2DFA12FC377D4A"
+            alt: "Banking that moves"
+      - name: "Renasant Bank - Rewards Extra"
+        fields:
+          Title: "Get Healthy With Extra Savings & Discounts"
+          Text: "<p>Taking care of your health doesn't have to mean spending more. Renasant Rewards Extra account holders can access health-related savings through their BaZing Health Savings Card.</p>"
+          Link: { text: "Explore Rewards Extra", href: "https://renasantnation.com/get-healthy-with-extra-savings-an", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/get-healthy-with-extra-savings.png?mw=400&hash=F0B92E8AB4B2AA328C62EB075EAB00F4"
+            alt: "Extra savings"
+      - name: "Renasant Bank - Protect Identity"
+        fields:
+          Title: "Protecting Your Identity"
+          Text: "<p>Identity theft can happen in ways you may not expect, but a few simple habits can help reduce your risk.</p>"
+          Link: { text: "Learn More", href: "https://renasantnation.com/protecting-your-identity", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/protect-your-identity-article.png?mw=400&hash=9247D8EB8763E068927DD85E5C9863C4"
+            alt: "Protect your identity"
+      - name: "Renasant Bank - Best Regional Bank"
+        fields:
+          Title: "Best Regional Bank in the South 2026"
+          Text: "<p>Discover a banking relationship that starts with Understanding You.</p>"
+          Link: { text: "Best Regional Bank", href: "https://renasantnation.com/renasant-named-best-regional-bank", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/renasantbank/carousel-images-renasantbank/best-regional-banners_083126_1250-x-500.png?mw=400&hash=7A2C705DBBA95ED54B1DDF284E24D58A"
+            alt: "Best regional bank in the south"
+      - name: "Renasant Bank - College Football Comedy"
+        fields:
+          Title: "College Football Comedy"
+          Text: "<p>The Lane Train came rolling into Oxford with LSU undefeated, ranked in the top 10, and feeling pretty good about its final destination. Unfortunately, the Rebels had other plans.</p>"
+          Link: { text: "College Football Comedy", href: "https://renasantnation.com/episodes/ole-miss-derails-the-lan", target: "_blank" }
+        imageFields:
+          - field: "Image"
+            src: "https://www.renasantbank.com/-/media/carousel-images/maxresdefault.jpg?mw=400&hash=73C18D02C1B93E35E76465985A0C3769"
+            alt: "College football comedy"
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Mapped to Carousel (Financial has no Article List template)."
+
+  - position: 10
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+datasourceFolder:
+  itemId: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+  path: "/sitecore/content/RenasantBank/RenasantBank/Data/Renasant Bank Demo"
+
+datasourceItems:
+  - componentName: "CtaBanner"
+    itemName: "Renasant Bank - Security Banner"
+    itemId: "cee0494c-c6a3-4060-b09f-c13ca5337958"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Title", "Text", "Eyebrow"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "SecurityBanner"
+
+  - componentName: "Hero"
+    itemName: "Renasant Bank - Hero"
+    itemId: "5c8b740b-11ef-4ecc-90fc-0f364b9f1b77"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Title", "Text", "Link", "Image"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "HeroWithLoginPanel"
+
+  - componentName: "HeadingCta"
+    itemName: "Renasant Bank - Banking Solutions"
+    itemId: "687c14cd-52c5-470d-870e-b9d33d7064ad"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Eyebrow", "Heading", "Text", "Link"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "Default"
+
+  - componentName: "FiveColumnCta"
+    itemName: "Renasant Bank - Product Icons"
+    itemId: "76dd5aae-c5a2-408e-ab66-ac9ede430fe4"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Text1", "Link1", "Text2", "Link2", "Text3", "Link3", "Text4", "Link4", "Text5", "Link5"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "ProductTabs"
+
+  - componentName: "TwoColumnCta"
+    itemName: "Renasant Bank - Product CTAs"
+    itemId: "89b75954-3c50-4a8d-8687-618c4ca0eacc"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Title1", "Text1", "Link1", "Title2", "Text2", "Link2"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "DualButtonRow"
+
+  - componentName: "AppPromo"
+    itemName: "Renasant Bank - Digital Banking"
+    itemId: "ed6a2c91-062f-457c-9d13-d54a138f7e70"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: ["Title", "Text", "Image"]
+    imageFieldsPending: []
+    children: []
+    phase55Variant: "Default"
+
+  - componentName: "Carousel"
+    itemName: "Renasant Bank - Stories"
+    itemId: "bbe1312b-d4d7-4829-a24c-2e81a44a7aee"
+    parentFolder: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    fieldsPopulated: []
+    imageFieldsPending: []
+    phase55Variant: "ArticleCarousel"
+    children:
+      - name: "Renasant Bank - Card Controls"
+        itemId: "1a0b13b4-b048-468f-80bd-9c08cb5277b7"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+      - name: "Renasant Bank - Digital Banking Story"
+        itemId: "051ff89f-736e-4a3b-98ef-b3ca4ca39404"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+      - name: "Renasant Bank - Rewards Extra"
+        itemId: "3604ff98-721f-4f0e-a272-a01b38b6d7d3"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+      - name: "Renasant Bank - Protect Identity"
+        itemId: "c4f5fadd-bbbb-4fde-90b2-6fc6fc3384f5"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+      - name: "Renasant Bank - Best Regional Bank"
+        itemId: "11d5babf-9ea4-4c08-8227-fbb6fbe28b82"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+      - name: "Renasant Bank - College Football Comedy"
+        itemId: "111f9cb8-c055-4024-ba4c-1669e014732c"
+        fieldsPopulated: ["Title", "Text", "Link", "Image"]
+
+
+summary:
+  totalSections: 10
+  apiAddable: 7
+  contextOnly: 3
+  listComponents: 1
+  imagesToUpload: 8

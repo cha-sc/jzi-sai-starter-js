@@ -1,0 +1,215 @@
+# Demo Build Plan — Renasant Bank
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "Renasant Bank"
+  sourceUrl: "https://www.renasantbank.com/"
+  themeFile: "docs/ai/themes/renasant-bank.theme.yaml"
+  analyzedAt: "2026-10-05T15:05:00Z"
+  codeRoot: "industry-verticals/renasant-bank/"
+  contentRoot: "/sitecore/content/RenasantBank/RenasantBank"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/renasant-bank/screenshot-desktop.png"
+    mobile: "docs/ai/themes/renasant-bank/screenshot-mobile.png"
+    hero: "docs/ai/themes/renasant-bank/screenshot-hero.png"
+    userProvided: "docs/ai/demos/renasant-bank/homepage-screenshot.jpg"
+  totalSections: 10
+  templateMatches: 9
+  customRequired: 1
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Thin FDIC utility bar with insured notice, Login, About, and phone number."
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "FDIC-Insured - Backed by the full faith and credit of the U.S. Government"
+    contentNotes: "FDIC mark + Login / About / 1-877-367-5371. Do not copy live login URLs into a working form."
+    variantReason: "Only Eyebrow variant."
+
+  - position: 2
+    description: "White header: Personal, Business, Mortgage, centered Renasant wordmark, Search."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "default"
+    content:
+      Title: "RENASANT"
+    contentNotes: "Context-only. Logo at docs/ai/themes/renasant-bank/images/logo.png. Nav: Personal, Business, Mortgage."
+    variantReason: "WithLogoImage matches the centered wordmark on a solid white bar."
+
+  - position: 3
+    description: "Full-width navy security strip."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Title: "Renasant will never email, text or call you requesting personal information or user credentials."
+    contentNotes: "Text-only navy band. CTA Banner ships with more chrome than this strip; Phase 5.5 can slim it to SecurityBanner."
+    variantReason: "Default CTA Banner on primary background."
+
+  - position: 4
+    description: "Bright blue hero with football photo, APY headline, orange CTA, and a login-style side card."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "secondary"
+    content:
+      Title: "Pick 6.00% APY* It's a winning play."
+      Description: "* Annual percentage yield (APY) accurate as of 9/9/26."
+      PrimaryCta: "Learn how to get 6.00% APY*"
+    contentNotes: "Do not implement a real username/password form. Side card should be demo CTAs only (Open an Account, Apply for a Loan, Enroll in Online Banking). Login card layout needs custom variant HeroWithLoginPanel."
+    variantReason: "Hero is full-bleed photo + overlay headline. Default Hero is closest; login card is a custom overlay."
+    customVariantNeeded:
+      name: "HeroWithLoginPanel"
+      description: "Full-bleed photo hero with left headline/CTA and a navy right-side card of demo banking CTAs (no credential fields)."
+      parentComponent: "Hero"
+
+  - position: 5
+    description: "Centered heading introducing personal banking products."
+    matchedComponent:
+      registryId: "heading-cta"
+      manifestName: "Heading CTA"
+      variant: "Centered"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Renasant offers the best banking solutions for you"
+      Description: "We offer a wide variety of personal checking accounts, and finding the right one for your financial needs is easy."
+    contentNotes: "Body copy on the live site swaps with the product tab. Default checking copy is used."
+    variantReason: "Centered heading + supporting copy."
+
+  - position: 6
+    description: "Five icon tabs: Checking, Savings, Loans, Mortgage, Wealth."
+    matchedComponent:
+      registryId: "five-column-cta"
+      manifestName: "Five Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Item1: "Checking"
+      Item2: "Savings"
+      Item3: "Loans"
+      Item4: "Mortgage"
+      Item5: "Wealth"
+    contentNotes: "Live site is a tab switcher. Template renders five static icon columns. Phase 5.5 ProductTabs if pixel-perfect."
+    variantReason: "Five equal icon+label columns."
+
+  - position: 7
+    description: "Two product CTAs under the checking copy."
+    matchedComponent:
+      registryId: "two-column-cta"
+      manifestName: "Two Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Link1: "See Checking Accounts"
+      Link2: "Recommend Products for Me"
+    contentNotes: "Live CTAs are a pair of filled/outline buttons, not two image columns. Phase 5.5 DualButtonRow if needed."
+    variantReason: "Only Financial component with two sibling CTAs."
+
+  - position: 8
+    description: "Navy band: phone/laptop illustration, Access your account anytime, anywhere, five bullets, two outline buttons."
+    matchedComponent:
+      registryId: "app-promo"
+      manifestName: "App Promo"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Title: "Access your account anytime, anywhere."
+      Description: "Check Account Balances; Control Debit Cards; Create Budgets; Transfer Funds; Make Deposits"
+      Cta1: "Enroll in Online Banking"
+      Cta2: "Download the Renasant Mobile App"
+    contentNotes: "App Promo has Title/Text/Image. Put bullets in Rich Text. Second CTA may need Phase 5.5 or a link inside Text."
+    variantReason: "Split illustration + copy on a brand band is App Promo's layout."
+
+  - position: 9
+    description: "Horizontal story cards with arrows: rewards, identity, Best Regional Bank, College Football Comedy, Crafted coffee."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "Simplified"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Card1: "Get Healthy With Extra Savings & Discounts"
+      Card2: "Protecting Your Identity"
+      Card3: "Best Regional Bank in the South 2026"
+      Card4: "College Football Comedy"
+      Card5: "Crafted: Ellianos Coffee"
+    contentNotes: "Live site is a peeking card carousel. Simplified/Grid is static. Phase 5.5 ArticleCarousel for arrows."
+    variantReason: "Image + title + excerpt + link cards."
+
+  - position: 10
+    description: "Navy four-column footer plus legal/FDIC strip."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "primary"
+    content:
+      Col1: "About Renasant"
+      Col2: "Products"
+      Col3: "Resources"
+      Col4: "Need Help?"
+    contentNotes: "Context-only. Include social icons and Member FDIC / NMLS / Equal Housing in footer chrome."
+    variantReason: "WithSocials matches the social row above the legal strip."
+
+customComponents:
+  - name: "HeroWithLoginPanel"
+    parentComponent: "Hero"
+    description: "Hero overlay with navy demo-CTA card. No username/password fields."
+    reason: "Login card is tightly coupled to the hero photograph."
+
+buildOrder:
+  phase1_sitecore:
+    - Eyebrow
+    - CTA Banner (security)
+    - Hero
+    - Heading CTA
+    - Five Column CTA
+    - Two Column CTA
+    - App Promo
+    - Article List
+  phase2_theme: "Apply renasant-bank.theme.yaml CSS variables + Outfit/Mulish fonts"
+  phase3_custom:
+    - HeroWithLoginPanel (optional Phase 5.5)
+    - ProductTabs (optional)
+    - ArticleCarousel (optional)

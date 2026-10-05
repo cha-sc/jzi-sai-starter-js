@@ -107,3 +107,47 @@ export const Default = (props: FiveColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* Renasant Bank — product icon tabs */
+export const ProductTabs = (props: FiveColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const tabs = [
+    { text: props.fields.Text1, link: props.fields.Link1, image: props.fields.Image1, active: true },
+    { text: props.fields.Text2, link: props.fields.Link2, image: props.fields.Image2 },
+    { text: props.fields.Text3, link: props.fields.Link3, image: props.fields.Image3 },
+    { text: props.fields.Text4, link: props.fields.Link4, image: props.fields.Image4 },
+    { text: props.fields.Text5, link: props.fields.Link5, image: props.fields.Image5 },
+  ];
+
+  return (
+    <div
+      className={`component component-spaced five-column-cta product-tabs ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="product-tabs__row" role="tablist">
+          {tabs.map((tab, i) => (
+            <Link
+              key={i}
+              field={tab.link}
+              className={`product-tabs__item${tab.active ? ' is-active' : ''}`}
+            >
+              {(isPageEditing || tab.image?.value?.src) && (
+                <span className="product-tabs__icon">
+                  <NextImage field={tab.image} width={48} height={48} />
+                </span>
+              )}
+              <span className="product-tabs__label">
+                <Text field={tab.text} />
+              </span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};

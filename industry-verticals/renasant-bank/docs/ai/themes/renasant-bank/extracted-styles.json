@@ -1,0 +1,46 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(33, 37, 41)",
+    "headerBackground": "rgba(0, 0, 0, 0)",
+    "headerColor": "rgb(33, 37, 41)",
+    "footerBackground": "rgb(4, 22, 69)",
+    "footerColor": "rgb(33, 37, 41)",
+    "heroBackground": "rgb(4, 22, 69)",
+    "primaryButtonBackground": "rgb(232, 94, 37)",
+    "primaryButtonColor": "rgb(255, 255, 255)",
+    "primaryButtonBorderRadius": "5px",
+    "linkColor": "rgb(12, 19, 46)"
+  },
+  "typography": {
+    "bodyFontFamily": "Muli, sans-serif",
+    "bodyFontSize": "16px",
+    "bodyFontWeight": "400",
+    "bodyLineHeight": "24px",
+    "h1FontFamily": "Outfit",
+    "h1FontSize": "48px",
+    "h1FontWeight": "700",
+    "h1LetterSpacing": "normal",
+    "h1TextTransform": "none",
+    "h2FontFamily": "\"Archivo Narrow\", sans-serif",
+    "h2FontSize": "33px",
+    "h2FontWeight": "700",
+    "h3FontFamily": "\"Reddit Sans\"",
+    "h3FontSize": "14px",
+    "h3FontWeight": "600",
+    "pFontSize": "15px",
+    "pLineHeight": "24px"
+  },
+  "shape": {
+    "cardBorderRadius": "0px",
+    "cardBoxShadow": "none",
+    "cardBorder": "",
+    "imgBorderRadius": "0px"
+  },
+  "spacing": {
+    "heroMinHeight": "0px",
+    "heroPadding": "0px",
+    "containerMaxWidth": "1600px"
+  },
+  "cssVariables": {}
+}

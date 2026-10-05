@@ -1,40 +1,65 @@
-// Financial
+// Financial — skinned for Renasant Bank demo
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --brand-primary: #041645;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #1b6bb8;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #e85e25;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #212529;
+  --brand-muted: #eef3f8;
+  --brand-muted-fg: #5a6570;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #041645;
+  --brand-footer-bg: #041645;
+  --brand-footer-fg: #c5cdd6;
+  --brand-border: #d8dee6;
+  --brand-ring: #1b6bb8;
+  --brand-font-heading: 'Outfit', sans-serif;
+  --brand-font-body: 'Mulish', sans-serif;
+  --brand-heading-font: 'Outfit', sans-serif;
+  --brand-body-font: 'Mulish', sans-serif;
+  --brand-radius: 0.375rem;
+  --brand-button-radius: 0.375rem;
+  --brand-card-radius: 0.25rem;
+  --brand-utility-bar: #041645;
+  --brand-security-banner: #1b6bb8;
+  --text-body: #212529;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #041645;
+  --text-footer: #c5cdd6;
+  --text-accent: #e85e25;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #041645;
+  --bg-main: #eef3f8;
+  --bg-main-alt: #eef3f8;
+  --bg-color: #eef3f8;
+  --bg-saturated: #041645;
+  --bg-accent: #e85e25;
+  --border-color: #d8dee6;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.375rem;
 }
 
 body.site-financial.dark,
 .dark .site-financial {
   --text-body: #fff;
-  --text-body-inverted: #333;
-  --text-colored: #c5e4f3;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
-  --bg-body: #031827;
-  --bg-footer: #1a2f3d;
-  --bg-main: #034c81;
-  --bg-main-alt: #031827;
-  --bg-color: #034c81;
-  --bg-saturated: #5ba3d0;
-  --bg-accent: #c03021;
-  --border-color: #034c81;
+  --text-body-inverted: #212529;
+  --text-colored: #8eb8e8;
+  --text-footer: #c5cdd6;
+  --text-accent: #e85e25;
+  --bg-body: #041645;
+  --bg-footer: #020c24;
+  --bg-main: #0c132e;
+  --bg-main-alt: #041645;
+  --bg-color: #0c132e;
+  --bg-saturated: #1b6bb8;
+  --bg-accent: #e85e25;
+  --border-color: #1b6bb8;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.375rem;
 }
 
 // Services

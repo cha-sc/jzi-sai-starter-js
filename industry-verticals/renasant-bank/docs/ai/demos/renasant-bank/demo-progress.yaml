@@ -1,0 +1,136 @@
+# Demo Progress Tracker — Renasant Bank
+
+client:
+  name: "Renasant Bank"
+  sourceUrl: "https://www.renasantbank.com/"
+  startedAt: "2026-10-05T14:40:00Z"
+  lastUpdatedAt: "2026-10-05T16:20:00Z"
+  screenshotPath: "docs/ai/demos/renasant-bank/homepage-screenshot.jpg"
+  codeRoot: "industry-verticals/renasant-bank/"
+  contentRoot: "/sitecore/content/RenasantBank/RenasantBank"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.renasantbank.com/"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass-with-warn"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/renasant-bank.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/renasant-bank/build-plan.yaml"
+    totalSections: 10
+    userApproved: true
+    quality: "pixel-perfect"
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/renasant-bank/content-map.yaml"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 7
+    totalSections: 10
+    folderId: "d2323f58-c4d1-49d7-a294-8f1dacb99b97"
+    imagesUploaded: 15
+    notes: "Demo folder items created; page-local Home/Data + Promo folders also populated because shared DS rewire did not persist on Final layout"
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "scss-financial-vars"
+    cssWritten: true
+    fontsAdded: true
+
+  phase5_custom:
+    status: "skipped"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 5
+    variantsCreated: 5
+    variantSpecsFile: "docs/ai/demos/renasant-bank/variant-specs.yaml"
+    skippedReason: ""
+
+  phase6_assembly:
+    status: "partial"
+    componentsAdded: 3
+    datasourcesWired: 7
+    totalComponents: 7
+    notes: "CTA Banner, Hero, Heading CTA added; content populated on page datasources. Leftover Prospera sections + variant selection in manual-tasks.md"
+
+  phase7_summary:
+    status: "complete"
+    summaryFile: "docs/ai/demos/renasant-bank/demo-summary.md"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }
+
+  - position: 2
+    componentName: "Header"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }
+
+  - position: 3
+    componentName: "CtaBanner"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "cee0494c-c6a3-4060-b09f-c13ca5337958", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "SecurityBanner", pageDatasourceId: "4e678b54-daef-4e2a-81b4-3e70afd4d596" }
+
+  - position: 4
+    componentName: "Hero"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "5c8b740b-11ef-4ecc-90fc-0f364b9f1b77", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "HeroWithLoginPanel", pageDatasourceId: "9a846286-a336-49b2-8d5e-fc872eb5c4fa" }
+
+  - position: 5
+    componentName: "HeadingCta"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "687c14cd-52c5-470d-870e-b9d33d7064ad", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "Centered", pageDatasourceId: "55cc4a4f-db8c-4779-9f48-64ee02cb3343" }
+
+  - position: 6
+    componentName: "FiveColumnCta"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "76dd5aae-c5a2-408e-ab66-ac9ede430fe4", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "ProductTabs", pageDatasourceId: "22a3a9f1-6bf3-44f4-9c3e-f071dc5d422c" }
+
+  - position: 7
+    componentName: "TwoColumnCta"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "89b75954-3c50-4a8d-8687-618c4ca0eacc", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "DualButtonRow", pageDatasourceId: "1812a785-bb3b-4d5b-b13d-5859872f3f63" }
+
+  - position: 8
+    componentName: "AppPromo"
+    kind: "simple"
+    phase3: { status: "populated", itemId: "ed6a2c91-062f-457c-9d13-d54a138f7e70", fieldsPopulated: true, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "13e934a6-1f28-4630-a278-9d0322f7bfb0" }
+
+  - position: 9
+    componentName: "Carousel"
+    kind: "list"
+    phase3: { status: "populated", itemId: "bbe1312b-d4d7-4829-a24c-2e81a44a7aee", fieldsPopulated: true, childrenCreated: 6, childrenExpected: 6, error: "" }
+    phase6: { status: "wired", variant: "ArticleCarousel", pageDatasourceId: "ead024fc-ed7e-40e7-b54b-cb030130ffbd" }
+
+  - position: 10
+    componentName: "Footer"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }

@@ -109,3 +109,26 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* Renasant Bank — paired outline + solid CTAs */
+export const DualButtonRow = (props: TwoColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <div className={`component two-column-cta dual-button-row ${sxaStyles}`} id={id ? id : undefined}>
+      <div className="container">
+        <div className="dual-button-row__actions">
+          {(isPageEditing || props.fields?.Link1?.value?.href) && (
+            <Link field={props.fields.Link1} className="dual-button-row__btn dual-button-row__btn--outline" />
+          )}
+          {(isPageEditing || props.fields?.Link2?.value?.href) && (
+            <Link field={props.fields.Link2} className="dual-button-row__btn dual-button-row__btn--solid" />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
