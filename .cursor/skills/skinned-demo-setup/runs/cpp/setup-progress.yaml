@@ -10,7 +10,7 @@ customer:
   url: "https://cpp.ca"
   screenshotPath: ".cursor/skills/skinned-demo-setup/runs/cpp/assets/cpp-homepage.jpg"
   startedAt: "2026-10-05T18:08:00Z"
-  lastUpdatedAt: "2026-10-05T18:25:00Z"
+  lastUpdatedAt: "2026-10-06T16:00:00Z"
 
 selection:
   collectionMode: "new"
@@ -26,7 +26,7 @@ artifacts:
   newSiteId: "916a0546-504f-4d0a-8cc8-6d82342f8cb4"
   copyJobHandle: "e827caf0-d190-41c9-8584-780883fc3e87;sitecoresaaea3f-chadev7ae9-chadev09156390-85c5f99868-jpp28"
   collectionJobHandle: "fa6a762e-fb52-4e44-93a0-dca7af6d0f46;sitecoresaaea3f-chadev7ae9-chadev09156390-85c5f99868-jpp28"
-  ehEnvironmentId: ""
+  ehEnvironmentId: "29FaiivpZZkXlP4vYhIj7Y"
   cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
   renderingHostKey: "cpp"
 
@@ -71,25 +71,25 @@ steps:
     error: ""
 
   move_verify:
-    status: "pending"
-    error: "CPP still under Financial collection; waiting on Content Editor move into IOF"
+    status: "complete"
+    error: ""
 
   offer_commit:
-    status: "pending"
-    committed: null
+    status: "complete"
+    committed: true
     error: ""
 
   step1d_editing_host:
-    status: "pending"
-    optedIn: null
+    status: "complete"
+    optedIn: true
     error: ""
 
   step1_verification:
-    status: "pending"
+    status: "complete"
     error: ""
 
   step2_build_demo:
-    status: "pending"
+    status: "complete"
     error: ""
 
 notes:
@@ -98,3 +98,7 @@ notes:
   - "2026-10-05T18:16:00Z — Sites API auth OK. Created collection IOF (f2bb5547527443d8958195d9adac4247)."
   - "2026-10-05T18:22:00Z — Copied ProsperaFinancial → CPP (916a0546-504f-4d0a-8cc8-6d82342f8cb4); still under Financial (856641099059459ba079f76e3fa09063)."
   - "2026-10-05T18:25:00Z — Local folder industry-verticals/cpp copied; NEXT_PUBLIC_DEFAULT_SITE_NAME=CPP; xmcloud.build.json renderingHosts.cpp added. Waiting on Content Editor move to IOF."
+  - "2026-10-06T15:57:00Z — Move verified: CPP under IOF. User committed Step 1 code. Editing host cpp created (29FaiivpZZkXlP4vYhIj7Y); SEARCH vars upserted."
+  - "2026-10-06T15:58:00Z — Step 1 verification complete. Handing off to sitecore-build-demo."
+  - "2026-10-06T16:00:00Z — Editing host cpp (29FaiivpZZkXlP4vYhIj7Y) created; SEARCH vars upserted. Step 2 Phase 0 complete; Phase 0.5 pass-with-warn."
+  - "2026-10-06T17:30:00Z — sitecore-build-demo Phases 1–7 complete (pixel-perfect). Manual: variants, Testimonials/Accordion, Prospera cleanup, EH GitHub deploy."

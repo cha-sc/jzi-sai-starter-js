@@ -1,0 +1,937 @@
+{
+  "url": "https://cpp.ca",
+  "extractedAt": "2026-10-06T16:09:42.235Z",
+  "detectedLanguage": "en-CA",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 4,
+  "totalImages": 25,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 11,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 73,
+    "backgroundImagesCollected": 1
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "nav",
+      "classHint": "pojo-a11y-toolbar-left",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "Accessibility Tools"
+      ],
+      "links": [
+        {
+          "text": "Open toolbar Accessibility Tools",
+          "href": "javascript:void(0);",
+          "target": ""
+        },
+        {
+          "text": "Increase TextIncrease Text",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Decrease TextDecrease Text",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "GrayscaleGrayscale",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "High ContrastHigh Contrast",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Negative ContrastNegative Contrast",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Light BackgroundLight Background",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Links UnderlineLinks Underline",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Readable FontReadable Font",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Reset Reset",
+          "href": "#",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "description": "Increase Text",
+          "link": {
+            "text": "Increase TextIncrease Text",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Decrease Text",
+          "link": {
+            "text": "Decrease TextDecrease Text",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Grayscale",
+          "link": {
+            "text": "GrayscaleGrayscale",
+            "href": "#"
+          }
+        },
+        {
+          "description": "High Contrast",
+          "link": {
+            "text": "High ContrastHigh Contrast",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Negative Contrast",
+          "link": {
+            "text": "Negative ContrastNegative Contrast",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Light Background",
+          "link": {
+            "text": "Light BackgroundLight Background",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Links Underline",
+          "link": {
+            "text": "Links UnderlineLinks Underline",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Readable Font",
+          "link": {
+            "text": "Readable FontReadable Font",
+            "href": "#"
+          }
+        },
+        {
+          "description": "Reset",
+          "link": {
+            "text": "Reset Reset",
+            "href": "#"
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "header",
+      "classHint": "elementor elementor-1315527 elementor-location-header",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "1-877-851-9090",
+          "href": "tel:18778519090",
+          "target": ""
+        },
+        {
+          "text": "Quick Quote",
+          "href": "https://www.cpp.ca/life-insurance-quick-quote/",
+          "target": ""
+        },
+        {
+          "text": "Insurance Calculator",
+          "href": "https://www.cpp.ca/insurance-needs-calculator/",
+          "target": ""
+        },
+        {
+          "text": "FR",
+          "href": "https://www.cpp.ca/fr/",
+          "target": ""
+        },
+        {
+          "text": "No Medical & Simplified Issue Life Insurance",
+          "href": "https://www.cpp.ca/no-medical-simplified-issue-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Critical Illness Insurance",
+          "href": "https://www.cpp.ca/critical-illness-insurance/",
+          "target": ""
+        },
+        {
+          "text": "About us",
+          "href": "https://www.cpp.ca/about-us/",
+          "target": ""
+        },
+        {
+          "text": "For Advisors",
+          "href": "https://www.cpp.ca/advisors/",
+          "target": ""
+        },
+        {
+          "text": "Insurance Calculator",
+          "href": "https://www.cpp.ca/advisors/insurance-needs-calculator/",
+          "target": ""
+        },
+        {
+          "text": "Get a Quick Life Insurance Quote Online.",
+          "href": "https://www.cpp.ca/life-insurance-quick-quote/",
+          "target": ""
+        },
+        {
+          "text": "Get a quote",
+          "href": "https://www.cpp.ca/no-obligation-quote/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/10/CPP-Logo-RGB-ENG.svg",
+          "alt": "CPP Logo",
+          "type": "img",
+          "width": 253,
+          "height": 150
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/08/insurance_calculator_icons-300x184.jpg",
+          "alt": "Insurance Calculator background",
+          "type": "img",
+          "width": 300,
+          "height": 184
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/10/insurance_calculator_icons_mobile_1.jpg",
+          "alt": "Insurance calculator",
+          "type": "img",
+          "width": 693,
+          "height": 300
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/08/quick_quote_icons-300x184.jpg",
+          "alt": "Quick quote background",
+          "type": "img",
+          "width": 300,
+          "height": 184
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/10/quick_quote_icons_mobile_1.jpg",
+          "alt": "Quick Quote",
+          "type": "img",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/08/insurance_calculator_icons.jpg",
+          "alt": "Insurance Calculator background",
+          "type": "img",
+          "width": 980,
+          "height": 600
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/08/quick_quote_icons.jpg",
+          "alt": "Quick quote background",
+          "type": "img",
+          "width": 980,
+          "height": 600
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/07/henry-horizontal-1024x410.jpg",
+          "alt": "Henry Auyeung holding a microphone talking to an audience",
+          "type": "img",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2020/02/cpp-what-is-the-life-expectancy-in-canada-1024x536.jpg",
+          "alt": "life expectancy in canada",
+          "type": "img",
+          "width": 1024,
+          "height": 536
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/09/BLG_DebtAfterDeath-1200x628-422319CAN0823-1024x536.jpg",
+          "alt": "anxious hands are folded over a person's lap",
+          "type": "img",
+          "width": 1024,
+          "height": 536
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2023/10/DSM_5StepsEstatePlanning-1200x628-1-1024x536.png",
+          "alt": "Senior couple doing estate planning with Advisor",
+          "type": "img",
+          "width": 1024,
+          "height": 536
+        }
+      ],
+      "listItems": [
+        {
+          "description": "December 24, 2025",
+          "link": {
+            "text": "December 24, 2025 What is the Life Expectancy In Canada?",
+            "href": "https://www.cpp.ca/blog/what-is-the-life-expectancy-in-canada/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2020/02/cpp-what-is-the-life-expectancy-in-canada-1024x536.jpg",
+            "alt": "life expectancy in canada"
+          }
+        },
+        {
+          "description": "November 11, 2025",
+          "link": {
+            "text": "November 11, 2025 What Happens to Your Debt When You Die and How Life Insurance Can Help",
+            "href": "https://www.cpp.ca/blog/what-happens-to-your-debt-when-you-die/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2023/09/BLG_DebtAfterDeath-1200x628-422319CAN0823-1024x536.jpg",
+            "alt": "anxious hands are folded over a person's lap"
+          }
+        },
+        {
+          "description": "May 22, 2025",
+          "link": {
+            "text": "May 22, 2025 A five-step estate planning checklist",
+            "href": "https://www.cpp.ca/blog/a-5-step-estate-planning-checklist/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2023/10/DSM_5StepsEstatePlanning-1200x628-1-1024x536.png",
+            "alt": "Senior couple doing estate planning with Advisor"
+          }
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "elementor elementor-1321997",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Life insurance in Canada, refreshingly simple!"
+        },
+        {
+          "tag": "h4",
+          "text": "No medical exams and quick applications. Plus member benefits with care built in."
+        },
+        {
+          "tag": "h4",
+          "text": "Official life insurance partner"
+        },
+        {
+          "tag": "h2",
+          "text": "Simplified issue, no medical life insurance made easier"
+        },
+        {
+          "tag": "h2",
+          "text": "Getting covered can be stress-free"
+        },
+        {
+          "tag": "h2",
+          "text": "Do I need life insurance?"
+        },
+        {
+          "tag": "h2",
+          "text": "Simplified issue, no medical life insurance: Skip medical exams and find a permanent or term plan."
+        },
+        {
+          "tag": "h2",
+          "text": "Preferred life insurance: Permanent and term options to meet your needs."
+        },
+        {
+          "tag": "h2",
+          "text": "Critical illness insurance: Financial protection while you recover from a covered illness."
+        },
+        {
+          "tag": "h2",
+          "text": "Simplified issue, no medical life insurance: Skip medical exams and find a permanent or term plan."
+        },
+        {
+          "tag": "h2",
+          "text": "Preferred life insurance: Permanent and term options to meet your needs."
+        },
+        {
+          "tag": "h2",
+          "text": "Critical illness insurance: Financial protection while you recover from a covered illness."
+        },
+        {
+          "tag": "h2",
+          "text": "Simplified issue, no medical life insurance: Skip medical exams and find a permanent or term plan."
+        },
+        {
+          "tag": "h2",
+          "text": "Preferred life insurance: Permanent and term options to meet your needs."
+        },
+        {
+          "tag": "h2",
+          "text": "Critical illness insurance: Financial protection while you recover from a covered illness."
+        },
+        {
+          "tag": "h2",
+          "text": "Trusted by thousands of Canadians"
+        },
+        {
+          "tag": "h2",
+          "text": "You’re not hard to insure"
+        },
+        {
+          "tag": "h3",
+          "text": "Easy everything"
+        },
+        {
+          "tag": "h5",
+          "text": "How much coverage do you need?"
+        },
+        {
+          "tag": "h5",
+          "text": "Get an instant quote online"
+        },
+        {
+          "tag": "h5",
+          "text": "Talk to a live advisor over the phone"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently asked questions about life insurance in Canada"
+        },
+        {
+          "tag": "h2",
+          "text": "Do you offer life insurance Canada-wide?"
+        },
+        {
+          "tag": "h2",
+          "text": "Who needs life insurance in Canada?"
+        },
+        {
+          "tag": "h2",
+          "text": "How much does life insurance cost in Canada?"
+        },
+        {
+          "tag": "h2",
+          "text": "What’s the benefit of no medical life insurance in Canada?"
+        },
+        {
+          "tag": "h2",
+          "text": "What types of life insurance are available?"
+        },
+        {
+          "tag": "h2",
+          "text": "How do I apply for life insurance in Canada?"
+        },
+        {
+          "tag": "h2",
+          "text": "Ready to protect your loved ones' financial futures? Get your personalized quote today!"
+        }
+      ],
+      "paragraphs": [
+        "We are a trusted leader in simplified issue, no medical life insurance in Canada. That means no needles, no doctor visits and less waiting around.",
+        "Getting covered is simple. If you’re between 18 and 80, healthy or “hard to insure,” you can find a plan!",
+        "Yes, you probably do! Explore affordable life insurance coverage offered by Canada Protection Plan from Foresters Financial.",
+        "This coverage could be right for you if:",
+        "This coverage is right for you if:",
+        "Explore coverage options",
+        "Our simplified issue plans make it easy to get insured, even if you have existing health conditions or other factors that make you “hard to insure”.",
+        "You’ll get straightforward Canadian life insurance coverage with no medical exams, no needles and less worries.",
+        "You’ve got unique needs and goals. We’ve got the coverage to match, with less stress along the way.",
+        "Our free insurance coverage calculator can help you out.",
+        "Choose your insurance needs to see your personalized rates and Canadian life insurance plans.",
+        "Get all your questions answered by a licensed Canadian life insurance advisor.",
+        "Yes, Canada Protection Plan from Foresters Financial’s suite of life insurance products is available to Canadians 18-80 across the nation.",
+        "Families, seniors, young adults or temporary residents Canada-wide benefit from life insurance to protect loved ones from financial burdens, regardless of health or lifestyle.",
+        "Our coverage can potentially start as low as $15 a month. Get fast, affordable life insurance quotes in Canada using our Quick Quote tool – available online in just minutes.",
+        "No medical life insurance in Canada lets you skip medical exams and needles, offering fast coverage in as little as 24 hours. It’s a great option even for those with health issues or high-risk hobbies, with coverage available up to $750,000.",
+        "You can choose between term life insurance (e.g., 10-30 years) or whole life insurance (permanent coverage) for lifelong protection. Both offer protection tailored to your needs, with simplified and no medical options available nationwide.",
+        "Use our Insurance Calculator to estimate coverage and apply for a no-obligation quote via phone (1-877-851-9090) or online."
+      ],
+      "links": [
+        {
+          "text": "Get my quote",
+          "href": "https://www.cpp.ca/no-obligation-quote/",
+          "target": ""
+        },
+        {
+          "text": "Call 1-877-851-9090",
+          "href": "tel:+18778519090",
+          "target": ""
+        },
+        {
+          "text": "Explore coverage options",
+          "href": "https://www.cpp.ca/no-medical-simplified-issue-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Explore coverage options",
+          "href": "https://www.cpp.ca/no-medical-preferred-term-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Explore coverage options",
+          "href": "https://www.cpp.ca/critical-illness-canada/",
+          "target": ""
+        },
+        {
+          "text": "Get covered without exams",
+          "href": "https://www.cpp.ca/no-obligation-quote/",
+          "target": ""
+        },
+        {
+          "text": "Calculate my coverage",
+          "href": "https://www.cpp.ca/insurance-needs-calculator/",
+          "target": ""
+        },
+        {
+          "text": "Get a no-obligation quote",
+          "href": "https://www.cpp.ca/blog/what-is-the-cost-of-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Get started",
+          "href": "https://www.cpp.ca/no-obligation-quote/",
+          "target": ""
+        },
+        {
+          "text": "Get my personalized quote",
+          "href": "https://www.cpp.ca/no-obligation-quote/",
+          "target": ""
+        },
+        {
+          "text": "Call now 1-877-851-9090",
+          "href": "tel:+18778519090",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2026/02/TFC-Logo-4C-2014_RGB.svg",
+          "alt": "",
+          "type": "img",
+          "width": 161,
+          "height": 150
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/banner-image.png",
+          "alt": "couple with dog",
+          "type": "img",
+          "width": 743,
+          "height": 739
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/icon-correct.png",
+          "alt": "checkmark",
+          "type": "img",
+          "width": 66,
+          "height": 66
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/albert-1.png",
+          "alt": "Albert mascot",
+          "type": "img",
+          "width": 311,
+          "height": 313
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2024/09/slider-img-01-768x724.jpg",
+          "alt": "slider-img-01",
+          "type": "img",
+          "width": 768,
+          "height": 724
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/multigenerational-men.png",
+          "alt": "",
+          "type": "img",
+          "width": 376,
+          "height": 200
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/lady-on-computer.png",
+          "alt": "lady working on the laptop",
+          "type": "img",
+          "width": 376,
+          "height": 200
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2024/09/testemonial-avatar-lorem.svg",
+          "alt": "testemonial-avatar-lorem",
+          "type": "img",
+          "width": 73,
+          "height": 73
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/couple-with-flowers-cropped.png",
+          "alt": "couple with flowers",
+          "type": "img",
+          "width": 474,
+          "height": 472
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/albert-on-computer.png",
+          "alt": "",
+          "type": "img",
+          "width": 474,
+          "height": 383
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/coverage-calculator-icon.png",
+          "alt": "coverage calculator icon",
+          "type": "img",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/online-quote-icon.png",
+          "alt": "online quote icon",
+          "type": "img",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/headset-icon.png",
+          "alt": "",
+          "type": "img",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "src": "https://www.cpp.ca/wp-content/uploads/2025/06/banner-bg.png",
+          "alt": "",
+          "type": "background",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Simplified issue, no medical life insurance: Skip medical exams and find a permanent or term plan.",
+          "description": "This coverage could be right for you if:You have existing health issuesYou work a dangerous jobYou don’t want to deal with medical exams",
+          "link": {
+            "text": "Explore coverage options",
+            "href": "https://www.cpp.ca/no-medical-simplified-issue-life-insurance/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2024/09/slider-img-01-768x724.jpg",
+            "alt": "slider-img-01"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "footer",
+      "classHint": "elementor elementor-1314142 elementor-location-footer",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Contact Us"
+        },
+        {
+          "tag": "h2",
+          "text": "Quick Links"
+        },
+        {
+          "tag": "h2",
+          "text": "Legal"
+        },
+        {
+          "tag": "h2",
+          "text": "helpful links"
+        },
+        {
+          "tag": "h2",
+          "text": "Blog / What’s New"
+        },
+        {
+          "tag": "h2",
+          "text": "LEGAL"
+        },
+        {
+          "tag": "h2",
+          "text": "Life Insurance Canada"
+        }
+      ],
+      "paragraphs": [
+        "1-877-851-9090",
+        "© Canada Protection Plan. Canada Protection Plan and the logo are a trademark of Canada Protection Plan Inc. from Foresters Financial. No medical, simplified issue life and critical illness insurance underwritten by The Independent Order of Foresters or Foresters Life Insurance Company. Foresters Financial, Foresters, Foresters Care, Foresters Moments, Foresters Member Discounts, Foresters Renew, Foresters Go, the Foresters Go logo and Helping Is Who We Are are trade names and trademarks of The Independent Order of Foresters (a fraternal benefit society, 789 Don Mills Rd, Toronto, Ontario, Canada M3C 1T9) and its subsidiaries."
+      ],
+      "links": [
+        {
+          "text": "1-877-851-9090",
+          "href": "tel:18778519090",
+          "target": ""
+        },
+        {
+          "text": "Blog / What’s New",
+          "href": "https://www.cpp.ca/blog-whats-new/",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.cpp.ca/canada-protection-plan-career-opportunities/",
+          "target": ""
+        },
+        {
+          "text": "Forms",
+          "href": "https://www.cpp.ca/forms-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Glossary of Terms",
+          "href": "https://www.cpp.ca/glossary-terms-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Life Insurance FAQ",
+          "href": "https://www.cpp.ca/life-insurance-faq/",
+          "target": ""
+        },
+        {
+          "text": "Reviews and Testimonials – Consumer",
+          "href": "https://www.cpp.ca/reviews-testimonials/",
+          "target": ""
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.cpp.ca/legal-terms-and-conditions-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Privacy",
+          "href": "https://www.cpp.ca/privacy-policy-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://www.cpp.ca/accessibility-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "If You Have a Complaint",
+          "href": "https://www.cpp.ca/if-you-have-a-complaint-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Code of Ethics",
+          "href": "https://www.cpp.ca/wp-content/uploads/2026/09/SS370-Code-of-Ethics-2026-EN-FINAL_FINAL_secured.pdf",
+          "target": ""
+        },
+        {
+          "text": "Cancer and Life Insurance",
+          "href": "https://www.cpp.ca/cancer-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Critical Illness Insurance",
+          "href": "https://www.cpp.ca/critical-illness-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Diabetes and Life Insurance",
+          "href": "https://www.cpp.ca/diabetes-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Extreme Sports and Life Insurance",
+          "href": "https://www.cpp.ca/extreme-sports-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Final and Funeral Expense Life Insurance",
+          "href": "https://www.cpp.ca/funeral-expense-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Financial Security and Life Insurance",
+          "href": "https://www.cpp.ca/financial-security/",
+          "target": ""
+        },
+        {
+          "text": "Heart Disease and Life Insurance",
+          "href": "https://www.cpp.ca/heart-disease-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Medical Conditions Life Insurance",
+          "href": "https://www.cpp.ca/hard-to-insure/",
+          "target": ""
+        },
+        {
+          "text": "Mortgage Life Insurance",
+          "href": "https://www.cpp.ca/mortgage-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "New Parents Life Insurance",
+          "href": "https://www.cpp.ca/new-parents-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "Seniors Life Insurance",
+          "href": "https://www.cpp.ca/seniors-life-insurance/",
+          "target": ""
+        },
+        {
+          "text": "January 12, 2026 Blog Post",
+          "href": "https://www.cpp.ca/blog/is-life-insurance-taxable-in-canada/",
+          "target": ""
+        },
+        {
+          "text": "December 24, 2025 What is the Life Expectancy In Canada?",
+          "href": "https://www.cpp.ca/blog/what-is-the-life-expectancy-in-canada/",
+          "target": ""
+        },
+        {
+          "text": "November 11, 2025 What Happens to Your Debt When You Die and How Life Insurance Can Help",
+          "href": "https://www.cpp.ca/blog/what-happens-to-your-debt-when-you-die/",
+          "target": ""
+        },
+        {
+          "text": "May 22, 2025 A five-step estate planning checklist",
+          "href": "https://www.cpp.ca/blog/a-5-step-estate-planning-checklist/",
+          "target": ""
+        },
+        {
+          "text": "View All",
+          "href": "https://www.cpp.ca/blog-whats-new/",
+          "target": ""
+        },
+        {
+          "text": "Cookie preferences",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "AB",
+          "href": "https://www.cpp.ca/life-insurance-alberta/",
+          "target": ""
+        },
+        {
+          "text": "BC",
+          "href": "https://www.cpp.ca/life-insurance-british-columbia/",
+          "target": ""
+        },
+        {
+          "text": "MB",
+          "href": "https://www.cpp.ca/life-insurance-manitoba/",
+          "target": ""
+        },
+        {
+          "text": "NB",
+          "href": "https://www.cpp.ca/life-insurance-new-brunswick/",
+          "target": ""
+        },
+        {
+          "text": "NL",
+          "href": "https://www.cpp.ca/life-insurance-newfoundland-labrador/",
+          "target": ""
+        },
+        {
+          "text": "NT",
+          "href": "https://www.cpp.ca/life-insurance-northwest-territories/",
+          "target": ""
+        },
+        {
+          "text": "NS",
+          "href": "https://www.cpp.ca/life-insurance-nova-scotia/",
+          "target": ""
+        },
+        {
+          "text": "NU",
+          "href": "https://www.cpp.ca/life-insurance-nunavut/",
+          "target": ""
+        },
+        {
+          "text": "ON",
+          "href": "https://www.cpp.ca/life-insurance-ontario/",
+          "target": ""
+        },
+        {
+          "text": "PE",
+          "href": "https://www.cpp.ca/life-insurance-prince-edward-island/",
+          "target": ""
+        },
+        {
+          "text": "QC",
+          "href": "https://www.cpp.ca/life-insurance-quebec/",
+          "target": ""
+        },
+        {
+          "text": "SK",
+          "href": "https://www.cpp.ca/life-insurance-saskatchewan/",
+          "target": ""
+        },
+        {
+          "text": "YT",
+          "href": "https://www.cpp.ca/life-insurance-yukon/",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "description": "January 12, 2026",
+          "link": {
+            "text": "January 12, 2026 Blog Post",
+            "href": "https://www.cpp.ca/blog/is-life-insurance-taxable-in-canada/"
+          }
+        },
+        {
+          "description": "December 24, 2025",
+          "link": {
+            "text": "December 24, 2025 What is the Life Expectancy In Canada?",
+            "href": "https://www.cpp.ca/blog/what-is-the-life-expectancy-in-canada/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2020/02/cpp-what-is-the-life-expectancy-in-canada-1024x536.jpg",
+            "alt": "life expectancy in canada"
+          }
+        },
+        {
+          "description": "November 11, 2025",
+          "link": {
+            "text": "November 11, 2025 What Happens to Your Debt When You Die and How Life Insurance Can Help",
+            "href": "https://www.cpp.ca/blog/what-happens-to-your-debt-when-you-die/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2023/09/BLG_DebtAfterDeath-1200x628-422319CAN0823-1024x536.jpg",
+            "alt": "anxious hands are folded over a person's lap"
+          }
+        },
+        {
+          "description": "May 22, 2025",
+          "link": {
+            "text": "May 22, 2025 A five-step estate planning checklist",
+            "href": "https://www.cpp.ca/blog/a-5-step-estate-planning-checklist/"
+          },
+          "image": {
+            "src": "https://www.cpp.ca/wp-content/uploads/2023/10/DSM_5StepsEstatePlanning-1200x628-1-1024x536.png",
+            "alt": "Senior couple doing estate planning with Advisor"
+          }
+        }
+      ]
+    }
+  ]
+}

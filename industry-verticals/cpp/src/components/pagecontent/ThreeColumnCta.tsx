@@ -189,6 +189,78 @@ export const WithIcons = (props: ThreeColumnCtaProps): JSX.Element => {
   );
 };
 
+/* CPP — product cards with image-top lifestyle tiles */
+export const ProductCardsCarousel = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const fields = props.fields || ({} as Fields);
+
+  const Card = ({
+    image,
+    text,
+    subText,
+    link,
+  }: {
+    image?: ImageField;
+    text?: Field<string>;
+    subText?: Field<string>;
+    link?: LinkField;
+  }) => (
+    <div className="cpp-product-card">
+      <div className="cpp-product-card__media">
+        {image && <NextImage field={image} width={480} height={360} />}
+      </div>
+      <div className="cpp-product-card__body">
+        {text && (
+          <h3 className="cpp-product-card__title">
+            <Text field={text} />
+          </h3>
+        )}
+        {subText && (
+          <p className="cpp-product-card__text">
+            <Text field={subText} />
+          </p>
+        )}
+        {(isPageEditing || link?.value?.href) && link && (
+          <Link field={link} className="cpp-product-card__link" />
+        )}
+      </div>
+    </div>
+  );
+
+  return (
+    <div
+      className={`component component-spaced three-column-cta product-cards-carousel ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="cpp-product-cards">
+          <Card
+            image={fields.Image1}
+            text={fields.Text1}
+            subText={fields.SubText1}
+            link={fields.Link1}
+          />
+          <Card
+            image={fields.Image2}
+            text={fields.Text2}
+            subText={fields.SubText2}
+            link={fields.Link2}
+          />
+          <Card
+            image={fields.Image3}
+            text={fields.Text3}
+            subText={fields.SubText3}
+            link={fields.Link3}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();

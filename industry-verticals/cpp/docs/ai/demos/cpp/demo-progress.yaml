@@ -1,0 +1,99 @@
+# Demo Progress Tracker
+# Created automatically at the start of a demo build.
+# Updated after each MCP call or phase completion.
+
+client:
+  name: "CPP"
+  sourceUrl: "https://cpp.ca"
+  startedAt: "2026-10-06T15:58:00Z"
+  lastUpdatedAt: "2026-10-06T17:30:00Z"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://cpp.ca"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass-with-warn"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/cpp.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/cpp/build-plan.yaml"
+    totalSections: 13
+    userApproved: true
+    quality: "pixel-perfect"
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/cpp/content-map.yaml"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 11
+    totalSections: 11
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "css-variables"
+    cssWritten: true
+    fontsAdded: true
+
+  phase5_custom:
+    status: "complete"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 2
+    variantsCreated: 2
+    variantSpecsFile: "docs/ai/demos/cpp/variant-checklist.md"
+    skippedReason: ""
+
+  phase6_assembly:
+    status: "complete"
+    componentsAdded: 5
+    datasourcesWired: 8
+    totalComponents: 10
+    notes: "Testimonials + Accordion blocked by missing Verticals branch templates; listed in manual-tasks.md"
+
+  phase7_summary:
+    status: "complete"
+    summaryFile: "docs/ai/demos/cpp/summary.md"
+    manualTasksFile: "docs/ai/demos/cpp/manual-tasks.md"
+
+sections:
+  - name: Hero
+    phase6: { status: "wired", variant: "HeroSplitCream", pageDatasourceId: "753feab2-94d8-437f-a38c-ee447426dc97" }
+  - name: Promo CTA (Simplified Issue)
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "e14ec9fe-e67b-4df7-86ed-86a5efa29c18" }
+  - name: Heading CTA
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "90b96ca6-e83f-4041-84bd-45f8087bed6d" }
+  - name: Three Column CTA (Products)
+    phase6: { status: "wired", variant: "ProductCardsCarousel", pageDatasourceId: "dd4ad178-296f-4afd-b5de-278a586ec7b2" }
+  - name: Testimonials
+    phase6: { status: "manual", reason: "branch template 404", datasourceId: "f16bbfb9-6241-41a5-abf1-b869e3de42db" }
+  - name: Promo CTA (Not Hard)
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "c545d547-c366-4c91-a91e-ffe391a6a49d" }
+  - name: App Promo
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "395f07c3-7ff9-45c0-92ad-fdf50b82981b" }
+  - name: Three Column CTA (Actions)
+    phase6: { status: "wired", variant: "WithIcons", pageDatasourceId: "e53c9285-adc3-490e-94ce-f7fb912da6a3", componentInstanceId: "cd10b7b5-6e1d-4964-a772-5512ad028c1f" }
+  - name: Accordion FAQ
+    phase6: { status: "manual", reason: "branch template 404", datasourceId: "464fa5e6-5c71-492b-bd2e-e0aeb3e03415" }
+  - name: CTA Banner
+    phase6: { status: "wired", variant: "Default", pageDatasourceId: "4fbec750-290f-4927-8606-32cc140c57da" }
+
+notes:
+  - "2026-10-06T15:58:00Z — Phase 0 seeded from skinned-demo-setup."
+  - "2026-10-06T16:08:00Z — Phase 2 approved; pixel-perfect Phase 5.5 requested."
+  - "2026-10-06T17:30:00Z — Phases 3–7 complete. Variants + theme applied in code. Home assembled; Testimonials/Accordion + leftover Prospera cleanup + variant selection are manual. EH deploy still needed for React variants to render."

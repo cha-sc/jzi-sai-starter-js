@@ -1,21 +1,46 @@
-// Financial
+// Financial — skinned for CPP / Canada Protection Plan demo
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --brand-primary: #007b88;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #5e2750;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #f5c518;
+  --brand-accent-foreground: #1a1a1a;
+  --brand-bg: #ffffff;
+  --brand-fg: #676767;
+  --brand-muted: #f4f0f7;
+  --brand-muted-fg: #676767;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #5e2750;
+  --brand-footer-bg: #2a2a2a;
+  --brand-footer-fg: #e5e5e5;
+  --brand-border: #e0e0e0;
+  --brand-ring: #007b88;
+  --brand-hero-lavender: #ede7f3;
+  --brand-soft-yellow: #f7e27a;
+  --brand-font-heading: 'Open Sans', sans-serif;
+  --brand-font-body: 'Open Sans', sans-serif;
+  --brand-heading-font: 'Open Sans', sans-serif;
+  --brand-body-font: 'Open Sans', sans-serif;
+  --brand-radius: 0.5rem;
+  --brand-button-radius: 1000px;
+  --brand-card-radius: 0.75rem;
+  --text-body: #676767;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #5e2750;
+  --text-footer: #e5e5e5;
+  --text-accent: #007b88;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #2a2a2a;
+  --bg-main: #f4f0f7;
+  --bg-main-alt: #ede7f3;
+  --bg-color: #ede7f3;
+  --bg-saturated: #007b88;
+  --bg-accent: #f5c518;
+  --border-color: #e0e0e0;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.5rem;
 }
 
 body.site-financial.dark,

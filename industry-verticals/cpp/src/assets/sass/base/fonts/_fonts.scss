@@ -6,7 +6,17 @@
 }
 
 .site-financial {
-  --font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+  --font-family: var(--brand-font-body, 'Open Sans', Helvetica, Arial, sans-serif);
+  font-family: var(--brand-font-body, 'Open Sans', Helvetica, Arial, sans-serif);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--brand-font-heading, 'Open Sans', Helvetica, Arial, sans-serif);
+  }
 }
 
 .site-services {

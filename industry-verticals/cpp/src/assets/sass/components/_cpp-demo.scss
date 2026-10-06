@@ -1,0 +1,169 @@
+// CPP / Canada Protection Plan demo variants
+
+.hero-split-cream {
+  background: var(--brand-hero-lavender, #ede7f3);
+  overflow: hidden;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 28rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+  }
+
+  &__copy {
+    padding-right: 1rem;
+  }
+
+  &__title {
+    font-family: var(--brand-heading-font, 'Open Sans', sans-serif);
+    font-weight: 800;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    color: var(--brand-secondary, #5e2750);
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.05rem;
+    color: var(--brand-fg, #676767);
+    margin-bottom: 1.5rem;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand-primary, #007b88);
+    color: var(--brand-primary-foreground, #fff) !important;
+    border-radius: var(--brand-button-radius, 1000px);
+    padding: 0.75rem 1.75rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    border: none;
+
+    &:hover {
+      filter: brightness(0.95);
+      color: #fff !important;
+    }
+  }
+
+  &__media {
+    border-radius: var(--brand-card-radius, 0.75rem);
+    overflow: hidden;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.product-cards-carousel {
+  .cpp-product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .cpp-product-card {
+    background: var(--brand-bg, #fff);
+    border-radius: var(--brand-card-radius, 0.75rem);
+    overflow: hidden;
+    border: 1px solid var(--brand-border, #e0e0e0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__media {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &__body {
+      padding: 1.25rem 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      flex: 1;
+    }
+
+    &__title {
+      font-family: var(--brand-heading-font, 'Open Sans', sans-serif);
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--brand-secondary, #5e2750);
+      margin: 0;
+    }
+
+    &__text {
+      color: var(--brand-fg, #676767);
+      font-size: 0.95rem;
+      margin: 0;
+      flex: 1;
+    }
+
+    &__link {
+      color: var(--brand-primary, #007b88) !important;
+      font-weight: 700;
+      text-decoration: none !important;
+
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+  }
+}
+
+// Teal action tiles when using WithIcons on primary sections
+.three-column-cta.with-icons {
+  .content-wrapper {
+    background: var(--brand-primary, #007b88);
+    color: var(--brand-primary-foreground, #fff);
+    border-radius: var(--brand-card-radius, 0.75rem);
+    padding: 1.75rem 1.25rem;
+    min-height: 12rem;
+
+    h2,
+    p {
+      color: inherit;
+    }
+  }
+
+  .wrapper-link {
+    text-decoration: none;
+  }
+}
+
+.button-main,
+.button.button-main {
+  border-radius: var(--brand-button-radius, 1000px) !important;
+  background: var(--brand-primary, #007b88) !important;
+  border-color: var(--brand-primary, #007b88) !important;
+}

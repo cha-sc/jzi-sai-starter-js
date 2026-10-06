@@ -1,0 +1,257 @@
+# Demo Build Plan — CPP
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "CPP"
+  sourceUrl: "https://cpp.ca"
+  themeFile: "docs/ai/themes/cpp.theme.yaml"
+  analyzedAt: "2026-10-06T16:10:00Z"
+  codeRoot: "industry-verticals/cpp/"
+  contentRoot: "/sitecore/content/IOF/CPP"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/cpp/screenshot-desktop.png"
+    mobile: "docs/ai/themes/cpp/screenshot-mobile.png"
+    hero: "docs/ai/themes/cpp/screenshot-hero.png"
+    userProvided: "docs/ai/demos/cpp/user-screenshot.jpg"
+  totalSections: 12
+  templateMatches: 12
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Maroon utility bar with phone, how-to link, calculator, language toggle, and social icons."
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "secondary"
+    content:
+      Title: "1-877-851-9090 · Watch how-to · Insurance calculator · FR"
+    contentNotes: "Utility links only; language toggle can stay static FR for the demo."
+    variantReason: "Only Eyebrow variant."
+
+  - position: 2
+    description: "White header with Canada Protection Plan logo, insurance nav dropdowns, and teal Get a quote CTA."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "default"
+    content:
+      Title: "Canada Protection Plan"
+    contentNotes: "Context-only. Logo from docs/ai/themes/cpp/images/logo.svg. Nav: Individual & Simplified Issue Life Insurance, Critical Illness Insurance, About us, For Advisors."
+    variantReason: "WithLogoImage matches solid white bar with wordmark/logo."
+
+  - position: 3
+    description: "Cream/lavender split hero: headline, subcopy, Get my quote CTA, partner badge, senior couple photo with dog."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Life insurance in Canada, refreshingly simple!"
+      Description: "No medical exams and quick applications. Plus member benefits with care built in."
+      PrimaryCta: "Get my quote"
+    contentNotes: "Generic Hero overlays text on image; live site is a true split (text left, photo right). Phase 5.5 HeroSplitCream can match more closely. Partner/Foresters badge can sit in Text/RichText."
+    variantReason: "Closest SXA hero; split layout may need custom variant."
+    customVariantNeeded:
+      name: "HeroSplitCream"
+      description: "Split layout: soft lavender/cream text column left, lifestyle photo right, pill teal CTA, optional partner logo under CTA."
+      parentComponent: "Hero"
+
+  - position: 4
+    description: "Soft yellow band: Simplified issue headline, stress-free subhead, body with checkmark, yellow cartoon character."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "accent"
+    content:
+      Title: "Simplified issue, no medical life insurance made easier"
+      Description: "Getting covered can be stress-free. We are a trusted leader in simplified issue, no medical life insurance in Canada."
+      PrimaryCta: "Find your plan"
+    contentNotes: "Cartoon character image on the right. Checkmark bullets can live in RichText."
+    variantReason: "Promo CTA supports image + text + CTA on a tinted band."
+
+  - position: 5
+    description: "Centered intro asking Do I need life insurance?"
+    matchedComponent:
+      registryId: "heading-cta"
+      manifestName: "Heading CTA"
+      variant: "Centered"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Do I need life insurance?"
+      Description: "Explore coverage options that fit your family, legacy, and final-expense needs."
+    contentNotes: "Section heading above the three product cards."
+    variantReason: "Centered title + supporting sentence."
+
+  - position: 6
+    description: "Three product cards with photos (Simplified Issue, Preferred Life, Critical Illness) and Explore coverage links."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Item1Title: "Simplified issue life insurance"
+      Item1Link: "Explore coverage options"
+      Item2Title: "Preferred Life Insurance"
+      Item2Link: "Explore coverage options"
+      Item3Title: "Critical Illness Insurance"
+      Item3Link: "Explore coverage options"
+    contentNotes: "Live site uses a carousel with arrows; Three Column CTA ships as a static row. Optional ProductCardsCarousel in Phase 5.5."
+    variantReason: "Three image+title+link columns match the card grid."
+    customVariantNeeded:
+      name: "ProductCardsCarousel"
+      description: "Three lifestyle product cards with peeking carousel arrows under the row."
+      parentComponent: "Three Column CTA"
+
+  - position: 7
+    description: "Trusted by thousands of Canadians — three testimonial quotes with yellow avatar circles."
+    matchedComponent:
+      registryId: "testimonials"
+      manifestName: "Testimonials"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Trusted by thousands of Canadians."
+      Item1: "Roya O. — Calgary, AB"
+      Item2: "Customer quote 2"
+      Item3: "Customer quote 3"
+    contentNotes: "Exact quotes pulled in Phase 2.5 content extract. Yellow circle avatars can be simple icons."
+    variantReason: "Multi-quote testimonial block."
+
+  - position: 8
+    description: "You're not hard to insure — photo of couple with flowers left, copy + Get started CTA right."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "You're not hard to insure"
+      Description: "We specialize in helping Canadians who thought they couldn't get coverage — even with health conditions."
+      PrimaryCta: "Get started without stress"
+    contentNotes: "Second Promo CTA instance with lifestyle photo."
+    variantReason: "Image + copy + CTA split."
+
+  - position: 9
+    description: "Easy everything — benefit bullets, two CTAs, yellow cartoon character on laptop."
+    matchedComponent:
+      registryId: "app-promo"
+      manifestName: "App Promo"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Easy everything."
+      Description: "Apply online or by phone. Member benefits included. Stable rates you can plan around."
+      PrimaryCta: "Calculate my coverage"
+      SecondaryCta: "Get a no-obligation quote"
+    contentNotes: "App Promo pattern (copy + illustration). Secondary outlined button may need Phase 5.5 if App Promo only supports one link."
+    variantReason: "Illustration + benefits + CTAs matches App Promo layout."
+
+  - position: 10
+    description: "Three solid teal action tiles: calculator, instant quote, talk to advisor with phone number."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "WithIcons"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Item1Title: "How much coverage do you need?"
+      Item1Link: "Calculate my coverage"
+      Item2Title: "Get an instant quote online"
+      Item2Link: "Get started"
+      Item3Title: "Talk to a live advisor over the phone"
+      Item3Link: "1-877-851-9090"
+    contentNotes: "Solid teal tile styling is closer with WithIcons + primary section background; pixel-perfect teal blocks optional in Phase 5.5."
+    variantReason: "WithIcons matches icon + title + link columns."
+
+  - position: 11
+    description: "FAQ accordion about life insurance in Canada."
+    matchedComponent:
+      registryId: "accordion"
+      manifestName: "Accordion"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Frequently asked questions about life insurance in Canada."
+      Item1: "Do you offer life insurance Canada-wide?"
+      Item2: "Who needs life insurance in Canada?"
+      Item3: "How much does life insurance cost in Canada?"
+    contentNotes: "Full Q&A text from Phase 2.5 extractor."
+    variantReason: "Standard accordion FAQ."
+
+  - position: 12
+    description: "Closing CTA: Ready to protect your loved ones… with Get my personalized quote and Call now."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Ready to protect your loved ones' financial futures? Get your personalized quote today!"
+      PrimaryCta: "Get my personalized quote"
+      SecondaryCta: "Call now: 1-877-851-9090"
+    contentNotes: "Secondary call button may be RichText/link depending on CTA Banner fields."
+    variantReason: "Centered headline + primary CTA band."
+
+  - position: 13
+    description: "Multi-column footer with contact, quick links, helpful links, blog teasers, and legal."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Title: "Canada Protection Plan"
+    contentNotes: "Context-only. Columns: Contact Us, Quick Links, Helpful Links, Blog. Include Foresters / IOF legal disclaimer in footer Text."
+    variantReason: "WithSocials for social icons + multi-column links."
+
+notes:
+  - "Mapped to Financial/SXA Prospera components (same approach as Renasant), not the UIIM catalog."
+  - "Live scraped homepage used as primary structure; user screenshot confirms teal/purple brand and Foresters partnership."
+  - "Hard scope: code under industry-verticals/cpp/; content under /sitecore/content/IOF/CPP."

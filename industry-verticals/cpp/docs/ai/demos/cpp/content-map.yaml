@@ -1,0 +1,350 @@
+# CPP content map — Financial / SXA
+client:
+  name: "CPP"
+  sourceUrl: "https://cpp.ca"
+  contentRoot: "/sitecore/content/IOF/CPP"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/IOF/CPP/Data/CPP Demo"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCta: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  HeadingCta: "fa136527-6302-471d-83ab-e66fc72bda99"
+  ThreeColumnCta: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+  Testimonials: "91cd4de0-ed0b-457b-9936-a333e8a874a3"
+  Testimonial: "40472280-0a67-4c52-a06b-79e327af9f44"
+  AppPromo: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+  Accordion: "9bc52f2f-feed-47dc-88ec-1946fa308af0"
+  AccordionItem: "02fc3e8b-a97f-4a7a-844b-3047e24432a0"
+  CtaBanner: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields:
+      - field: "LogoImage"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/10/CPP-Logo-RGB-ENG.svg"
+        alt: "Canada Protection Plan"
+        localFile: "section2-img1.svg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "CPP - Hero"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    phase55Variant: "HeroSplitCream"
+    fields:
+      Title: "Life insurance in Canada, refreshingly simple!"
+      Text: "<p>No medical exams and quick applications. Plus member benefits with care built in.</p><p><em>Official life insurance partner — Foresters Financial / The Independent Order of Foresters.</em></p>"
+      Link: { text: "Get my quote", href: "https://www.cpp.ca/no-obligation-quote/", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/banner-image.png"
+        alt: "Couple with dog"
+        localFile: "section3-img13.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "CPP - Simplified Issue"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    fields:
+      Eyebrow: ""
+      Title: "Simplified issue, no medical life insurance made easier"
+      Subtitle: "Getting covered can be stress-free"
+      Text: "<p>We are a trusted leader in simplified issue, no medical life insurance in Canada. That means no needles, no doctor visits and less waiting around.</p>"
+      Link: { text: "Find your plan", href: "https://www.cpp.ca/no-medical-simplified-issue-life-insurance/", target: "_blank" }
+      Link2: { text: "", href: "", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/albert-1.png"
+        alt: "Albert mascot"
+        localFile: "section3-img15.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 5
+    componentName: "HeadingCta"
+    manifestName: "Heading CTA"
+    kind: "simple"
+    datasourceItemName: "CPP - Do I Need Life Insurance"
+    apiAddable: true
+    templateId: "fa136527-6302-471d-83ab-e66fc72bda99"
+    fields:
+      Eyebrow: ""
+      Heading: "Do I need life insurance?"
+      Text: "<p>Yes, you probably do! Explore affordable life insurance coverage offered by Canada Protection Plan from Foresters Financial.</p>"
+      Link: { text: "", href: "", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "CPP - Product Cards"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    phase55Variant: "ProductCardsCarousel"
+    fields:
+      Text1: "Simplified issue, no medical life insurance"
+      SubText1: "Skip medical exams and find a permanent or term plan. Right for you if you have existing health issues, work a dangerous job, or don’t want medical exams."
+      Link1: { text: "Explore coverage options", href: "https://www.cpp.ca/no-medical-simplified-issue-life-insurance/", target: "_blank" }
+      Text2: "Preferred life insurance"
+      SubText2: "Permanent and term options to meet your needs."
+      Link2: { text: "Explore coverage options", href: "https://www.cpp.ca/no-medical-preferred-term-life-insurance/", target: "_blank" }
+      Text3: "Critical illness insurance"
+      SubText3: "Financial protection while you recover from a covered illness."
+      Link3: { text: "Explore coverage options", href: "https://www.cpp.ca/critical-illness-canada/", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.cpp.ca/wp-content/uploads/2024/09/slider-img-01-768x724.jpg"
+        alt: "Family — simplified issue"
+        localFile: "section3-img16.jpg"
+      - field: "Image2"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/multigenerational-men.png"
+        alt: "Multigenerational men — preferred life"
+        localFile: "section3-img17.png"
+      - field: "Image3"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/lady-on-computer.png"
+        alt: "Lady on computer — critical illness"
+        localFile: "section3-img18.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 7
+    componentName: "Testimonials"
+    manifestName: "Testimonials"
+    kind: "list"
+    datasourceItemName: "CPP - Testimonials"
+    apiAddable: true
+    templateId: "91cd4de0-ed0b-457b-9936-a333e8a874a3"
+    childTemplateId: "40472280-0a67-4c52-a06b-79e327af9f44"
+    fields: {}
+    children:
+      - name: "CPP - Testimonial Roya"
+        fields:
+          Rating: "5"
+          Content: "The application was simple and I got covered quickly without a medical exam."
+          AuthorName: "Roya O."
+          AuthorPosition: "Calgary, AB"
+        imageFields:
+          - field: "AuthorImage"
+            src: "https://www.cpp.ca/wp-content/uploads/2024/09/testemonial-avatar-lorem.svg"
+            alt: "Roya O."
+            localFile: "section3-img19.svg"
+      - name: "CPP - Testimonial James"
+        fields:
+          Rating: "5"
+          Content: "Clear options and a friendly advisor who walked me through every step."
+          AuthorName: "James T."
+          AuthorPosition: "Toronto, ON"
+        imageFields:
+          - field: "AuthorImage"
+            src: "https://www.cpp.ca/wp-content/uploads/2024/09/testemonial-avatar-lorem.svg"
+            alt: "James T."
+            localFile: "section3-img19.svg"
+      - name: "CPP - Testimonial Maria"
+        fields:
+          Rating: "5"
+          Content: "I thought I was hard to insure — CPP made it straightforward."
+          AuthorName: "Maria L."
+          AuthorPosition: "Vancouver, BC"
+        imageFields:
+          - field: "AuthorImage"
+            src: "https://www.cpp.ca/wp-content/uploads/2024/09/testemonial-avatar-lorem.svg"
+            alt: "Maria L."
+            localFile: "section3-img19.svg"
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "screenshot"
+    notes: "Exact quote text partially missing from DOM extract; paraphrased from screenshot social proof."
+
+  - position: 8
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "CPP - Not Hard to Insure"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    fields:
+      Eyebrow: ""
+      Title: "You're not hard to insure"
+      Subtitle: ""
+      Text: "<p>Our simplified issue plans make it easy to get insured, even if you have existing health conditions or other factors that make you “hard to insure”.</p><p>You’ll get straightforward Canadian life insurance coverage with no medical exams, no needles and less worries.</p>"
+      Link: { text: "Get covered without exams", href: "https://www.cpp.ca/no-obligation-quote/", target: "_blank" }
+      Link2: { text: "", href: "", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/couple-with-flowers-cropped.png"
+        alt: "Couple with flowers"
+        localFile: "section3-img20.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 9
+    componentName: "AppPromo"
+    manifestName: "App Promo"
+    kind: "simple"
+    datasourceItemName: "CPP - Easy Everything"
+    apiAddable: true
+    templateId: "bbcccd48-218c-4f19-a1d4-bb3dbf1f4d89"
+    fields:
+      Title: "Easy everything"
+      Text: "<p>You’ve got unique needs and goals. We’ve got the coverage to match, with less stress along the way.</p><ul><li>Apply online or by phone</li><li>Member benefits included</li><li>Stable rates you can plan around</li></ul><p><a href=\"https://www.cpp.ca/insurance-needs-calculator/\">Calculate my coverage</a> · <a href=\"https://www.cpp.ca/no-obligation-quote/\">Get a no-obligation quote</a></p>"
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/albert-on-computer.png"
+        alt: "Albert mascot on computer"
+        localFile: "section3-img21.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 10
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "CPP - Action Tiles"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "How much coverage do you need?"
+      SubText1: "Our free insurance coverage calculator can help you out."
+      Link1: { text: "Calculate my coverage", href: "https://www.cpp.ca/insurance-needs-calculator/", target: "_blank" }
+      Text2: "Get an instant quote online"
+      SubText2: "Choose your insurance needs to see your personalized rates and Canadian life insurance plans."
+      Link2: { text: "Get started", href: "https://www.cpp.ca/no-obligation-quote/", target: "_blank" }
+      Text3: "Talk to a live advisor over the phone"
+      SubText3: "Get all your questions answered by a licensed Canadian life insurance advisor."
+      Link3: { text: "1-877-851-9090", href: "tel:+18778519090", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/coverage-calculator-icon.png"
+        alt: "Coverage calculator icon"
+        localFile: "section3-img22.png"
+      - field: "Image2"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/online-quote-icon.png"
+        alt: "Online quote icon"
+        localFile: "section3-img23.png"
+      - field: "Image3"
+        src: "https://www.cpp.ca/wp-content/uploads/2025/06/headset-icon.png"
+        alt: "Headset icon"
+        localFile: "section3-img24.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 11
+    componentName: "Accordion"
+    manifestName: "Accordion"
+    kind: "list"
+    datasourceItemName: "CPP - FAQ"
+    apiAddable: true
+    templateId: "9bc52f2f-feed-47dc-88ec-1946fa308af0"
+    childTemplateId: "02fc3e8b-a97f-4a7a-844b-3047e24432a0"
+    fields: {}
+    children:
+      - name: "CPP - FAQ Canada-wide"
+        fields:
+          Title: "Do you offer life insurance Canada-wide?"
+          Content: "<p>Yes, Canada Protection Plan from Foresters Financial’s suite of life insurance products is available to Canadians 18–80 across the nation.</p>"
+        imageFields: []
+      - name: "CPP - FAQ Who needs"
+        fields:
+          Title: "Who needs life insurance in Canada?"
+          Content: "<p>Families, seniors, young adults or temporary residents Canada-wide benefit from life insurance to protect loved ones from financial burdens, regardless of health or lifestyle.</p>"
+        imageFields: []
+      - name: "CPP - FAQ Cost"
+        fields:
+          Title: "How much does life insurance cost in Canada?"
+          Content: "<p>Our coverage can potentially start as low as $15 a month. Get fast, affordable life insurance quotes in Canada using our Quick Quote tool – available online in just minutes.</p>"
+        imageFields: []
+      - name: "CPP - FAQ No medical benefit"
+        fields:
+          Title: "What’s the benefit of no medical life insurance in Canada?"
+          Content: "<p>No medical life insurance in Canada lets you skip medical exams and needles, offering fast coverage in as little as 24 hours. It’s a great option even for those with health issues or high-risk hobbies.</p>"
+        imageFields: []
+      - name: "CPP - FAQ Types"
+        fields:
+          Title: "What types of life insurance are available?"
+          Content: "<p>You can choose between term life insurance (e.g., 10–30 years) or whole life insurance (permanent coverage) for lifelong protection. Both offer protection tailored to your needs, with simplified and no-medical options.</p>"
+        imageFields: []
+      - name: "CPP - FAQ Apply"
+        fields:
+          Title: "How do I apply for life insurance in Canada?"
+          Content: "<p>Use our Insurance Calculator to estimate coverage and apply for a no-obligation quote via phone (1-877-851-9090) or online.</p>"
+        imageFields: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 12
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    datasourceItemName: "CPP - Closing CTA"
+    apiAddable: true
+    templateId: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+    fields:
+      Eyebrow: ""
+      Title: "Ready to protect your loved ones' financial futures? Get your personalized quote today!"
+      Text: "<p><a href=\"tel:+18778519090\">Call now 1-877-851-9090</a></p>"
+      Link: { text: "Get my personalized quote", href: "https://www.cpp.ca/no-obligation-quote/", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 13
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+summary:
+  totalSections: 13
+  apiAddable: 11
+  contextOnly: 2
+  withImages: 8
+  phase55Variants: ["HeroSplitCream", "ProductCardsCarousel"]

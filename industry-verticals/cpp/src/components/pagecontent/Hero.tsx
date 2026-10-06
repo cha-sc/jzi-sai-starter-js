@@ -56,3 +56,40 @@ export const Default = (props: AppPromoProps): JSX.Element => {
     </div>
   );
 };
+
+/* CPP — cream/lavender split hero: copy left, lifestyle photo right */
+export const HeroSplitCream = (props: AppPromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component hero hero-split-cream ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="hero-split-cream__inner">
+        <div className="hero-split-cream__copy">
+          <h1 className="hero-split-cream__title">
+            <Text field={props.fields.Title} />
+          </h1>
+          <div className="hero-split-cream__subtitle">
+            <RichText field={props.fields.Text} />
+          </div>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="hero-split-cream__cta" />
+          )}
+        </div>
+        <div className="hero-split-cream__media">
+          <NextImage
+            field={props.fields.Image}
+            className="hero-split-cream__img"
+            width={900}
+            height={720}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};

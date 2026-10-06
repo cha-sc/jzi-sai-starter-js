@@ -1,0 +1,38 @@
+{
+  "colors": {
+    "bodyBackground": "rgba(0, 0, 0, 0)",
+    "bodyColor": "rgb(103, 103, 103)",
+    "headerBackground": "rgba(0, 0, 0, 0)",
+    "headerColor": "rgb(103, 103, 103)",
+    "footerBackground": null,
+    "footerColor": "rgb(103, 103, 103)",
+    "primaryButtonBackground": "rgb(0, 123, 136)",
+    "primaryButtonColor": "rgb(255, 255, 255)",
+    "primaryButtonBorderRadius": "1000px",
+    "linkColor": "rgb(0, 123, 136)"
+  },
+  "typography": {
+    "bodyFontFamily": "\"Open Sans\"",
+    "bodyFontSize": "16px",
+    "bodyFontWeight": "500",
+    "bodyLineHeight": "25px",
+    "h1FontFamily": "\"Open Sans\"",
+    "h1FontSize": "53px",
+    "h1FontWeight": "800",
+    "h1LetterSpacing": "normal",
+    "h1TextTransform": "none",
+    "h2FontFamily": "Elza, sans-serif",
+    "h2FontSize": "20px",
+    "h2FontWeight": "500",
+    "h3FontFamily": "\"Open Sans\"",
+    "h3FontSize": "25px",
+    "h3FontWeight": "700",
+    "pFontSize": "15px",
+    "pLineHeight": "30px"
+  },
+  "shape": {},
+  "spacing": {
+    "containerMaxWidth": null
+  },
+  "cssVariables": {}
+}

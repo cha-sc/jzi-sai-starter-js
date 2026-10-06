@@ -1,0 +1,24 @@
+variants:
+  - name: HeroSplitCream
+    parentComponent: Hero
+    parentRenderingId: b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae
+    variantItemId: 867f9936-c7dc-488d-98f1-3691d00c0105
+    reactExport: HeroSplitCream
+    scss: hero-split-cream
+    purpose: "Split cream/lavender hero — copy left, lifestyle photo right"
+
+  - name: ProductCardsCarousel
+    parentComponent: Three Column CTA
+    parentRenderingId: ad385021-ce2b-4fc1-89aa-207d408034a8
+    variantItemId: c56730b1-9801-4594-aca0-2918d0f24746
+    reactExport: ProductCardsCarousel
+    scss: product-cards-carousel
+    purpose: "Image-top lifestyle product cards in a three-up grid"
+
+  - name: WithIcons
+    parentComponent: Three Column CTA
+    parentRenderingId: ad385021-ce2b-4fc1-89aa-207d408034a8
+    variantItemId: 27bcf6ca-2058-4ae5-b9eb-96f355f14433
+    reactExport: WithIcons
+    scss: three-column-cta.with-icons (teal tiles via _cpp-demo.scss)
+    purpose: "Teal action tiles with icons for calculator / quote / advisor"
