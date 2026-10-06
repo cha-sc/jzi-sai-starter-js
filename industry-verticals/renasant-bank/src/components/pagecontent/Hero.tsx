@@ -126,3 +126,92 @@ export const HeroWithLoginPanel = (props: AppPromoProps): JSX.Element => {
     </section>
   );
 };
+
+
+interface HeroWithLoginReversedProps {
+  params?: { [key: string]: string };
+  rendering?: {
+    uid?: string;
+    dataSource?: string;
+    params?: { [key: string]: string };
+  };
+  fields?: Fields;
+}
+
+export const HeroWithLoginReversed = (props: HeroWithLoginReversedProps) => {
+  const { page } = useSitecore();
+  const isPageEditing = page?.mode?.isEditing;
+
+  if (!props?.fields) return null;
+
+  const {
+    fields = {
+      Title: { value: '' },
+      Text: { value: '' },
+      Image: { value: { src: '', alt: '' } },
+      Link: { value: { href: '', text: '' } },
+    },
+    params = {},
+  } = props;
+  const id = params?.RenderingIdentifier;
+  const sxaStyles = `${params?.styles || ''}`;
+
+  return (
+    <section className={`component hero hero-with-login-panel ${sxaStyles}`} id={id ? id : undefined}>
+      <div className="hero-with-login-panel__media" aria-hidden={!fields?.Image?.value?.src}>
+        <NextImage field={fields?.Image} className="hero-with-login-panel__img" width={1920} height={720} />
+      </div>
+      <div className="container hero-with-login-panel__content">
+        <aside className="hero-login-panel" aria-label="Banking shortcuts">
+          <div className="hero-login-panel__tabs" role="tablist">
+            <span className="hero-login-panel__tab is-active" role="tab" aria-selected="true">
+              Personal
+            </span>
+            <span className="hero-login-panel__tab" role="tab" aria-selected="false">
+              Business
+            </span>
+          </div>
+          <div className="hero-login-panel__body">
+            <p className="hero-login-panel__hint">Demo shortcuts — not a live login</p>
+            <a
+              className="hero-login-panel__login"
+              href="https://www.renasantbank.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Login
+            </a>
+            <a
+              className="hero-login-panel__link"
+              href="https://ole.renasant.online-banking-services.com/onlineEnrol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Enroll in Online Banking
+            </a>
+          </div>
+          <div className="hero-login-panel__footer">
+            <a href="https://www.renasantbank.com/checking" target="_blank" rel="noopener noreferrer">
+              Open an Account
+            </a>
+            <span className="hero-login-panel__divider" aria-hidden="true" />
+            <a href="https://www.renasantbank.com/loans" target="_blank" rel="noopener noreferrer">
+              Apply for a Loan
+            </a>
+          </div>
+        </aside>
+        <div className="hero-with-login-panel__copy">
+          <h1 className="hero-with-login-panel__title">
+            <Text field={fields?.Title} />
+          </h1>
+          <div className="hero-with-login-panel__subtitle">
+            <RichText field={fields?.Text} />
+          </div>
+          {(isPageEditing || fields?.Link?.value?.href) && (
+            <Link field={fields?.Link} className="hero-with-login-panel__cta" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
