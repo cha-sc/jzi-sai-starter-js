@@ -3,23 +3,16 @@
 import { useEffect, useState, JSX } from 'react';
 
 export const Default = (): JSX.Element => {
-  const [isSystemDark, setIsSystemDark] = useState(false);
+  // Always default to light; do not follow prefers-color-scheme / OS dark mode.
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-
-    if (mq.matches) {
-      setIsSystemDark(true);
-    }
-
-    mq.addEventListener('change', (evt) => {
-      setIsSystemDark(evt.matches);
-    });
+    document.body.classList.remove('dark');
   }, []);
 
   useEffect(() => {
-    document.body.classList.toggle('dark', isSystemDark);
-  }, [isSystemDark]);
+    document.body.classList.toggle('dark', isDark);
+  }, [isDark]);
 
   return (
     <label className="theme-switcher">
@@ -30,8 +23,8 @@ export const Default = (): JSX.Element => {
         name="theme-switcher"
         id="theme-switcher"
         type="checkbox"
-        checked={isSystemDark}
-        onChange={() => setIsSystemDark(!isSystemDark)}
+        checked={isDark}
+        onChange={() => setIsDark(!isDark)}
       />
       <span className="theme-switcher-slider"></span>
     </label>
