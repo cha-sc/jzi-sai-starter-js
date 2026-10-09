@@ -10,7 +10,7 @@ customer:
   url: "https://www.laticrete.com/en"
   screenshotPath: ".cursor/skills/skinned-demo-setup/runs/laticrete/assets/laticrete-homepage.jpg"
   startedAt: "2026-10-09T16:18:54Z"
-  lastUpdatedAt: "2026-10-09T16:28:00Z"
+  lastUpdatedAt: "2026-10-09T16:33:00Z"
 
 selection:
   collectionMode: "new"
@@ -26,7 +26,7 @@ artifacts:
   newSiteId: "873f1ac5-d4c1-49f4-93c8-e577a4fff9f2"
   copyJobHandle: "e220c227-7f45-44e7-853b-57dfe625dd80;sitecoresaaea3f-chadev7ae9-chadev09156390-94885fdc7-qgbjg"
   collectionJobHandle: "07550d43-ab02-4b1d-9b17-4c0e6dfa94e0;sitecoresaaea3f-chadev7ae9-chadev09156390-94885fdc7-qgbjg"
-  ehEnvironmentId: ""
+  ehEnvironmentId: "6QhtPte6S1ZkERnVu4RUo8"
   cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
   renderingHostKey: "laticrete"
 
@@ -75,24 +75,27 @@ steps:
     error: ""
 
   offer_commit:
-    status: "pending"
-    committed: null
+    status: "complete"
+    committed: true
     error: ""
 
   step1d_editing_host:
-    status: "pending"
-    optedIn: null
+    status: "complete"
+    optedIn: true
     error: ""
 
   step1_verification:
-    status: "pending"
+    status: "complete"
     error: ""
 
   step2_build_demo:
-    status: "pending"
+    status: "handed_off"
     error: ""
 
 notes:
   - "2026-10-09T16:18:54Z — Inputs collected. CM authoring env ID provided: 3FrHA2dq9Q5HJqr9ry042u."
   - "2026-10-09T16:22:00Z — New collection Laticrete + ProsperaFinancial source confirmed."
-  - "2026-10-09T16:28:00Z — Step 1a–1c done; move verified under Laticrete collection. Awaiting commit offer answer and editing-host opt-in."
+  - "2026-10-09T16:28:00Z — Step 1a–1c done; move verified under Laticrete collection."
+  - "2026-10-09T16:30:00Z — Commit c2a6021 (LATICRETE scaffold + rendering host)."
+  - "2026-10-09T16:32:00Z — Editing host laticrete created (6QhtPte6S1ZkERnVu4RUo8), type eh; SEARCH vars upserted."
+  - "2026-10-09T16:33:00Z — Step 1 verification complete. Handed off to sitecore-build-demo."

@@ -1,0 +1,1002 @@
+{
+  "url": "https://www.laticrete.com/en",
+  "extractedAt": "2026-10-09T16:43:52.201Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 2,
+  "totalImages": 1,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 3,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h5",
+          "text": "Menu"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Products",
+          "href": "https://www.laticrete.com/our-products",
+          "target": ""
+        },
+        {
+          "text": "Tile & Stone Installation Systems",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation",
+          "target": ""
+        },
+        {
+          "text": "Substrate Preparation, Screeds & Mortars",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/substrate-preparation-screeds-and-mortars",
+          "target": ""
+        },
+        {
+          "text": "Pedestals, Plaza & Deck System",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/pedestals-plaza-and-deck-system",
+          "target": ""
+        },
+        {
+          "text": "Waterproofing & Shower Systems",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/waterproofing",
+          "target": ""
+        },
+        {
+          "text": "Uncoupling & Anti-Fracture Membranes",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/uncoupling-and-anti-fracture-membranes",
+          "target": ""
+        },
+        {
+          "text": "Sound Control",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/sound-control",
+          "target": ""
+        },
+        {
+          "text": "Radiant Floor Heating",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/radiant-floor-heating",
+          "target": ""
+        },
+        {
+          "text": "Adhesives & Mortars",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/tile-and-stone-adhesives",
+          "target": ""
+        },
+        {
+          "text": "Grouts",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/tile-and-stone-grouts",
+          "target": ""
+        },
+        {
+          "text": "Caulks & Sealants",
+          "href": "https://www.laticrete.com/our-products/tile-and-stone-installation/caulks-and-sealants",
+          "target": ""
+        },
+        {
+          "text": "Adhered Façade & Wall Finish Systems (MVIS™)",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems",
+          "target": ""
+        },
+        {
+          "text": "Wall Renders & Scratch Coats",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems/masonry-veneer-installation-system-mvis#filterproduct_e=0&filterproduct_productsubcategories=Wall%20Render%20%26%20Scratch%20Coats",
+          "target": ""
+        },
+        {
+          "text": "Air Barrier Systems",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems/masonry-veneer-installation-system-mvis#filterproduct_e=0&filterproduct_productsubcategories=Air%20Barrier%20Systems",
+          "target": ""
+        },
+        {
+          "text": "Adhesives & Mortars",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems/masonry-veneer-installation-system-mvis#filterproduct_e=0&filterproduct_productsubcategories=Adhesive",
+          "target": ""
+        },
+        {
+          "text": "Flashing",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems/masonry-veneer-installation-system-mvis#filterproduct_e=0&filterproduct_productsubcategories=Flashing",
+          "target": ""
+        },
+        {
+          "text": "Pointing Mortars",
+          "href": "https://www.laticrete.com/our-products/adhered-facade-and-wall-finish-systems/masonry-veneer-installation-system-mvis#filterproduct_e=0&filterproduct_productsubcategories=Pointing%20Mortars",
+          "target": ""
+        },
+        {
+          "text": "Concrete & Substrate Preparation",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation",
+          "target": ""
+        },
+        {
+          "text": "Bonding Primers & Moisture Barriers",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/bonding-primers-and-moisture-barriers",
+          "target": ""
+        },
+        {
+          "text": "Self-Leveling Underlayments",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/self-leveling-underlayments",
+          "target": ""
+        },
+        {
+          "text": "SUPERCAP High Volume Self-Leveling",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/supercap-high-volume-self-leveling",
+          "target": ""
+        },
+        {
+          "text": "Polished Concrete & Overlayments",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/polished-concrete-and-overlayments",
+          "target": ""
+        },
+        {
+          "text": "Skim Coat, Patch & Repair",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/skim-coat-patch-and-repair",
+          "target": ""
+        },
+        {
+          "text": "Thick Bed Mortars & Screeds",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/thick-bed-mortars-and-screeds",
+          "target": ""
+        },
+        {
+          "text": "Performance Floor Toppings",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/performance-floor-toppings",
+          "target": ""
+        },
+        {
+          "text": "Concrete Chemicals & Construction Grouts",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/concrete-chemicals-construction-grouts",
+          "target": ""
+        },
+        {
+          "text": "Concrete Densifiers & Hardeners",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/concrete-densifiers-and-hardeners",
+          "target": ""
+        },
+        {
+          "text": "Resources",
+          "href": "https://www.laticrete.com/our-products/concrete-and-substrate-preparation/resources",
+          "target": ""
+        },
+        {
+          "text": "Shower Systems",
+          "href": "https://www.laticrete.com/our-products/shower-systems",
+          "target": ""
+        },
+        {
+          "text": "Wall Board",
+          "href": "https://www.laticrete.com/our-products/shower-systems/wall-board#filterproduct_showercategoryreference=Wall%20Board&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Preformed Shower System",
+          "href": "https://www.laticrete.com/our-products/shower-systems/preformed-shower-system#filterproduct_showercategoryreference=Preformed%20Shower%20System&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Liquid Applied Waterproofing",
+          "href": "https://www.laticrete.com/our-products/shower-systems/liquid-applied-waterproofing#filterproduct_showercategoryreference=Liquid%20Applied%20Waterproofing&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Drains",
+          "href": "https://www.laticrete.com/our-products/shower-systems/drains#filterproduct_showercategoryreference=Drains&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Tools & Accessories",
+          "href": "https://www.laticrete.com/our-products/shower-systems/tools-and-accessories#filterproduct_showercategoryreference=Tools%20%26%20Accessories&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Sheet Membranes & Related Accessories",
+          "href": "https://www.laticrete.com/our-products/shower-systems/sheet-membranes-and-related-accessories#filterproduct_showercategoryreference=Sheet%20Membranes%20%26%20Related%20Accessories&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Cementitious Waterproofing",
+          "href": "https://www.laticrete.com/our-products/shower-systems/cementitious-waterproofing#filterproduct_showercategoryreference=Cementitious%20Waterproofing&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Flashing & Specialty Waterproofing",
+          "href": "https://www.laticrete.com/our-products/shower-systems/flashing-and-specialty-waterproofing#filterproduct_showercategoryreference=Flashing%20%26%20Specialty%20Waterproofing&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Rapid Custom Shower System",
+          "href": "https://www.laticrete.com/our-products/shower-systems/hydro-ban-rapid-custom-shower-system#filterproduct_showercategoryreference=HYDRO%20BAN%20Rapid%20Custom%20Shower%20System&filterproduct_e=0",
+          "target": ""
+        },
+        {
+          "text": "Floor Heat",
+          "href": "https://www.laticrete.com/our-products/floor-heat",
+          "target": ""
+        },
+        {
+          "text": "Mats",
+          "href": "https://www.laticrete.com/our-products/floor-heat/mats",
+          "target": ""
+        },
+        {
+          "text": "Heating Wire",
+          "href": "https://www.laticrete.com/our-products/floor-heat/heating-wire",
+          "target": ""
+        },
+        {
+          "text": "Thermostat",
+          "href": "https://www.laticrete.com/our-products/floor-heat/thermostat",
+          "target": ""
+        },
+        {
+          "text": "Complementary Products",
+          "href": "https://www.laticrete.com/our-products/floor-heat/complementary-products",
+          "target": ""
+        },
+        {
+          "text": "Profiles & Trims",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims",
+          "target": ""
+        },
+        {
+          "text": "Floor Applications",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims/profiles-for-floor-applications",
+          "target": ""
+        },
+        {
+          "text": "Wall & Countertop Applications",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims/profiles-for-wall-and-countertop-applications",
+          "target": ""
+        },
+        {
+          "text": "Stair Applications",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims/profiles-for-stair-applications",
+          "target": ""
+        },
+        {
+          "text": "Cove Applications",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims/profiles-for-cove-applications",
+          "target": ""
+        },
+        {
+          "text": "Movement & Expansion Joints",
+          "href": "https://www.laticrete.com/our-products/profiles-and-trims/movement-and-expansion-joints",
+          "target": ""
+        },
+        {
+          "text": "Tile, Stone & Surface Care",
+          "href": "https://www.laticrete.com/our-products/tile-stone-and-surface-care",
+          "target": ""
+        },
+        {
+          "text": "Clean",
+          "href": "https://www.laticrete.com/our-products/tile-stone-and-surface-care/clean",
+          "target": ""
+        },
+        {
+          "text": "Protect",
+          "href": "https://www.laticrete.com/our-products/tile-stone-and-surface-care/protect",
+          "target": ""
+        },
+        {
+          "text": "Enhance",
+          "href": "https://www.laticrete.com/our-products/tile-stone-and-surface-care/enhance",
+          "target": ""
+        },
+        {
+          "text": "Designed Without PFAS",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/latest-innovations/stonetech-designed-without-pfas",
+          "target": ""
+        },
+        {
+          "text": "New Products",
+          "href": "https://www.laticrete.com/our-products/new-products",
+          "target": ""
+        },
+        {
+          "text": "LATICRETE® 1 System",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/latest-innovations/one-of-a-kind-solutions",
+          "target": ""
+        },
+        {
+          "text": "NXT® Pedestal System",
+          "href": "https://www.laticrete.com/our-products/new-products/nxt-pedestal-system",
+          "target": ""
+        },
+        {
+          "text": "Color Selector",
+          "href": "https://www.laticrete.com/our-products/color-selector",
+          "target": ""
+        },
+        {
+          "text": "ANYCOLOR™",
+          "href": "https://www.laticrete.com/our-products/color-selector/anycolor-program",
+          "target": ""
+        },
+        {
+          "text": "Color Story",
+          "href": "https://www.laticrete.com/our-products/color-selector/color-story",
+          "target": ""
+        },
+        {
+          "text": "Solutions by Application",
+          "href": "https://www.laticrete.com/solutions-by-application",
+          "target": ""
+        },
+        {
+          "text": "Commercial & Institutional",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional",
+          "target": ""
+        },
+        {
+          "text": "Education",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/educational",
+          "target": ""
+        },
+        {
+          "text": "Healthcare",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/healthcare",
+          "target": ""
+        },
+        {
+          "text": "Hospitality & Leisure",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/leisure-and-hospitality",
+          "target": ""
+        },
+        {
+          "text": "Office",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/office",
+          "target": ""
+        },
+        {
+          "text": "Restaurants",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/restaurants",
+          "target": ""
+        },
+        {
+          "text": "Retail",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/retail",
+          "target": ""
+        },
+        {
+          "text": "Senior Living",
+          "href": "https://www.laticrete.com/solutions-by-application/commercial-and-institutional/senior-living",
+          "target": ""
+        },
+        {
+          "text": "Swimming Pools & Spas",
+          "href": "https://www.laticrete.com/solutions-by-application/residential/swimming-pools",
+          "target": ""
+        },
+        {
+          "text": "Industrial",
+          "href": "https://www.laticrete.com/solutions-by-application/industrial",
+          "target": ""
+        },
+        {
+          "text": "Manufacturing",
+          "href": "https://www.laticrete.com/solutions-by-application/industrial/manufacturing",
+          "target": ""
+        },
+        {
+          "text": "Infrastructure & Utilities",
+          "href": "https://www.laticrete.com/solutions-by-application/infrastructure-and-utilities",
+          "target": ""
+        },
+        {
+          "text": "Streetscapes & Parks",
+          "href": "https://www.laticrete.com/solutions-by-application/infrastructure-and-utilities/streetscapes-and-parks",
+          "target": ""
+        },
+        {
+          "text": "Subway & Train Stations",
+          "href": "https://www.laticrete.com/solutions-by-application/infrastructure-and-utilities/subway-and-train-stations",
+          "target": ""
+        },
+        {
+          "text": "Residential",
+          "href": "https://www.laticrete.com/solutions-by-application/residential",
+          "target": ""
+        },
+        {
+          "text": "Multifamily Housing",
+          "href": "https://www.laticrete.com/solutions-by-application/residential/multifamily-housing",
+          "target": ""
+        },
+        {
+          "text": "Single-Family Housing",
+          "href": "https://www.laticrete.com/solutions-by-application/residential/single-family-housing",
+          "target": ""
+        },
+        {
+          "text": "Swimming Pools",
+          "href": "https://www.laticrete.com/solutions-by-application/residential/swimming-pools",
+          "target": ""
+        },
+        {
+          "text": "Solutions for You",
+          "href": "https://www.laticrete.com/solutions-for-you",
+          "target": ""
+        },
+        {
+          "text": "Architects & Designers",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers",
+          "target": ""
+        },
+        {
+          "text": "Architectural Guidebook",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/architectural-guidebook",
+          "target": ""
+        },
+        {
+          "text": "LEED Project Certification Assistant",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/leed",
+          "target": ""
+        },
+        {
+          "text": "Color Selection",
+          "href": "https://www.laticrete.com/our-products/color-selector",
+          "target": ""
+        },
+        {
+          "text": "Order Samples",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/product-samples-and-refills",
+          "target": ""
+        },
+        {
+          "text": "Continuing Education",
+          "href": "https://www.laticrete.com/support-and-training/training-hub/aia-ces-training",
+          "target": ""
+        },
+        {
+          "text": "Project Reference Database",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/project-reference-database",
+          "target": ""
+        },
+        {
+          "text": "Contractors & Installers",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers",
+          "target": ""
+        },
+        {
+          "text": "Tile & Stone Installers",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/tile-and-stone-installers",
+          "target": ""
+        },
+        {
+          "text": "Flooring Installers",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/flooring-installers",
+          "target": ""
+        },
+        {
+          "text": "Masonry Installers",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/masonry-contractors",
+          "target": ""
+        },
+        {
+          "text": "Project Estimator",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/project-estimator",
+          "target": ""
+        },
+        {
+          "text": "Specifications & Details",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/architectural-guidebook",
+          "target": ""
+        },
+        {
+          "text": "Blue Premier™ Rewards",
+          "href": "https://www.laticrete.com/solutions-for-you/blue-premier-rewards",
+          "target": ""
+        },
+        {
+          "text": "MVP Program",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/mvp-program",
+          "target": ""
+        },
+        {
+          "text": "Rapid Solutions",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/rapid-solutions",
+          "target": ""
+        },
+        {
+          "text": "ProjectSafety™",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/project-safety",
+          "target": ""
+        },
+        {
+          "text": "Distributors & Retailers",
+          "href": "https://www.laticrete.com/solutions-for-you/distributors-and-retailers",
+          "target": ""
+        },
+        {
+          "text": "Distributor Web (D-Web)",
+          "href": "https://apps.laticrete.com/infoweb/login.aspx?branding=dweb",
+          "target": ""
+        },
+        {
+          "text": "New Products",
+          "href": "#",
+          "target": ""
+        },
+        {
+          "text": "Order Marketing Literature",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/request-product-information",
+          "target": ""
+        },
+        {
+          "text": "Digital Tools & Marketing Resources",
+          "href": "https://laticr.et/m/digitalresources",
+          "target": ""
+        },
+        {
+          "text": "OSHA Silica Dust Information",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/osha-silica",
+          "target": ""
+        },
+        {
+          "text": "Receiving",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/contact-us/receiving",
+          "target": ""
+        },
+        {
+          "text": "Service Terms and Conditions",
+          "href": "https://cdnmdm.laticrete.com/Marketing/T-10028-0126-Service%20Terms%20and%20Conditions-8.5x11.pdf",
+          "target": ""
+        },
+        {
+          "text": "LATICRETE Logo Usage",
+          "href": "https://cdnmdm.laticrete.com/Marketing/T-10719-0225-Logo%20Quick%20Reference%20Guide.pdf",
+          "target": ""
+        },
+        {
+          "text": "Homeowners & DIY",
+          "href": "https://www.laticrete.com/solutions-for-you/homeowners-and-diy",
+          "target": ""
+        },
+        {
+          "text": "UL GREENGUARD Certified Products",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_leedtype=GreenGuard",
+          "target": ""
+        },
+        {
+          "text": "Floor Warming Design Layout Tool",
+          "href": "https://www.laticrete.com/floor/index.html",
+          "target": ""
+        },
+        {
+          "text": "Support & Training",
+          "href": "https://www.laticrete.com/support-and-training",
+          "target": ""
+        },
+        {
+          "text": "Customer Support",
+          "href": "https://www.laticrete.com/support-and-training/customer-support",
+          "target": ""
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Making a Claim",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/making-a-claim",
+          "target": ""
+        },
+        {
+          "text": "Where to Buy",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/where-to-buy",
+          "target": ""
+        },
+        {
+          "text": "Packaging Redesign Updates",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/new-packaging-2023",
+          "target": ""
+        },
+        {
+          "text": "Rebates & Promotions",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/rebates-and-promotions",
+          "target": ""
+        },
+        {
+          "text": "Downloads & FAQ",
+          "href": "https://www.laticrete.com/support-and-training/downloads-and-faq",
+          "target": ""
+        },
+        {
+          "text": "Catalogs & Brochures",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_documenttypes=Catalogs%20and%20Brochures",
+          "target": ""
+        },
+        {
+          "text": "Project Gallery",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_documenttypes=Project%20Spotlights&filterdocuments_country=United%20States",
+          "target": ""
+        },
+        {
+          "text": "Technical Data Sheets",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_documenttypes=Technical%20Data%20Sheets",
+          "target": ""
+        },
+        {
+          "text": "Technical Design Manuals",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_documenttypes=Technical%20Design%20Manuals",
+          "target": ""
+        },
+        {
+          "text": "Warranties",
+          "href": "https://www.laticrete.com/document-library#filterdocuments_documenttypes=Warranties",
+          "target": ""
+        },
+        {
+          "text": "FAQs",
+          "href": "https://www.laticrete.com/support-and-training/downloads-and-faq/faqs",
+          "target": ""
+        },
+        {
+          "text": "Training Hub",
+          "href": "https://www.laticrete.com/support-and-training/training-hub",
+          "target": ""
+        },
+        {
+          "text": "AIA & IDCEC Continuing Education",
+          "href": "https://www.laticrete.com/support-and-training/training-hub/aia-ces-training",
+          "target": ""
+        },
+        {
+          "text": "LATICRETE University",
+          "href": "https://www.laticrete.com/support-and-training/training-hub/laticrete-university",
+          "target": ""
+        },
+        {
+          "text": "Profit Through Knowledge (PTK) Seminars",
+          "href": "https://www.laticrete.com/support-and-training/training-hub/profit-through-knowledge",
+          "target": ""
+        },
+        {
+          "text": "Webinars",
+          "href": "https://www.laticrete.com/support-and-training/training-hub/webinars",
+          "target": ""
+        },
+        {
+          "text": "Document Library",
+          "href": "https://www.laticrete.com/document-library",
+          "target": ""
+        },
+        {
+          "text": "About Us",
+          "href": "https://www.laticrete.com/about-us",
+          "target": ""
+        },
+        {
+          "text": "Company Overview",
+          "href": "https://www.laticrete.com/about-us/company-overview",
+          "target": ""
+        },
+        {
+          "text": "History & Heritage",
+          "href": "https://www.laticrete.com/about-us/company-overview/history-and-heritage",
+          "target": ""
+        },
+        {
+          "text": "Brand Promises",
+          "href": "https://www.laticrete.com/about-us/company-overview/brand-promises",
+          "target": ""
+        },
+        {
+          "text": "Global Code of Conduct",
+          "href": "https://www.laticrete.com/about-us/company-overview/global-code-of-conduct",
+          "target": ""
+        },
+        {
+          "text": "Governance & Leadership",
+          "href": "https://www.laticrete.com/about-us/company-overview/governance-and-leadership",
+          "target": ""
+        },
+        {
+          "text": "Values",
+          "href": "https://www.laticrete.com/about-us/company-overview/values",
+          "target": ""
+        },
+        {
+          "text": "Innovation & Impact",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact",
+          "target": ""
+        },
+        {
+          "text": "Our First Innovation",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/history-of-laticrete-4237-latex-additive",
+          "target": ""
+        },
+        {
+          "text": "Sustainability",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/sustainability",
+          "target": ""
+        },
+        {
+          "text": "ISO 9001 Certification",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/iso-9001-certification",
+          "target": ""
+        },
+        {
+          "text": "Research & Development",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/research-and-development",
+          "target": ""
+        },
+        {
+          "text": "Latest Innovations & Products",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact/latest-innovations",
+          "target": ""
+        },
+        {
+          "text": "Community & Social",
+          "href": "https://www.laticrete.com/about-us/community-and-social",
+          "target": ""
+        },
+        {
+          "text": "Influencer Partnerships",
+          "href": "https://www.laticrete.com/about-us/community-and-social/influencer",
+          "target": ""
+        },
+        {
+          "text": "Join Our Community",
+          "href": "https://www.laticrete.com/about-us/community-and-social/join-our-community",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.laticrete.com/about-us/careers",
+          "target": ""
+        },
+        {
+          "text": "Frequently Asked Questions",
+          "href": "https://www.laticrete.com/about-us/careers/faq",
+          "target": ""
+        },
+        {
+          "text": "Working Here",
+          "href": "https://www.laticrete.com/about-us/careers/working-here",
+          "target": ""
+        },
+        {
+          "text": "News & Media",
+          "href": "https://www.laticrete.com/about-us/news-and-media",
+          "target": ""
+        },
+        {
+          "text": "Events & Trade Shows",
+          "href": "https://www.laticrete.com/about-us/news-and-media/events",
+          "target": ""
+        },
+        {
+          "text": "Press Releases & Industry News",
+          "href": "https://www.laticrete.com/about-us/news-and-media/press-releases",
+          "target": ""
+        },
+        {
+          "text": "Newsletters",
+          "href": "https://www.laticrete.com/about-us/news-and-media/newsletters",
+          "target": ""
+        },
+        {
+          "text": "Blog: LATICRETE Conversations",
+          "href": "https://www.laticrete.com/blog",
+          "target": ""
+        },
+        {
+          "text": "Change Region",
+          "href": "https://www.laticrete.com/landingmappage/clearcookie?geoOverride=true",
+          "target": ""
+        },
+        {
+          "text": "WHERE TO BUY",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/where-to-buy",
+          "target": ""
+        },
+        {
+          "text": "Select Another Region",
+          "href": "https://www.laticrete.com/landingmappage/clearcookie?geoOverride=true",
+          "target": ""
+        },
+        {
+          "text": "EN",
+          "href": "https://www.laticrete.com/en/map",
+          "target": ""
+        },
+        {
+          "text": "ES",
+          "href": "https://www.laticrete.com/es-mx/map",
+          "target": ""
+        },
+        {
+          "text": "FR",
+          "href": "https://www.laticrete.com/fr-ca/map",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://cdn-global.laticrete.com/-/media/project/laticrete-international/shared/images/home/image-link-list/laticrete-logo_4c.svg?h=73&iar=0&w=100&rev=2223944ddc6347ebb6b05108ac88cdae&hash=582514974229F8E6C01CC1F45B85EDB1",
+          "alt": "Laticrete",
+          "type": "img",
+          "width": 203,
+          "height": 150
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "",
+            "href": "https://www.laticrete.com/"
+          },
+          "image": {
+            "src": "https://cdn-global.laticrete.com/-/media/project/laticrete-international/shared/images/home/image-link-list/laticrete-logo_4c.svg?h=73&iar=0&w=100&rev=2223944ddc6347ebb6b05108ac88cdae&hash=582514974229F8E6C01CC1F45B85EDB1",
+            "alt": "Laticrete"
+          }
+        },
+        {
+          "title": "Tile & Stone Installation Systems",
+          "description": "Document Library",
+          "link": {
+            "text": "Products",
+            "href": "https://www.laticrete.com/our-products"
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "footer",
+      "classHint": "",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "About Us"
+        },
+        {
+          "tag": "h3",
+          "text": "Our Online Tools"
+        },
+        {
+          "tag": "h3",
+          "text": "Contact Us"
+        }
+      ],
+      "paragraphs": [
+        "For the Builders of a Better World®",
+        "Copyright © 2026 LATICRETE International, Inc. All trademarks shown are the intellectual properties of their respective owners."
+      ],
+      "links": [
+        {
+          "text": "Company Overview",
+          "href": "https://www.laticrete.com/about-us/company-overview",
+          "target": ""
+        },
+        {
+          "text": "Training Hub",
+          "href": "https://www.laticrete.com/support-and-training/training-hub",
+          "target": ""
+        },
+        {
+          "text": "Governance & Leadership",
+          "href": "https://www.laticrete.com/about-us/company-overview/governance-and-leadership",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.laticrete.com/about-us/careers",
+          "target": ""
+        },
+        {
+          "text": "Innovation & Impact",
+          "href": "https://www.laticrete.com/about-us/innovation-and-impact",
+          "target": ""
+        },
+        {
+          "text": "News & Media",
+          "href": "https://www.laticrete.com/about-us/news-and-media",
+          "target": ""
+        },
+        {
+          "text": "Architectural Guidebook",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/architectural-guidebook",
+          "target": ""
+        },
+        {
+          "text": "LEED Project Certification Assistant",
+          "href": "https://www.laticrete.com/solutions-for-you/architects-and-designers/leed",
+          "target": ""
+        },
+        {
+          "text": "Floor Warming Room Designer",
+          "href": "https://www.laticrete.com/floor/index.html",
+          "target": ""
+        },
+        {
+          "text": "Color Selector",
+          "href": "https://www.laticrete.com/our-products/color-selector",
+          "target": ""
+        },
+        {
+          "text": "Project Estimator",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/project-estimator",
+          "target": ""
+        },
+        {
+          "text": "MVIS Cost Savings Calculator",
+          "href": "https://www.laticrete.com/solutions-for-you/contractors-and-installers/masonry-contractors/mvis-estimator",
+          "target": ""
+        },
+        {
+          "text": "Where to Buy",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/where-to-buy",
+          "target": ""
+        },
+        {
+          "text": "Contact Us",
+          "href": "https://www.laticrete.com/support-and-training/customer-support/contact-us",
+          "target": ""
+        },
+        {
+          "text": "+1.800.243.4788 (203.393.4510)",
+          "href": "tel://1-800-243-4788",
+          "target": ""
+        },
+        {
+          "text": "Customer Bill of Rights",
+          "href": "https://www.laticrete.com/privacy/customer-bill-of-rights",
+          "target": ""
+        },
+        {
+          "text": "Terms of Use",
+          "href": "https://www.laticrete.com/privacy/terms-of-use",
+          "target": ""
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://www.laticrete.com/privacy/privacy-statement",
+          "target": ""
+        },
+        {
+          "text": "Service Terms and Conditions",
+          "href": "https://www.laticrete.com/about-us/company-overview/service-terms-and-conditions",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "description": "For the Builders of a Better World®"
+        },
+        {
+          "title": "About Us",
+          "link": {
+            "text": "Company Overview",
+            "href": "https://www.laticrete.com/about-us/company-overview"
+          }
+        },
+        {
+          "title": "Customer Bill of Rights Terms of Use Privacy Policy Service Terms and Conditions Change Cookie Preferences",
+          "description": "Copyright © 2026 LATICRETE International, Inc. All trademarks shown are the intellectual properties of their respective owners.",
+          "badge": "",
+          "link": {
+            "text": "",
+            "href": "http://www.facebook.com/laticrete"
+          }
+        }
+      ]
+    }
+  ]
+}

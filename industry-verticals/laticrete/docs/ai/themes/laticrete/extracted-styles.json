@@ -1,0 +1,38 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(43, 43, 43)",
+    "headerBackground": "rgba(0, 0, 0, 0)",
+    "headerColor": "rgb(43, 43, 43)",
+    "footerBackground": "rgb(255, 255, 255)",
+    "footerColor": "rgb(43, 43, 43)",
+    "heroBackground": "rgb(255, 255, 255)",
+    "primaryButtonBackground": "rgba(255, 255, 255, 0)",
+    "primaryButtonColor": "rgb(43, 43, 43)",
+    "primaryButtonBorderRadius": "4px",
+    "linkColor": "rgb(0, 0, 0)"
+  },
+  "typography": {
+    "bodyFontFamily": "Lato, sans-serif",
+    "bodyFontSize": "14px",
+    "bodyFontWeight": "400",
+    "bodyLineHeight": "21px",
+    "h1FontFamily": "Oswald, sans-serif",
+    "h1FontSize": "30px",
+    "h1FontWeight": "700",
+    "h1LetterSpacing": "normal",
+    "h1TextTransform": "none",
+    "h3FontFamily": "Oswald, sans-serif",
+    "h3FontSize": "21px",
+    "h3FontWeight": "700",
+    "pFontSize": "18px",
+    "pLineHeight": "24px"
+  },
+  "shape": {},
+  "spacing": {
+    "heroMinHeight": "0px",
+    "heroPadding": "0px",
+    "containerMaxWidth": "1320px"
+  },
+  "cssVariables": {}
+}

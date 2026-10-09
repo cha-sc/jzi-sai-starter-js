@@ -1,0 +1,220 @@
+# Demo Build Plan — LATICRETE
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "LATICRETE"
+  sourceUrl: "https://www.laticrete.com/en"
+  themeFile: "docs/ai/themes/laticrete.theme.yaml"
+  analyzedAt: "2026-10-09T16:40:00Z"
+  codeRoot: "industry-verticals/laticrete/"
+  contentRoot: "/sitecore/content/Laticrete/Laticrete"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/laticrete/screenshot-desktop.png"
+    mobile: "docs/ai/themes/laticrete/screenshot-mobile.png"
+    hero: "docs/ai/themes/laticrete/screenshot-hero.png"
+    userProvided: "docs/ai/demos/laticrete/homepage-screenshot.jpg"
+  totalSections: 11
+  templateMatches: 11
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "White header with LATICRETE logo, center search, WHERE TO BUY; solid teal nav bar with Products / Solutions / Support links."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "default"
+    content:
+      Title: "LATICRETE"
+    contentNotes: "Context-only. Logo from themes/laticrete/images/logo.svg. Nav: Products, Solutions by Industry, Getting Started, Support / Training, Resource Center, About Us. CTA: WHERE TO BUY."
+    variantReason: "Solid white header + teal nav bar matches Default Financial Header."
+
+  - position: 2
+    description: "Full-bleed dark teal/navy gradient hero for Blue Premier Rewards Promotion with product cans, color swatches, LEARN MORE CTA."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Blue Premier™ Rewards Promotion"
+      Description: "Earn accelerated rewards on qualifying LATICRETE products."
+      PrimaryCta: "LEARN MORE"
+    contentNotes: "Hero media: product packaging + swatch fan on navy gradient. Optional faint 10x graphic."
+    variantReason: "Full-bleed promo hero with CTA; BackgroundImage-style treatment via Hero media field."
+
+  - position: 3
+    description: "Centered View by Category heading with 7 square category image tiles and teal text links."
+    matchedComponent:
+      registryId: "image-gallery"
+      manifestName: "Image Gallery"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "View by Category"
+      Item1: "Tile & Stone Installation Systems"
+      Item2: "Grout & Mastic / Small Pack Solutions"
+      Item3: "Concrete Maintenance & Repair"
+      Item4: "Shower Systems"
+      Item5: "Floor Heat"
+      Item6: "Profiles & Trim"
+      Item7: "Commercial Flooring"
+    contentNotes: "Closest Financial match for image+label grid. Five Column CTA covers 5; Image Gallery or Features may need Phase 5.5 CategoryGrid for 7 tiles."
+    variantReason: "Image tiles with captions/links under a section title."
+    customVariantNeeded:
+      name: "CategoryGrid"
+      description: "Responsive grid of square category images with teal centered text links below (up to 7 items)."
+      parentComponent: "Image Gallery"
+
+  - position: 4
+    description: "Forever Chemicals Forever Eliminated — copy + LEARN MORE left, green Stonetech product bottles right."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Forever Chemicals Forever Eliminated"
+      Description: "Explore PFAS-free surface care and installation solutions designed without forever chemicals."
+      PrimaryCta: "LEARN MORE"
+    contentNotes: "Green product pack shot on the right."
+    variantReason: "Text + image + CTA split."
+
+  - position: 5
+    description: "Install Smarter — HYDRO BAN / MULTIMAX / SPECTRALOCK product buckets with large blue 1 graphic and LEARN MORE."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Install Smarter"
+      Description: "Core system products including HYDRO BAN, MULTIMAX, and SPECTRALOCK for faster, more reliable installs."
+      PrimaryCta: "LEARN MORE"
+    contentNotes: "Image left / text right alternating from previous block."
+    variantReason: "Second Promo CTA instance with product photography."
+
+  - position: 6
+    description: "Teal band with project planning copy and two white CTAs (PROJECT PLANNING, COLOR TOOLS) beside kitchen lifestyle photo."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "WithImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Title: "Plan your next project with confidence"
+      Description: "Use LATICRETE planning resources and color tools to specify the right system."
+      PrimaryCta: "PROJECT PLANNING"
+      SecondaryCta: "COLOR TOOLS"
+    contentNotes: "Lifestyle kitchen couple image on the right; white outlined buttons on teal."
+    variantReason: "WithImage supports brand-colored band + lifestyle media + dual CTAs."
+
+  - position: 7
+    description: "Sustainable Products — outdoor stone/tile photo left, copy + LEARN MORE and DOWNLOAD SUSTAINABILITY REPORT right."
+    matchedComponent:
+      registryId: "two-column-cta"
+      manifestName: "Two Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Sustainable Products"
+      Description: "Building materials and systems that support responsible specification and project goals."
+      PrimaryCta: "LEARN MORE"
+      SecondaryCta: "DOWNLOAD SUSTAINABILITY REPORT"
+    contentNotes: "Dual CTAs; if Two Column CTA only supports one link, fold secondary into RichText or use Promo CTA."
+    variantReason: "Image + text column layout with CTAs."
+
+  - position: 8
+    description: "Dark heritage band — Our Heritage copy + LATICRETE HISTORY button beside 70 Years anniversary graphic."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Our Heritage"
+      Description: "For 70 Years, LATICRETE Has Set The Standard!"
+      PrimaryCta: "LATICRETE HISTORY"
+    contentNotes: "Anniversary graphic as media; dark navy/black background."
+    variantReason: "Promo CTA on dark section with heritage media."
+
+  - position: 9
+    description: "Find Products Near You — faint world map background, centered heading, teal PRODUCT FINDER button."
+    matchedComponent:
+      registryId: "heading-cta"
+      manifestName: "Heading CTA"
+      variant: "Centered"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Find Products Near You"
+      Description: "Locate distributors and dealers carrying LATICRETE systems."
+      PrimaryCta: "PRODUCT FINDER"
+    contentNotes: "Map can be a light background image on the section or page background."
+    variantReason: "Centered title + single CTA."
+
+  - position: 10
+    description: "Thick teal bar: Find a Distributor / Dealer Near You."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "Minimal"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "primary"
+    content:
+      Title: "Find a Distributor / Dealer Near You"
+      PrimaryCta: "FIND A DISTRIBUTOR"
+    contentNotes: "Full-width primary bar above footer columns."
+    variantReason: "Minimal CTA strip on brand primary."
+
+  - position: 11
+    description: "White multi-column footer — About Us, Quick Links, Contact Us, social icons, legal."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "default"
+    content:
+      Title: "LATICRETE"
+    contentNotes: "Context-only. Columns: About Us, Quick Links (Register Project, Training, LEED Dashboard, TDS…), Contact Us (Bethany CT address, phone). Social row + Terms/Privacy/Site Map."
+    variantReason: "Multi-column Financial Footer."
+
+notes:
+  - "Mapped to Financial/SXA Prospera components (same approach as CPP), not the UIIM catalog."
+  - "Primary visual reference: user homepage screenshot. Playwright scrape hit region gate; fonts/colors from approved theme."
+  - "Hard scope: code under industry-verticals/laticrete/; content under /sitecore/content/Laticrete/Laticrete."
+  - "Phase 4 theme tokens applied to site-financial CSS variables + Oswald/Lato fonts."

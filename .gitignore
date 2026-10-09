@@ -50,3 +50,6 @@ packages/
 # VS Code settings
 .vscode/
 *credentials.local.yaml
+
+# node modules
+*/node_modules/

@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@sitecore-content-sdk/analytics-core": "^2.1.2",
-    "@sitecore-content-sdk/core": "^2.1.4",
     "@sitecore-content-sdk/content": "^2.3.0",
+    "@sitecore-content-sdk/core": "^2.1.4",
     "@sitecore-content-sdk/events": "^2.1.2",
     "@sitecore-content-sdk/nextjs": "^2.4.0",
     "@sitecore-content-sdk/personalize": "2.1.0",
@@ -46,7 +46,6 @@
     "lucide-react": "^1.47.0",
     "next": "^16.2.0",
     "next-intl": "^4.3.5",
-    "playwright": "^1.62.1",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-scroll-parallax": "^3.4.5",
@@ -65,6 +64,7 @@
     "eslint": "^9.33.0",
     "eslint-config-next": "16.2.2",
     "npm-run-all2": "^8.0.4",
+    "playwright": "^1.64.0",
     "tailwindcss": "^4",
     "typescript": "~5.8.3"
   }

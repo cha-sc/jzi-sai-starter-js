@@ -1,21 +1,46 @@
-// Financial
+// Financial — skinned for LATICRETE demo
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --brand-primary: #0096d6;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #003a5d;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #0077c8;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #2b2b2b;
+  --brand-muted: #f5f7f8;
+  --brand-muted-fg: #5a5a5a;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #2b2b2b;
+  --brand-footer-bg: #ffffff;
+  --brand-footer-fg: #2b2b2b;
+  --brand-border: #d0d5d8;
+  --brand-ring: #0096d6;
+  --brand-nav-bar: #0096d6;
+  --brand-hero-navy: #003a5d;
+  --brand-font-heading: 'Oswald', sans-serif;
+  --brand-font-body: 'Lato', sans-serif;
+  --brand-heading-font: 'Oswald', sans-serif;
+  --brand-body-font: 'Lato', sans-serif;
+  --brand-radius: 0.25rem;
+  --brand-button-radius: 0.25rem;
+  --brand-card-radius: 0;
+  --text-body: #2b2b2b;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #0096d6;
+  --text-footer: #2b2b2b;
+  --text-accent: #0077c8;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #fff;
+  --bg-main: #f5f7f8;
+  --bg-main-alt: #f5f7f8;
+  --bg-color: #0096d6;
+  --bg-saturated: #003a5d;
+  --bg-accent: #0077c8;
+  --border-color: #d0d5d8;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.25rem;
 }
 
 body.site-financial.dark,

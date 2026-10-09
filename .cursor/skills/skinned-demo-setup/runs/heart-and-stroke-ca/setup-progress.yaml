@@ -1,0 +1,100 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Heart and Stroke CA"
+  systemName: "HeartAndStrokeCA"
+  folder: "heart-and-stroke-ca"
+  url: "https://www.heartandstroke.ca/"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/heart-and-stroke-ca/assets/heartandstroke-homepage.jpg"
+  startedAt: "2026-10-09T16:19:41Z"
+  lastUpdatedAt: "2026-10-09T16:43:00Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "HeartAndStrokeCA"
+  collectionId: "e5e8cae79f4841dfa57293485cee21b6"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "8fcff203-e183-4052-9de9-4e6c67d03183"
+  copyJobHandle: ""
+  collectionJobHandle: "14365037-77df-448e-acf3-ba6e8f0ca8d1;sitecoresaaea3f-chadev7ae9-chadev09156390-94885fdc7-qgbjg"
+  ehEnvironmentId: ""
+  cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
+  renderingHostKey: "heart-and-stroke-ca"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    siteName: "HeartAndStrokeCA"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  offer_commit:
+    status: "pending"
+    committed: null
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-10-09T16:19:41Z — Inputs collected; CM Authoring ID stored; awaiting name confirm, collection mode, and Sites API automation credentials."
+  - "2026-10-09T16:20:30Z — Marketer MCP authenticated (list_sites OK). Sites API still blocked on missing automation client credentials."
+  - "2026-10-09T16:21:30Z — Sites API auth OK. Awaiting collection mode (new vs existing) and name confirmation."
+  - "2026-10-09T16:27:00Z — Verified: collection HeartAndStrokeCA exists (e5e8cae79f4841dfa57293485cee21b6); site copy NOT done (no HeartAndStrokeCA site)."
+  - "2026-10-09T16:43:00Z — User confirmed site duplicated + moved. Verified site 8fcff203-e183-4052-9de9-4e6c67d03183 in collection. Local copy + env + xmcloud.build.json done. Awaiting commit decision."
