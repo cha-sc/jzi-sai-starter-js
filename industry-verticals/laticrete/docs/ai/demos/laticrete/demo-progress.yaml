@@ -3,7 +3,7 @@ client:
   name: "LATICRETE"
   sourceUrl: "https://www.laticrete.com/en"
   startedAt: "2026-10-09T16:33:00Z"
-  lastUpdatedAt: "2026-10-09T16:43:30Z"
+  lastUpdatedAt: "2026-10-09T17:15:00Z"
 
 phases:
   phase0_inputs:
@@ -28,14 +28,16 @@ phases:
     userApproved: true
 
   phase2_5_content:
-    status: "pending"
-    contentMapFile: ""
+    status: "complete"
+    contentMapFile: "docs/ai/demos/laticrete/content-map.yaml"
     extractorUsed: false
+    contentSource: "screenshot"
 
   phase3_content:
-    status: "pending"
-    completedSections: 0
-    totalSections: 0
+    status: "complete"
+    completedSections: 8
+    totalSections: 9
+    notes: "Category Grid Image Gallery blocked by missing branch template; other sections populated on Home LAT_* datasources."
 
   phase4_theme:
     status: "complete"
@@ -44,31 +46,59 @@ phases:
     fontsAdded: true
 
   phase5_custom:
-    status: "pending"
+    status: "skipped"
     customComponentsNeeded: 0
     customComponentsBuilt: 0
 
   phase5_5_variants:
-    status: "pending"
-    variantsNeeded: 1
-    variantsCreated: 0
-    variantSpecsFile: ""
+    status: "complete"
+    variantsNeeded: 5
+    variantsCreated: 5
+    variantSpecsFile: "docs/ai/demos/laticrete/variant-specs.yaml"
+    variantChecklistFile: "docs/ai/demos/laticrete/variant-checklist.md"
+    reactExports:
+      - "Hero.Laticrete"
+      - "ImageGallery.LaticreteCategoryGrid"
+      - "PromoCta.Laticrete"
+      - "CtaBanner.LaticreteTeal"
+      - "HeadingCta.LaticreteCentered"
+    sitecoreVariantItemsPendingMcp: false
     skippedReason: ""
 
   phase6_assembly:
-    status: "pending"
-    componentsAdded: 0
-    datasourcesWired: 0
-    totalComponents: 0
+    status: "complete"
+    componentsAdded: 8
+    datasourcesWired: 8
+    totalComponents: 9
+    notes: "Image Gallery Category Grid still manual. Prospera leftovers + duplicate Hero/Distributor need Pages cleanup."
 
   phase7_summary:
-    status: "pending"
+    status: "complete"
+    summaryFile: "docs/ai/demos/laticrete/summary.md"
+    manualTasksFile: "docs/ai/demos/laticrete/manual-tasks.md"
 
-sections: []
+sections:
+  - name: "Hero Blue Premier"
+    status: "complete"
+  - name: "Category Grid"
+    status: "blocked"
+    reason: "Image Gallery branch template 404"
+  - name: "Forever Chemicals"
+    status: "complete"
+  - name: "Install Smarter"
+    status: "complete"
+  - name: "Project Planning"
+    status: "complete"
+  - name: "Sustainable Products"
+    status: "complete"
+  - name: "Heritage"
+    status: "complete"
+  - name: "Find Products"
+    status: "complete"
+  - name: "Find Distributor"
+    status: "complete"
 
 notes:
   - "2026-10-09T16:33:00Z — Skinned-demo Step 1 handed off. Scope: code industry-verticals/laticrete; content /sitecore/content/Laticrete/Laticrete."
-  - "2026-10-09T16:35:00Z — Content Hub credentials verified (cha-verticals-0914). project.yaml + manifest retargeted to Laticrete/Financial."
-  - "2026-10-09T16:38:00Z — Theme draft written (laticrete.theme.yaml)."
-  - "2026-10-09T16:40:00Z — Theme approved. Applied LATICRETE tokens to site-financial (_colors.scss) + Oswald/Lato fonts."
-  - "2026-10-09T16:41:00Z — Build plan drafted (11 Financial/SXA sections). Awaiting plan approval + Phase 5.5 decision."
+  - "2026-10-09T16:50:00Z — Phase 5.5 React variants + Sitecore Variant Definition items created."
+  - "2026-10-09T17:15:00Z — Pixel-perfect assembly: 8 LATICRETE blocks on Home with copy; variants/category grid/media/Prospera cleanup left as manual-tasks."

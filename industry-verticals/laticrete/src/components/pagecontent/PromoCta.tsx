@@ -190,3 +190,60 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* LATICRETE — clean alternating image/text split, no dotted accents */
+export const Laticrete = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const isReverse = /\breverse\b/.test(sxaStyles);
+  const isSaturated = /\bsaturated\b/.test(sxaStyles);
+
+  return (
+    <section
+      className={`component promo-cta laticrete-promo-cta ${isReverse ? 'laticrete-promo-cta--reverse' : ''} ${
+        isSaturated ? 'laticrete-promo-cta--saturated' : ''
+      } ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="laticrete-promo-cta__inner">
+        <div className="laticrete-promo-cta__copy">
+          {(isPageEditing || props.fields?.Eyebrow?.value) && (
+            <p className="laticrete-promo-cta__eyebrow">
+              <Text field={props.fields.Eyebrow} />
+            </p>
+          )}
+          <h2 className="laticrete-promo-cta__title">
+            <Text field={props.fields.Title} />
+          </h2>
+          {(isPageEditing || props.fields?.Subtitle?.value) && (
+            <p className="laticrete-promo-cta__subtitle">
+              <Text field={props.fields.Subtitle} />
+            </p>
+          )}
+          <div className="laticrete-promo-cta__text">
+            <RichText field={props.fields.Text} />
+          </div>
+          <div className="laticrete-promo-cta__actions">
+            {(isPageEditing || props.fields?.Link?.value?.href) && (
+              <Link field={props.fields.Link} className="laticrete-promo-cta__cta" />
+            )}
+            {(isPageEditing || props.fields?.Link2?.value?.href) && (
+              <Link field={props.fields.Link2} className="laticrete-promo-cta__cta laticrete-promo-cta__cta--secondary" />
+            )}
+          </div>
+        </div>
+        <div className="laticrete-promo-cta__media">
+          <NextImage
+            field={props.fields.Image}
+            className="laticrete-promo-cta__img"
+            width={900}
+            height={700}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};

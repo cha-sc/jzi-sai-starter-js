@@ -151,3 +151,38 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* LATICRETE — centered title + PRODUCT FINDER CTA on muted/map bg */
+export const LaticreteCentered = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component heading-cta laticrete-heading-cta ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="laticrete-heading-cta__inner">
+        {(isPageEditing || props.fields?.Eyebrow?.value) && (
+          <p className="laticrete-heading-cta__eyebrow">
+            <Text field={props.fields?.Eyebrow} />
+          </p>
+        )}
+        <h2 className="laticrete-heading-cta__title">
+          <Text field={props.fields?.Heading} />
+        </h2>
+        {(isPageEditing || props.fields?.Text?.value) && (
+          <p className="laticrete-heading-cta__text">
+            <Text field={props.fields?.Text} />
+          </p>
+        )}
+        {(isPageEditing || props.fields?.Link?.value?.href) && (
+          <Link field={props.fields.Link} className="laticrete-heading-cta__cta" />
+        )}
+      </div>
+    </section>
+  );
+};

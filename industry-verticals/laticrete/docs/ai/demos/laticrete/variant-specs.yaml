@@ -1,0 +1,103 @@
+# LATICRETE demo — Phase 5.5 custom variant specs
+# Source: docs/ai/demos/laticrete/homepage-screenshot.jpg + live site analysis
+client: LATICRETE
+themeTokens:
+  primary: "var(--brand-primary)" # #0096D6
+  secondary: "var(--brand-secondary)" # #003A5D
+  headingFont: "var(--brand-heading-font)" # Oswald
+  bodyFont: "var(--brand-body-font)" # Lato
+  buttonRadius: "var(--brand-button-radius)" # 0.25rem
+scssFile: "src/assets/sass/components/_laticrete-demo.scss"
+
+variantSpecs:
+  - position: 2
+    componentName: Hero
+    variantName: Laticrete
+    reactExport: Laticrete
+    baseVariant: Default
+    scssClass: laticrete-hero
+    headlessVariantPath: "/sitecore/content/Laticrete/Laticrete/Presentation/Headless Variants/Hero/Laticrete"
+    purpose: "Full-bleed navy→teal gradient promo with product imagery overlay and rectangular LEARN MORE CTA"
+    visualDifferences:
+      layout: "Two-column grid — product media left/center, copy right; full-bleed gradient background"
+      spacing: "min-height ~22rem, padding 2.5rem 1.5rem, max-width 1200px centered"
+      typography: "Oswald bold white heading clamp 1.75–2.75rem; Lato white body"
+      background: "linear-gradient(90deg, --brand-secondary → --brand-primary); faint 10X watermark"
+      buttons: "Rectangular teal fill, radius --brand-button-radius, uppercase LEARN MORE"
+      distinctive: "No cream/lavender split; industrial promo aesthetic matching Blue Premier Rewards"
+
+  - position: 3
+    componentName: Image Gallery
+    variantName: LaticreteCategoryGrid
+    reactExport: LaticreteCategoryGrid
+    baseVariant: Default
+    scssClass: laticrete-category-grid
+    headlessVariantPath: "/sitecore/content/Laticrete/Laticrete/Presentation/Headless Variants/Image Gallery/LaticreteCategoryGrid"
+    purpose: "7-up square category image tiles with teal text links under View by Category"
+    notes: >
+      Features.tsx only exposes two fixed Image/Title slots (no children list), so this
+      variant lives on ImageGallery. Tile labels use item Title field, Image alt, or item name;
+      href uses item.url. Section heading from fields.Title, params.SectionTitle, or default
+      "View by Category".
+    visualDifferences:
+      layout: "Centered heading + flex-wrap grid; up to 4 per row, last row (3 of 7) centered"
+      spacing: "Section padding 3–3.5rem; tile gap ~1.5–1.75rem; square 1:1 media"
+      typography: "Oswald dark heading; Lato teal link labels under each tile"
+      background: "White / --brand-bg"
+      buttons: "Text links only (no button chrome) in --brand-primary"
+      distinctive: "No dotted accents; category browsing grid not a lightbox gallery"
+
+  - position: 4
+    componentName: Promo CTA
+    variantName: Laticrete
+    reactExport: Laticrete
+    baseVariant: Default
+    scssClass: laticrete-promo-cta
+    headlessVariantPath: "/sitecore/content/Laticrete/Laticrete/Presentation/Headless Variants/Promo CTA/Laticrete"
+    purpose: "Alternating image/text split with rectangular CTAs; no dotted accent clutter"
+    notes: >
+      Add SXA style class `reverse` for image-left / text-right instances.
+      Add `saturated` for navy text pane (heritage-style blocks).
+    visualDifferences:
+      layout: "50/50 CSS grid split; reverse via .reverse / laticrete-promo-cta--reverse"
+      spacing: "Copy pad 3rem 3.5rem; media edge-to-edge cover"
+      typography: "Oswald title; Lato body/subtitle; optional eyebrow"
+      background: "White copy pane by default; saturated uses --brand-secondary"
+      buttons: "Rectangular primary teal; optional secondary outline (Link2)"
+      distinctive: "DottedAccent removed; clean industrial promo blocks"
+
+  - position: 6
+    componentName: CTA Banner
+    variantName: LaticreteTeal
+    reactExport: LaticreteTeal
+    baseVariant: LargeImage
+    scssClass: laticrete-cta-banner
+    headlessVariantPath: "/sitecore/content/Laticrete/Laticrete/Presentation/Headless Variants/CTA Banner/LaticreteTeal"
+    purpose: "Solid #0096D6 band, white CTAs, optional lifestyle image"
+    notes: >
+      CtaBanner template has a single Link field. Primary CTA uses Link (white button).
+      For a second white CTA, author an anchor inside the Text RichText field — actions
+      styles promote those links to matching white buttons.
+    visualDifferences:
+      layout: "Full-width teal band; optional 50/50 split when Image is set"
+      spacing: "Copy pad 3rem 3.5rem; media full-height cover"
+      typography: "Oswald white heading; Lato white body"
+      background: "Solid --brand-primary (#0096D6)"
+      buttons: "White fill, teal text, radius --brand-button-radius"
+      distinctive: "No dotted accents or icon accents; lifestyle photo optional"
+
+  - position: 9
+    componentName: Heading CTA
+    variantName: LaticreteCentered
+    reactExport: LaticreteCentered
+    baseVariant: Centered
+    scssClass: laticrete-heading-cta
+    headlessVariantPath: "/sitecore/content/Laticrete/Laticrete/Presentation/Headless Variants/Heading CTA/LaticreteCentered"
+    purpose: "Centered title + PRODUCT FINDER CTA on muted map-like background"
+    visualDifferences:
+      layout: "Single centered column, max-width ~40rem"
+      spacing: "Section padding 3.5rem 1.5rem"
+      typography: "Oswald dark heading; Lato muted supporting text"
+      background: "Muted grey with subtle map-like grid/radial pattern"
+      buttons: "Single rectangular teal PRODUCT FINDER CTA"
+      distinctive: "Compact locator strip; not a multi-column Heading CTA"

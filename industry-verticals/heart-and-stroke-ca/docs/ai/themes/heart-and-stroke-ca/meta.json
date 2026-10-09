@@ -1,0 +1,65 @@
+{
+  "title": "Heart and Stroke Foundation of Canada | Home",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": "Home",
+  "ogDescription": "The Heart and Stroke Foundation of Canada is a source of information about stroke, heart disease, surgeries and treatments. It also provides heart-healthy recipes, nutrition and physical activity tips to help prevent these diseases. The Heart and Stroke Foundation, a volunteer-based health charity, leads in eliminating heart disease and stroke and reducing their impact through the advancement of research and its application, the promotion of healthy living and advocacy.",
+  "ogImage": "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/old/home-share-en-1200x627.jpg?rev=2925153d0b274fa1b80447323d578cad",
+  "ogSiteName": "Heart and Stroke Foundation of Canada",
+  "googleFontsLinks": [],
+  "fontFaces": [
+    {
+      "family": "NHaasGroteskDSW01-45Lt",
+      "src": "url(\"../fonts/NeueHaasGroteskDisplay/fcd607c0-74ab-4cb5-90c3-db118b1ad287.woff2\") format(\"woff2\"), url(\"../fonts/NeueHaasGroteskDisplay/5f644ac3-aa3c-43a7-ae6e-79075f4766df.woff\") format(\"woff\"), url(\"../fonts/NeueHaasGroteskDisplay/88228648-8c26-4d51-a51b-f92564a92392.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "NeueHaasGroteskDisp W01",
+      "src": "url(\"../fonts/NeueHaasGroteskDisplay/1d2142cb-3e68-48df-b188-f1ac45a47a8b.woff2\") format(\"woff2\"), url(\"../fonts/NeueHaasGroteskDisplay/9dc6c76b-0260-4292-af1d-0bc9eecbded2.woff\") format(\"woff\"), url(\"../fonts/NeueHaasGroteskDisplay/ed18aa48-557e-4d1f-a53c-58399a7c1bc4.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "NHaasGroteskDSW01-75Bd",
+      "src": "url(\"../fonts/NeueHaasGroteskDisplay/c24b7456-b9fe-40ab-94af-ba8d3025fada.woff2\") format(\"woff2\"), url(\"../fonts/NeueHaasGroteskDisplay/da47ecd2-feea-403e-b247-9f8f5bb5157b.woff\") format(\"woff\"), url(\"../fonts/NeueHaasGroteskDisplay/0deba34f-9242-462b-a359-74e95714f821.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "NHaasGroteskDSW01-95Blk",
+      "src": "url(\"../fonts/NeueHaasGroteskDisplay/f53e5775-ed10-4b0d-bae1-efc8fb73f320.woff2\") format(\"woff2\"), url(\"../fonts/NeueHaasGroteskDisplay/71c97127-1adf-4bc2-92c9-4d4baf64c06c.woff\") format(\"woff\"), url(\"../fonts/NeueHaasGroteskDisplay/2ddf29df-f841-4d18-89df-e571abf167d9.ttf\") format(\"truetype\")",
+      "weight": ""
+    },
+    {
+      "family": "hsf-icons",
+      "src": "url(\"../fonts/hsf-icons/hsf-icons.ttf?uojyty\") format(\"truetype\"), url(\"../fonts/hsf-icons/hsf-icons.woff?uojyty\") format(\"woff\")",
+      "weight": "400"
+    },
+    {
+      "family": "swiper-icons",
+      "src": "url(\"data:application/font-woff;charset=utf-8;base64, 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\") format(\"woff\")",
+      "weight": "400"
+    }
+  ],
+  "logoCandidates": [
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-warning-18x18.png?rev=dd2626ea158b46b0a157ef7935a9a60c&hash=845B527151ED136E1CD2BD4080057EFC",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-heartbeat-20x15.png?rev=f343abc16e78411386da555ab61b0da3&hash=E7A8E157DEA949F37C334BF1CEA8106A",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-cross-14x14.png?rev=d4a496fa3e814be691ff90eec88a0056&hash=E6C5FE17216CD00F013419ACA996EFB9",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/sisters-en-692x395.webp?rev=b295c0fa3164462fbc6c4cfb41f9d26a&hash=BA74CEBB717AEBE2BB53668F8BA42799",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn_cardiac_arrest.webp?rev=d0b17fde6f454ca29b8056781539edf0&hash=8FD8F6D93168891C62BAA6F9E5474B11",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/sisters-en-692x395.webp?rev=b295c0fa3164462fbc6c4cfb41f9d26a&hash=BA74CEBB717AEBE2BB53668F8BA42799",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/sisters-en-692x395.webp?rev=b295c0fa3164462fbc6c4cfb41f9d26a&hash=BA74CEBB717AEBE2BB53668F8BA42799",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-healthline-692x396.webp?rev=d2a6ba07abf44b108fbbf161f20da1b9&hash=BBE3CB777DB910A39203A68FFC5D5D11",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-ways-to-give-692x396.webp?rev=5efc69d3152543e39cb66086d9a0a4b5&hash=30BA9E9A720B1040BAA2E0C17356C9A6",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/edi-meganav-175x100.webp?rev=e954200294c94c84b009188ae9e49f78&hash=DAC7E0FA2AC6B2448AFD4DD7AC5073F9",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/drhill-173x99.webp?rev=f9f8c6219b1e4f44b415243e915a7243&hash=3649872E0A036226F3D7D39C1D7DA2FD",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/gos-173x99.webp?rev=c9c51754f5c14d5bb62a1f3900f40b68&hash=88C5CD688B4C0D5CF7847AD477AA6BD1",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-legacy-173x99.webp?rev=77b334e42b3f4e0487d3c69d613e23eb&hash=2E8B30ECF001F6595DD4BC8EA01CE1BF",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/give-in-memory/waystogive-450x253.webp?rev=f66b72e12105488c82da7caabed3ba21&hash=D02E2BFC9F21032748D5C2181AD58B62",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-jump-173x99.webp?rev=13ee3cc613af4c24baf5eefaaf3b5b1e&hash=D104EC95BE7E1BA97BB74341642C4944",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/homepage-173x99.webp?rev=6342cff528054206a6f295d499805f92&hash=F2503A00FA94A791607A6C7B181D97D3",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/sisters-en-692x395.webp?rev=b295c0fa3164462fbc6c4cfb41f9d26a&hash=BA74CEBB717AEBE2BB53668F8BA42799",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-warning-18x18.png?rev=dd2626ea158b46b0a157ef7935a9a60c&hash=845B527151ED136E1CD2BD4080057EFC",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-heartbeat-20x15.png?rev=f343abc16e78411386da555ab61b0da3&hash=E7A8E157DEA949F37C334BF1CEA8106A",
+    "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-cross-14x14.png?rev=d4a496fa3e814be691ff90eec88a0056&hash=E6C5FE17216CD00F013419ACA996EFB9"
+  ],
+  "heroBgImage": null
+}

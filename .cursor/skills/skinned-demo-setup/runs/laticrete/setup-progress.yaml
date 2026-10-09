@@ -10,7 +10,7 @@ customer:
   url: "https://www.laticrete.com/en"
   screenshotPath: ".cursor/skills/skinned-demo-setup/runs/laticrete/assets/laticrete-homepage.jpg"
   startedAt: "2026-10-09T16:18:54Z"
-  lastUpdatedAt: "2026-10-09T16:33:00Z"
+  lastUpdatedAt: "2026-10-09T17:15:00Z"
 
 selection:
   collectionMode: "new"
@@ -89,7 +89,7 @@ steps:
     error: ""
 
   step2_build_demo:
-    status: "handed_off"
+    status: "complete"
     error: ""
 
 notes:
@@ -99,3 +99,4 @@ notes:
   - "2026-10-09T16:30:00Z — Commit c2a6021 (LATICRETE scaffold + rendering host)."
   - "2026-10-09T16:32:00Z — Editing host laticrete created (6QhtPte6S1ZkERnVu4RUo8), type eh; SEARCH vars upserted."
   - "2026-10-09T16:33:00Z — Step 1 verification complete. Handed off to sitecore-build-demo."
+  - "2026-10-09T17:15:00Z — Pixel-perfect build assembled on Home (8/9 sections). Manual: variants, Category Grid, Prospera cleanup, media. See docs/ai/demos/laticrete/manual-tasks.md."

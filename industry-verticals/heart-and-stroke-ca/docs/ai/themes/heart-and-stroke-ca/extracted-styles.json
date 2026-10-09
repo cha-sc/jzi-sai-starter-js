@@ -1,0 +1,46 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(0, 0, 0)",
+    "headerBackground": "rgb(21, 18, 18)",
+    "headerColor": "rgb(255, 255, 255)",
+    "footerBackground": "rgb(21, 18, 18)",
+    "footerColor": "rgb(237, 237, 237)",
+    "heroBackground": "rgb(21, 18, 18)",
+    "primaryButtonBackground": "rgb(21, 18, 18)",
+    "primaryButtonColor": "rgb(221, 34, 17)",
+    "primaryButtonBorderRadius": "0px",
+    "linkColor": "rgb(221, 34, 17)"
+  },
+  "typography": {
+    "bodyFontFamily": "\"NeueHaasGroteskDisp W01\"",
+    "bodyFontSize": "16px",
+    "bodyFontWeight": "400",
+    "bodyLineHeight": "16px",
+    "h1FontFamily": "NHaasGroteskDSW01-95Blk, Helvetica, sans-serif",
+    "h1FontSize": "58px",
+    "h1FontWeight": "400",
+    "h1LetterSpacing": "1.16px",
+    "h1TextTransform": "none",
+    "h2FontFamily": "NHaasGroteskDSW01-95Blk",
+    "h2FontSize": "40px",
+    "h2FontWeight": "700",
+    "h3FontFamily": "NHaasGroteskDSW01-75Bd",
+    "h3FontSize": "24px",
+    "h3FontWeight": "400",
+    "pFontSize": "25px",
+    "pLineHeight": "32.5px"
+  },
+  "shape": {
+    "cardBorderRadius": "0px",
+    "cardBoxShadow": "none",
+    "cardBorder": "0px none rgb(21, 18, 18)",
+    "imgBorderRadius": "0px"
+  },
+  "spacing": {
+    "heroMinHeight": "700px",
+    "heroPadding": "0px",
+    "containerMaxWidth": "1700px"
+  },
+  "cssVariables": {}
+}

@@ -140,3 +140,51 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* LATICRETE — solid teal band, white CTAs, optional lifestyle image */
+export const LaticreteTeal = (props: CtaBannerProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const hasImage = Boolean(props.fields?.Image?.value?.src);
+
+  return (
+    <section
+      className={`component cta-banner laticrete-cta-banner ${hasImage ? 'laticrete-cta-banner--with-image' : ''} ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="laticrete-cta-banner__inner">
+        <div className="laticrete-cta-banner__copy">
+          {(isPageEditing || props.fields?.Eyebrow?.value) && (
+            <p className="laticrete-cta-banner__eyebrow">
+              <Text field={props.fields.Eyebrow} />
+            </p>
+          )}
+          <h2 className="laticrete-cta-banner__title">
+            <Text field={props.fields.Title} />
+          </h2>
+          <div className="laticrete-cta-banner__text">
+            <RichText field={props.fields.Text} />
+          </div>
+          <div className="laticrete-cta-banner__actions">
+            {(isPageEditing || props.fields?.Link?.value?.href) && (
+              <Link field={props.fields.Link} className="laticrete-cta-banner__cta" />
+            )}
+          </div>
+        </div>
+        {(isPageEditing || hasImage) && (
+          <div className="laticrete-cta-banner__media">
+            <NextImage
+              field={props.fields.Image}
+              className="laticrete-cta-banner__img"
+              width={900}
+              height={600}
+            />
+          </div>
+        )}
+      </div>
+    </section>
+  );
+};

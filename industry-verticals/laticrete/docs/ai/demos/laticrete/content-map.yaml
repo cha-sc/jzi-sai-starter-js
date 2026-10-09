@@ -1,0 +1,190 @@
+# LATICRETE content map — Financial / SXA
+client:
+  name: "LATICRETE"
+  sourceUrl: "https://www.laticrete.com/en"
+  contentRoot: "/sitecore/content/Laticrete/Laticrete"
+  componentLibrary: "financial-sxa"
+  contentSource: "screenshot"
+  folderPath: "/sitecore/content/Laticrete/Laticrete/Data/LATICRETE Demo"
+  homePageId: "1fceea46-2ce0-422d-b892-db5aeb4948d3"
+  homePagePath: "/sitecore/content/Laticrete/Laticrete/Home"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCta: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  HeadingCta: "fa136527-6302-471d-83ab-e66fc72bda99"
+  TwoColumnCta: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+  CtaBanner: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+
+# Shared curated datasources (also mirrored onto Home/Data LAT_* page-local items used by layout)
+sharedDatasources:
+  demoFolderId: "0ebf57b7-fbbd-4005-afdd-b29a876ebac3"
+  hero: "ab8c4067-2e69-458d-97f9-04153a19f505"
+  foreverChemicals: "6efc9ffd-701f-4c1f-a820-efed5abd8993"
+  installSmarter: "3ed3cead-9439-4950-9640-778ea1754715"
+  projectPlanning: "ede65333-28d3-43a8-98c6-c32d538c129b"
+  sustainable: "452291a9-6c44-4df4-ad74-f4375552d0b8"
+  heritage: "242102eb-94ba-44df-8305-1a071a5aad91"
+  findProducts: "39de0734-3cda-4b85-87f7-003e4a768968"
+  findDistributor: "6871d3b1-90c4-40fa-b88b-2d7cf72a6962"
+
+variants:
+  Hero.Laticrete: "05ba0089-e28d-4791-a34c-33c2a0ff2965"
+  ImageGallery.LaticreteCategoryGrid: "9b49237c-f6b9-465f-8bc3-6b283c891dd4"
+  PromoCta.Laticrete: "a259a005-0c07-4828-97f2-619afa00f754"
+  CtaBanner.LaticreteTeal: "5718fb56-b282-4634-acac-ee5c456c30c5"
+  HeadingCta.LaticreteCentered: "3ccb37c2-6bc3-49fd-b9f6-6f561d4e7b0b"
+
+sections:
+  - position: 1
+    componentName: "Header"
+    kind: "context-only"
+    apiAddable: false
+    contentNotes: "White header + teal nav; update logo/nav in Page Design."
+
+  - position: 2
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "LAT_Hero_Lead"
+    pageLocalDatasourceId: "96035fa3-e11e-4309-abc7-835c99166d13"
+    componentInstanceId: "4fb3a985-b562-4de4-9667-5321a0769dc2"
+    apiAddable: true
+    phase55Variant: "Laticrete"
+    fields:
+      Title: "Blue Premier™ Rewards Promotion"
+      Text: "<p>Earn accelerated rewards on qualifying LATICRETE products. Join Blue Premier and grow with every project.</p>"
+      Link: { text: "LEARN MORE", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 3
+    componentName: "ImageGallery"
+    manifestName: "Image Gallery"
+    kind: "list"
+    apiAddable: false
+    apiBlockedReason: "Branches/Project/Verticals/Image Gallery missing (404)"
+    phase55Variant: "LaticreteCategoryGrid"
+    fields:
+      Title: "View by Category"
+    childrenPlanned:
+      - "Tile & Stone Installation Systems"
+      - "Grout & Mastic / Small Pack Solutions"
+      - "Concrete Maintenance & Repair"
+      - "Shower Systems"
+      - "Floor Heat"
+      - "Profiles & Trim"
+      - "Commercial Flooring"
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "LAT_Forever_Chemicals_Block"
+    pageLocalDatasourceId: "2da56b75-29bb-45de-9c19-b9f503c7a095"
+    componentInstanceId: "a732513b-b698-465e-b3cb-a42b811d76d6"
+    apiAddable: true
+    phase55Variant: "Laticrete"
+    fields:
+      Eyebrow: "Surface Care"
+      Title: "Forever Chemicals Forever Eliminated"
+      Subtitle: "Designed without PFAS"
+      Text: "<p>Explore PFAS-free surface care and installation solutions engineered for performance without forever chemicals.</p>"
+      Link: { text: "LEARN MORE", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 5
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "LAT_Install_Smarter_Block"
+    pageLocalDatasourceId: "dd1f0b6e-e05d-4a71-be7e-db7bc32740c5"
+    componentInstanceId: "7f7c2f49-0d4f-4600-8cbd-7de339373631"
+    apiAddable: true
+    phase55Variant: "Laticrete"
+    sxaStyles: ["reverse"]
+    fields:
+      Eyebrow: "LATICRETE 1 System"
+      Title: "Install Smarter"
+      Subtitle: "HYDRO BAN · MULTIMAX · SPECTRALOCK"
+      Text: "<p>Core system products for faster, more reliable tile and stone installs — waterproofing, adhesives, and grout that work together.</p>"
+      Link: { text: "LEARN MORE", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 6
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    datasourceItemName: "LAT_Project_Planning_Block"
+    pageLocalDatasourceId: "57754fd2-4b41-4921-a602-d3acf3095804"
+    componentInstanceId: "32949338-a19e-4048-af17-d76403a812c5"
+    apiAddable: true
+    phase55Variant: "LaticreteTeal"
+    fields:
+      Eyebrow: "Resources"
+      Title: "Plan your next project with confidence"
+      Text: "<p>Use LATICRETE planning resources and color tools to specify the right installation system.</p>"
+      Link: { text: "PROJECT PLANNING", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 7
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "LAT_Sustainable_Products_Block"
+    pageLocalDatasourceId: "30298f13-e96b-4048-9454-321b97c19c94"
+    componentInstanceId: "c2656870-368f-403f-8296-9ec2d0db87e1"
+    apiAddable: true
+    fields:
+      Title1: "Sustainable Products"
+      Text1: "Building materials and systems that support responsible specification and project goals."
+      Link1: { text: "LEARN MORE", href: "https://www.laticrete.com/en", target: "_blank" }
+      Title2: "Sustainability Report"
+      Text2: "Download the latest LATICRETE sustainability report for specs and environmental data."
+      Link2: { text: "DOWNLOAD SUSTAINABILITY REPORT", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 8
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "LAT_Heritage_Block"
+    pageLocalDatasourceId: "1e9cf02d-990e-495d-8a1e-9fd1f73ed021"
+    componentInstanceId: "1b9d5ef9-1d2d-42d1-a595-91b1a0bdcf33"
+    apiAddable: true
+    phase55Variant: "Laticrete"
+    sxaStyles: ["saturated"]
+    fields:
+      Eyebrow: "70 Years"
+      Title: "Our Heritage"
+      Subtitle: "For 70 Years, LATICRETE Has Set The Standard!"
+      Text: "<p>From the first innovation to today, LATICRETE continues to set the standard for tile and stone installation systems worldwide.</p>"
+      Link: { text: "LATICRETE HISTORY", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 9
+    componentName: "HeadingCta"
+    manifestName: "Heading CTA"
+    kind: "simple"
+    datasourceItemName: "LAT_Find_Products_Block"
+    pageLocalDatasourceId: "aac819f6-2406-4ee3-8018-8879d224870f"
+    componentInstanceId: "c9626efd-f6e2-489a-8c54-3512cf491861"
+    apiAddable: true
+    phase55Variant: "LaticreteCentered"
+    fields:
+      Eyebrow: "Where to Buy"
+      Heading: "Find Products Near You"
+      Text: "Locate distributors and dealers carrying LATICRETE systems."
+      Link: { text: "PRODUCT FINDER", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 10
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    datasourceItemName: "LAT_Find_Distributor_Block"
+    pageLocalDatasourceId: "78733462-c2d5-4bdf-9e2b-7851e132ba27"
+    componentInstanceId: "04aae888-1360-47cd-92f8-81131ef8a94c"
+    apiAddable: true
+    phase55Variant: "LaticreteTeal"
+    fields:
+      Title: "Find a Distributor / Dealer Near You"
+      Link: { text: "FIND A DISTRIBUTOR", href: "https://www.laticrete.com/en", target: "_blank" }
+
+  - position: 11
+    componentName: "Footer"
+    kind: "context-only"
+    apiAddable: false
