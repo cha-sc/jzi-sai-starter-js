@@ -57,6 +57,7 @@ export const Default = (props: AppPromoProps): JSX.Element => {
   );
 };
 
+/* *************************************************************** */
 /* CPP — cream/lavender split hero: copy left, lifestyle photo right */
 export const HeroSplitCream = (props: AppPromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
