@@ -1,0 +1,98 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "LATICRETE"
+  systemName: "Laticrete"
+  folder: "laticrete"
+  url: "https://www.laticrete.com/en"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/laticrete/assets/laticrete-homepage.jpg"
+  startedAt: "2026-10-09T16:18:54Z"
+  lastUpdatedAt: "2026-10-09T16:28:00Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "Laticrete"
+  collectionId: "be6b641a50534f0ea07c17a425a4c499"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "873f1ac5-d4c1-49f4-93c8-e577a4fff9f2"
+  copyJobHandle: "e220c227-7f45-44e7-853b-57dfe625dd80;sitecoresaaea3f-chadev7ae9-chadev09156390-94885fdc7-qgbjg"
+  collectionJobHandle: "07550d43-ab02-4b1d-9b17-4c0e6dfa94e0;sitecoresaaea3f-chadev7ae9-chadev09156390-94885fdc7-qgbjg"
+  ehEnvironmentId: ""
+  cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
+  renderingHostKey: "laticrete"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    siteName: "Laticrete"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  offer_commit:
+    status: "pending"
+    committed: null
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-10-09T16:18:54Z — Inputs collected. CM authoring env ID provided: 3FrHA2dq9Q5HJqr9ry042u."
+  - "2026-10-09T16:22:00Z — New collection Laticrete + ProsperaFinancial source confirmed."
+  - "2026-10-09T16:28:00Z — Step 1a–1c done; move verified under Laticrete collection. Awaiting commit offer answer and editing-host opt-in."
