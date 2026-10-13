@@ -56,3 +56,34 @@ export const Default = (props: AppPromoProps): JSX.Element => {
     </div>
   );
 };
+
+/* Heart & Stroke — full-bleed photo hero with pill primary CTA */
+export const HeroFullBleedPills = (props: AppPromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component hero hero-full-bleed-pills ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="hero-full-bleed-pills__media">
+        <NextImage field={props.fields.Image} className="" width={1920} height={900} />
+      </div>
+      <div className="hero-full-bleed-pills__shade" aria-hidden="true" />
+      <div className="hero-full-bleed-pills__content">
+        <h1 className="hero-full-bleed-pills__title">
+          <Text field={props.fields.Title} />
+        </h1>
+        <div className="hero-full-bleed-pills__subtitle">
+          <RichText field={props.fields.Text} />
+        </div>
+        {(isPageEditing || props.fields?.Link?.value?.href) && (
+          <Link field={props.fields.Link} className="hero-full-bleed-pills__cta" />
+        )}
+      </div>
+    </section>
+  );
+};

@@ -157,6 +157,42 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
   );
 };
 
+/* Heart & Stroke — full-bleed photo with white overlay story card */
+export const StoryOverlayCard = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component promo-cta hs-story-overlay ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="hs-story-overlay__media">
+        <NextImage field={props.fields.Image} width={1600} height={900} />
+      </div>
+      <div className="hs-story-overlay__card">
+        <p className="hs-story-overlay__eyebrow">
+          <Text field={props.fields.Eyebrow} />
+        </p>
+        <h2 className="hs-story-overlay__title">
+          <Text field={props.fields.Title} />
+        </h2>
+        <RichText field={props.fields.Text} className="hs-story-overlay__text" />
+        <div className="hs-story-overlay__actions">
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="hs-story-overlay__cta" />
+          )}
+          {(isPageEditing || props.fields?.Link2?.value?.href) && (
+            <Link field={props.fields.Link2} className="hs-story-overlay__more" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();

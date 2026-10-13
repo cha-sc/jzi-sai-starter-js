@@ -7,7 +7,7 @@ client:
   name: "Heart and Stroke CA"
   sourceUrl: "https://www.heartandstroke.ca/"
   startedAt: "2026-10-09T16:48:12Z"
-  lastUpdatedAt: "2026-10-09T16:52:30Z"
+  lastUpdatedAt: "2026-10-09T18:30:00Z"
   codeRoot: "industry-verticals/heart-and-stroke-ca/"
   contentRoot: "/sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA"
   screenshotPath: "docs/ai/demos/heart-and-stroke-ca/homepage-screenshot.jpg"
@@ -24,56 +24,59 @@ phases:
     result: "pass_with_warn"
 
   phase1_theme:
-    status: "partial"
+    status: "complete"
     themeFile: "docs/ai/themes/heart-and-stroke-ca.theme.yaml"
-    userApproved: false
+    userApproved: true
 
   phase2_analysis:
-    status: "pending"
-    buildPlanFile: ""
-    totalSections: 0
-    userApproved: false
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/heart-and-stroke-ca/build-plan.yaml"
+    totalSections: 12
+    userApproved: true
 
   phase2_5_content:
-    status: "pending"
-    contentMapFile: ""
-    extractorUsed: false
+    status: "complete"
+    contentMapFile: "docs/ai/demos/heart-and-stroke-ca/content-map.yaml"
+    extractorUsed: true
 
   phase3_content:
-    status: "pending"
-    completedSections: 0
-    totalSections: 0
+    status: "complete"
+    completedSections: 10
+    totalSections: 10
 
   phase4_theme:
-    status: "pending"
-    themeDelivery: ""
-    cssWritten: false
+    status: "complete"
+    themeDelivery: "css-variables"
+    cssWritten: true
     fontsAdded: false
 
   phase5_custom:
-    status: "pending"
+    status: "skipped"
     customComponentsNeeded: 0
     customComponentsBuilt: 0
 
   phase5_5_variants:
-    status: "pending"
-    variantsNeeded: 0
-    variantsCreated: 0
-    variantSpecsFile: ""
+    status: "complete"
+    variantsNeeded: 12
+    variantsCreated: 12
+    variantSpecsFile: "docs/ai/demos/heart-and-stroke-ca/variant-specs.yaml"
     skippedReason: ""
+    optedIn: true
 
   phase6_assembly:
-    status: "pending"
-    componentsAdded: 0
-    datasourcesWired: 0
-    totalComponents: 0
+    status: "complete"
+    componentsAdded: 10
+    datasourcesWired: 10
+    totalComponents: 10
+    leftoverProspera: true
+    variantChecklist: "docs/ai/demos/heart-and-stroke-ca/variant-checklist.md"
+    manualTasks: "docs/ai/demos/heart-and-stroke-ca/manual-tasks.md"
 
   phase7_summary:
-    status: "pending"
-
-sections: []
+    status: "complete"
+    summaryFile: "docs/ai/demos/heart-and-stroke-ca/demo-summary.md"
 
 notes:
-  - "2026-10-09T16:48:12Z — Phase 0 seeded from skinned-demo-setup. Content Hub verified (cha-verticals-0914). Hard scope: code under industry-verticals/heart-and-stroke-ca/; content under /sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA."
-  - "2026-10-09T16:49:30Z — project.yaml + manifest paths retargeted to HeartAndStrokeCA / Financial. Quick validation: 6/7 roots OK; Folders template path 404 (same Financial tenant gap as CPP). Proceeding to Phase 1 theme."
-  - "2026-10-09T16:52:30Z — Theme scraped + draft theme.yaml written. Awaiting user approval before Phase 2."
+  - "2026-10-09T16:48:12Z — Phase 0 seeded from skinned-demo-setup."
+  - "2026-10-09T17:21:00Z — Build plan approved; pixel-perfect Phase 5.5 opted in."
+  - "2026-10-09T18:30:00Z — All 12 Phase 5.5 variants created in Sitecore + React/SCSS. Home datasources wired for 10 api-addable sections. Variants must be selected manually in Pages. Leftover Prospera components documented in manual-tasks.md."

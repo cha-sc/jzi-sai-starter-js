@@ -109,3 +109,106 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* Heart & Stroke — dual research photo tiles with white content boxes */
+export const ResearchDualTiles = (props: TwoColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const Tile = ({
+    image,
+    title,
+    text,
+    link,
+  }: {
+    image: ImageField;
+    title: Field<string>;
+    text: Field<string>;
+    link: LinkField;
+  }) => (
+    <article className="hs-research__tile">
+      <div className="hs-research__media">
+        <NextImage field={image} width={800} height={800} />
+      </div>
+      <div className="hs-research__box">
+        <h3 className="hs-research__title">
+          <Text field={title} />
+        </h3>
+        <p className="hs-research__text">
+          <Text field={text} />
+        </p>
+        {(isPageEditing || link?.value?.href) && (
+          <Link field={link} className="hs-research__cta" />
+        )}
+      </div>
+    </article>
+  );
+
+  return (
+    <section
+      className={`component two-column-cta hs-research ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="hs-research__grid">
+          <Tile
+            image={props.fields.Image1}
+            title={props.fields.Title1}
+            text={props.fields.Text1}
+            link={props.fields.Link1}
+          />
+          <Tile
+            image={props.fields.Image2}
+            title={props.fields.Title2}
+            text={props.fields.Text2}
+            link={props.fields.Link2}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+/* Heart & Stroke — grey legacy tile + solid red donate tile */
+export const GivingPromoTiles = (props: TwoColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component two-column-cta hs-giving ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="hs-giving__grid">
+          <article className="hs-giving__tile hs-giving__tile--muted">
+            <h3 className="hs-giving__title">
+              <Text field={props.fields.Title1} />
+            </h3>
+            <p className="hs-giving__text">
+              <Text field={props.fields.Text1} />
+            </p>
+            {(isPageEditing || props.fields.Link1?.value?.href) && (
+              <Link field={props.fields.Link1} className="hs-giving__link" />
+            )}
+          </article>
+          <article className="hs-giving__tile hs-giving__tile--red">
+            <h3 className="hs-giving__title">
+              <Text field={props.fields.Title2} />
+            </h3>
+            <p className="hs-giving__text">
+              <Text field={props.fields.Text2} />
+            </p>
+            {(isPageEditing || props.fields.Link2?.value?.href) && (
+              <Link field={props.fields.Link2} className="hs-giving__cta" />
+            )}
+          </article>
+        </div>
+      </div>
+    </section>
+  );
+};

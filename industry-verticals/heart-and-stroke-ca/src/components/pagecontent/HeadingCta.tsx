@@ -151,3 +151,38 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* Heart & Stroke — centered motto with Beat highlighted in brand red */
+export const MottoBeat = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const headingValue = props.fields?.Heading?.value || '';
+  const parts = headingValue.split(/(Beat)/gi);
+
+  return (
+    <section
+      className={`component heading-cta motto-beat ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <h2 className="motto-beat__heading">
+          {isPageEditing ? (
+            <Text field={props.fields?.Heading} />
+          ) : (
+            parts.map((part, index) =>
+              part.toLowerCase() === 'beat' ? (
+                <span className="motto-beat__accent" key={index}>
+                  {part}
+                </span>
+              ) : (
+                <span key={index}>{part}</span>
+              )
+            )
+          )}
+        </h2>
+      </div>
+    </section>
+  );
+};

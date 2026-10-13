@@ -1,0 +1,322 @@
+# Heart and Stroke CA content map — Financial / SXA
+client:
+  name: "Heart and Stroke CA"
+  sourceUrl: "https://www.heartandstroke.ca/"
+  contentRoot: "/sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA/Data/HeartAndStrokeCA Demo"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCta: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  HeadingCta: "fa136527-6302-471d-83ab-e66fc72bda99"
+  ThreeColumnCta: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+  TwoColumnCta: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+  DocumentsList: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+  ContactForm: "6d166c16-d4cc-4ba9-b1e1-fe6378916533"
+
+renderings:
+  Hero: "b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae"
+  PromoCta: "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80"
+  HeadingCta: "89e1d547-7cd6-4ef0-9a27-1e99410797dd"
+  ThreeColumnCta: "ad385021-ce2b-4fc1-89aa-207d408034a8"
+  TwoColumnCta: "3a9a9d22-c092-4b54-9511-eb202ceabe8d"
+  DocumentsList: "ccc3a815-5de9-4529-bad5-874548667d66"
+  ContactForm: "09530d1f-141d-4885-8b3e-ebca3ea5a23e"
+
+sections:
+  - position: 1
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    phase55Variant: "HeaderDarkDonate"
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 2
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Hero"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    phase55Variant: "HeroFullBleedPills"
+    fields:
+      Title: "Sisters Sharon and Carolyn used our Risk Screen tool to beat their risks."
+      Text: "<p>You can too.</p><p><a href=\"https://www.heartandstroke.ca/heart-disease/risk-and-prevention/risk-screen\">Learn more</a></p>"
+      Link: { text: "Try the tool", href: "https://www.heartandstroke.ca/heart-disease/risk-and-prevention/risk-screen", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/home/images/2026/sharon_1920x8"
+        alt: "Sharon McVicar, living with heart disease."
+        localFile: "section3-img20.webp"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Key Priorities"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    phase55Variant: "PrioritiesCarousel"
+    fields:
+      Text1: "Preventing the surge of heart failure"
+      SubText1: "Kevin Lobo, living with heart failure"
+      Link1: { text: "Discover what we do", href: "https://www.heartandstroke.ca/what-we-do", target: "" }
+      Text2: "Transforming stroke diagnosis, treatment and care"
+      SubText2: "John Vipond, living with stroke, with his wife Barb."
+      Link2: { text: "Discover what we do", href: "https://www.heartandstroke.ca/what-we-do", target: "" }
+      Text3: "Closing the gaps in health inequity"
+      SubText3: "Garima Dwivedi, living with stroke, with her daughter Ila"
+      Link3: { text: "Discover what we do", href: "https://www.heartandstroke.ca/what-we-do", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/home/key-priorities-kevin-800x60"
+        alt: "Kevin Lobo, living with heart failure"
+        localFile: "section3-img15.webp"
+      - field: "Image2"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/whatwedo/john-1250x940.webp"
+        alt: "John Vipond, living with stroke, with his wife Barb."
+        localFile: "section3-img16.webp"
+      - field: "Image3"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/home/key-priorities-improve-card"
+        alt: "Cardiac arrest survivor Robert Marien"
+        localFile: "section3-img18.webp"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Section heading 'Our key priorities' applied via Phase 5.5 variant chrome or companion Heading CTA."
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Sharon Story"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    phase55Variant: "StoryOverlayCard"
+    fields:
+      Eyebrow: "Women"
+      Title: "Sharon learned her risks to take charge of her health"
+      Subtitle: ""
+      Text: "<p>After using the Risk Screen tool, Sharon was surprised by some of her unique risks. Knowing them helped her take action.</p>"
+      Link: { text: "Read her story", href: "https://www.heartandstroke.ca/", target: "" }
+      Link2: { text: "More stories", href: "https://www.heartandstroke.ca/", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/risk-screening-tool/sharon-750x7"
+        alt: "Sharon McVicar, living with heart disease."
+        localFile: "section3-img32.webp"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 5
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Research Stories"
+    apiAddable: true
+    templateId: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+    phase55Variant: "ResearchDualTiles"
+    fields:
+      Title1: "Taking on 'impossible' strokes"
+      Text1: "Dr. Michael Hill recounts the close calls and hard work behind a life-saving revolution."
+      Link1: { text: "See his research", href: "https://www.heartandstroke.ca/", target: "" }
+      Title2: "One baby, one heart, one huge leap"
+      Text2: "Dr. West's bold idea rewrote the rules of heart transplants, saving babies' lives."
+      Link2: { text: "See her research", href: "https://www.heartandstroke.ca/", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/story/dr-michael-hill/drhill-843"
+        alt: "Dr. Michael Hill"
+        localFile: "section3-img21.webp"
+      - field: "Image2"
+        src: "https://www.heartandstroke.ca/-/media/sites/hsf/beats/drwest/drwest-843x843.webp"
+        alt: "Dr. Lori West"
+        localFile: "section3-img22.webp"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "DocumentsList"
+    manifestName: "Documents List"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Get Involved"
+    apiAddable: true
+    templateId: "bc79b430-f5e0-4363-83f8-5fb8ccd79c61"
+    phase55Variant: "InvolvedLinkList"
+    fields:
+      Title1: "Get involved"
+      Subtitle1: "Celebrate your loved one's memory and make a lasting impact."
+      Link1: { text: "Give in memory", href: "https://www.heartandstroke.ca/how-you-can-help/give-in-memory", target: "" }
+      Subtitle2: "Help fund lifesaving breakthroughs while reducing capital gains tax."
+      Link2: { text: "Donate securities", href: "https://www.heartandstroke.ca/how-you-can-help/donate-securities", target: "" }
+      Subtitle3: "Join fundraisers coming together to beat heart disease and stroke."
+      Link3: { text: "Fundraise Your Way", href: "https://www.heartandstroke.ca/how-you-can-help", target: "" }
+      Subtitle4: "Jump-start the joy of movement at your school!"
+      Link4: { text: "Jump Rope for Heart", href: "https://www.heartandstroke.ca/how-you-can-help", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 7
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Ways to Give"
+    apiAddable: true
+    templateId: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+    phase55Variant: "GivingPromoTiles"
+    fields:
+      Title1: "Leave your legacy"
+      Text1: "Invest in the lives of your loved ones for generations to come with a gift in your Will."
+      Link1: { text: "Learn more", href: "https://www.heartandstroke.ca/how-you-can-help/legacy-giving", target: "" }
+      Title2: "Six ways to donate"
+      Text2: "Choose the option that's best for you. By supporting Heart & Stroke, you're giving families more time to make memories together."
+      Link2: { text: "Learn more", href: "https://app-hsfdonation.heartandstroke.ca/?pagename=DMDonationForm&s_locale=en_CA", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 8
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Latest Articles"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    phase55Variant: "ArticlesFeatureStack"
+    fields:
+      Text1: "Sober curious? Here's how to drink less alcohol"
+      SubText1: "Health seekers — Mindful drinking is better for your heart and brain health."
+      Link1: { text: "Read article", href: "https://www.heartandstroke.ca/", target: "" }
+      Text2: "The surprising health benefits of a 7-day digital detox"
+      SubText2: "Decrease screen time and feel better."
+      Link2: { text: "Read article", href: "https://www.heartandstroke.ca/", target: "" }
+      Text3: "7 activities in nature to reduce stress"
+      SubText3: "Feeling overwhelmed? The answer might be right outside your door."
+      Link3: { text: "Read article", href: "https://www.heartandstroke.ca/", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2026/alcohol-f"
+        alt: "People toasting glasses of water with lemon"
+        localFile: "section3-img23.webp"
+      - field: "Image2"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2025/digital-d"
+        alt: "A family playing cards together around a table."
+        localFile: "section3-img24.webp"
+      - field: "Image3"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2025/img-7161-"
+        alt: "A group sitting outdoors in a park with a child playing"
+        localFile: "section3-img25.webp"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Switched from Article List to Three Column CTA for reliable datasource wiring; Phase 5.5 ArticlesFeatureStack approximates featured+stack layout."
+
+  - position: 9
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Recipes"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    phase55Variant: "RecipesCarousel"
+    fields:
+      Text1: "Lunchbox granola bars"
+      SubText1: "Breakfast"
+      Link1: { text: "More recipes", href: "https://www.heartandstroke.ca/healthy-living/recipes", target: "" }
+      Text2: "Bean, sweet potato and garlic stew"
+      SubText2: "Meatless main dishes"
+      Link2: { text: "More recipes", href: "https://www.heartandstroke.ca/healthy-living/recipes", target: "" }
+      Text3: "Maple roasted squash soup"
+      SubText3: "Soups and salads"
+      Link3: { text: "More recipes", href: "https://www.heartandstroke.ca/healthy-living/recipes", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/recipes/breakfast/old/lunchbox"
+        alt: "Granola bar"
+        localFile: "section3-img27.jpg"
+      - field: "Image2"
+        src: "https://www.heartandstroke.ca/-/media/images/bean-sweet-potato-and-garlic-stew-1"
+        alt: "Bean, sweet potato and garlic stew"
+        localFile: "section3-img28.jpg"
+      - field: "Image3"
+        src: "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/old/east-coast"
+        alt: "East Coast Trail Newfoundland"
+        localFile: "section3-img26.webp"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 10
+    componentName: "HeadingCta"
+    manifestName: "Heading CTA"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Motto"
+    apiAddable: true
+    templateId: "fa136527-6302-471d-83ab-e66fc72bda99"
+    phase55Variant: "MottoBeat"
+    fields:
+      Eyebrow: ""
+      Heading: "Beat heart disease. Beat stroke. Beat as one."
+      Text: ""
+      Link: { text: "", href: "", target: "" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+
+  - position: 11
+    componentName: "ContactForm"
+    manifestName: "Contact Form"
+    kind: "simple"
+    datasourceItemName: "HeartAndStrokeCA - Newsletter"
+    apiAddable: true
+    templateId: "6d166c16-d4cc-4ba9-b1e1-fe6378916533"
+    phase55Variant: "NewsletterBand"
+    fields:
+      Title: "Stay informed and inspired!"
+      EmailLabel: "Your email address"
+      SubjectLabel: "Your first name"
+      MessageLabel: "Your last name"
+      ButtonLabel: "Subscribe"
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 12
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    phase55Variant: "FooterCharcoal"
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+summary:
+  totalSections: 12
+  apiAddable: 10
+  contextOnly: 2
+  imagesMapped: 12
+  phase55Variants: 12
+  contentSource: "extractor+screenshot"

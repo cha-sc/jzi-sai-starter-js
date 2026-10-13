@@ -1,0 +1,105 @@
+# Pixel-perfect Phase 5.5 variant specs — Heart and Stroke CA
+client: "Heart and Stroke CA"
+brandPrimary: "#DD2211"
+brandCharcoal: "#151212"
+optedIn: true
+
+variants:
+  - name: HeaderDarkDonate
+    parentComponent: Header
+    reactExport: HeaderDarkDonate
+    purpose: "Charcoal header, white nav, red pill Donate with heart icon, search field"
+    visualNotes:
+      - "Dark #151212 bar"
+      - "Logo left, search center, Donate right"
+      - "Primary nav row under utility"
+
+  - name: HeroFullBleedPills
+    parentComponent: Hero
+    reactExport: HeroFullBleedPills
+    purpose: "Full-bleed photo, left white headline, red pill + outline secondary CTA"
+    visualNotes:
+      - "min-height ~700px edge-to-edge image"
+      - "No inset card; text overlays image"
+      - "Primary CTA #DD2211 pill; secondary white outline pill"
+
+  - name: PrioritiesCarousel
+    parentComponent: Three Column CTA
+    reactExport: PrioritiesCarousel
+    purpose: "Our key priorities heading + three image cards with carousel chrome"
+    visualNotes:
+      - "Large bold black H2"
+      - "Image-top cards, square corners"
+      - "Prev/next arrows below"
+
+  - name: StoryOverlayCard
+    parentComponent: Promo CTA
+    reactExport: StoryOverlayCard
+    purpose: "Full-bleed photo with white overlay card + Women eyebrow + dual CTAs"
+    visualNotes:
+      - "Photo dominant"
+      - "White card left/center with title body and red button"
+
+  - name: ResearchDualTiles
+    parentComponent: Two Column CTA
+    reactExport: ResearchDualTiles
+    purpose: "Two equal photo tiles with white text boxes and red CTAs"
+    visualNotes:
+      - "Side-by-side squares"
+      - "White overlay boxes bottom-left of each"
+
+  - name: InvolvedLinkList
+    parentComponent: Documents List
+    reactExport: InvolvedLinkList
+    purpose: "Get involved vertical list with red circular arrow affordances"
+    visualNotes:
+      - "Large linked rows"
+      - "Red circle arrow icons left of each link"
+
+  - name: GivingPromoTiles
+    parentComponent: Two Column CTA
+    reactExport: GivingPromoTiles
+    purpose: "Grey legacy tile + solid red donate tile"
+    visualNotes:
+      - "Left muted grey, right brand red"
+      - "White text on red tile"
+
+  - name: ArticlesFeatureStack
+    parentComponent: Three Column CTA
+    reactExport: ArticlesFeatureStack
+    purpose: "Latest articles — large feature left, stacked teasers right feel"
+    visualNotes:
+      - "Asymmetric news layout approximation"
+      - "Category label Health seekers"
+
+  - name: RecipesCarousel
+    parentComponent: Three Column CTA
+    reactExport: RecipesCarousel
+    purpose: "Recipe cards with category labels and More recipes link"
+    visualNotes:
+      - "Food photography cards"
+      - "Category above title"
+
+  - name: MottoBeat
+    parentComponent: Heading CTA
+    reactExport: MottoBeat
+    purpose: "Centered motto with Beat in brand red"
+    visualNotes:
+      - "Beat styled #DD2211 each occurrence"
+      - "Large bold display type"
+
+  - name: NewsletterBand
+    parentComponent: Contact Form
+    reactExport: NewsletterBand
+    purpose: "Muted grey newsletter band with name/email and red Subscribe"
+    visualNotes:
+      - "No background image"
+      - "Form fields horizontal/stacked cleanly"
+
+  - name: FooterCharcoal
+    parentComponent: Footer
+    reactExport: FooterCharcoal
+    purpose: "Charcoal multi-column footer with Donate + socials"
+    visualNotes:
+      - "Match #151212 background"
+      - "Red Donate pill"

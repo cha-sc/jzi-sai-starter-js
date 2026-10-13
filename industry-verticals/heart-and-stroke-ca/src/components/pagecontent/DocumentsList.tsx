@@ -110,3 +110,53 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
     </div>
   );
 };
+
+/* Heart & Stroke — Get involved vertical list with red circular arrows */
+export const InvolvedLinkList = (props: DocumentsListProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const rows = [
+    { subtitle: props.fields?.Subtitle1, link: props.fields?.Link1 },
+    { subtitle: props.fields?.Subtitle2, link: props.fields?.Link2 },
+    { subtitle: props.fields?.Subtitle3, link: props.fields?.Link3 },
+    { subtitle: props.fields?.Subtitle4, link: props.fields?.Link4 },
+  ];
+
+  return (
+    <section
+      className={`component component-spaced documents-list hs-involved ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <h2 className="hs-involved__heading">
+          <Text field={props.fields?.Title1} />
+        </h2>
+        <ul className="hs-involved__list">
+          {rows.map((row, index) => {
+            if (!isPageEditing && !row.link?.value?.href && !row.subtitle?.value) {
+              return null;
+            }
+            return (
+              <li className="hs-involved__row" key={index}>
+                <span className="hs-involved__icon" aria-hidden="true">
+                  →
+                </span>
+                <div className="hs-involved__content">
+                  {(isPageEditing || row.link?.value?.href) && (
+                    <Link field={row.link} className="hs-involved__link" />
+                  )}
+                  <p className="hs-involved__subtitle">
+                    <Text field={row.subtitle} />
+                  </p>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
+  );
+};

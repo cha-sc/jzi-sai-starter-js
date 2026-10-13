@@ -1,3 +1,27 @@
+// Heart & Stroke CA brand tokens (demo)
+:root {
+  --brand-primary: #dd2211;
+  --brand-primary-foreground: #ffffff;
+  --brand-charcoal: #151212;
+  --brand-secondary: #151212;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #dd2211;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #151212;
+  --brand-muted: #f4f4f4;
+  --brand-muted-foreground: #4a4a4a;
+  --brand-header-bg: #151212;
+  --brand-header-fg: #ffffff;
+  --brand-footer-bg: #151212;
+  --brand-footer-fg: #ededed;
+  --brand-border: #e0e0e0;
+  --brand-ring: #dd2211;
+  --brand-radius: 0px;
+  --brand-radius-button: 9999px;
+  --brand-container: 1700px;
+}
+
 // Financial
 body.site-financial,
 .site-financial {

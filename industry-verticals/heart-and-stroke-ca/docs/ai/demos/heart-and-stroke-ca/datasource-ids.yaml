@@ -1,0 +1,51 @@
+# Created Sitecore datasource items — Heart and Stroke CA Demo
+folderId: "c038e250-df63-477c-a243-65d8c9d09bbd"
+folderPath: "/sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA/Data/HeartAndStrokeCA Demo"
+homePageId: "deccbc08-521e-4c7a-981b-1d262499685f"
+
+items:
+  Hero: "13ec6dd3-3c8a-4090-8d82-18c14d200bf5"
+  KeyPriorities: "55cc3935-d9c2-410b-9019-a79a8497d9a2"
+  SharonStory: "114230bd-ed3f-40f3-ba9e-8995001ac067"
+  ResearchStories: "28d84bbe-85e3-4c49-90e2-56b691f5b7f0"
+  GetInvolved: "10c101fc-9ea5-4990-897b-3f8b672603b9"
+  WaysToGive: "bd8a2764-0d00-48ef-8235-24671bd3f7e1"
+  LatestArticles: "5ddc5da0-8626-450a-bce8-8458187dccf6"
+  Recipes: "fb0fc1da-a866-47cd-9eed-70bb2eeb1220"
+  Motto: "b9326164-4b94-4274-9775-2f5987f6335f"
+  Newsletter: "b08d1f60-0085-4e4e-b065-a61a265da376"
+
+homeInstances:
+  Hero: "3b480dd6-8ee5-49a9-9ba7-cfdb58149307"
+  SharonStory: "d49a8931-f041-4988-9cc3-f2400e6422d0"
+  KeyPriorities: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6"
+  ResearchStories: "0ed2d2c2-e9ef-4e40-b040-6289cb174e03"
+  GetInvolved: "251b0936-4659-4127-9952-52ca5140d803"
+  WaysToGive: "69ba5266-a6bd-4a12-8193-aaba38c5a1b9"
+  LatestArticles: "2d48ef5c-6719-4a82-93a4-4e481061b6e2"
+  Recipes: "f325446f-3832-4620-9ddd-474eff85a8d0"
+  Motto: "e4fe1097-1135-4f8c-b70d-a6444114307e"
+  Newsletter: "7f7f5773-bbf6-4906-aa2e-bee2b30cb5c9"
+
+renderings:
+  Hero: "b7cdf75e-716a-4c59-b9b1-cd970ae0a4ae"
+  PromoCta: "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80"
+  HeadingCta: "89e1d547-7cd6-4ef0-9a27-1e99410797dd"
+  ThreeColumnCta: "ad385021-ce2b-4fc1-89aa-207d408034a8"
+  TwoColumnCta: "3a9a9d22-c092-4b54-9511-eb202ceabe8d"
+  DocumentsList: "ccc3a815-5de9-4529-bad5-874548667d66"
+  ContactForm: "09530d1f-141d-4885-8b3e-ebca3ea5a23e"
+
+variants:
+  HeroFullBleedPills: "a59c11b9-8b92-4559-9d31-dd983fc0353f"
+  PrioritiesCarousel: "d460e29c-f2af-4b5b-ae6c-a19d1727f4d6"
+  ArticlesFeatureStack: "ba604003-d3cf-49ef-ad40-a32f9824dcef"
+  RecipesCarousel: "7c556122-e2a0-427f-b59e-2ccb25112d14"
+  StoryOverlayCard: "8ebbe475-5517-4890-b92d-fd0092c65f07"
+  ResearchDualTiles: "87b09b0f-b5c7-4934-b3b1-bb8ab2f53f38"
+  GivingPromoTiles: "b19401c5-a8d6-4880-9999-cfc2b652c0af"
+  InvolvedLinkList: "c74952bd-452e-4649-9793-de187d9083e2"
+  MottoBeat: "b0b8e576-a11f-46a9-9b54-f8a50f478666"
+  NewsletterBand: "e3205be7-fa3a-4847-9bff-7a7f029965cc"
+  HeaderDarkDonate: "ed2aef56-9d34-47ec-97e6-9c973c30df11"
+  FooterCharcoal: "22ec3118-576e-4515-9c87-dd9af87b19aa"

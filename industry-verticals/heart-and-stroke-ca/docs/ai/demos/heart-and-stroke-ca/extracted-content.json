@@ -1,0 +1,832 @@
+{
+  "url": "https://www.heartandstroke.ca/",
+  "extractedAt": "2026-10-09T17:22:25.177Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 5,
+  "totalImages": 33,
+  "totalVideos": 1,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 2,
+    "carouselArrowSlides": 27,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "header",
+      "classHint": "site-header site-header--smaller",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "Try our Risk Screen tool to get your personalized risk profile and action plan to protect your brain health."
+      ],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "https://www.heartandstroke.ca/#main-content",
+          "target": ""
+        },
+        {
+          "text": "Home, Heart & Stroke logo",
+          "href": "https://www.heartandstroke.ca/",
+          "target": ""
+        },
+        {
+          "text": "Emergency signs",
+          "href": "https://www.heartandstroke.ca/heart-disease/emergency-signs/heart-attack-and-stroke",
+          "target": ""
+        },
+        {
+          "text": "CPR training",
+          "href": "https://www.heartandstroke.ca/how-you-can-help/learn-cpr",
+          "target": ""
+        },
+        {
+          "text": "For professionals",
+          "href": "https://www.heartandstroke.ca/what-we-do/for-professionals",
+          "target": ""
+        },
+        {
+          "text": "Donate",
+          "href": "https://app-hsfdonation.heartandstroke.ca/?pagename=DMDonationForm&s_locale=en_CA&s_fT=cont&s_pres=hsweb&s_cscid=hsweb_nav",
+          "target": "_blank"
+        },
+        {
+          "text": "Stroke",
+          "href": "https://www.heartandstroke.ca/stroke",
+          "target": ""
+        },
+        {
+          "text": "Signs of stroke",
+          "href": "https://www.heartandstroke.ca/stroke/signs-of-stroke",
+          "target": ""
+        },
+        {
+          "text": "Treatments",
+          "href": "https://www.heartandstroke.ca/stroke/treatments",
+          "target": ""
+        },
+        {
+          "text": "Risk and prevention",
+          "href": "https://www.heartandstroke.ca/stroke/risk-and-prevention",
+          "target": ""
+        },
+        {
+          "text": "Recovery and support",
+          "href": "https://www.heartandstroke.ca/stroke/recovery-and-support",
+          "target": ""
+        },
+        {
+          "text": "Français",
+          "href": "https://www.coeuretavc.ca/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-warning-18x18.png?rev=dd2626ea158b46b0a157ef7935a9a60c&hash=845B527151ED136E1CD2BD4080057EFC",
+          "alt": "",
+          "type": "img",
+          "width": 18,
+          "height": 18
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-heartbeat-20x15.png?rev=f343abc16e78411386da555ab61b0da3&hash=E7A8E157DEA949F37C334BF1CEA8106A",
+          "alt": "",
+          "type": "img",
+          "width": 20,
+          "height": 15
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-cross-14x14.png?rev=d4a496fa3e814be691ff90eec88a0056&hash=E6C5FE17216CD00F013419ACA996EFB9",
+          "alt": "",
+          "type": "img",
+          "width": 14,
+          "height": 14
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/sisters-en-692x395.webp?rev=b295c0fa3164462fbc6c4cfb41f9d26a&hash=BA74CEBB717AEBE2BB53668F8BA42799",
+          "alt": "",
+          "type": "img",
+          "width": 692,
+          "height": 395
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn_cardiac_arrest.webp?rev=d0b17fde6f454ca29b8056781539edf0&hash=8FD8F6D93168891C62BAA6F9E5474B11",
+          "alt": "Two people leaning over a woman on the floor, giving her chest compressions.",
+          "type": "img",
+          "width": 692,
+          "height": 395
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-healthline-692x396.webp?rev=d2a6ba07abf44b108fbbf161f20da1b9&hash=BBE3CB777DB910A39203A68FFC5D5D11",
+          "alt": "images to represent healthy living",
+          "type": "img",
+          "width": 692,
+          "height": 396
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-ways-to-give-692x396.webp?rev=5efc69d3152543e39cb66086d9a0a4b5&hash=30BA9E9A720B1040BAA2E0C17356C9A6",
+          "alt": "A female researcher looks into a microscope",
+          "type": "img",
+          "width": 692,
+          "height": 396
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/edi-meganav-175x100.webp?rev=e954200294c94c84b009188ae9e49f78&hash=DAC7E0FA2AC6B2448AFD4DD7AC5073F9",
+          "alt": "A large group of diverse people stand outdoors while smiling and holding each other.",
+          "type": "img",
+          "width": 692,
+          "height": 395
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/drhill-173x99.webp?rev=f9f8c6219b1e4f44b415243e915a7243&hash=3649872E0A036226F3D7D39C1D7DA2FD",
+          "alt": "Dr. Michael Hill",
+          "type": "img",
+          "width": 173,
+          "height": 99
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/gos-173x99.webp?rev=c9c51754f5c14d5bb62a1f3900f40b68&hash=88C5CD688B4C0D5CF7847AD477AA6BD1",
+          "alt": "Senior woman using laptop while sitting on couch",
+          "type": "img",
+          "width": 173,
+          "height": 99
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-legacy-173x99.webp?rev=77b334e42b3f4e0487d3c69d613e23eb&hash=2E8B30ECF001F6595DD4BC8EA01CE1BF",
+          "alt": "A mother sitting with her arm around her grown daughter",
+          "type": "img",
+          "width": 173,
+          "height": 99
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/give-in-memory/waystogive-450x253.webp?rev=f66b72e12105488c82da7caabed3ba21&hash=D02E2BFC9F21032748D5C2181AD58B62",
+          "alt": "Two people embracing warmly, one with a peaceful expression and closed eyes.",
+          "type": "img",
+          "width": 450,
+          "height": 253
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/mn-jump-173x99.webp?rev=13ee3cc613af4c24baf5eefaaf3b5b1e&hash=D104EC95BE7E1BA97BB74341642C4944",
+          "alt": "A girl jumping rope in mid-air.",
+          "type": "img",
+          "width": 173,
+          "height": 99
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/meganav/homepage-173x99.webp?rev=6342cff528054206a6f295d499805f92&hash=F2503A00FA94A791607A6C7B181D97D3",
+          "alt": "Life-changing wins, life-saving wins",
+          "type": "img",
+          "width": 173,
+          "height": 99
+        }
+      ],
+      "listItems": [
+        {
+          "link": {
+            "text": "Emergency signs",
+            "href": "https://www.heartandstroke.ca/heart-disease/emergency-signs/heart-attack-and-stroke"
+          },
+          "image": {
+            "src": "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/icon-warning-18x18.png?rev=dd2626ea158b46b0a157ef7935a9a60c&hash=845B527151ED136E1CD2BD4080057EFC",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "div",
+      "classHint": "sl-hero theme theme--dark sl-hero--fw ",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sisters Sharon and Carolyn used our Risk Screen tool to beat their risks."
+        }
+      ],
+      "paragraphs": [
+        "You can too."
+      ],
+      "links": [
+        {
+          "text": "Try the tool",
+          "href": "https://riskscreen.heartandstroke.ca/en-CA",
+          "target": "_blank"
+        },
+        {
+          "text": "Learn more Learn more",
+          "href": "https://www.heartandstroke.ca/healthy-living/risk-screen",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "videos": [
+        {
+          "type": "video",
+          "sources": [
+            {
+              "src": "https://www.heartandstroke.ca/-/media/sites/hsf/video/rst-ambient-en-1280x720.mp4?rev=06dc1470e8bf4cf3ba8cb82227e55420",
+              "type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "site-components",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Our key priorities"
+        },
+        {
+          "tag": "h3",
+          "text": "Preventing the surge of heart failure"
+        },
+        {
+          "tag": "h3",
+          "text": "Transforming stroke diagnosis, treatment and care"
+        },
+        {
+          "tag": "h3",
+          "text": "Closing the gaps in health inequity"
+        },
+        {
+          "tag": "h3",
+          "text": "Improving cardiac arrest survival rates"
+        },
+        {
+          "tag": "h3",
+          "text": "Championing congenital heart disease lifelong care"
+        },
+        {
+          "tag": "h2",
+          "text": "Sharon learned her risks to take charge of her health"
+        },
+        {
+          "tag": "h2",
+          "text": "Taking on ‘impossible’ strokes"
+        },
+        {
+          "tag": "h2",
+          "text": "One baby, one heart, one huge leap"
+        },
+        {
+          "tag": "h2",
+          "text": "Get involved"
+        },
+        {
+          "tag": "h3",
+          "text": "Give in memory"
+        },
+        {
+          "tag": "h3",
+          "text": "Donate securities"
+        },
+        {
+          "tag": "h3",
+          "text": "Fundraise Your Way"
+        },
+        {
+          "tag": "h3",
+          "text": "Jump Rope for Heart"
+        },
+        {
+          "tag": "h3",
+          "text": "Leave your legacy"
+        },
+        {
+          "tag": "h3",
+          "text": "Six ways to donate"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest articles"
+        },
+        {
+          "tag": "h3",
+          "text": "Sober curious? Here’s how to drink less alcohol"
+        },
+        {
+          "tag": "h3",
+          "text": "The surprising health benefits of a 7-day digital detox"
+        },
+        {
+          "tag": "h3",
+          "text": "7 activities in nature to reduce stress"
+        },
+        {
+          "tag": "h3",
+          "text": "Favourite walking trails in every province"
+        },
+        {
+          "tag": "h2",
+          "text": "Heart-healthy recipes"
+        },
+        {
+          "tag": "h3",
+          "text": "Lunchbox granola bars"
+        },
+        {
+          "tag": "h3",
+          "text": "Bean, sweet potato and garlic stew"
+        },
+        {
+          "tag": "h3",
+          "text": "Maple roasted squash soup"
+        },
+        {
+          "tag": "h3",
+          "text": "Family favourite spaghetti and turkey meatballs"
+        }
+      ],
+      "paragraphs": [
+        "We drive life-saving medical breakthroughs, advocate for better health, and bring together the brightest minds to improve diagnosis, care and support. Our key priorities are:",
+        "After using the Risk Screen tool, Sharon was surprised by some of her unique risks. Knowing them helped her take action.",
+        "Dr. Michael Hill recounts the close calls and hard work behind a life-saving revolution.",
+        "Dr. West’s bold idea rewrote the rules of heart transplants, saving babies’ lives.",
+        "Celebrate your loved one’s memory and make a lasting impact.",
+        "Help fund lifesaving breakthroughs while reducing capital gains tax.",
+        "Join fundraisers coming together to beat heart disease and stroke.",
+        "Jump-start the joy of movement at your school!",
+        "Mindful drinking — or living your best sober life — is better for your heart and brain health. by Christine Sismondo, PhD",
+        "Mindful drinking — or living your best sober life — is better for your heart and brain health.",
+        "by Christine Sismondo, PhD",
+        "Decrease screen time and feel better. by Sydney Loney",
+        "Decrease screen time and feel better.",
+        "by Sydney Loney",
+        "Feeling overwhelmed? The answer might be right outside your door.",
+        "Looking for a simple way to get moving and enjoy the outdoors? Walking is a great place to start — and Canada offers endless places to explore."
+      ],
+      "links": [
+        {
+          "text": "Discover what we do",
+          "href": "https://www.heartandstroke.ca/what-we-do",
+          "target": ""
+        },
+        {
+          "text": "Read her story",
+          "href": "https://www.heartandstroke.ca/articles/looking-healthy-wasnt-the-whole-picture",
+          "target": ""
+        },
+        {
+          "text": "More stories",
+          "href": "https://www.heartandstroke.ca/stories/all-categories",
+          "target": ""
+        },
+        {
+          "text": "See his research",
+          "href": "https://www.heartandstroke.ca/articles/taking-on-impossible-strokes",
+          "target": ""
+        },
+        {
+          "text": "See her research",
+          "href": "https://www.heartandstroke.ca/articles/one-baby-one-heart-one-huge-leap",
+          "target": ""
+        },
+        {
+          "text": "Give in memory Celebrate your loved one’s memory and make a lasting impact.",
+          "href": "https://www.heartandstroke.ca/how-you-can-help/ways-to-give/give-in-memory",
+          "target": ""
+        },
+        {
+          "text": "Donate securities Help fund lifesaving breakthroughs while reducing capital gains tax.",
+          "href": "https://www.heartandstroke.ca/how-you-can-help/ways-to-give/donate-securities",
+          "target": ""
+        },
+        {
+          "text": "Fundraise Your Way Join fundraisers coming together to beat heart disease and stroke.",
+          "href": "https://www.fundraiseyourway.ca/?utm_source=website&utm_medium=home_page&utm_campaign=f25_MBYearEnd_EF",
+          "target": "_blank"
+        },
+        {
+          "text": "Jump Rope for Heart Jump-start the joy of movement at your school!",
+          "href": "https://www.jumpropeforheart.ca/?utm_source=website&utm_medium=home_page&utm_campaign=f24_fdnspring_ef",
+          "target": "_blank"
+        },
+        {
+          "text": "More recipes",
+          "href": "https://www.heartandstroke.ca/healthy-living/recipes",
+          "target": ""
+        },
+        {
+          "text": "Breakfast Lunchbox granola bars",
+          "href": "https://www.heartandstroke.ca/healthy-living/recipes/breakfast/lunchbox-granola-bars",
+          "target": ""
+        },
+        {
+          "text": "Meatless main dishes Bean, sweet potato and garlic stew",
+          "href": "https://www.heartandstroke.ca/healthy-living/recipes/meatless-main-dishes/bean-sweet-potato-and-garlic-stew",
+          "target": ""
+        },
+        {
+          "text": "Soups and salads Maple roasted squash soup",
+          "href": "https://www.heartandstroke.ca/healthy-living/recipes/soups-and-salads/maple-roasted-squash-soup",
+          "target": ""
+        },
+        {
+          "text": "Poultry Family favourite spaghetti and turkey meatballs",
+          "href": "https://www.heartandstroke.ca/healthy-living/recipes/poultry/family-favourite-spaghetti-and-turkey-meatballs",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/home/key-priorities-kevin-800x600.webp?rev=c1053d0c10a04eaf9fb7424a8358e4ec&hash=B3123C1E9AABCB8DE9FCCFA4DDFDAABF",
+          "alt": "Kevin Lobo, living with heart failure",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/whatwedo/john-1250x940.webp?rev=e772b552c0894af2b4ab066c5c6851e1&hash=10727035754E2E4D317F97C18B6BA2ED",
+          "alt": "John Vipond, living with stroke, with his wife Barb.",
+          "type": "img",
+          "width": 1250,
+          "height": 940
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/whatwedo/garima-and-ila.webp?rev=3ba1feb1cf504ad3bf6ba8c79310a3c0&hash=F4042AFD4DF0823585BBB270FDEEF74A",
+          "alt": "Garima Dwivedi, living with stroke, with her daughter Ila ",
+          "type": "img",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/home/key-priorities-improve-cardiac_arrest-robert-800x600.webp?rev=53acd64785e94b2b974615362eba3fc8&hash=C66969E4D4C38A073B2DD7C1E11F8AD1",
+          "alt": "Cardiac arrest survivor Robert Marien",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/whatwedo/nora-1250x940.webp?rev=1d1bd15694e4418eac8d3cd623a3014c&hash=0077CF729D03DE47124C882E6830C0AB",
+          "alt": "Nora",
+          "type": "img",
+          "width": 1250,
+          "height": 940
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/home/images/2026/sharon_1920x861.webp?rev=d94bad558db045b08315eefb717b609b&mw=1920&hash=E91BF916680E28BCCCEC0A77E62DA842",
+          "alt": "Sharon McVicar, living with heart disease.",
+          "type": "img",
+          "width": 1920,
+          "height": 861
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/story/dr-michael-hill/drhill-843x843-left.webp?rev=553dc999055740e2a9ea63b25d075bb7&la=en&bc=f7f7f7&as=1&h=580&w=580&hash=9635BC85DD916A4FF4DADBED7350EE77",
+          "alt": "Dr. Michael Hill",
+          "type": "img",
+          "width": 843,
+          "height": 843
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/beats/drwest/drwest-843x843.webp?rev=0ffebd921b8047d38847fa8fa5c206e9&la=en&bc=f7f7f7&h=580&w=580&hash=B8E20173DBD21DC36EBFB4FAC526508E",
+          "alt": "Dr. Lori West",
+          "type": "img",
+          "width": 843,
+          "height": 843
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2026/alcohol-free-1920x1080.webp?rev=05e88360e918425da77242b7972e207a&mw=605&mh=472&hash=5049A1BEE66B7732A5D6EC9DF9ECCAA1",
+          "alt": "People toasting glasses of water with lemon at an outdoor table.",
+          "type": "img",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2025/digital-detox-1920x1080.webp?rev=728d74eada484dad915f020fbe823139&mw=357&mh=285&hash=C2A4A5FD7920143E8C4AE55293CE4E0A",
+          "alt": "A family playing cards together around a table. ",
+          "type": "img",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/2025/img-7161-1920x1080.webp?rev=e74a3e783f2048efa7a9cde53b4e8d9f&mw=357&mh=285&hash=1D0406381D1BBC79F22B07CC5BF48359",
+          "alt": "A group sitting outdoors in a park with a child playing ",
+          "type": "img",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/articles/images/old/east-coast-trail-newfoundland-webp-1920x1080.webp?rev=fd521535528348ff99b456713d845531&mw=357&mh=285&hash=DF38C93E21CDE738C33744E93CDEE441",
+          "alt": "East Coast Trail Newfoundland",
+          "type": "img",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/recipes/breakfast/old/lunchbox-granola-bars-1009x693.jpg?rev=71684bf3aae14b2cb5d8f4918b565b0d&mw=649&mh=325&hash=86441EBB69E2E4F546C1912459E9F461",
+          "alt": "Granola bar",
+          "type": "img",
+          "width": 1009,
+          "height": 693
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/images/bean-sweet-potato-and-garlic-stew-1024x683.jpg?rev=f38df07b78504f15a7773d1c4b6a5bed&mw=649&mh=325&hash=57DA9526F1FE0963AA41C41D23D0B640",
+          "alt": "Bean, sweet potato and garlic stew in a red serving dish with bowls alongside",
+          "type": "img",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/newroot/hsf/recipes/soup-and-salads/2025/f26_maplesquashsoup_getty1352573621_894x614.webp?rev=43a9de0108f349f595ed46ce331ca01c&mw=649&mh=325&hash=E71842F97DDA815F15A7F3D038119FF7",
+          "alt": "Red pot of creamy orange soup with green leaf garnish. ",
+          "type": "img",
+          "width": 894,
+          "height": 614
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/images/recipes/poultry/turkey-spaghetti-getty1065864014-894x614.webp?rev=368f4660adc94f079f3cfd4442aa5605&mw=649&mh=325&hash=8ABE95CB6021F766506B81BA1BA93D88",
+          "alt": "A dish with spaghetti and turkey meatballs with a fork",
+          "type": "img",
+          "width": 894,
+          "height": 614
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/images/homepage/beat-as-one-1397x110.png?rev=4038fb990a96444cb1101d86242d9f62&la=en&h=110&w=1397&hash=F74297D5DA8EA13DCD92E3B8BC155500",
+          "alt": "Beat heart disease. Beat stroke. Beat as one.",
+          "type": "img",
+          "width": 1397,
+          "height": 110
+        },
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/risk-screening-tool/sharon-750x715.webp?rev=6a1677bd4bfa4d0d92f809c179c372cf&mw=767&hash=3884FDEE800B32CCD8613DFDC9E3B2BF",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Our key priorities",
+          "description": "We drive life-saving medical breakthroughs, advocate for better health, and bring together the brightest minds to improve diagnosis, care and support. Our key priorities are:"
+        },
+        {
+          "title": "Preventing the surge of heart failure",
+          "image": {
+            "src": "https://www.heartandstroke.ca/-/media/sites/hsf/home/key-priorities-kevin-800x600.webp?rev=c1053d0c10a04eaf9fb7424a8358e4ec&hash=B3123C1E9AABCB8DE9FCCFA4DDFDAABF",
+            "alt": "Kevin Lobo, living with heart failure"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "aside",
+      "classHint": "newsletter sl-section theme theme--grey",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Stay informed and inspired!"
+        }
+      ],
+      "paragraphs": [
+        "Get the latest research and health tips. Sign up for our newsletter Healthline, and other updates tailored just for you.",
+        "At Heart & Stroke, we are committed to protecting your privacy. Your name and email address will be handled in accordance with our Privacy Policy.",
+        "This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Services apply."
+      ],
+      "links": [
+        {
+          "text": "Privacy Policy",
+          "href": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.heartandstroke.ca%2Fprivacy-policy&data=05%7C02%7CCamelia.Jitariu%40heartandstroke.ca%7C81f760a1f5614b929e7a08debc000c09%7C80b28f65dc394c94a99c4f816e42bd75%7C0%7C0%7C639154905581610008%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1E2nb%2FNVoeB9AG2s36IQboDbkHBp3%2BcmuLxQvNFKTY0%3D&reserved=0",
+          "target": ""
+        },
+        {
+          "text": "Privacy Policy",
+          "href": "https://policies.google.com/privacy?hl=en",
+          "target": ""
+        },
+        {
+          "text": "Terms of Services",
+          "href": "https://policies.google.com/terms?hl=en",
+          "target": ""
+        }
+      ],
+      "images": []
+    },
+    {
+      "position": 5,
+      "tagName": "footer",
+      "classHint": "site-footer theme theme--dark",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "© Heart and Stroke Foundation of Canada, 2026. All rights reserved. | ™ Life. We don’t want you to miss it., Saving moments. Funding breakthroughs. Saving lives., and the heart and / Icon on its own or followed by another icon or words are trademarks of the Heart and Stroke Foundation of Canada. Charitable Registration No. 106846942 RR0001."
+      ],
+      "links": [
+        {
+          "text": "Contact us",
+          "href": "https://www.heartandstroke.ca/contact-us",
+          "target": ""
+        },
+        {
+          "text": "Strategy",
+          "href": "https://www.heartandstroke.ca/what-we-do/strategy",
+          "target": ""
+        },
+        {
+          "text": "Leadership",
+          "href": "https://www.heartandstroke.ca/what-we-do/leadership",
+          "target": ""
+        },
+        {
+          "text": "Financials",
+          "href": "https://www.heartandstroke.ca/what-we-do/finances",
+          "target": ""
+        },
+        {
+          "text": "Corporate partnerships",
+          "href": "https://www.heartandstroke.ca/how-you-can-help/ways-to-give/corporate-partner",
+          "target": ""
+        },
+        {
+          "text": "Careers",
+          "href": "https://www.heartandstroke.ca/what-we-do/careers",
+          "target": ""
+        },
+        {
+          "text": "Media centre",
+          "href": "https://www.heartandstroke.ca/what-we-do/media-centre",
+          "target": ""
+        },
+        {
+          "text": "News releases",
+          "href": "https://www.heartandstroke.ca/what-we-do/media-centre/news-releases",
+          "target": ""
+        },
+        {
+          "text": "Position statements",
+          "href": "https://www.heartandstroke.ca/heart-and-stroke-position-statements",
+          "target": ""
+        },
+        {
+          "text": "Communications staff",
+          "href": "https://www.heartandstroke.ca/communications-staff",
+          "target": ""
+        },
+        {
+          "text": "Health publications",
+          "href": "https://www.heartandstroke.ca/what-we-do/publications",
+          "target": ""
+        },
+        {
+          "text": "Services and resources",
+          "href": "https://www.heartandstroke.ca/services-and-resources",
+          "target": ""
+        },
+        {
+          "text": "Stroke Best Practices",
+          "href": "https://www.strokebestpractices.ca/resources/patient-resources",
+          "target": "_blank"
+        },
+        {
+          "text": "Heart & Stroke Lottery",
+          "href": "https://www.heartandstrokelottery.ca/en/home",
+          "target": "_blank"
+        },
+        {
+          "text": "Jump Rope for Heart",
+          "href": "https://www.jumpropeforheart.ca/",
+          "target": "_blank"
+        },
+        {
+          "text": "Ride for Heart",
+          "href": "https://www.rideforheart.ca/",
+          "target": "_blank"
+        },
+        {
+          "text": "Fundraise Your Way",
+          "href": "https://www.fundraiseyourway.ca/",
+          "target": "_blank"
+        },
+        {
+          "text": "HeartSmart Kids",
+          "href": "https://hskids.ca/",
+          "target": "_blank"
+        },
+        {
+          "text": "Shop",
+          "href": "https://shop.heartandstroke.ca/en/cad?utm_source=brand_website&utm_medium=footer",
+          "target": "_blank"
+        },
+        {
+          "text": "Address 2300 Yonge St., Suite 1200, Box 2414 Toronto ON M4P 1E4",
+          "href": "https://goo.gl/maps/mSxWmPfQVK4Zhxsn8",
+          "target": ""
+        },
+        {
+          "text": "Telephone 1-888-473-4636",
+          "href": "tel:1-888-473-4636",
+          "target": ""
+        },
+        {
+          "text": "Français",
+          "href": "https://www.coeuretavc.ca/",
+          "target": ""
+        },
+        {
+          "text": "Donate",
+          "href": "https://app-hsfdonation.heartandstroke.ca/?pagename=DMDonationForm&s_locale=en_CA&s_fT=cont&s_pres=hsweb&s_cscid=hsweb_footer",
+          "target": "_blank"
+        },
+        {
+          "text": "Privacy policy",
+          "href": "https://www.heartandstroke.ca/privacy-policy",
+          "target": ""
+        },
+        {
+          "text": "Supply chain report",
+          "href": "https://www.heartandstroke.ca/supply-chains-report",
+          "target": ""
+        },
+        {
+          "text": "Terms of use",
+          "href": "https://www.heartandstroke.ca/terms-of-use",
+          "target": ""
+        },
+        {
+          "text": "Copyright",
+          "href": "https://www.heartandstroke.ca/copyright",
+          "target": ""
+        },
+        {
+          "text": "Linking policy",
+          "href": "https://www.heartandstroke.ca/linking-policy",
+          "target": ""
+        },
+        {
+          "text": "Complaints policy",
+          "href": "https://www.heartandstroke.ca/complaints-policy",
+          "target": ""
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://www.heartandstroke.ca/accessibility",
+          "target": "_blank"
+        },
+        {
+          "text": "Equity, diversity & inclusion",
+          "href": "https://www.heartandstroke.ca/what-we-do/equity-diversity-and-inclusion",
+          "target": "|Custom"
+        },
+        {
+          "text": "Sitemap",
+          "href": "https://www.heartandstroke.ca/sitemap-index",
+          "target": ""
+        },
+        {
+          "text": "link to Heart and Stroke Facebook",
+          "href": "https://www.facebook.com/heartandstroke/",
+          "target": "_blank"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/heartandstroke/",
+          "target": "_blank"
+        },
+        {
+          "text": "Twitter",
+          "href": "https://twitter.com/HeartandStroke",
+          "target": "_blank"
+        },
+        {
+          "text": "Youtube",
+          "href": "https://www.youtube.com/user/heartandstrokefdn",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.heartandstroke.ca/-/media/sites/hsf/configuration/footer-logo-75x75.png?h=75&iar=0&w=75&rev=5daa3d7bc21b484fbd3ea402570399a6",
+          "alt": "Strong charities, strong communities, imagine canada, accredited since 2019",
+          "type": "img",
+          "width": 75,
+          "height": 75
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Get in touch",
+          "description": "Get in touch",
+          "link": {
+            "text": "Contact us",
+            "href": "https://www.heartandstroke.ca/contact-us"
+          }
+        }
+      ]
+    }
+  ]
+}

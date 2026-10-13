@@ -1,0 +1,273 @@
+# Demo Build Plan — Heart and Stroke CA
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "Heart and Stroke CA"
+  sourceUrl: "https://www.heartandstroke.ca/"
+  themeFile: "docs/ai/themes/heart-and-stroke-ca.theme.yaml"
+  analyzedAt: "2026-10-09T17:18:00Z"
+  codeRoot: "industry-verticals/heart-and-stroke-ca/"
+  contentRoot: "/sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/heart-and-stroke-ca/screenshot-desktop.png"
+    mobile: "docs/ai/themes/heart-and-stroke-ca/screenshot-mobile.png"
+    hero: "docs/ai/themes/heart-and-stroke-ca/screenshot-hero.png"
+    userProvided: "docs/ai/demos/heart-and-stroke-ca/homepage-screenshot.jpg"
+  totalSections: 12
+  templateMatches: 12
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Dark charcoal header with Heart & Stroke logo, search field, red Donate pill CTA, and primary nav (Heart disease, Stroke, Healthy living, What we do, How you can help, Women)."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Title: "Heart & Stroke"
+    contentNotes: "Context-only in partial design. Utility links (Emergency signs, CPR training, For professionals) can sit in Eyebrow if needed. Logo from scraped theme images."
+    variantReason: "WithLogoImage matches solid dark bar with wordmark/logo + CTA."
+
+  - position: 2
+    description: "Full-bleed lifestyle hero photo with white overlay headline, short subline, red primary CTA and outlined secondary CTA."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Sisters Sharon and Carolyn used our Risk Screen tool to beat their risks."
+      Description: "You can too."
+      PrimaryCta: "Try the tool"
+      SecondaryCta: "Learn more"
+    contentNotes: "Live site uses full-bleed photo/video with left text overlay and pill CTAs. Hero Default overlays text on Image. Optional Phase 5.5 HeroFullBleedPills for dual CTA + heart icon treatment."
+    variantReason: "Full-bleed image + overlay text matches Hero Default; theme tone.heroStyle=full-bleed-overlay."
+    customVariantNeeded:
+      name: "HeroFullBleedPills"
+      description: "Full-bleed photo, left-aligned white headline, red pill primary CTA with heart icon, white outline secondary CTA."
+      parentComponent: "Hero"
+
+  - position: 3
+    description: "Our key priorities — section heading plus three image cards (priorities carousel with arrows)."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Our key priorities"
+      Item1Title: "Preventing the surge of heart failure"
+      Item2Title: "Transforming stroke diagnosis, treatment and care"
+      Item3Title: "Closing the gaps in health inequity"
+      LinkLabel: "Discover what we do"
+    contentNotes: "Live site is a carousel with 5+ priority cards; template renders a static three-column row. Heading can live in Heading CTA Compact above if needed. Phase 5.5 PrioritiesCarousel optional."
+    variantReason: "Three image+title columns match the visible card strip."
+    customVariantNeeded:
+      name: "PrioritiesCarousel"
+      description: "Horizontal priority cards with peeking next/prev arrows under Our key priorities."
+      parentComponent: "Three Column CTA"
+
+  - position: 4
+    description: "Featured story band — full-bleed photo of Sharon with white text card overlay and Read her story CTA."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "WithBackgroundImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Sharon learned her risks to take charge of her health"
+      Description: "After using the Risk Screen tool, Sharon was surprised by some of her unique risks. Knowing them helped her take action."
+      PrimaryCta: "Read her story"
+      SecondaryCta: "More stories"
+      Eyebrow: "Women"
+    contentNotes: "WithBackgroundImage supports photo + overlay card. Eyebrow Women if field available; else fold into Title/RichText."
+    variantReason: "Story highlight on photo matches Promo CTA WithBackgroundImage."
+
+  - position: 5
+    description: "Two side-by-side research story cards (Dr. Michael Hill / Dr. Lori West) with photo backgrounds and Read more CTAs."
+    matchedComponent:
+      registryId: "two-column-cta"
+      manifestName: "Two Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Item1Title: "Taking on 'impossible' strokes"
+      Item1Description: "Dr. Michael Hill recounts the close calls and hard work behind a life-saving revolution."
+      Item1Link: "See his research"
+      Item2Title: "One baby, one heart, one huge leap"
+      Item2Description: "Dr. West's bold idea rewrote the rules of heart transplants, saving babies' lives."
+      Item2Link: "See her research"
+    contentNotes: "Each column needs lifestyle/researcher photography."
+    variantReason: "Equal dual photo+copy+CTA tiles."
+
+  - position: 6
+    description: "Get involved — vertical list of giving options with red arrow icons (Give in memory, Donate securities, Fundraise Your Way, Jump Rope for Heart)."
+    matchedComponent:
+      registryId: "documents-list"
+      manifestName: "Documents List"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Get involved"
+      Item1: "Give in memory"
+      Item2: "Donate securities"
+      Item3: "Fundraise Your Way"
+      Item4: "Jump Rope for Heart"
+    contentNotes: "Closest list+link pattern. If Documents List styling is too file-like, Phase 5.5 InvolvedLinkList can use red circular arrows. Alternate: Features with icon children."
+    variantReason: "Vertical linked list under a section heading."
+    customVariantNeeded:
+      name: "InvolvedLinkList"
+      description: "Vertical stack of large link rows with red circular arrow affordances."
+      parentComponent: "Documents List"
+
+  - position: 7
+    description: "Two giving promo tiles under Get involved — grey Leave your legacy and red Give monthly / Six ways to donate."
+    matchedComponent:
+      registryId: "two-column-cta"
+      manifestName: "Two Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Item1Title: "Leave your legacy"
+      Item1Description: "Invest in the lives of your loved ones for generations to come with a gift in your Will."
+      Item1Link: "Learn more"
+      Item2Title: "Six ways to donate"
+      Item2Description: "Choose the option that's best for you. By supporting Heart & Stroke, you're giving families more time together."
+      Item2Link: "Learn more"
+    contentNotes: "Second column should use primary red background via section/params styling where possible."
+    variantReason: "Two equal promo tiles with CTAs."
+
+  - position: 8
+    description: "Latest articles — large featured story left, three stacked article teasers right."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Latest articles"
+      FeaturedTitle: "Sober curious? Here's how to drink less alcohol"
+      Item1Title: "The surprising health benefits of a 7-day digital detox"
+      Item2Title: "7 activities in nature to reduce stress"
+      Item3Title: "Favourite walking trails in every province"
+    contentNotes: "Default Article List is closest to featured + sidebar stack. Wire to article items or Promo children as available in Financial site."
+    variantReason: "Asymmetric latest-news layout matches Article List Default."
+
+  - position: 9
+    description: "Heart-healthy recipes — heading, More recipes link, three food photography cards in a carousel strip."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Heart-healthy recipes"
+      Item1Title: "Lunchbox granola bars"
+      Item2Title: "Bean, sweet potato and garlic stew"
+      Item3Title: "Maple roasted squash soup"
+      LinkLabel: "More recipes"
+    contentNotes: "Live site uses recipe carousel; static three columns are fine for demo. Category labels (Breakfast, etc.) can sit in Description per card."
+    variantReason: "Three image+title recipe cards."
+
+  - position: 10
+    description: "Centered motto — Beat heart disease. Beat stroke. Beat as one. with Beat emphasized in red."
+    matchedComponent:
+      registryId: "heading-cta"
+      manifestName: "Heading CTA"
+      variant: "Centered"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Beat heart disease. Beat stroke. Beat as one."
+    contentNotes: "Use RichText/Title markup so Beat can be styled primary red. No CTA required."
+    variantReason: "Centered display line matches Heading CTA Centered."
+
+  - position: 11
+    description: "Newsletter band — Stay informed and inspired! with name/email fields and red Sign up / Subscribe button."
+    matchedComponent:
+      registryId: "contact-form"
+      manifestName: "Contact Form"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Stay informed and inspired!"
+      Description: "Get the latest research and health tips. Sign up for our newsletter Healthline, and other updates tailored just for you."
+      PrimaryCta: "Subscribe"
+    contentNotes: "Contact Form is the closest form component in Financial stack (no dedicated NewsletterSignup). Fields can be simplified visually via theme. Alternate: Heading CTA + note that form is demo-only."
+    variantReason: "Form + heading on muted band."
+
+  - position: 12
+    description: "Dark multi-column footer with About/Contact/Media/Patients/Sites links, address, phone, Donate, Français, social icons, legal."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Title: "Heart & Stroke"
+      Address: "2300 Yonge St., Suite 1200, Box 2414 Toronto ON M4P 1E4"
+      Phone: "1-888-473-4636"
+    contentNotes: "Context-only. Columns from live footer. Charitable registration line in legal text."
+    variantReason: "WithSocials for social icons + multi-column links on charcoal."
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore:
+    - Hero
+    - Three Column CTA (priorities)
+    - Promo CTA (Sharon story)
+    - Two Column CTA (research)
+    - Documents List (get involved)
+    - Two Column CTA (legacy / donate)
+    - Article List
+    - Three Column CTA (recipes)
+    - Heading CTA (motto)
+    - Contact Form (newsletter)
+  phase2_theme: "Apply heart-and-stroke-ca.theme.yaml CSS variables + fonts"
+  phase3_custom: []
+
+notes:
+  - "Mapped to Financial/SXA Prospera components (same approach as CPP), not the UIIM catalog."
+  - "User homepage screenshot + live scrape used as primary structure."
+  - "Hard scope: code under industry-verticals/heart-and-stroke-ca/; content under /sitecore/content/HeartAndStrokeCA/HeartAndStrokeCA."
+  - "Optional Phase 5.5 variants: HeroFullBleedPills, PrioritiesCarousel, InvolvedLinkList — only if SE wants pixel-closer match."

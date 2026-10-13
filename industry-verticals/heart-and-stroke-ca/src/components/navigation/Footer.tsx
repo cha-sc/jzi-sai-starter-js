@@ -103,6 +103,96 @@ export const Default = (props: FooterProps): JSX.Element => {
   );
 };
 
+/* Heart & Stroke — charcoal multi-column footer */
+export const FooterCharcoal = (props: FooterProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <footer
+      className={`component component-spaced footer hs-footer-charcoal ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="hs-footer-charcoal__content">
+          <div className="hs-footer-charcoal__logo">
+            <NextImage
+              field={props.fields?.Image1}
+              width={160}
+              height={80}
+              className="img-fluid"
+            />
+          </div>
+          <div className="hs-footer-charcoal__columns">
+            <div className="hs-footer-charcoal__col">
+              <div className="hs-footer-charcoal__title">
+                <Text field={props.fields?.Title1} />
+              </div>
+              <div className="hs-footer-charcoal__links">
+                <RichText field={props.fields?.Text1} />
+              </div>
+            </div>
+            <div className="hs-footer-charcoal__col">
+              <div className="hs-footer-charcoal__title">
+                <Text field={props.fields?.Title2} />
+              </div>
+              <div className="hs-footer-charcoal__links">
+                <RichText field={props.fields?.Text2} />
+              </div>
+            </div>
+            <div className="hs-footer-charcoal__col">
+              <div className="hs-footer-charcoal__title">
+                <Text field={props.fields?.Title3} />
+              </div>
+              <div className="hs-footer-charcoal__links">
+                <RichText field={props.fields?.Text3} />
+              </div>
+            </div>
+            <div className="hs-footer-charcoal__col">
+              <div className="hs-footer-charcoal__title">
+                <Text field={props.fields?.Title4} />
+              </div>
+              <div className="hs-footer-charcoal__links">
+                <RichText field={props.fields?.Text4} />
+              </div>
+              {(props.fields?.Link1?.value?.href || props.fields?.Link2?.value?.href) && (
+                <div className="hs-footer-charcoal__cta-row">
+                  {props.fields?.Link1?.value?.href && (
+                    <Link field={props.fields.Link1} className="hs-footer-charcoal__cta" />
+                  )}
+                  {props.fields?.Link2?.value?.href && (
+                    <Link field={props.fields.Link2} className="hs-footer-charcoal__donate" />
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+        <div className="hs-footer-charcoal__footnote">
+          <Text field={props.fields?.Copyright} />
+          <div className="hs-footer-charcoal__socials">
+            {props.fields?.SocialLink1?.value?.href && (
+              <Link field={props.fields.SocialLink1}>
+                <NextImage field={props.fields.SocialIcon1} width={20} height={20} />
+              </Link>
+            )}
+            {props.fields?.SocialLink2?.value?.href && (
+              <Link field={props.fields.SocialLink2}>
+                <NextImage field={props.fields.SocialIcon2} width={20} height={20} />
+              </Link>
+            )}
+            {props.fields?.SocialLink3?.value?.href && (
+              <Link field={props.fields.SocialLink3}>
+                <NextImage field={props.fields.SocialIcon3} width={20} height={20} />
+              </Link>
+            )}
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
 export const WithSocials = (props: FooterProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const sxaStyles = `${props.params?.styles || ''}`;

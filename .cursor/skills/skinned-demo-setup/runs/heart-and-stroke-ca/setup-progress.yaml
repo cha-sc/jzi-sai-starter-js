@@ -10,7 +10,7 @@ customer:
   url: "https://www.heartandstroke.ca/"
   screenshotPath: ".cursor/skills/skinned-demo-setup/runs/heart-and-stroke-ca/assets/heartandstroke-homepage.jpg"
   startedAt: "2026-10-09T16:19:41Z"
-  lastUpdatedAt: "2026-10-09T16:48:00Z"
+  lastUpdatedAt: "2026-10-09T18:30:00Z"
 
 selection:
   collectionMode: "new"
@@ -89,7 +89,7 @@ steps:
     error: ""
 
   step2_build_demo:
-    status: "handed_off"
+    status: "complete"
     error: ""
 
 notes:
@@ -99,3 +99,4 @@ notes:
   - "2026-10-09T16:27:00Z — Verified: collection HeartAndStrokeCA exists (e5e8cae79f4841dfa57293485cee21b6); site copy NOT done (no HeartAndStrokeCA site)."
   - "2026-10-09T16:43:00Z — User confirmed site duplicated + moved. Verified site 8fcff203-e183-4052-9de9-4e6c67d03183 in collection. Local copy + env + xmcloud.build.json done. Awaiting commit decision."
   - "2026-10-09T16:48:00Z — User declined commit. Editing host heart-and-stroke-ca created (7zQcetaNT2UAkmcX7EDuWI); SEARCH vars upserted. Step 1 verified. Step 2 handed off to sitecore-build-demo."
+  - "2026-10-09T18:30:00Z — Step 2 complete: theme, 10 datasources, 12 Phase 5.5 variants (Sitecore + React/SCSS), Home assembly wired. Variant selection + Prospera cleanup remain manual (see demo docs)."
