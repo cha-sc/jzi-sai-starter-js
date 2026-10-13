@@ -65,10 +65,13 @@ export const LaticreteCategoryGrid = (props: ImageGalleryProps): JSX.Element => 
         </h2>
         <div className="laticrete-category-grid__grid">
           {images?.map((image) => {
-            const label =
-              image.fields?.Title?.value ||
-              image.fields?.Image?.value?.alt ||
-              image.name;
+            const titleValue = image.fields?.Title?.value;
+            const altValue = image.fields?.Image?.value?.alt;
+            const label: string =
+              (typeof titleValue === 'string' && titleValue) ||
+              (typeof altValue === 'string' && altValue) ||
+              image.name ||
+              '';
             const href = image.url || '#';
 
             return (
