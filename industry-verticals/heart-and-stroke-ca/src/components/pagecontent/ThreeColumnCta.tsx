@@ -195,17 +195,16 @@ export const PrioritiesCarousel = (props: ThreeColumnCtaProps): JSX.Element => {
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
   const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionLink = props.fields.Link1;
 
   const Card = ({
     image,
     text,
     subText,
-    link,
   }: {
     image: ImageField;
     text: Field<string>;
     subText: Field<string>;
-    link: LinkField;
   }) => (
     <article className="hs-priorities__card">
       <div className="hs-priorities__media">
@@ -218,9 +217,6 @@ export const PrioritiesCarousel = (props: ThreeColumnCtaProps): JSX.Element => {
         <p className="hs-priorities__caption">
           <Text field={subText} />
         </p>
-        {(isPageEditing || link?.value?.href) && (
-          <Link field={link} className="hs-priorities__link" />
-        )}
       </div>
     </article>
   );
@@ -239,19 +235,16 @@ export const PrioritiesCarousel = (props: ThreeColumnCtaProps): JSX.Element => {
             image={props.fields.Image1}
             text={props.fields.Text1}
             subText={props.fields.SubText1}
-            link={props.fields.Link1}
           />
           <Card
             image={props.fields.Image2}
             text={props.fields.Text2}
             subText={props.fields.SubText2}
-            link={props.fields.Link2}
           />
           <Card
             image={props.fields.Image3}
             text={props.fields.Text3}
             subText={props.fields.SubText3}
-            link={props.fields.Link3}
           />
         </div>
         <div className="hs-priorities__chrome" aria-hidden="true">
@@ -259,6 +252,11 @@ export const PrioritiesCarousel = (props: ThreeColumnCtaProps): JSX.Element => {
           <span className="hs-priorities__progress" />
           <span className="hs-priorities__arrow">›</span>
         </div>
+        {(isPageEditing || sectionLink?.value?.href) && (
+          <div className="hs-priorities__cta-wrap">
+            <Link field={sectionLink} className="hs-priorities__cta" />
+          </div>
+        )}
       </div>
     </section>
   );
