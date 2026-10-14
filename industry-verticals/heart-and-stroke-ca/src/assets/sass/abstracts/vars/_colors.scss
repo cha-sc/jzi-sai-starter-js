@@ -18,28 +18,36 @@
   --brand-border: #e0e0e0;
   --brand-ring: #dd2211;
   --brand-radius: 0px;
-  --brand-radius-button: 9999px;
+  --brand-radius-button: 4px;
+  --brand-radius-pill: 9999px;
   --brand-container: 1700px;
 }
 
-// Financial
+// Financial (Heart & Stroke CA demo — brand red, square-ish buttons)
 body.site-financial,
 .site-financial {
   --text-body: #333;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
+  --text-colored: #dd2211;
   --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-accent: #dd2211;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #151212;
+  --bg-main: #f4f4f4;
+  --bg-main-alt: #f4f4f4;
+  --bg-color: #f4f4f4;
+  --bg-saturated: #dd2211;
+  --bg-accent: #dd2211;
+  --border-color: #e0e0e0;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 4px;
+  --button-main-bg-color: #dd2211;
+  --button-main-color: #fff;
+  --button-secondary-color: #151212;
+  --button-simple-color: #dd2211;
+  --button-roundness: 4px;
+  --button-padding: 0.75rem 1.5rem;
+  --button-font-weight: 700;
 }
 
 body.site-financial.dark,

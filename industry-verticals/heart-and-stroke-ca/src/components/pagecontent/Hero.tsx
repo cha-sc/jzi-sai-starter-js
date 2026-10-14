@@ -57,12 +57,18 @@ export const Default = (props: AppPromoProps): JSX.Element => {
   );
 };
 
-/* Heart & Stroke — full-bleed photo hero with pill primary CTA */
+/* Heart & Stroke — full-bleed photo hero with pill primary + outline secondary CTA */
 export const HeroFullBleedPills = (props: AppPromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
   const sxaStyles = `${props.params?.styles || ''}`;
+  // ButtonStyle rendering param: Fill (default) | Outline
+  const buttonStyle = (props.params?.ButtonStyle || 'Fill').toLowerCase();
+  const isOutline = buttonStyle === 'outline' || buttonStyle === 'secondary';
+  const ctaClass = isOutline
+    ? 'hero-full-bleed-pills__cta hero-full-bleed-pills__cta--outline'
+    : 'hero-full-bleed-pills__cta hero-full-bleed-pills__cta--fill';
 
   return (
     <section
@@ -80,9 +86,11 @@ export const HeroFullBleedPills = (props: AppPromoProps): JSX.Element => {
         <div className="hero-full-bleed-pills__subtitle">
           <RichText field={props.fields.Text} />
         </div>
-        {(isPageEditing || props.fields?.Link?.value?.href) && (
-          <Link field={props.fields.Link} className="hero-full-bleed-pills__cta" />
-        )}
+        <div className="hero-full-bleed-pills__actions">
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className={ctaClass} />
+          )}
+        </div>
       </div>
     </section>
   );

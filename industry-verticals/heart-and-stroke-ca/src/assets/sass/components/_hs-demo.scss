@@ -1,13 +1,17 @@
 // Heart & Stroke CA — pixel-perfect demo variants
 
+// Site-wide: square-ish CTAs (not pills)
+.button,
 .button.button-main,
-.hero-full-bleed-pills__cta,
+.button.button-secondary,
+.button.button-accent,
 .hs-story-overlay__cta,
 .hs-research__cta,
 .hs-giving__cta,
 .hs-newsletter__submit,
-.hs-footer-charcoal__donate {
-  border-radius: var(--brand-radius-button, 9999px) !important;
+.hs-footer-charcoal__donate,
+.hs-footer-charcoal__cta {
+  border-radius: var(--brand-radius-button, 4px) !important;
 }
 
 .hero-full-bleed-pills {
@@ -15,6 +19,14 @@
   min-height: 700px;
   overflow: hidden;
   color: #fff;
+  height: auto;
+
+  // Undo Financial `.hero a { @extend .button-main }` (blue square fill)
+  // Scoped so filled CTAs can still set their own background.
+  a:not(.hero-full-bleed-pills__cta) {
+    filter: none !important;
+    text-transform: none !important;
+  }
 
   &__media {
     position: absolute;
@@ -60,25 +72,82 @@
   &__subtitle {
     font-size: 1.25rem;
     line-height: 1.4;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.25rem;
 
-    a {
-      color: #fff;
-      text-decoration: underline;
-      text-underline-offset: 3px;
+    p {
+      margin-bottom: 0.5rem;
     }
+
+    // Secondary CTA: white outline pill (ghost), matching primary shape
+    a {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.75rem;
+      padding: 0.85rem 1.75rem !important;
+      background: transparent !important;
+      color: #fff !important;
+      border: 2px solid #fff !important;
+      border-radius: var(--brand-radius-pill, 9999px) !important;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.2;
+      text-decoration: none !important;
+      text-underline-offset: unset;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.12) !important;
+        color: #fff !important;
+        filter: none !important;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1rem;
   }
 
   &__cta {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--brand-primary, #dd2211) !important;
-    color: #fff !important;
-    border: none !important;
+    border-radius: var(--brand-radius-pill, 9999px) !important;
     padding: 0.85rem 1.75rem !important;
     font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
     text-decoration: none !important;
+    text-transform: none !important;
+    filter: none !important;
+
+    // Default / --fill: solid brand red
+    &,
+    &--fill {
+      background: var(--brand-primary, #dd2211) !important;
+      border: 2px solid var(--brand-primary, #dd2211) !important;
+      color: #fff !important;
+
+      &:hover {
+        filter: brightness(110%) !important;
+        color: #fff !important;
+      }
+    }
+
+    // --outline: ghost pill (no fill)
+    &--outline {
+      background: transparent !important;
+      border: 2px solid #fff !important;
+      color: #fff !important;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.12) !important;
+        color: #fff !important;
+        filter: none !important;
+      }
+    }
   }
 }
 

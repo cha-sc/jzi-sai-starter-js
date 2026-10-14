@@ -20,6 +20,7 @@ Desired main order after cleanup:
 - Apply `HeaderDarkDonate` on the Header partial
 - Apply `FooterCharcoal` on the Footer partial
 - Update logo, nav, Donate CTA, and footer columns to match heartandstroke.ca (content not API-wired)
+- Theme Switcher is disabled in code (`ThemeSwitcher` returns null); optional: delete the rendering from the Eyebrow partial in Pages
 
 ## Variant selection
 
