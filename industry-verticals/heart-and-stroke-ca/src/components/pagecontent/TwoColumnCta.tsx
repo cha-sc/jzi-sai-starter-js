@@ -122,15 +122,17 @@ export const ResearchDualTiles = (props: TwoColumnCtaProps): JSX.Element => {
     title,
     text,
     link,
+    align,
   }: {
     image: ImageField;
     title: Field<string>;
     text: Field<string>;
     link: LinkField;
+    align: 'center-right' | 'center-left';
   }) => (
-    <article className="hs-research__tile">
+    <article className={`hs-research__tile hs-research__tile--${align}`}>
       <div className="hs-research__media">
-        <NextImage field={image} width={800} height={800} />
+        <NextImage field={image} width={1200} height={1400} />
       </div>
       <div className="hs-research__box">
         <h3 className="hs-research__title">
@@ -151,21 +153,21 @@ export const ResearchDualTiles = (props: TwoColumnCtaProps): JSX.Element => {
       className={`component two-column-cta hs-research ${sxaStyles}`}
       id={id ? id : undefined}
     >
-      <div className="container">
-        <div className="hs-research__grid">
-          <Tile
-            image={props.fields.Image1}
-            title={props.fields.Title1}
-            text={props.fields.Text1}
-            link={props.fields.Link1}
-          />
-          <Tile
-            image={props.fields.Image2}
-            title={props.fields.Title2}
-            text={props.fields.Text2}
-            link={props.fields.Link2}
-          />
-        </div>
+      <div className="hs-research__grid">
+        <Tile
+          image={props.fields.Image1}
+          title={props.fields.Title1}
+          text={props.fields.Text1}
+          link={props.fields.Link1}
+          align="center-right"
+        />
+        <Tile
+          image={props.fields.Image2}
+          title={props.fields.Title2}
+          text={props.fields.Text2}
+          link={props.fields.Link2}
+          align="center-left"
+        />
       </div>
     </section>
   );
