@@ -24,13 +24,13 @@ SharedFields:
   Value: "{A65AEA73-8224-408B-913C-B1CEDAE0C443}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Documents List']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Documents List']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Documents List']|query:$site/*[@@name='Data']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Documents List']"
 - ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
   Hint: AddFieldEditorButton
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "26390ccd-cc76-4379-b08b-77afedcc7f59"
+  Value: "3e91a2cd-c6da-4b6e-86a8-9cf251bb410b"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -48,6 +48,9 @@ Languages:
       Value: "a1819759-a311-410f-966e-e1ee723be5fd"
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4f1c2be0-11ed-4a2e-ace1-545d342f4e36"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: 
@@ -63,14 +66,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e1f6861-c16b-48b5-a24a-ee3eb367c9ac"
+      Value: "1fa036e0-fb19-47b2-8278-25f90462fecc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251031T193621Z
+      Value: 20260930T024152Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

@@ -123,24 +123,15 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{09CFD835-87F6-4D58-9681-9C6EA1A3228B}">
-              <p:d />
-            </r>
-            <r
-              uid="{654C4B49-B268-4EA3-A123-7A2162FA9ECC}">
-              <p:d />
-            </r>
-            <r
-              uid="{36E87C5B-94DF-4C70-827E-E88DCCD07907}">
-              <p:d />
-            </r>
-            <r
               uid="{D49A8931-F041-4988-9CC3-F2400E6422D0}"
               p:after="r[@uid='{124106DE-FB02-4B43-A521-A309FC75A5BC}']"
               s:ds="local:/Data/Promo CTA 1"
               s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7077939-8F32-4C4F-AAAD-A7C53F623CE0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=30"
               s:ph="headless-main" />
+            <r
+              uid="{D54D53B4-1AA4-4998-9BDF-EB934C32CFB6}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ButtonStyle=Main&amp;FieldNames=%7B42EB48F9-6AC5-4F05-A1DD-3FB1EA06F96C%7D&amp;Styles=%7B939CBD3C-08FA-4188-B8D7-55EEF3F3E028%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=17" />
             <r
               uid="{633506E7-54D0-4410-9051-72FB4C9FECB4}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BDEBA8FAB-A908-4097-B3A9-7EDE5CD0782D%7D&amp;Styles=%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7BAC2F465E-37DA-4902-A6E1-54D0D9A34A0D%7D%7C%7B414E9E7F-1D7C-4BA2-8A8E-C472697DB054%7D%7C%7B4FF833E4-92AD-41E4-97A4-D329284BC2B1%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=25" />
@@ -161,17 +152,17 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "916aa215-dfa3-4969-81f7-5637012db978"
+      Value: "e0248bd9-991a-49b4-9cd9-1ddf8d6b9703"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d77eab5a-d654-445f-b15c-d32283737e1f"
       Hint: Title
       Value: "PLAY! Financial"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260904T011410Z
+      Value: 20261006T181859Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

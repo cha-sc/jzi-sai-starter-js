@@ -1,0 +1,52 @@
+﻿---
+ID: "86698e7a-04f2-4624-aaf8-a9e18b14ffc7"
+Parent: "5da6284a-01d6-4364-b204-02693c12371a"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/5-trends-impacting-retirees-in-2027/Data/Talk with an investment advisor CTA"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260916T024533Z
+    - ID: "34c7ca9b-6c24-4133-bd83-b453b838eb0b"
+      Hint: Link
+      Value: |
+        <link text="Schedule a conversation" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{524F5CD2-4FB9-437D-B733-CF5861B8CED3}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "6f94c5b4-e2b4-41eb-899f-9a29904b8e18"
+      Hint: Image
+      Value: |
+        <image mediaid="{D3A0CC0B-EAAE-4A88-AD26-E5DC28DCDEBF}" alt="Retirees meeting with an investment advisor" height="" width="" hspace="" vspace="" />
+    - ID: "72b19acc-d575-4ae4-a0cf-2182e0c64562"
+      Hint: Eyebrow
+      Value: Stay on track
+    - ID: "7f7e12e1-0768-4edd-b86b-ea9db84d71b5"
+      Hint: Icon
+      Value: |
+        <image mediaid="{B9DE5E6B-8414-4A6D-91A3-868D14C0857D}" alt="Dot icon" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "597f512f-3149-470f-80f1-db0c7109936f"
+    - ID: "b03c10d8-11a2-48ca-9822-3640768ed2b7"
+      Hint: Text
+      Value: <p>Retirement goals shift as markets, healthcare, and housing costs change. Sit down with an investment advisor to review your income plan, rebalance toward your targets, and keep the next chapter on course.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T030351Z
+    - ID: "e62af488-48ce-4ae4-a2bb-37ad346981a4"
+      Hint: Title
+      Value: Talk with an investment advisor

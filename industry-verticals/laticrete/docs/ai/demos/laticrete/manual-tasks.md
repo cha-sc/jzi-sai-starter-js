@@ -19,23 +19,32 @@ Agent API cannot set FieldNames. In Pages on **Home**, set variants per `variant
 | CTA Banner (Find Distributor) | **LaticreteTeal** |
 | Image Gallery (after manual add) | **LaticreteCategoryGrid** |
 
-## Add Category Grid (API branch template missing)
+## Category Grid (Image Gallery)
 
-`add_component_on_page` fails for Image Gallery (`Branches/Project/Verticals/Image Gallery` 404).
+Datasource in use: `/sitecore/content/Laticrete/Laticrete/Data/LATICRETE Demo/LATICRETE - HP Gallery/LATICRETE - HP Image Gallery`  
+Variant: **LaticreteCategoryGrid** (already selected).
 
-In Pages / Content Editor:
+### Why children were blank
 
-1. Create an Image Gallery datasource under `/sitecore/content/Laticrete/Laticrete/Data/LATICRETE Demo/` (or Home/Data) with **7 child items** (Image + Title/name):
-   - Tile & Stone Installation Systems
-   - Grout & Mastic / Small Pack Solutions
-   - Concrete Maintenance & Repair
-   - Shower Systems
-   - Floor Heat
-   - Profiles & Trim
-   - Commercial Flooring
-2. Add **Image Gallery** to `headless-main` **after Hero / before Forever Chemicals**.
-3. Select variant **LaticreteCategoryGrid**.
-4. Optional: set section title “View by Category” via Title field or Rendering Parameter `SectionTitle`.
+The Media **Image Gallery** rendering had no **Rendering Contents Resolver**, so Layout Service never sent child items as `fields.items` (Carousel has Datasource Item Children Resolver; Image Gallery did not). That resolver is now set to `{2F5C334E-5615-423C-8281-9FC180191302}`.
+
+### Child item template (correct)
+
+Use Sitecore **Image** `{3720C1C9-5EF8-4BA1-828B-A4672503A1AE}` under the gallery datasource. Fields that matter:
+
+| Field | Purpose |
+|-------|---------|
+| **Image** | Tile photo (must have a real media/DAM src) |
+| **ImageCaption** | Teal label under the tile (not `Title`) |
+| **TargetUrl** | Optional link href |
+
+Parent field **title** = section heading (“View by Category”). Parent `image1`–`image4` are a fallback only if children are missing.
+
+### Finish content
+
+1. On each child `Image1`–`Image7`, set **Image** + **ImageCaption** (several still have placeholder media / “Image Caption Field”).
+2. Soft-reload / republish Home so Edge picks up the new resolver + children.
+3. Confirm EH build includes the updated `ImageGallery.tsx`.
 
 ## Remove leftover Prospera sections (required)
 

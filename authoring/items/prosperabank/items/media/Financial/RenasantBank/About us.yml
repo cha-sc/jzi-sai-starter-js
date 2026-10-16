@@ -1,0 +1,23 @@
+﻿---
+ID: "36d088ad-adfe-4467-a124-5b1c17e8d7a3"
+Parent: "4e5a186e-ccb8-4e5e-b0aa-fb83798524c7"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Financial/RenasantBank/About us
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T215310Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31a2b397-fb14-40c2-b803-b8694b7540bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\uIBLWmLMjum9e0tLVd07EpDaChtDPf9C
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20261005T143237Z

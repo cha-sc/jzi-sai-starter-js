@@ -1,0 +1,31 @@
+﻿---
+ID: "22103f8f-dfab-46da-80ee-9b6255994d0c"
+Parent: "c7490873-703e-4c5c-b44b-e7492ca03066"
+Template: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/introducing-mobile-finance/Data/CTA Banner 1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260916T021621Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a00bb442-e1eb-4757-a86a-529763b52960"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T021621Z

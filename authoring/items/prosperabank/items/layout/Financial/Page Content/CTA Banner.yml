@@ -33,10 +33,10 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f2137c87-a21e-49d4-8188-9b7dcb756cc9"
+  Value: "5a6801ff-e7fa-477e-85ec-3e469e6cd8c8"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
+  Value: IsRenderingsWithDynamicPlaceholders=true
 Languages:
 - Language: "de-DE"
   Fields:
@@ -66,14 +66,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ed027808-f5f1-4a1e-898e-63120fd6134c"
+      Value: "795ecab6-5396-4144-bc22-5e1d524f6e2d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\johannes.zijlstra@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T170611Z
+      Value: 20260916T030159Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

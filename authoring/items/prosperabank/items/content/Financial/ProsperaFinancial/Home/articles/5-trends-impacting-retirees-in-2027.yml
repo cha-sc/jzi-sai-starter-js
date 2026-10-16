@@ -1,0 +1,94 @@
+﻿---
+ID: "207de5d3-d7ac-4566-9c8d-595961b15b60"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/5-trends-impacting-retirees-in-2027"
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5C5FDAA2-782D-4BE7-89C8-8275CC0BE6E8}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Fountain pen on notebook" height="" width="" hspace="" vspace="" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{5820AC50-1C11-4113-9155-4242A548F623}" alt="Retirees meeting with a financial advisor" height="" width="" hspace="" vspace="" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{43BC6631-447D-4EDE-8DF4-0230B58A3891}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ccdd1697-4a7d-4282-b22b-8bbaf129f5c2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>Retirement in 2027 looks less like a finish line and more like a long, flexible chapter that still needs an active plan. Markets, healthcare, housing, and public benefits are all moving at once, which means the habits that worked in the first years of retirement may no longer protect your target lifestyle. The good news is that none of these shifts has to catch you off guard. Understanding the pressures ahead can help you and an investment advisor keep withdrawals, coverage, and investments aligned with the goals you actually care about.</p>
+        <p><strong>1. Longevity is stretching every dollar further than expected.</strong> More retirees are planning for 30-plus years of income rather than a short sunset decade, and that extra time changes how portfolios should be drawn down. A withdrawal rate that felt comfortable at 67 can quietly erode principal if markets stay choppy and spending lasts into the 90s. Advisors are helping clients pair a core income bucket with a growth sleeve so the plan can last as long as they do, without giving up the trips, family support, and hobbies they retired for.</p>
+        <p><strong>2. Healthcare inflation is outpacing everyday living costs.</strong> Premiums, prescriptions, hearing and dental care, and long-term support are taking a larger share of monthly budgets, even for households that thought they were fully covered. In 2027, many retirees are reviewing Medicare supplements, health savings leftovers, and dedicated medical reserves instead of treating health costs as a rounding error. Mapping those expenses with an advisor can keep a surprise claim from forcing an untimely sale of investments you meant to leave untouched.</p>
+        <p><strong>3. Benefits and pensions are moving to digital-first portals.</strong> Social Security estimates, required minimum distributions, and workplace pension statements are increasingly managed online, with tighter windows to correct withholding or claiming errors. Retirees who delay logging in can miss cost-of-living updates or tax-withholding changes that affect cash flow for the rest of the year. A short annual review with an advisor can turn those portals from a source of stress into a checklist that confirms your income sources still match your spending plan.</p>
+        <p><strong>4. Housing and insurance costs are becoming a retirement risk, not just a lifestyle choice.</strong> Property insurance, climate-related deductibles, and maintenance on long-held homes are rising faster than many fixed-income plans assumed. Some retirees are choosing to right-size earlier, while others are building a dedicated housing reserve so a roof, HVAC, or premium jump does not raid their investment accounts. Talking through stay-versus-move scenarios with an advisor helps you protect both your nest egg and the place you want to live.</p>
+        <p><strong>5. Goal-path investing is replacing set-it-and-forget-it portfolios.</strong> Sequence-of-returns risk, shifting rate environments, and the desire to leave a legacy are pushing retirees toward portfolios that are rebalanced around specific goals, such as five years of spending, a travel fund, or gifts to family. In 2027, more households are meeting with investment advisors not to chase the market, but to confirm that each bucket still funds the milestone it was designed to support. That conversation is often the difference between staying on track and cutting goals after a volatile quarter.</p>
+        <p>None of these trends requires you to overhaul your life overnight, but together they argue against going it alone. A periodic sit-down with an investment advisor can stress-test withdrawals, healthcare, housing, and goal buckets before a surprise becomes a setback. If you want 2027 to feel like a year of confidence rather than catch-up, start that conversation now and keep your plan pointed at the future you already pictured.</p>
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{AC5B4334-AD25-4EB9-BDE1-5C9C20D0503F}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Talk with an investment advisor CTA"
+              s:id="{488B8AC0-0EF9-4F6F-8711-78BA182B2C4C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BF8953661-2E66-4635-8B2E-FBBDF3F43886%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/sxa-article-content/background-page-content-0-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260916T024503Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: From longer lifespans to shifting healthcare and housing costs, 2027 is reshaping how retirees protect income and stay on track toward their goals. These five trends highlight why a conversation with an investment advisor can help you adjust withdrawals, coverage, and investments with confidence.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 5 trends impacting retirees in 2027
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e7548cc-6656-402f-9649-52f35bee7f15"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\chris.haddad@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260916T032543Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 5 trends impacting retirees in 2027

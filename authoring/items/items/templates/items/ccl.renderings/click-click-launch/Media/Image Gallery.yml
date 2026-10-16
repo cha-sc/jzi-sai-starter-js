@@ -25,6 +25,9 @@ SharedFields:
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{C4E3F12F-794E-490B-BF7C-BB71779F94FF}"
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: "{2F5C334E-5615-423C-8281-9FC180191302}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Image Gallery Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Image Gallery Folder']"
@@ -33,7 +36,7 @@ SharedFields:
   Value: 
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4911f032-7cdc-40e7-9564-2bfbebb0c5cf"
+  Value: "63e0d46e-e565-4b3a-8f10-ab38e75b2370"
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
   Value: IsAutoDatasourceRendering=true&IsRenderingsWithDynamicPlaceholders=true
@@ -80,14 +83,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f7652f35-f882-4403-8462-60c1c5048bd8"
+      Value: "d95d51a9-bebc-439d-a937-0ec008d97cc0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\richard.seal@sitecore.com
+        sitecore\chris.haddad@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250528T012424Z
+      Value: 20261015T171215Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
