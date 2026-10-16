@@ -47,6 +47,8 @@ import * as ArticleList from 'src/components/pagecontent/ArticleList';
 import * as ArticleDetails from 'src/components/pagecontent/ArticleDetails';
 import * as AppPromo from 'src/components/pagecontent/AppPromo';
 import * as Accordion from 'src/components/pagecontent/Accordion';
+import * as HydroBanProductData from 'src/components/pagecontent/product-detail/hydroBanProductData';
+import * as ProductDetail from 'src/components/pagecontent/product-detail/ProductDetail';
 import * as ProfileIdWidget from 'src/components/non-sitecore/ProfileIdWidget';
 import * as ParallaxBackgroundImage from 'src/components/non-sitecore/ParallaxBackgroundImage';
 import * as IconAccent from 'src/components/non-sitecore/IconAccent';
@@ -120,6 +122,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ArticleDetails', { ...ArticleDetails, componentType: 'client' }],
   ['AppPromo', { ...AppPromo, componentType: 'client' }],
   ['Accordion', { ...Accordion, componentType: 'client' }],
+  ['hydroBanProductData', { ...HydroBanProductData }],
+  ['ProductDetail', { ...ProductDetail, componentType: 'client' }],
   ['ProfileIdWidget', { ...ProfileIdWidget, componentType: 'client' }],
   ['ParallaxBackgroundImage', { ...ParallaxBackgroundImage, componentType: 'client' }],
   ['IconAccent', { ...IconAccent, componentType: 'client' }],

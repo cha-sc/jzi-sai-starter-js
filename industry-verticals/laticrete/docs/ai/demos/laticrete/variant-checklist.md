@@ -11,6 +11,7 @@ Variant Definition template ID: `4d50cdae-c2d9-4de8-b080-8f992bfb1b55`
 | 3 | Promo CTA | `Laticrete` | `a259a005-0c07-4828-97f2-619afa00f754` | `.../Promo CTA/Laticrete` |
 | 4 | CTA Banner | `LaticreteTeal` | `5718fb56-b282-4634-acac-ee5c456c30c5` | `.../CTA Banner/LaticreteTeal` |
 | 5 | Heading CTA | `LaticreteCentered` | `3ccb37c2-6bc3-49fd-b9f6-6f561d4e7b0b` | `.../Heading CTA/LaticreteCentered` |
+| 6 | Article Details | `ProductDetail` | `2b8df2c8-3605-4fe2-bf2f-ffba55072152` | `.../Article Details/ProductDetail` |
 
 ## Pages selection
 

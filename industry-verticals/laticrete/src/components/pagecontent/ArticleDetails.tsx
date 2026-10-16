@@ -13,6 +13,7 @@ import {
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import Head from 'next/head';
+import { ProductDetailView } from './product-detail/ProductDetail';
 
 interface Fields {
   Title: Field<string>;
@@ -146,3 +147,10 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
     </>
   );
 };
+
+/* *************************************************************** */
+/* LATICRETE — product detail page (hardcoded HYDRO BAN demo)
+ * Select Headless Variant "ProductDetail" on Article Details. */
+export const ProductDetail = (props: PageBackgroundProps): JSX.Element => (
+  <ProductDetailView {...props} />
+);
