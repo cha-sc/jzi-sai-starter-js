@@ -2,16 +2,51 @@
 
 import { JSX, useState } from 'react';
 import Head from 'next/head';
-import { Placeholder } from '@sitecore-content-sdk/nextjs';
+import {
+  Field,
+  ImageField,
+  Placeholder,
+  RichText,
+  RichTextField,
+  Text,
+} from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { hydroBanProduct } from './hydroBanProductData';
+import type { ProductGalleryImage } from './hydroBanProductData';
 
 type ProductDetailShellProps = ComponentProps & {
   fields?: {
-    Title?: { value?: string };
-    Excerpt?: { value?: string };
-    Thumbnail?: { value?: { src?: string } };
+    Title?: Field<string>;
+    Excerpt?: Field<string>;
+    Content?: RichTextField;
+    Thumbnail?: ImageField;
+    BackgroundImage?: ImageField;
   };
+};
+
+const galleryFromArticleFields = (
+  fields: ProductDetailShellProps['fields'],
+  fallbackAlt: string
+): ProductGalleryImage[] => {
+  const images: ProductGalleryImage[] = [];
+  const thumbnail = fields?.Thumbnail?.value;
+  const background = fields?.BackgroundImage?.value;
+
+  if (thumbnail?.src) {
+    images.push({
+      src: thumbnail.src,
+      alt: thumbnail.alt || fallbackAlt,
+    });
+  }
+
+  if (background?.src) {
+    images.push({
+      src: background.src,
+      alt: background.alt || fallbackAlt,
+    });
+  }
+
+  return images;
 };
 
 const Chevron = ({ open }: { open: boolean }): JSX.Element => (
@@ -59,16 +94,25 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
   const [size, setSize] = useState('');
   const [openGuide, setOpenGuide] = useState<number | null>(0);
   const id = props.params?.RenderingIdentifier;
-  const ogTitle = props.fields?.Title?.value || product.title;
-  const ogDescription = props.fields?.Excerpt?.value || product.shortDescription;
-  const ogImage = props.fields?.Thumbnail?.value?.src || product.gallery[0]?.src;
+  const titleField = props.fields?.Title;
+  const excerptField = props.fields?.Excerpt;
+  const title = titleField?.value || product.title;
+  const shortDescription = excerptField?.value || product.shortDescription;
+  const articleGallery = galleryFromArticleFields(props.fields, title);
+  const gallery = articleGallery.length > 0 ? articleGallery : product.gallery;
+  const activeGalleryImage = gallery[activeImage] || gallery[0];
+  const ogImage = props.fields?.Thumbnail?.value?.src || gallery[0]?.src;
+  const contentField = props.fields?.Content;
+  const hasArticleContent = Boolean(
+    typeof contentField?.value === 'string' && contentField.value.replace(/<[^>]*>/g, '').trim()
+  );
 
   return (
     <>
       <Head>
-        <title>{product.title}</title>
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={shortDescription} />
         <meta property="og:image" content={ogImage} />
         <meta property="og:type" content="product" />
       </Head>
@@ -83,13 +127,14 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
               <ol>
                 {product.breadcrumbs.map((crumb, index) => {
                   const isLast = index === product.breadcrumbs.length - 1;
+                  const label = isLast ? title : crumb.label;
                   return (
-                    <li key={crumb.label}>
+                    <li key={`${crumb.label}-${index}`}>
                       {isLast ? (
-                        <span aria-current="page">{crumb.label}</span>
+                        <span aria-current="page">{label}</span>
                       ) : (
                         <>
-                          <a href={crumb.href}>{crumb.label}</a>
+                          <a href={crumb.href}>{label}</a>
                           <span className="laticrete-pdp__crumb-sep" aria-hidden="true">
                             /
                           </span>
@@ -107,30 +152,35 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
           <div className="laticrete-pdp__container laticrete-pdp__hero-grid">
             <div className="laticrete-pdp__gallery">
               <div className="laticrete-pdp__gallery-main">
-                <img
-                  src={product.gallery[activeImage]?.src}
-                  alt={product.gallery[activeImage]?.alt}
-                />
+                {activeGalleryImage ? (
+                  <img src={activeGalleryImage.src} alt={activeGalleryImage.alt} />
+                ) : null}
               </div>
-              <div className="laticrete-pdp__thumbs" role="list">
-                {product.gallery.map((image, index) => (
-                  <button
-                    key={image.src}
-                    type="button"
-                    role="listitem"
-                    className={`laticrete-pdp__thumb${index === activeImage ? ' is-active' : ''}`}
-                    onClick={() => setActiveImage(index)}
-                    aria-label={`Show image ${index + 1}`}
-                  >
-                    <img src={image.src} alt="" />
-                  </button>
-                ))}
-              </div>
+              {gallery.length > 1 ? (
+                <div className="laticrete-pdp__thumbs" role="list">
+                  {gallery.map((image, index) => (
+                    <button
+                      key={`${image.src}-${index}`}
+                      type="button"
+                      role="listitem"
+                      className={`laticrete-pdp__thumb${index === activeImage ? ' is-active' : ''}`}
+                      onClick={() => setActiveImage(index)}
+                      aria-label={`Show image ${index + 1}`}
+                    >
+                      <img src={image.src} alt="" />
+                    </button>
+                  ))}
+                </div>
+              ) : null}
             </div>
 
             <div className="laticrete-pdp__buybox">
-              <h1 className="laticrete-pdp__title">{product.title}</h1>
-              <p className="laticrete-pdp__lede">{product.shortDescription}</p>
+              <h1 className="laticrete-pdp__title">
+                {titleField?.value ? <Text field={titleField} /> : product.title}
+              </h1>
+              <p className="laticrete-pdp__lede">
+                {excerptField?.value ? <Text field={excerptField} /> : product.shortDescription}
+              </p>
 
               <label className="laticrete-pdp__field-label" htmlFor="laticrete-pdp-size">
                 Size
@@ -166,13 +216,19 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
             <h2 className="laticrete-pdp__section-title">Product Overview</h2>
             <div className="laticrete-pdp__overview-grid">
               <div className="laticrete-pdp__overview-copy">
-                {product.overview.paragraphs.map((paragraph) => (
-                  <p key={paragraph.slice(0, 32)}>{paragraph}</p>
-                ))}
-                <p className="laticrete-pdp__callout">
-                  <strong>{product.overview.customSizeHeading}</strong>
-                </p>
-                <p>{product.overview.customSizeBody}</p>
+                {hasArticleContent ? (
+                  <RichText field={contentField} className="laticrete-pdp__overview-richtext" />
+                ) : (
+                  <>
+                    {product.overview.paragraphs.map((paragraph) => (
+                      <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+                    ))}
+                    <p className="laticrete-pdp__callout">
+                      <strong>{product.overview.customSizeHeading}</strong>
+                    </p>
+                    <p>{product.overview.customSizeBody}</p>
+                  </>
+                )}
                 <div className="laticrete-pdp__badges">
                   {product.overview.badges.map((badge) => (
                     <img key={badge.alt} src={badge.src} alt={badge.alt} />

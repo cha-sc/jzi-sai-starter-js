@@ -54,13 +54,15 @@ The ProductDetail variant already visually suppresses these via a hidden placeho
 
 On `introducing-mobile-finance`:
 
-| Field | Suggested value |
-|-------|-----------------|
-| Title | `HYDRO BAN® Pre-Sloped Shower Pans` |
-| Excerpt | `Pre-sloped, pre-waterproofed, tile-ready shower pans available in classic one-piece designs.` |
-| Thumbnail | Product hero image (or leave; PDP uses CDN gallery) |
+| Field | PDP mapping |
+|-------|-------------|
+| Title | Buy-box H1 + document title + last breadcrumb crumb |
+| Excerpt | Short description under the title |
+| Content | Product Overview rich text |
+| Thumbnail | Main gallery image |
+| BackgroundImage | Optional second gallery image |
 
-Body `Content` can stay — the ProductDetail variant does not render it.
+If Thumbnail / BackgroundImage are empty, the hardcoded HYDRO BAN CDN gallery is used.
 
 ---
 
@@ -108,8 +110,9 @@ Header/Footer stay shared site chrome.
 
 ## Extending beyond hardcode
 
-Data lives in `product-detail/hydroBanProductData.ts`. To CMS-manage later:
+Article fields already drive Title / Excerpt / Content / Thumbnail / BackgroundImage.
+Remaining demo chrome (sizes, guides, features, specs, warranties, CTA) lives in
+`product-detail/hydroBanProductData.ts`. To CMS-manage later:
 
-- Map Title / Excerpt / Thumbnail from the article item
-- Move gallery, specs, guides into nested datasource items or a JSON field
+- Move gallery (3+), specs, guides into nested datasource items or a JSON field
 - Keep the same layout sections in `ProductDetail.tsx`

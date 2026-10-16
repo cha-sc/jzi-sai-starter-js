@@ -227,6 +227,20 @@
     }
   }
 
+  &__overview-richtext {
+    font: inherit;
+    color: inherit;
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    .laticrete-pdp__callout,
+    strong {
+      font-weight: 700;
+    }
+  }
+
   &__callout {
     margin-top: 1.25rem !important;
   }
