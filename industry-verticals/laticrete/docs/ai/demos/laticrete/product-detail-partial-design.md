@@ -54,15 +54,16 @@ The ProductDetail variant already visually suppresses these via a hidden placeho
 
 On `introducing-mobile-finance`:
 
-| Field | PDP mapping |
-|-------|-------------|
-| Title | Buy-box H1 + document title + last breadcrumb crumb |
-| Excerpt | Short description under the title |
-| Content | Product Overview rich text |
-| Thumbnail | Main gallery image |
-| BackgroundImage | Optional second gallery image |
+| Field | PDP mapping | Page Builder |
+|-------|-------------|--------------|
+| Title | Buy-box H1 + document title + last breadcrumb crumb | Inline `<Text>` |
+| Excerpt | Short description under the title | Inline `<Text>` |
+| Content | Product Overview rich text | Inline `<RichText>` |
+| Thumbnail | Main gallery image | `<NextImage>` (labeled in edit mode) |
+| BackgroundImage | Optional second gallery image | `<NextImage>` (labeled in edit mode) |
 
-If Thumbnail / BackgroundImage are empty, the hardcoded HYDRO BAN CDN gallery is used.
+In Pages edit mode, empty Title / Excerpt / Content / image fields still render so they stay clickable.
+On the live site, empty image fields fall back to the hardcoded HYDRO BAN CDN gallery.
 
 ---
 

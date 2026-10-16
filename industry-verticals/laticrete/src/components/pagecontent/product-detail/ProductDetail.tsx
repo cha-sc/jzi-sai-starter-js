@@ -5,14 +5,15 @@ import Head from 'next/head';
 import {
   Field,
   ImageField,
+  NextImage,
   Placeholder,
   RichText,
   RichTextField,
   Text,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { hydroBanProduct } from './hydroBanProductData';
-import type { ProductGalleryImage } from './hydroBanProductData';
 
 type ProductDetailShellProps = ComponentProps & {
   fields?: {
@@ -24,29 +25,9 @@ type ProductDetailShellProps = ComponentProps & {
   };
 };
 
-const galleryFromArticleFields = (
-  fields: ProductDetailShellProps['fields'],
-  fallbackAlt: string
-): ProductGalleryImage[] => {
-  const images: ProductGalleryImage[] = [];
-  const thumbnail = fields?.Thumbnail?.value;
-  const background = fields?.BackgroundImage?.value;
-
-  if (thumbnail?.src) {
-    images.push({
-      src: thumbnail.src,
-      alt: thumbnail.alt || fallbackAlt,
-    });
-  }
-
-  if (background?.src) {
-    images.push({
-      src: background.src,
-      alt: background.alt || fallbackAlt,
-    });
-  }
-
-  return images;
+type GallerySlot = {
+  field: ImageField;
+  label: string;
 };
 
 const Chevron = ({ open }: { open: boolean }): JSX.Element => (
@@ -90,22 +71,38 @@ const CheckIcon = (): JSX.Element => (
  */
 export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element => {
   const product = hydroBanProduct;
+  const { page } = useSitecore();
+  const isEditing = page.mode.isEditing;
   const [activeImage, setActiveImage] = useState(0);
   const [size, setSize] = useState('');
   const [openGuide, setOpenGuide] = useState<number | null>(0);
   const id = props.params?.RenderingIdentifier;
   const titleField = props.fields?.Title;
   const excerptField = props.fields?.Excerpt;
+  const contentField = props.fields?.Content;
+  const thumbnailField = props.fields?.Thumbnail;
+  const backgroundField = props.fields?.BackgroundImage;
   const title = titleField?.value || product.title;
   const shortDescription = excerptField?.value || product.shortDescription;
-  const articleGallery = galleryFromArticleFields(props.fields, title);
-  const gallery = articleGallery.length > 0 ? articleGallery : product.gallery;
-  const activeGalleryImage = gallery[activeImage] || gallery[0];
-  const ogImage = props.fields?.Thumbnail?.value?.src || gallery[0]?.src;
-  const contentField = props.fields?.Content;
   const hasArticleContent = Boolean(
     typeof contentField?.value === 'string' && contentField.value.replace(/<[^>]*>/g, '').trim()
   );
+  const showTitleField = Boolean(titleField && (titleField.value || isEditing));
+  const showExcerptField = Boolean(excerptField && (excerptField.value || isEditing));
+  const showContentField = Boolean(contentField && (hasArticleContent || isEditing));
+
+  const gallerySlots: GallerySlot[] = [
+    thumbnailField ? { field: thumbnailField, label: 'Thumbnail' } : null,
+    backgroundField ? { field: backgroundField, label: 'Background image' } : null,
+  ].filter((slot): slot is GallerySlot => {
+    if (!slot) return false;
+    return isEditing || Boolean(slot.field.value?.src);
+  });
+  const useArticleGallery = gallerySlots.length > 0;
+  const activeSlot = gallerySlots[activeImage] || gallerySlots[0];
+  const fallbackGallery = product.gallery;
+  const activeFallbackImage = fallbackGallery[activeImage] || fallbackGallery[0];
+  const ogImage = thumbnailField?.value?.src || fallbackGallery[0]?.src;
 
   return (
     <>
@@ -151,35 +148,77 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
         <section className="laticrete-pdp__hero">
           <div className="laticrete-pdp__container laticrete-pdp__hero-grid">
             <div className="laticrete-pdp__gallery">
-              <div className="laticrete-pdp__gallery-main">
-                {activeGalleryImage ? (
-                  <img src={activeGalleryImage.src} alt={activeGalleryImage.alt} />
-                ) : null}
-              </div>
-              {gallery.length > 1 ? (
-                <div className="laticrete-pdp__thumbs" role="list">
-                  {gallery.map((image, index) => (
-                    <button
-                      key={`${image.src}-${index}`}
-                      type="button"
-                      role="listitem"
-                      className={`laticrete-pdp__thumb${index === activeImage ? ' is-active' : ''}`}
-                      onClick={() => setActiveImage(index)}
-                      aria-label={`Show image ${index + 1}`}
+              {useArticleGallery ? (
+                <>
+                  <div className="laticrete-pdp__gallery-main">
+                    {activeSlot ? (
+                      <NextImage field={activeSlot.field} width={720} height={720} />
+                    ) : null}
+                  </div>
+                  {(gallerySlots.length > 1 || isEditing) && (
+                    <div
+                      className={`laticrete-pdp__thumbs${isEditing ? ' laticrete-pdp__thumbs--edit' : ''}`}
+                      role="list"
                     >
-                      <img src={image.src} alt="" />
-                    </button>
-                  ))}
-                </div>
-              ) : null}
+                      {gallerySlots.map((slot, index) =>
+                        isEditing ? (
+                          <div key={slot.label} className="laticrete-pdp__thumb-edit" role="listitem">
+                            <span className="laticrete-pdp__field-hint">{slot.label}</span>
+                            <NextImage field={slot.field} width={96} height={96} />
+                          </div>
+                        ) : (
+                          <button
+                            key={slot.label}
+                            type="button"
+                            role="listitem"
+                            className={`laticrete-pdp__thumb${index === activeImage ? ' is-active' : ''}`}
+                            onClick={() => setActiveImage(index)}
+                            aria-label={`Show image ${index + 1}`}
+                          >
+                            <NextImage field={slot.field} width={96} height={96} />
+                          </button>
+                        )
+                      )}
+                    </div>
+                  )}
+                </>
+              ) : (
+                <>
+                  <div className="laticrete-pdp__gallery-main">
+                    {activeFallbackImage ? (
+                      <img src={activeFallbackImage.src} alt={activeFallbackImage.alt} />
+                    ) : null}
+                  </div>
+                  {fallbackGallery.length > 1 ? (
+                    <div className="laticrete-pdp__thumbs" role="list">
+                      {fallbackGallery.map((image, index) => (
+                        <button
+                          key={`${image.src}-${index}`}
+                          type="button"
+                          role="listitem"
+                          className={`laticrete-pdp__thumb${index === activeImage ? ' is-active' : ''}`}
+                          onClick={() => setActiveImage(index)}
+                          aria-label={`Show image ${index + 1}`}
+                        >
+                          <img src={image.src} alt="" />
+                        </button>
+                      ))}
+                    </div>
+                  ) : null}
+                </>
+              )}
             </div>
 
             <div className="laticrete-pdp__buybox">
               <h1 className="laticrete-pdp__title">
-                {titleField?.value ? <Text field={titleField} /> : product.title}
+                {showTitleField && titleField ? <Text field={titleField} /> : product.title}
               </h1>
               <p className="laticrete-pdp__lede">
-                {excerptField?.value ? <Text field={excerptField} /> : product.shortDescription}
+                {showExcerptField && excerptField ? (
+                  <Text field={excerptField} />
+                ) : (
+                  product.shortDescription
+                )}
               </p>
 
               <label className="laticrete-pdp__field-label" htmlFor="laticrete-pdp-size">
@@ -216,7 +255,7 @@ export const ProductDetailView = (props: ProductDetailShellProps): JSX.Element =
             <h2 className="laticrete-pdp__section-title">Product Overview</h2>
             <div className="laticrete-pdp__overview-grid">
               <div className="laticrete-pdp__overview-copy">
-                {hasArticleContent ? (
+                {showContentField && contentField ? (
                   <RichText field={contentField} className="laticrete-pdp__overview-richtext" />
                 ) : (
                   <>
