@@ -1,0 +1,358 @@
+# Seismic content map — Financial / SXA
+client:
+  name: "Seismic"
+  sourceUrl: "https://www.seismic.com/"
+  contentRoot: "/sitecore/content/Seismic/Seismic"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/Seismic/Seismic/Data/Seismic Demo"
+  demoFolderId: "3dd03177-655d-4a6c-9d0a-c258108eae56"
+  homePageId: "f7210946-630b-419e-946e-27240485d980"
+  homePagePath: "/sitecore/content/Seismic/Seismic/Home"
+
+sharedDatasources:
+  hero: "69c83d6f-b777-4b3d-a51c-5720d9063f8e"
+  industry: "575963cd-4c5d-4d5e-b3f4-9366f6391af4"
+  askAi: "1e9bf257-dbbc-4165-9919-1d48e0f56083"
+  outcomes: "310a01f3-94c1-488f-96e2-6b4ef5fc410a"
+  resources: "4c28ecec-68de-437b-8a14-5ae289a3c423"
+  stats: "1b1f3db3-3881-4560-ab3f-839b65c25ca7"
+  closingCta: "96ab8379-21e8-43cc-92c4-d2ec81af85b6"
+  testimonials: "bc83fcc8-b91d-4780-8035-e2c4207aa60a"
+  logoCloud: "0251686c-d793-4cef-8776-95483e635043"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCta: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  CtaBanner: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+  FourColumnCta: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+  ThreeColumnCta: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+  StatsCounter: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+  Testimonials: "91cd4de0-ed0b-457b-9936-a333e8a874a3"
+  Testimonial: "40472280-0a67-4c52-a06b-79e327af9f44"
+  ImageGallery: "bd5988c0-88ea-4e5d-8cba-a88755dd0fb8"
+
+sections:
+  - position: 1
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    apiAddable: false
+    datasourceItemName: ""
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    contentNotes: "Dark purple nav — update logo/CTA in Page Design."
+
+  - position: 2
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Hero"
+    phase55Variant: "PurpleGradientSplit"
+    fields:
+      Title: "Move from preparation to GTM performance"
+      Text: "<p>THE AI PLATFORM FOR REVENUE EXECUTION</p><p>Trusted content, intelligence, and role-based agents everywhere your teams work.</p>"
+      Link:
+        text: "Get a Demo"
+        href: "https://www.seismic.com/get-a-demo/"
+        target: ""
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://assets.seismic.com/api/public/content/56838-image-generic-og?v=293053cd"
+        alt: "Seismic product platform"
+        localFile: ""
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 3
+    componentName: "ImageGallery"
+    manifestName: "Image Gallery"
+    kind: "list"
+    apiAddable: true
+    datasourceItemName: "Seismic - Logo Cloud"
+    phase55Variant: "LogoRow"
+    fields:
+      Title: "Trusted by approximately 2,000 organizations worldwide"
+    children:
+      - name: "Seismic - Logo - Onesource"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img5.jpg"
+            alt: "Onesource Virtual"
+      - name: "Seismic - Logo - Aerogen"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img6.jpg"
+            alt: "Aerogen"
+      - name: "Seismic - Logo - IBM"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img7.jpg"
+            alt: "IBM"
+      - name: "Seismic - Logo - AllianceBernstein"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img8.jpg"
+            alt: "AllianceBernstein"
+      - name: "Seismic - Logo - Oracle"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img9.jpg"
+            alt: "Oracle"
+      - name: "Seismic - Logo - Expedia"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img10.jpg"
+            alt: "Expedia"
+      - name: "Seismic - Logo - Elastic"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img12.jpg"
+            alt: "Elastic"
+      - name: "Seismic - Logo - Experian"
+        fields: {}
+        imageFields:
+          - field: "Image"
+            localFile: "section3-img13.jpg"
+            alt: "Experian"
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Industry Financial Services"
+    phase55Variant: "IndustryTabs"
+    fields:
+      Eyebrow: "Solutions by Industry"
+      Title: "Strengthen Client Relationships and Drive Advisor Growth"
+      Subtitle: "Financial Services"
+      Text: "<p>Equip advisors, wholesalers, bankers, relationship managers, and agents with compliant content, real-time insights, and guided workflows that make every client interaction count. Seismic helps financial services organizations reduce administrative burden, ensure regulatory alignment, and increase revenue per advisor — while delivering personalized experiences that deepen long-term client relationships.</p>"
+      Link:
+        text: "Explore Financial Services Solutions"
+        href: "https://www.seismic.com/resources/financial-services/"
+        target: ""
+    children: []
+    imageFields:
+      - field: "Image"
+        localFile: "section4-img17.jpg"
+        alt: "Financial services advisor with tablet"
+        src: "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58764-image-fs-persona-1638x1638%3Fv%3D4c0127b5&w=3840&q=75"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    contentNotes: "IndustryTabs variant will add Manufacturing / Technology / Life Sciences tabs; FS panel is default content."
+
+  - position: 5
+    componentName: "Testimonials"
+    manifestName: "Testimonials"
+    kind: "list"
+    apiAddable: true
+    datasourceItemName: "Seismic - Customer Stories"
+    fields: {}
+    children:
+      - name: "Seismic - Testimonial Elastic"
+        fields:
+          Content: "Elastic empowers organizations to find the answers that matter from all their data. Built on the power of search and powered by AI, Elastic’s Search AI platform helps customers transform their data into actionable insights."
+          AuthorName: "Mark Dodds"
+          AuthorPosition: "CRO at Elastic"
+          Rating: "5"
+        imageFields: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    contentNotes: "Section title for assembly: The revenue enablement platform that high-performing teams trust to deliver results. CTA: See Elastic’s Success Story → https://www.seismic.com/customer-stories/elastic/"
+
+  - position: 6
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Ask AI"
+    fields:
+      Eyebrow: "Ask AI"
+      Title: "Ask AI who leads enablement"
+      Text: "<p>Use ChatGPT, Claude, or Perplexity to compare Seismic with the rest of the enablement category. Ask how the Seismic Enablement Cloud helps teams get ready, engage buyers, personalize content, and drive revenue.</p>"
+      Link:
+        text: "Ask ChatGPT"
+        href: "https://chatgpt.com/?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform."
+        target: "_blank"
+    children: []
+    imageFields: []
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    contentNotes: "AskAIPrompt skipped — Minimal CTA Banner with primary Ask ChatGPT link."
+
+  - position: 7
+    componentName: "FourColumnCta"
+    manifestName: "Four Column CTA"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Outcomes"
+    fields:
+      Title1: "Drive revenue growth"
+      Text1: "With less time in front of buyers, it’s harder than ever to drive sales revenue. Seismic gives leaders confidence that teams are ready to maximize every buyer interaction."
+      Link1:
+        text: "Learn More"
+        href: "https://www.seismic.com/"
+        target: ""
+      Title2: "Improve buyer and customer experiences"
+      Text2: "Empower go-to-market teams to deliver personalized content that turns every interaction into a meaningful experience."
+      Link2:
+        text: "Learn More"
+        href: "https://www.seismic.com/"
+        target: ""
+      Title3: "Increase sales efficiency and effectiveness"
+      Text3: "Streamline workflows, reduce manual effort, and equip reps with AI-driven insights to close more deals, faster."
+      Link3:
+        text: "Learn More"
+        href: "https://www.seismic.com/"
+        target: ""
+      Title4: "Reduce operational costs"
+      Text4: "Save time and money, streamline your tech stack, and scale enablement by consolidating GTM initiatives in one platform."
+      Link4:
+        text: "Learn More"
+        href: "https://www.seismic.com/"
+        target: ""
+    children: []
+    imageFields:
+      - field: "Image1"
+        localFile: "section7-img22.jpg"
+        alt: "Drive revenue growth"
+      - field: "Image2"
+        localFile: "section7-img23.jpg"
+        alt: "Improve buyer experiences"
+      - field: "Image3"
+        localFile: "section7-img24.jpg"
+        alt: "Increase sales efficiency"
+      - field: "Image4"
+        localFile: "section7-img25.jpg"
+        alt: "Reduce operational costs"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    contentNotes: "Section heading for layout: Better business outcomes start with Seismic"
+
+  - position: 8
+    componentName: "StatsCounter"
+    manifestName: "Stats Counter"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Stats 56 Percent"
+    fields:
+      Value1: "56"
+      Symbol1: "%"
+      Caption1: "reduction in sales cycle length"
+      Value2: "30"
+      Symbol2: ""
+      Caption2: "minutes to see how to drive revenue and reduce costs"
+      Value3: ""
+      Symbol3: ""
+      Caption3: ""
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    contentNotes: "CTA Let's Chat → get-a-demo; may pair with CTA Banner if form needed."
+
+  - position: 9
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Resources"
+    fields:
+      Text1: "The Forrester Wave™: Revenue Enablement Platforms, Q3 2024 Report"
+      SubText1: "REPORT"
+      Link1:
+        text: "Read the Report"
+        href: "https://seismic.com/resources/reports/forrester-wave-revenue-enablement-platforms-2024/"
+        target: "_blank"
+      Text2: "The Ultimate Guide to Getting Started on Your Enablement Journey"
+      SubText2: "GUIDE"
+      Link2:
+        text: "Get the Guide"
+        href: "https://seismic.com/resources/guides/guide-the-ultimate-guide-to-getting-started-on-your-enablement-journey/"
+        target: "_blank"
+      Text3: "The Revenue Growth Formula Workbook"
+      SubText3: "WORKBOOK"
+      Link3:
+        text: "Download the Workbook"
+        href: "https://seismic.com/resources/guides/revenue-growth-formula/"
+        target: "_blank"
+    children: []
+    imageFields:
+      - field: "Image1"
+        localFile: "section9-img26.jpg"
+        alt: "Forrester Wave report"
+      - field: "Image2"
+        localFile: "section9-img27.jpg"
+        alt: "Ultimate Guide to Enablement"
+      - field: "Image3"
+        localFile: "section9-img28.jpg"
+        alt: "Revenue Growth Formula Workbook"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    contentNotes: "Section title: Continue learning about enablement software"
+
+  - position: 10
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    apiAddable: true
+    datasourceItemName: "Seismic - Closing CTA"
+    fields:
+      Title: "If you made it this far, we must be striking a chord."
+      Text: "<p>Ready to see Seismic in action?</p>"
+      Link:
+        text: "Get a Demo"
+        href: "https://www.seismic.com/get-a-demo/"
+        target: ""
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+
+  - position: 11
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    apiAddable: false
+    datasourceItemName: ""
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "screenshot"
+    contentNotes: "Multi-column footer — update in Page Design."
+
+summary:
+  totalSections: 11
+  simpleSections: 7
+  listSections: 2
+  contextOnlySections: 2
+  imagesToUpload: 16
+  phase55Variants:
+    - PurpleGradientSplit
+    - LogoRow
+    - IndustryTabs
+  phase55Skipped:
+    - AskAIPrompt
+
+manualVideoTasks:
+  - section: 5
+    note: "Customer story carousel uses Vimeo embeds; wire manually or use Testimonials without video."

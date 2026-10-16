@@ -10,7 +10,7 @@ customer:
   url: "https://www.seismic.com/"
   screenshotPath: ".cursor/skills/skinned-demo-setup/runs/seismic/assets/seismic-homepage.jpg"
   startedAt: "2026-10-16T15:11:00Z"
-  lastUpdatedAt: "2026-10-16T15:20:30Z"
+  lastUpdatedAt: "2026-10-16T16:00:00Z"
 
 selection:
   collectionMode: "new"
@@ -26,7 +26,7 @@ artifacts:
   newSiteId: "f6014c56-bb4f-4cc0-9cdf-0737140ee17d"
   copyJobHandle: "659843c9-aed1-4b22-af1b-493041dc4c6e;sitecoresaaea3f-chadev7ae9-chadev09156390-7cb5f69c8d-jl6qj"
   collectionJobHandle: "78286723-0877-4977-9b78-0aad72100517;sitecoresaaea3f-chadev7ae9-chadev09156390-7cb5f69c8d-jl6qj"
-  ehEnvironmentId: ""
+  ehEnvironmentId: "B2YJo8vPzwDTvskHQMF6H"
   cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
   renderingHostKey: "seismic"
 
@@ -75,25 +75,28 @@ steps:
     error: ""
 
   offer_commit:
-    status: "pending"
-    committed: null
+    status: "complete"
+    committed: true
     error: ""
 
   step1d_editing_host:
-    status: "pending"
-    optedIn: null
+    status: "complete"
+    optedIn: true
     error: ""
 
   step1_verification:
-    status: "pending"
+    status: "complete"
     error: ""
 
   step2_build_demo:
-    status: "pending"
+    status: "complete"
     error: ""
+    notes: "Theme + 3 variants + Logo Cloud DS + Home wired (7/9). Manual: LogoRow/Testimonials add, FieldNames, Prospera cleanup."
 
 notes:
   - "2026-10-16T15:11:00Z — Inputs collected. CM environment ID provided for optional editing host."
   - "2026-10-16T15:12:30Z — Sites API + Marketer MCP auth OK. Waiting on collection mode (new vs existing)."
   - "2026-10-16T15:18:00Z — Collection+site duplicate done. Local folder + xmcloud.build.json wired. Waiting on Content Editor move into Seismic collection."
   - "2026-10-16T15:20:30Z — Move verified. Offering commit + editing host opt-in."
+  - "2026-10-16T15:22:30Z — Commit 7a8f2ed9. EH B2YJo8vPzwDTvskHQMF6H created; SEARCH vars upserted. Step 1 verified; handing off to sitecore-build-demo."
+  - "2026-10-16T16:00:00Z — sitecore-build-demo finished: theme, PurpleGradientSplit/LogoRow/IndustryTabs, Logo Cloud+8 logos, Home assembly partial. See industry-verticals/seismic/docs/ai/demos/seismic/manual-tasks.md."

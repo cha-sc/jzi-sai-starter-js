@@ -1,0 +1,244 @@
+# Demo Build Plan — Seismic
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "Seismic"
+  sourceUrl: "https://www.seismic.com/"
+  themeFile: "docs/ai/themes/seismic.theme.yaml"
+  analyzedAt: "2026-10-16T15:28:00Z"
+  codeRoot: "industry-verticals/seismic/"
+  contentRoot: "/sitecore/content/Seismic/Seismic"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/seismic/screenshot-desktop.png"
+    mobile: "docs/ai/themes/seismic/screenshot-mobile.png"
+    hero: "docs/ai/themes/seismic/screenshot-hero.png"
+    userProvided: "docs/ai/demos/seismic/homepage-screenshot.jpg"
+  totalSections: 11
+  templateMatches: 11
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Dark purple header with Seismic logo, Platform/Solutions/Resources/Partners/Why Choose Seismic?, search + language, Login, orange Contact/Get a Demo CTA."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Title: "Seismic"
+      PrimaryCta: "Get a Demo"
+    contentNotes: "Context-only. Nav: Platform, Solutions, Resources, Partners, Why Choose Seismic?. CTA orange pill."
+    variantReason: "Solid dark brand header over purple hero; Financial Header Default."
+
+  - position: 2
+    description: "Deep purple gradient hero — Move from preparation to GTM performance, supporting copy, orange Get a Demo, product/dashboard graphic, optional floating Get a Demo / Watch / Tour strip."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "Move from preparation to GTM performance"
+      Description: "Trusted content, intelligence, and role-based agents everywhere your teams work."
+      PrimaryCta: "Get a Demo"
+    contentNotes: "Hero media: stylized product UI / dashboard graphic on right. Eyebrow optional: THE AI PLATFORM FOR REVENUE EXECUTION."
+    variantReason: "Full-bleed purple gradient hero with headline + CTA + side media matches Financial Hero."
+    customVariantNeeded:
+      name: "PurpleGradientSplit"
+      description: "Dark purple/violet gradient background, left text stack, right floating product UI graphic, pill orange CTA."
+      parentComponent: "Hero"
+
+  - position: 3
+    description: "Trusted by approximately 2,000 organizations worldwide + grayscale logo row (IBM, Oracle, Expedia, Elastic, Experian, etc.)."
+    matchedComponent:
+      registryId: "image-gallery"
+      manifestName: "Image Gallery"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Trusted by approximately 2,000 organizations worldwide"
+    contentNotes: "Logo strip; Image Gallery is closest Financial match (no LogoCloud). Phase 5.5 LogoRow optional."
+    variantReason: "Horizontal logo row under trust headline."
+    customVariantNeeded:
+      name: "LogoRow"
+      description: "Centered trust headline + single-row grayscale partner logos."
+      parentComponent: "Image Gallery"
+
+  - position: 4
+    description: "Solutions by Industry — purple pill tabs (Financial Services active, Manufacturing, Technology, Life Sciences) + left copy/CTA + right lifestyle photo with UI overlays."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Strengthen Client Relationships and Drive Advisor Growth"
+      Description: "Equip advisors, wholesalers, bankers, relationship managers, and agents with compliant content, real-time insights, and guided workflows that make every client interaction count."
+      PrimaryCta: "Explore Financial Services Solutions"
+    contentNotes: "Tabs not in Financial library — ship FS panel as Promo CTA; optional IndustryTabs variant in Phase 5.5."
+    variantReason: "Text + lifestyle image + orange CTA split."
+    customVariantNeeded:
+      name: "IndustryTabs"
+      description: "Purple rounded tabs over split text/image industry panels (Financial Services, Manufacturing, Technology, Life Sciences)."
+      parentComponent: "Promo CTA"
+
+  - position: 5
+    description: "Centered headline about revenue enablement platform + customer story carousel (Elastic / video testimonials) with Read Success Story CTA."
+    matchedComponent:
+      registryId: "testimonials"
+      manifestName: "Testimonials"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "The revenue enablement platform that high-performing teams trust to deliver results"
+      PrimaryCta: "See Elastic’s Success Story"
+    contentNotes: "Carousel of customer stories; author/quote from Elastic CRO Mark Dodds when available."
+    variantReason: "Customer story / testimonial carousel with CTA."
+
+  - position: 6
+    description: "Dark teal Ask AI band — search-style prompt Ask AI who leads enablement + Ask ChatGPT / Claude / Perplexity buttons."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "Minimal"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+    sectionBackground: "secondary"
+    content:
+      Title: "Ask AI who leads enablement"
+      Description: "Use ChatGPT, Claude, or Perplexity to compare Seismic with the rest of the enablement category."
+      PrimaryCta: "Ask ChatGPT"
+      SecondaryCta: "Ask Claude"
+    contentNotes: "Closest Financial match for teal prompt band; AskAIPrompt custom variant for search input + three LLM buttons."
+    variantReason: "Full-width brand-colored CTA band."
+    # AskAIPrompt skipped per SE — use CTA Banner Minimal as-is
+
+  - position: 7
+    description: "Better business outcomes start with Seismic — 4 peach cards (Drive revenue growth, Improve buyer experiences, Increase sales efficiency, Reduce operational costs) with icons + Learn More."
+    matchedComponent:
+      registryId: "four-column-cta"
+      manifestName: "Four Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "muted"
+    content:
+      Title: "Better business outcomes start with Seismic"
+      Item1Title: "Drive revenue growth"
+      Item2Title: "Improve buyer and customer experiences"
+      Item3Title: "Increase sales efficiency and effectiveness"
+      Item4Title: "Reduce operational costs"
+      ItemLink: "Learn More"
+    contentNotes: "Peach/blush card fills via theme; icons orange."
+    variantReason: "Four equal outcome cards in a row."
+
+  - position: 8
+    description: "Teal band — 56% reduction in sales cycle length + email capture / Let's Chat CTA."
+    matchedComponent:
+      registryId: "stats-counter"
+      manifestName: "Stats Counter"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "secondary"
+    content:
+      Title: "56% reduction in sales cycle length"
+      Description: "Give us 30 minutes and we’ll show you how to drive revenue and reduce costs."
+      PrimaryCta: "Let's Chat"
+    contentNotes: "Stat callout + lead form; if Stats Counter lacks form, pair with Contact Form or fold CTA into CTA Banner Split."
+    variantReason: "Large statistic callout on teal section."
+
+  - position: 9
+    description: "Continue learning about enablement software — 3 resource tiles (REPORT / GUIDE / WORKBOOK) with cover images and Read/Get/Download links."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "default"
+    content:
+      Title: "Continue learning about enablement software"
+      Item1Title: "The Forrester Wave™: Revenue Enablement Platforms, Q3 2024 Report"
+      Item1Cta: "Read the Report"
+      Item2Title: "The Ultimate Guide to Getting Started on Your Enablement Journey"
+      Item2Cta: "Get the Guide"
+      Item3Title: "The Revenue Growth Formula Workbook"
+      Item3Cta: "Download the Workbook"
+    contentNotes: "Resource cards with colored type tags; Three Column CTA closest match."
+    variantReason: "Three equal resource cards with image + title + link."
+
+  - position: 10
+    description: "Dark purple final CTA — If you made it this far, we must be striking a chord. + Get a Demo."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "Minimal"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+    sectionBackground: "dark"
+    content:
+      Title: "If you made it this far, we must be striking a chord."
+      PrimaryCta: "Get a Demo"
+    contentNotes: "Pre-footer CTA on deep purple."
+    variantReason: "Centered closing CTA on brand dark background."
+
+  - position: 11
+    description: "Deep purple footer — Company/Platform/Partners/Resources columns, compliance badges, copyright, social icons."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+    sectionBackground: "dark"
+    content:
+      Title: "Seismic"
+    contentNotes: "Context-only. Link columns + socials + legal."
+    variantReason: "Multi-column brand footer."
+
+customComponents: []
+
+buildOrder:
+  phase1_sitecore:
+    - Hero
+    - Image Gallery
+    - Promo CTA
+    - Testimonials
+    - CTA Banner (Ask AI)
+    - Four Column CTA
+    - Stats Counter
+    - Three Column CTA
+    - CTA Banner (closing)
+  phase2_theme: "Apply seismic.theme.yaml CSS variables + Montserrat fonts"
+  phase3_custom: []
+  phase5_5_planned:
+    - Hero/PurpleGradientSplit
+    - Image Gallery/LogoRow
+    - Promo CTA/IndustryTabs
+  phase5_5_skipped:
+    - CTA Banner/AskAIPrompt

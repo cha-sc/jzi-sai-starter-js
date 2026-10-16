@@ -1,40 +1,64 @@
-// Financial
+// Financial — Seismic brand skin (default theme class for Seismic site)
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --text-body: #1a1a1a;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #2d0a4e;
+  --text-footer: #d4cde0;
+  --text-accent: #fe5000;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #2d0a4e;
+  --bg-main: #f4f2f5;
+  --bg-main-alt: #f8ede6;
+  --bg-color: #004b50;
+  --bg-saturated: #2d0a4e;
+  --bg-accent: #fe5000;
+  --border-color: #e2dde8;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.625rem;
+
+  /* Brand tokens used by Seismic variants */
+  --brand-primary: #2d0a4e;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #004b50;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #fe5000;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #1a1a1a;
+  --brand-muted: #f4f2f5;
+  --brand-muted-fg: #5c5666;
+  --brand-header-bg: #2d0a4e;
+  --brand-header-fg: #ffffff;
+  --brand-footer-bg: #2d0a4e;
+  --brand-footer-fg: #d4cde0;
+  --brand-border: #e2dde8;
+  --brand-ring: #fe5000;
+  --brand-card-peach: #f8ede6;
+  --brand-teal: #004b50;
+  --brand-radius: 0.625rem;
+  --brand-button-radius: 1.625rem;
+  --brand-heading-font: 'Montserrat', 'Proxima Nova', sans-serif;
+  --brand-body-font: 'Montserrat', 'Proxima Nova', sans-serif;
 }
 
 body.site-financial.dark,
 .dark .site-financial {
   --text-body: #fff;
-  --text-body-inverted: #333;
-  --text-colored: #c5e4f3;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
-  --bg-body: #031827;
-  --bg-footer: #1a2f3d;
-  --bg-main: #034c81;
-  --bg-main-alt: #031827;
-  --bg-color: #034c81;
-  --bg-saturated: #5ba3d0;
-  --bg-accent: #c03021;
-  --border-color: #034c81;
+  --text-body-inverted: #1a1a1a;
+  --text-colored: #f8ede6;
+  --text-footer: #d4cde0;
+  --text-accent: #fe5000;
+  --bg-body: #2d0a4e;
+  --bg-footer: #1a0530;
+  --bg-main: #004b50;
+  --bg-main-alt: #2d0a4e;
+  --bg-color: #004b50;
+  --bg-saturated: #4a1a6b;
+  --bg-accent: #fe5000;
+  --border-color: #4a1a6b;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.625rem;
 }
 
 // Services

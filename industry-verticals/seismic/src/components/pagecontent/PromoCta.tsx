@@ -1,6 +1,6 @@
 'use client';
 
-import { JSX } from 'react';
+import { JSX, useState } from 'react';
 import {
   Field,
   ImageField,
@@ -16,6 +16,13 @@ import {
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
+
+const INDUSTRY_TABS = [
+  'Financial Services',
+  'Manufacturing',
+  'Technology',
+  'Life Sciences',
+] as const;
 
 interface Fields {
   Eyebrow: Field<string>;
@@ -188,5 +195,77 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* *************************************************************** */
+/* SEISMIC — industry tabs over FS promo panel (other tabs visual) */
+export const IndustryTabs = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const [activeTab, setActiveTab] = useState<string>(INDUSTRY_TABS[0]);
+
+  return (
+    <section
+      className={`component promo-cta seismic-industry-tabs ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-industry-tabs__inner">
+        {(isPageEditing || props.fields?.Eyebrow?.value) && (
+          <h2 className="seismic-industry-tabs__eyebrow">
+            <Text field={props.fields.Eyebrow} />
+          </h2>
+        )}
+        <div
+          className="seismic-industry-tabs__tabs"
+          role="tablist"
+          aria-label="Solutions by Industry"
+        >
+          {INDUSTRY_TABS.map((tab) => {
+            const isActive = activeTab === tab;
+            return (
+              <button
+                key={tab}
+                type="button"
+                role="tab"
+                aria-selected={isActive}
+                className={`seismic-industry-tabs__tab${isActive ? ' is-active' : ''}`}
+                onClick={() => setActiveTab(tab)}
+              >
+                {tab}
+              </button>
+            );
+          })}
+        </div>
+        <div className="seismic-industry-tabs__panel" role="tabpanel">
+          <div className="seismic-industry-tabs__copy">
+            {(isPageEditing || props.fields?.Subtitle?.value) && (
+              <p className="seismic-industry-tabs__label">
+                <Text field={props.fields.Subtitle} />
+              </p>
+            )}
+            <h3 className="seismic-industry-tabs__title">
+              <Text field={props.fields.Title} />
+            </h3>
+            <div className="seismic-industry-tabs__text">
+              <RichText field={props.fields.Text} />
+            </div>
+            {(isPageEditing || props.fields?.Link?.value?.href) && (
+              <Link field={props.fields.Link} className="seismic-industry-tabs__cta" />
+            )}
+          </div>
+          <div className="seismic-industry-tabs__media">
+            <NextImage
+              field={props.fields.Image}
+              className="seismic-industry-tabs__img"
+              width={900}
+              height={900}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };

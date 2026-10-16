@@ -1,0 +1,67 @@
+{
+  "title": "#1 Global Sales Enablement Platform | Seismic",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": "#1 Global Sales Enablement Platform | Seismic",
+  "ogDescription": "Learn how Seismic’s AI-powered enablement, training, and coaching solution enables sales and marketing teams to engage buyers and grow revenue.",
+  "ogImage": "https://assets.seismic.com/api/public/content/56838-image-generic-og?v=293053cd",
+  "ogSiteName": "Seismic",
+  "favicon": "https://www.seismic.com/favicon.ico",
+  "googleFontsLinks": [],
+  "fontFaces": [
+    {
+      "family": "proxima-nova",
+      "src": "url(\"https://use.typekit.net/af/23e5ba/00000000000000007759c420/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "url(\"https://use.typekit.net/af/0f075f/00000000000000007759c41d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "url(\"https://use.typekit.net/af/52475d/00000000000000007759c423/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "proxima-nova",
+      "src": "url(\"https://use.typekit.net/af/7f8fd6/00000000000000007759c413/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Proxima Nova",
+      "src": "url(\"https://use.typekit.net/af/23e5ba/00000000000000007759c420/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "Proxima Nova",
+      "src": "url(\"https://use.typekit.net/af/0f075f/00000000000000007759c41d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Proxima Nova",
+      "src": "url(\"https://use.typekit.net/af/52475d/00000000000000007759c423/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3\") format(\"woff2\")",
+      "weight": "600"
+    },
+    {
+      "family": "Proxima Nova",
+      "src": "url(\"https://use.typekit.net/af/7f8fd6/00000000000000007759c413/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "tablet-gothic",
+      "src": "url(\"https://use.typekit.net/af/19befb/00000000000000007735a1e3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/19befb/00000000000000007735a1e3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff\"), url(\"https://use.typekit.net/af/19befb/00000000000000007735a1e3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"opentype\")",
+      "weight": "700"
+    }
+  ],
+  "logoCandidates": [
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58124-logo-seismic-neg%3Fv%3D69ef7056&w=256&q=75",
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F61117-image-winter-launch-26-microapp-navigation-ad-space%3Fv%3D1ee1f26b&w=3840&q=75",
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F61857-sierra_smiling%3Fv%3D2b60cef9&w=3840&q=75",
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F61826-ai-icon%3Fv%3D05d26c26&w=640&q=75",
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58124-logo-seismic-neg%3Fv%3D69ef7056&w=256&q=75",
+    "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58125-logo-icon%3Fv%3D745935eb&w=128&q=75"
+  ],
+  "heroBgImage": null
+}

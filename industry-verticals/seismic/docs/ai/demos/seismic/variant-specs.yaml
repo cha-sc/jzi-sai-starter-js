@@ -1,0 +1,27 @@
+# Seismic Phase 5.5 variant specs
+client: Seismic
+variants:
+  - name: PurpleGradientSplit
+    parentComponent: Hero
+    reactExport: PurpleGradientSplit
+    headlessVariantPath: /sitecore/content/Seismic/Seismic/Presentation/Headless Variants/Hero/PurpleGradientSplit
+    itemId: 64a7e913-6f28-4266-afd3-92a045e4c44c
+    layout: dark purple gradient full-bleed; left copy stack; right product media; orange pill CTA
+
+  - name: LogoRow
+    parentComponent: Image Gallery
+    reactExport: LogoRow
+    headlessVariantPath: /sitecore/content/Seismic/Seismic/Presentation/Headless Variants/Image Gallery/LogoRow
+    itemId: be9c41f4-79dd-411a-a2e1-86dc2e597d2d
+    layout: centered trust headline + single-row grayscale partner logos
+    notes: Use params.SectionTitle for headline (Image Gallery has no Title field)
+
+  - name: IndustryTabs
+    parentComponent: Promo CTA
+    reactExport: IndustryTabs
+    headlessVariantPath: /sitecore/content/Seismic/Seismic/Presentation/Headless Variants/Promo CTA/IndustryTabs
+    itemId: 89dbf404-a6a6-43d4-a97d-0874cb3679b8
+    layout: purple pill tabs over split text/image panel; FS content from datasource; other tabs visual UI only
+
+skipped:
+  - AskAIPrompt

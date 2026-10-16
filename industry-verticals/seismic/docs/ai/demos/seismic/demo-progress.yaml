@@ -1,0 +1,81 @@
+# Demo Progress Tracker
+client:
+  name: "Seismic"
+  sourceUrl: "https://www.seismic.com/"
+  startedAt: "2026-10-16T15:22:30Z"
+  lastUpdatedAt: "2026-10-16T16:00:00Z"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.seismic.com/"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/seismic.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/seismic/build-plan.yaml"
+    totalSections: 11
+    userApproved: true
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/seismic/content-map.yaml"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 11
+    totalSections: 11
+    notes: "Logo Cloud Image Gallery parent + 8 logo children created via create_content_item (branch add_component still 404)."
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "scss-vars"
+    cssWritten: true
+    fontsAdded: true
+    notes: "Applied to site-financial in _colors.scss + Montserrat in _fonts.scss; _seismic-demo.scss for variants."
+
+  phase5_custom:
+    status: "complete"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 3
+    variantsCreated: 3
+    variantSpecsFile: "docs/ai/demos/seismic/variant-specs.yaml"
+    skippedReason: "AskAIPrompt skipped by user"
+
+  phase6_assembly:
+    status: "partial"
+    componentsAdded: 7
+    datasourcesWired: 7
+    totalComponents: 9
+    notes: "Image Gallery + Testimonials require manual add (branch 404). Prospera leftovers remain. Variants via Pages FieldNames."
+
+  phase7_summary:
+    status: "complete"
+    summaryFile: "docs/ai/demos/seismic/summary.md"
+    manualTasksFile: "docs/ai/demos/seismic/manual-tasks.md"
+
+sections: []
+
+notes:
+  - "2026-10-16T15:23:00Z — Phase 0 seeded from skinned-demo-setup (screenshot + URL). Hard scope: code industry-verticals/seismic; content /sitecore/content/Seismic/Seismic."
+  - "2026-10-16T15:25:00Z — Phase 0.5 Quick PASS. Created missing /sitecore/templates/Project/Financial/Folders (b754c9be-3fbd-48ed-895d-e3490b7ba12d). Content Hub auth OK."
+  - "2026-10-16T15:26:00Z — Phase 1 theme drafted (seismic.theme.yaml). Waiting on user approval before Phase 2."
+  - "2026-10-16T15:28:00Z — Phase 1 approved. Phase 2 build plan ready (11 Financial/SXA sections). Waiting on mapping + Phase 5.5 decision."
+  - "2026-10-16T15:30:00Z — Phase 2 approved. Phase 5.5: LogoRow + IndustryTabs + PurpleGradientSplit; skip AskAIPrompt. Starting Phase 2.5 content extraction."
+  - "2026-10-16T15:35:00Z — Phase 2.5 done (extractor). CH upload 28/28. Demo folder 3dd03177. Datasources: Hero, Industry, Ask AI, Outcomes, Resources, Stats, Closing, Testimonials+Elastic. Remaining: LogoRow gallery, theme, variants, assembly."
+  - "2026-10-16T16:00:00Z — Theme applied; 3 React variants + Variant Definitions; Logo Cloud DS + 8 logos; Home wired Hero/Industry/AskAI/Outcomes/Stats/Resources/Closing. Manual: LogoRow+Testimonials add, FieldNames, Prospera cleanup, Closing reorder after Resources."

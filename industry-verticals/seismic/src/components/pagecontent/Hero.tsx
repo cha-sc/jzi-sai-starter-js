@@ -56,3 +56,42 @@ export const Default = (props: AppPromoProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* SEISMIC — purple gradient split hero with product graphic */
+export const PurpleGradientSplit = (props: AppPromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component hero seismic-hero-purple ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-hero-purple__glow" aria-hidden="true" />
+      <div className="seismic-hero-purple__inner">
+        <div className="seismic-hero-purple__copy">
+          <h1 className="seismic-hero-purple__title">
+            <Text field={props.fields.Title} />
+          </h1>
+          <div className="seismic-hero-purple__subtitle">
+            <RichText field={props.fields.Text} />
+          </div>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="seismic-hero-purple__cta" />
+          )}
+        </div>
+        <div className="seismic-hero-purple__media">
+          <NextImage
+            field={props.fields.Image}
+            className="seismic-hero-purple__img"
+            width={960}
+            height={720}
+          />
+        </div>
+      </div>
+    </section>
+  );
+};

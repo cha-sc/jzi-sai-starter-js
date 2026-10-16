@@ -1,0 +1,672 @@
+{
+  "url": "https://www.seismic.com/",
+  "extractedAt": "2026-10-16T15:31:05.685Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 9,
+  "totalImages": 28,
+  "totalVideos": 6,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 0,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 1
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full !px-0 grid-cols-12 [background:var(--Gradients-Dusk-Extra-inv",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Move from preparation to GTM performance"
+        }
+      ],
+      "paragraphs": [
+        "THE AI PLATFORM FOR REVENUE EXECUTION",
+        "Move from preparation to GTM performance",
+        "Trusted content, intelligence, and role-based agents everywhere your teams work."
+      ],
+      "links": [
+        {
+          "text": "Get a Demo",
+          "href": "https://www.seismic.com/get-a-demo/",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "title": "Move from preparation to GTM performance",
+          "description": "THE AI PLATFORM FOR REVENUE EXECUTION",
+          "link": {
+            "text": "Get a Demo",
+            "href": "https://www.seismic.com/get-a-demo/"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1234137984?autoplay=1&muted=1&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full max-w-xxl-desktop grid gap-16 md:gap-24 grid-cols-1 mb-96 md:",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "Get a Demo",
+          "href": "https://www.seismic.com/get-a-demo/",
+          "target": ""
+        },
+        {
+          "text": "Watch Demo Videos",
+          "href": "https://www.seismic.com/resource/demo-videos/",
+          "target": ""
+        },
+        {
+          "text": "Take a Product Tour",
+          "href": "https://www.seismic.com/resources/Product-Tour/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66638-seismic-icon-monitor-person-dawn3-filled-64px%3Fv%3Df1c910e4&w=128&q=75",
+          "alt": "Seismic-Icon-Monitor-Person-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 64,
+          "height": 65
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F67139-seismic-icon-video-play-dawn3-filled-64px%3Fv%3D2f0040eb&w=128&q=75",
+          "alt": "Seismic-Icon-Video-Play-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66534-seismic-icon-map-dawn3-filled-64px%3Fv%3D92eb764f&w=128&q=75",
+          "alt": "Seismic-Icon-Map-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 64,
+          "height": 65
+        },
+        {
+          "src": "https://cdn.cookielaw.org/logos/static/ot_persistent_cookie_icon.png",
+          "alt": "",
+          "type": "background-unmatched",
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full !px-0 grid-cols-12 bg-transparent relative z-20 text-dusk-5 o",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Trusted by approximately 2,000 organizations worldwide"
+        }
+      ],
+      "paragraphs": [
+        "Onesource Virtual",
+        "AllianceBernstein",
+        "Ameriprise Financial"
+      ],
+      "links": [
+        {
+          "text": "increase in average deal size",
+          "href": "https://www.seismic.com/customer-stories/onesource-virtual/",
+          "target": ""
+        },
+        {
+          "text": "reduction in sales cycle length",
+          "href": "https://www.seismic.com/customer-stories/aerogen/",
+          "target": ""
+        },
+        {
+          "text": "faster growth rate",
+          "href": "https://www.seismic.com/customer-stories/ibm/",
+          "target": ""
+        },
+        {
+          "text": "in efficiency savings",
+          "href": "https://www.seismic.com/customer-stories/alliancebernstein/",
+          "target": ""
+        },
+        {
+          "text": "content shares through Seismic LiveSend",
+          "href": "https://www.seismic.com/customer-stories/oracle/",
+          "target": ""
+        },
+        {
+          "text": "increase in opportunity win rate",
+          "href": "https://www.seismic.com/customer-stories/expedia/",
+          "target": ""
+        },
+        {
+          "text": "hours saved annually across the sales force",
+          "href": "https://www.seismic.com/customer-stories/lg-asset-management/",
+          "target": ""
+        },
+        {
+          "text": "Growth in Sales Program Bookings",
+          "href": "https://www.seismic.com/customer-stories/elastic/",
+          "target": ""
+        },
+        {
+          "text": "increase in deal size",
+          "href": "https://www.seismic.com/customer-stories/experian/",
+          "target": ""
+        },
+        {
+          "text": "reduction in administrative tasks",
+          "href": "https://www.seismic.com/customer-stories/ameriprise-financial/",
+          "target": ""
+        },
+        {
+          "text": "increase in customer engagement",
+          "href": "https://www.seismic.com/customer-stories/ultimo/",
+          "target": ""
+        },
+        {
+          "text": "increase in content usage",
+          "href": "https://www.seismic.com/customer-stories/illumina/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69185-ticker-logo-onesource-virtual%3Fv%3Dd45eb311&w=256&q=75",
+          "alt": "ticker-logo-onesource-virtual",
+          "type": "img",
+          "width": 121,
+          "height": 24
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F68737-ticker-logo-aerogen%3Fv%3Dc91a670d&w=256&q=75",
+          "alt": "ticker-logo-aerogen",
+          "type": "img",
+          "width": 112,
+          "height": 27
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69042-ibm-logo%3Fv%3D814c802e&w=256&q=75",
+          "alt": "ibm-logo",
+          "type": "img",
+          "width": 80,
+          "height": 31
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69004-alliance-berstein-logo%3Fv%3Dee2a65cf&w=384&q=75",
+          "alt": "alliance-berstein-logo",
+          "type": "img",
+          "width": 156,
+          "height": 44
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69149-oracle-logo%3Fv%3Db3a88334&w=256&q=75",
+          "alt": "oracle-logo",
+          "type": "img",
+          "width": 112,
+          "height": 15
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F68082-expediagrouplogo-1-1%3Fv%3Dc99b92c8&w=256&q=75",
+          "alt": "",
+          "type": "img",
+          "width": 100,
+          "height": 32
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69148-ticker-logo-legal-general%3Fv%3D6461aa87&w=256&q=75",
+          "alt": "ticker-logo-legal-general",
+          "type": "img",
+          "width": 77,
+          "height": 57
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F49156-elastic_logo_small1%3Fv%3Da5818561&w=384&q=75",
+          "alt": "Elastic logo featuring a colorful abstract pattern next to the text \"Elastic\".",
+          "type": "img",
+          "width": 144,
+          "height": 50
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69076-logo-ticker-experian%3Fv%3D9955129f&w=256&q=75",
+          "alt": "logo-ticker-experian",
+          "type": "img",
+          "width": 120,
+          "height": 42
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69002-ameriprise-logo%3Fv%3Db29a5baa&w=384&q=75",
+          "alt": "ameriprise-logo",
+          "type": "img",
+          "width": 144,
+          "height": 50
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69114-logo-ticker-ultimo%3Fv%3Dfd46ca76&w=256&q=75",
+          "alt": "logo-ticker-ultimo",
+          "type": "img",
+          "width": 120,
+          "height": 15
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F68842-ticker-logo-illumina%3Fv%3D34a873a1&w=256&q=75",
+          "alt": "ticker-logo-illumina",
+          "type": "img",
+          "width": 107,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full max-w-xxl-desktop grid gap-16 md:gap-24 grid-cols-12 mb-96 md",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Solutions by Industry"
+        },
+        {
+          "tag": "h5",
+          "text": "Strengthen Client Relationships and Drive Advisor Growth"
+        }
+      ],
+      "paragraphs": [
+        "Solutions by Industry",
+        "Financial Services",
+        "Manufacturing",
+        "Life Sciences",
+        "Strengthen Client Relationships and Drive Advisor Growth",
+        "Equip advisors, wholesalers, bankers, relationship managers, and agents with compliant content, real-time insights, and guided workflows that make every client interaction count. Seismic helps financial services organizations reduce administrative burden, ensure regulatory alignment, and increase revenue per advisor — while delivering personalized experiences that deepen long-term client relationships.",
+        "Explore Financial Services Solutions"
+      ],
+      "links": [
+        {
+          "text": "Explore Financial Services Solutions",
+          "href": "https://www.seismic.com/resources/financial-services/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58764-image-fs-persona-1638x1638%3Fv%3D4c0127b5&w=3840&q=75",
+          "alt": "image-FS-persona-1638x1638",
+          "type": "img",
+          "width": 546,
+          "height": 546
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Strengthen Client Relationships and Drive Advisor Growth",
+          "description": "Strengthen Client Relationships and Drive Advisor Growth",
+          "link": {
+            "text": "Explore Financial Services Solutions",
+            "href": "https://www.seismic.com/resources/financial-services/"
+          }
+        },
+        {
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58764-image-fs-persona-1638x1638%3Fv%3D4c0127b5&w=3840&q=75",
+            "alt": "image-FS-persona-1638x1638"
+          }
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full grid gap-16 md:gap-24 !px-0 grid-cols-1 mb-96 md:mb-128 lg:mb",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "The revenue enablement platform that high-performing teams trust to deliver results"
+        }
+      ],
+      "paragraphs": [
+        "Elastic empowers organizations to find the answers that matter from all their data. Built on the power of search and powered by AI, Elastic’s Search AI platform helps customers transform their data into actionable insights. The company serves over 22,000 customers globally, with an annual revenue of approximately $1.5 billion and a workforce of 3,600 employees.",
+        "CRO at Elastic"
+      ],
+      "links": [
+        {
+          "text": "See Elastic’s Success Story",
+          "href": "https://www.seismic.com/customer-stories/elastic/",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F69531-logo-video-carousel-oracle%3Fv%3D56f3f7c7&w=256&q=75",
+          "alt": "logo-video-carousel-oracle",
+          "type": "img",
+          "width": 120,
+          "height": 19
+        }
+      ],
+      "videos": [
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1143222106?autoplay=1&muted=1&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        },
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1029031015?autoplay=0&muted=0&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        },
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1030813325?autoplay=0&muted=0&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        },
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1031257901?autoplay=0&muted=0&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        },
+        {
+          "type": "iframe-video",
+          "src": "https://player.vimeo.com/video/1006814163?autoplay=0&muted=0&loop=1&byline=0&autopause=0&title=0&portrait=0&controls=0",
+          "provider": "vimeo"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full grid-cols-12 mb-96 md:mb-128 lg:mb-128 bg-transparent relativ",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "Ask AI who leads enablement",
+        "Use ChatGPT, Claude, or Perplexity to compare Seismic with the rest of the enablement category. Ask how the Seismic Enablement Cloud helps teams get ready, engage buyers, personalize content, and drive revenue."
+      ],
+      "links": [
+        {
+          "text": "Ask ChatGPT",
+          "href": "https://chatgpt.com/?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F",
+          "target": "_blank"
+        },
+        {
+          "text": "Ask Claude",
+          "href": "https://claude.ai/new?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F",
+          "target": "_blank"
+        },
+        {
+          "text": "Ask Perplexity",
+          "href": "https://www.perplexity.ai/search/new?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92523-arcticons_openai-chatgpt%3Fv%3D5050568e&w=96&q=75",
+          "alt": "A stylized icon resembling an abstract geometric flower or cog in white against a transparent background.",
+          "type": "img",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92524-hugeicons_claude%3Fv%3D894825ae&w=48&q=75",
+          "alt": "Blank white square with no visible content.",
+          "type": "img",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92525-simple-icons_perplexity%3Fv%3D2f76d698&w=48&q=75",
+          "alt": "White background with simple geometric shapes, possibly part of an icon or logo design.",
+          "type": "img",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "listItems": [
+        {
+          "description": "Ask ChatGPT",
+          "link": {
+            "text": "Ask ChatGPT",
+            "href": "https://chatgpt.com/?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92523-arcticons_openai-chatgpt%3Fv%3D5050568e&w=96&q=75",
+            "alt": "A stylized icon resembling an abstract geometric flower or cog in white against a transparent background."
+          }
+        },
+        {
+          "description": "Ask Claude",
+          "link": {
+            "text": "Ask Claude",
+            "href": "https://claude.ai/new?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92524-hugeicons_claude%3Fv%3D894825ae&w=48&q=75",
+            "alt": "Blank white square with no visible content."
+          }
+        },
+        {
+          "description": "Ask Perplexity",
+          "link": {
+            "text": "Ask Perplexity",
+            "href": "https://www.perplexity.ai/search/new?q=Tell+me+about+Seismic+and+why+it%27s+considered+the+leading+sales+enablement+platform.+Based+on+what+you+know+about+my+work+and+the+challenges+I%27m+trying+to+solve%2C+how+would+Seismic+help+my+team%3F"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F92525-simple-icons_perplexity%3Fv%3D2f76d698&w=48&q=75",
+            "alt": "White background with simple geometric shapes, possibly part of an icon or logo design."
+          }
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full max-w-xxl-desktop grid gap-16 md:gap-24 grid-cols-12 mb-96 md",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Better business outcomes start with Seismic"
+        }
+      ],
+      "paragraphs": [
+        "Drive revenue growth",
+        "Improve buyer and customer experiences",
+        "Increase sales efficiency and effectiveness",
+        "Reduce operational costs"
+      ],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66297-seismic-icon-graph-increase-dawn3-filled-64px%3Fv%3D94994af8&w=3840&q=75",
+          "alt": "Seismic-Icon-Graph-Increase-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 48,
+          "height": 49
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66335-seismic-icon-handshake-deal-dawn3-filled-64px%3Fv%3Dc00cbf09&w=3840&q=75",
+          "alt": "Seismic-Icon-Handshake-Deal-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 48,
+          "height": 49
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F64900-seismic-icon-accelerate-dawn3-filled-64px%3Fv%3De50a0828&w=3840&q=75",
+          "alt": "Seismic-Icon-Accelerate-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 48,
+          "height": 49
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66572-seismic-icon-money-return-dawn3-filled-64px%3Fv%3Db08fb08c&w=3840&q=75",
+          "alt": "Seismic-Icon-Money-Return-Dawn3-Filled-64px",
+          "type": "img",
+          "width": 48,
+          "height": 49
+        }
+      ],
+      "listItems": [
+        {
+          "description": "Drive revenue growth",
+          "badge": "Learn More",
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66297-seismic-icon-graph-increase-dawn3-filled-64px%3Fv%3D94994af8&w=3840&q=75",
+            "alt": "Seismic-Icon-Graph-Increase-Dawn3-Filled-64px"
+          }
+        },
+        {
+          "description": "Improve buyer and customer experiences",
+          "badge": "Learn More",
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66335-seismic-icon-handshake-deal-dawn3-filled-64px%3Fv%3Dc00cbf09&w=3840&q=75",
+            "alt": "Seismic-Icon-Handshake-Deal-Dawn3-Filled-64px"
+          }
+        },
+        {
+          "description": "Increase sales efficiency and effectiveness",
+          "badge": "Learn More",
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F64900-seismic-icon-accelerate-dawn3-filled-64px%3Fv%3De50a0828&w=3840&q=75",
+            "alt": "Seismic-Icon-Accelerate-Dawn3-Filled-64px"
+          }
+        },
+        {
+          "description": "Reduce operational costs",
+          "badge": "Learn More",
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F66572-seismic-icon-money-return-dawn3-filled-64px%3Fv%3Db08fb08c&w=3840&q=75",
+            "alt": "Seismic-Icon-Money-Return-Dawn3-Filled-64px"
+          }
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full grid gap-16 md:gap-24 grid-cols-12 mb-96 md:mb-128 lg:mb-128 ",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "See Seismic in Action!"
+        },
+        {
+          "tag": "h2",
+          "text": "56% reduction in sales cycle length"
+        }
+      ],
+      "paragraphs": [
+        "Give us 30 minutes and we’ll show you how to drive revenue and reduce costs."
+      ],
+      "links": [],
+      "images": [],
+      "listItems": [
+        {
+          "title": "See Seismic in Action!",
+          "description": "See Seismic in Action!"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "tagName": "section",
+      "classHint": "mx-auto px-16 md:px-24 lg:px-48 w-full grid gap-16 md:gap-24 grid-cols-12 bg-gray-0 z-20 relative",
+      "backgroundHint": "light",
+      "headings": [
+        {
+          "tag": "h4",
+          "text": "Continue learning about enablement software"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "WORKBOOKThe Revenue Growth Formula WorkbookDownload the Workbook (Opens in a new tab)",
+          "href": "https://seismic.com/resources/guides/revenue-growth-formula/",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58838-resource-tile-homepage-forrester-wave-report%3Fv%3D5f3adf42&w=3840&q=75",
+          "alt": "resource-tile-homepage-forrester-wave-report",
+          "type": "img",
+          "width": 648,
+          "height": 324
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58871-resource-tile-homepage-ultimate-guide-on-enablement-journey%3Fv%3Dacad9398&w=3840&q=75",
+          "alt": "resource-tile-homepage-ultimate-guide-on-enablement-journey",
+          "type": "img",
+          "width": 648,
+          "height": 324
+        },
+        {
+          "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58836-resource-tile-homepage-revenue-growth-formula-workbook%3Fv%3De1fa4cf9&w=3840&q=75",
+          "alt": "resource-tile-homepage-revenue-growth-formula-workbook",
+          "type": "img",
+          "width": 648,
+          "height": 324
+        }
+      ],
+      "listItems": [
+        {
+          "description": "REPORT",
+          "link": {
+            "text": "REPORTThe Forrester Wave™: Revenue Enablement Platforms, Q3 2024 ReportRead the Report (Opens in a new tab)",
+            "href": "https://seismic.com/resources/reports/forrester-wave-revenue-enablement-platforms-2024/"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58838-resource-tile-homepage-forrester-wave-report%3Fv%3D5f3adf42&w=3840&q=75",
+            "alt": "resource-tile-homepage-forrester-wave-report"
+          }
+        },
+        {
+          "description": "GUIDE",
+          "link": {
+            "text": "GUIDEThe Ultimate Guide to Getting Started on Your Enablement JourneyGet the Guide (Opens in a new tab)",
+            "href": "https://seismic.com/resources/guides/guide-the-ultimate-guide-to-getting-started-on-your-enablement-journey/"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58871-resource-tile-homepage-ultimate-guide-on-enablement-journey%3Fv%3Dacad9398&w=3840&q=75",
+            "alt": "resource-tile-homepage-ultimate-guide-on-enablement-journey"
+          }
+        },
+        {
+          "description": "WORKBOOK",
+          "link": {
+            "text": "WORKBOOKThe Revenue Growth Formula WorkbookDownload the Workbook (Opens in a new tab)",
+            "href": "https://seismic.com/resources/guides/revenue-growth-formula/"
+          },
+          "image": {
+            "src": "https://www.seismic.com/_next/image/?url=https%3A%2F%2Fassets.seismic.com%2Fapi%2Fpublic%2Fcontent%2F58836-resource-tile-homepage-revenue-growth-formula-workbook%3Fv%3De1fa4cf9&w=3840&q=75",
+            "alt": "resource-tile-homepage-revenue-growth-formula-workbook"
+          }
+        }
+      ]
+    }
+  ]
+}
