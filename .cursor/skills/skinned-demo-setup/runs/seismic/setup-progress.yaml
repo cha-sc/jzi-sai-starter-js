@@ -1,0 +1,99 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Seismic"
+  systemName: "Seismic"
+  folder: "seismic"
+  url: "https://www.seismic.com/"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/seismic/assets/seismic-homepage.jpg"
+  startedAt: "2026-10-16T15:11:00Z"
+  lastUpdatedAt: "2026-10-16T15:20:30Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "Seismic"
+  collectionId: "e140037173e8459883f8c91260fb04ec"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "f6014c56-bb4f-4cc0-9cdf-0737140ee17d"
+  copyJobHandle: "659843c9-aed1-4b22-af1b-493041dc4c6e;sitecoresaaea3f-chadev7ae9-chadev09156390-7cb5f69c8d-jl6qj"
+  collectionJobHandle: "78286723-0877-4977-9b78-0aad72100517;sitecoresaaea3f-chadev7ae9-chadev09156390-7cb5f69c8d-jl6qj"
+  ehEnvironmentId: ""
+  cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
+  renderingHostKey: "seismic"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    siteName: "Seismic"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  offer_commit:
+    status: "pending"
+    committed: null
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-10-16T15:11:00Z — Inputs collected. CM environment ID provided for optional editing host."
+  - "2026-10-16T15:12:30Z — Sites API + Marketer MCP auth OK. Waiting on collection mode (new vs existing)."
+  - "2026-10-16T15:18:00Z — Collection+site duplicate done. Local folder + xmcloud.build.json wired. Waiting on Content Editor move into Seismic collection."
+  - "2026-10-16T15:20:30Z — Move verified. Offering commit + editing host opt-in."
