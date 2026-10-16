@@ -16,7 +16,7 @@ Variant Definition template ID: `4d50cdae-c2d9-4de8-b080-8f992bfb1b55`
 
 Open **Home** (`1fceea46-2ce0-422d-b892-db5aeb4948d3`) → click each LATICRETE rendering → Design / variant dropdown:
 
-1. Hero (Blue Premier) → **Laticrete**
+1. Hero (Blue Premier) → **Laticrete** (optional SXA style **right** / param `TextPosition=Right` for copy on right half)
 2. Promo CTA (Forever Chemicals) → **Laticrete**
 3. Promo CTA (Install Smarter) → **Laticrete** + SXA style **reverse**
 4. CTA Banner (Project Planning) → **LaticreteTeal**

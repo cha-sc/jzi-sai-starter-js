@@ -58,27 +58,33 @@ export const Default = (props: AppPromoProps): JSX.Element => {
 };
 
 /* *************************************************************** */
-/* LATICRETE — full-bleed navy→teal gradient promo hero */
+/* LATICRETE — full-bleed image background with navy→teal overlay
+ * Text side: default left. Use SXA style `right` (or rendering param
+ * TextPosition=Right) to place copy on the right half. */
 export const Laticrete = (props: AppPromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
   const sxaStyles = `${props.params?.styles || ''}`;
+  const textPosition = `${props.params?.TextPosition || ''}`.toLowerCase();
+  const isTextRight =
+    textPosition === 'right' || /\bright\b/.test(sxaStyles) || /\bposition-right\b/.test(sxaStyles);
 
   return (
     <section
-      className={`component hero laticrete-hero ${sxaStyles}`}
+      className={`component hero laticrete-hero ${isTextRight ? 'laticrete-hero--right' : 'laticrete-hero--left'} ${sxaStyles}`}
       id={id ? id : undefined}
     >
+      <div className="laticrete-hero__media" aria-hidden={!isPageEditing}>
+        <NextImage
+          field={props.fields.Image}
+          className="laticrete-hero__img"
+          width={1920}
+          height={900}
+        />
+      </div>
+      <div className="laticrete-hero__shade" aria-hidden="true" />
       <div className="laticrete-hero__inner">
-        <div className="laticrete-hero__media">
-          <NextImage
-            field={props.fields.Image}
-            className="laticrete-hero__img"
-            width={900}
-            height={600}
-          />
-        </div>
         <div className="laticrete-hero__copy">
           <h1 className="laticrete-hero__title">
             <Text field={props.fields.Title} />

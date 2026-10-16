@@ -4,64 +4,107 @@
 // Hero — Laticrete
 // ---------------------------------------------------------------------------
 .laticrete-hero {
-  background: linear-gradient(
-    90deg,
-    var(--brand-secondary, #003a5d) 0%,
-    var(--brand-primary, #0096d6) 100%
-  );
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  min-height: clamp(22rem, 48vw, 34rem);
+  width: 100%;
+  max-width: 100%;
+  background: var(--brand-secondary, #003a5d);
 
-  &::before {
-    content: '10X';
-    position: absolute;
-    left: 4%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: var(--brand-heading-font, 'Oswald', sans-serif);
-    font-size: clamp(8rem, 22vw, 16rem);
-    font-weight: 700;
-    line-height: 1;
-    color: rgba(255, 255, 255, 0.07);
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  &__inner {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    align-items: center;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 22rem;
-    padding: 2.5rem 1.5rem;
-
-    @media (max-width: 991px) {
-      grid-template-columns: 1fr;
-      min-height: auto;
-      text-align: center;
-    }
+  &.component,
+  &[class*='col-'] {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
   }
 
   &__media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    img,
+    picture,
+    span {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+    }
   }
 
   &__img {
     width: 100%;
-    max-width: 32rem;
-    height: auto;
-    display: block;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  // Navy → teal wash so copy stays readable over product photography
+  &__shade {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(
+      100deg,
+      rgba(0, 58, 93, 0.88) 0%,
+      rgba(0, 58, 93, 0.55) 42%,
+      rgba(0, 150, 214, 0.35) 100%
+    );
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: inherit;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
   }
 
   &__copy {
     color: var(--brand-primary-foreground, #fff);
+    max-width: 36rem;
+    width: min(100%, 50%);
+
+    @media (max-width: 991px) {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  // Text on right half — flip overlay + push copy to the right
+  &--right {
+    .laticrete-hero__shade {
+      background: linear-gradient(
+        260deg,
+        rgba(0, 58, 93, 0.88) 0%,
+        rgba(0, 58, 93, 0.55) 42%,
+        rgba(0, 150, 214, 0.35) 100%
+      );
+    }
+
+    .laticrete-hero__inner {
+      justify-content: flex-end;
+    }
+
+    .laticrete-hero__copy {
+      @media (min-width: 992px) {
+        text-align: left;
+      }
+    }
+  }
+
+  &--left {
+    .laticrete-hero__inner {
+      justify-content: flex-start;
+    }
   }
 
   &__title {
