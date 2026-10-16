@@ -119,10 +119,22 @@
 // ---------------------------------------------------------------------------
 .laticrete-category-grid {
   background: var(--brand-bg, #fff);
-  padding: 3rem 1.5rem 3.5rem;
+  padding: 3rem clamp(1.25rem, 4vw, 3rem) 3.5rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  // Span the full SXA row / placeholder column (avoids half-width beside page chrome)
+  &.component,
+  &[class*='col-'] {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 
   &__inner {
-    max-width: 1100px;
+    width: 100%;
+    max-width: none;
     margin: 0 auto;
   }
 
@@ -140,6 +152,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.75rem 1.5rem;
+    width: 100%;
   }
 
   &__tile {
@@ -150,6 +163,7 @@
     text-decoration: none !important;
     flex: 0 0 calc(25% - 1.125rem);
     max-width: calc(25% - 1.125rem);
+    box-sizing: border-box;
 
     @media (max-width: 991px) {
       flex: 0 0 calc(33.333% - 1rem);
