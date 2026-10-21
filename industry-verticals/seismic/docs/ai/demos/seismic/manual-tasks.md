@@ -1,5 +1,9 @@
 # Manual Tasks — Seismic Demo
 
+## Theme switcher (removed in code)
+
+`ThemeSwitcher` now renders nothing and no longer toggles `dark` on `<body>`; the site is always light with a permanently dark header (`<header class="dark">` in `Layout.tsx`). Optionally delete the **ThemeSwitcher** rendering from the eyebrow placeholder in Page Design. If the Seismic wordmark logo looks dark-on-purple, swap in a white logo asset.
+
 ## Variant selection (Pages)
 
 See `variant-checklist.md`. Agent API cannot set `FieldNames`.

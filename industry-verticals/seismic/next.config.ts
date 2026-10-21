@@ -21,8 +21,16 @@ const nextConfig: NextConfig = {
   // can be served from the Next.js Image Optimization API
   // see https://nextjs.org/docs/app/api-reference/components/image#remotepatterns
   images: {
+    // Several external assets (Content Hub / Sitecore logos & icons) are
+    // SVGs — some were even uploaded with a .jpg filename. Next's optimizer
+    // sniffs the real bytes and rejects SVG with
+    // '"url" parameter is valid but image type is not allowed' unless opted in.
+    // Only enable this for trusted image sources (our DAM / Sitecore media).
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'inline',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     remotePatterns: [
-	  {
+      {
         protocol: 'https',
         hostname: '**',
       },

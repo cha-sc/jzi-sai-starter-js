@@ -36,7 +36,8 @@ const Layout = ({ page }: LayoutProps): JSX.Element => {
           )
         ) : (
           <>
-            <header>
+            {/* Header is always dark; page body below stays light. */}
+            <header className="dark">
               <div id="header">
                 {route && (
                   <AppPlaceholder

@@ -77,6 +77,130 @@
   }
 }
 
+/* Seismic button decorators (seismic.com) — Style items:
+ * Presentation/Styles/Buttons — Value matches the class name.
+ * Dusk 5 = --brand-dusk5 (#2d0a4e).
+ *
+ * IMPORTANT: as an SXA Style the class lands on the component ROOT
+ * (params.styles), so there is deliberately NO bare `.btn-* { … }` rule —
+ * that would paint/pad the whole component. The class only ever paints:
+ *   1. itself when it is placed directly on a link/button, and
+ *   2. link buttons inside it (.button*, custom *__cta links).
+ * Plain links, headings, and the component container are untouched. */
+
+// 1. Directly on a link/button — full pill shape + colours.
+a.btn-orange-to-dusk,
+button.btn-orange-to-dusk,
+a.btn-dusk-to-orange,
+button.btn-dusk-to-orange,
+a.btn-white-to-orange,
+button.btn-white-to-orange {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  border-radius: var(--button-roundness);
+  padding: var(--button-padding);
+  transition: all 0.2s ease-in-out;
+}
+
+a.btn-orange-to-dusk,
+button.btn-orange-to-dusk {
+  background-color: var(--brand-accent, #fe5000);
+  color: #fff;
+  border: none;
+
+  &:hover {
+    background-color: var(--brand-dusk5, #2d0a4e);
+    color: #fff;
+  }
+}
+
+a.btn-dusk-to-orange,
+button.btn-dusk-to-orange {
+  background-color: var(--brand-dusk5, #2d0a4e);
+  color: #fff;
+  border: none;
+
+  &:hover {
+    background-color: var(--brand-accent, #fe5000);
+    color: #fff;
+  }
+}
+
+a.btn-white-to-orange,
+button.btn-white-to-orange {
+  background-color: #fff;
+  color: var(--brand-dusk5, #2d0a4e);
+  border: 1px solid var(--brand-border, #e2dde8);
+
+  &:hover {
+    background-color: var(--brand-accent, #fe5000);
+    color: #fff;
+    border-color: var(--brand-accent, #fe5000);
+  }
+}
+
+// 2. SXA Style (wrapper) form — recolour only the link buttons inside.
+.btn-orange-to-dusk .button,
+.btn-orange-to-dusk .button-main,
+.btn-orange-to-dusk .button-accent,
+.btn-orange-to-dusk .button-secondary,
+.btn-orange-to-dusk a[class*='__cta'] {
+  background-color: var(--brand-accent, #fe5000);
+  color: #fff;
+
+  &:hover {
+    background-color: var(--brand-dusk5, #2d0a4e);
+    color: #fff;
+    filter: none;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.btn-dusk-to-orange .button,
+.btn-dusk-to-orange .button-main,
+.btn-dusk-to-orange .button-accent,
+.btn-dusk-to-orange .button-secondary,
+.btn-dusk-to-orange a[class*='__cta'] {
+  background-color: var(--brand-dusk5, #2d0a4e);
+  color: #fff;
+
+  &:hover {
+    background-color: var(--brand-accent, #fe5000);
+    color: #fff;
+    filter: none;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.btn-white-to-orange .button,
+.btn-white-to-orange .button-main,
+.btn-white-to-orange .button-accent,
+.btn-white-to-orange .button-secondary,
+.btn-white-to-orange a[class*='__cta'] {
+  background-color: #fff;
+  color: var(--brand-dusk5, #2d0a4e);
+  border: 1px solid var(--brand-border, #e2dde8);
+
+  &:hover {
+    background-color: var(--brand-accent, #fe5000);
+    color: #fff;
+    border-color: var(--brand-accent, #fe5000);
+    filter: none;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
 .button-simple {
   padding: 0;
   border-radius: 0;

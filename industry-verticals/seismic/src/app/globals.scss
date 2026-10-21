@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+/* Dark styles are scoped to the header (which carries .dark), never the OS or page. */
+@custom-variant dark (&:where(.dark, .dark *));
 @import '../assets/basic/fonts';
 @import 'bootstrap/scss/bootstrap';
 @import '../assets/sass/main';

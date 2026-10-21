@@ -1,40 +1,31 @@
 @import 'src/assets/sass/abstracts/vars';
 
-.dark {
-  body {
-    background: var(--bg-body, #031827);
-    color: var(--text-body, #fff);
-  }
+// Dark styles are scoped to the header only: Layout.tsx renders
+// <header class="dark">, and no other element carries .dark, so the
+// page body always renders with the light palette.
+header.dark {
+  background-color: var(--brand-header-bg, #2d0a4e);
+  color: var(--brand-header-fg, #fff);
 
   a {
-    color: var(--text-body, #fff);
+    color: var(--brand-header-fg, #fff);
 
     &:hover {
-      color: var(--text-colored, #c5e4f3);
+      color: var(--brand-card-peach, #f8ede6);
     }
   }
 
   .header {
-    background-color: var(--bg-body, #031827);
+    background-color: var(--brand-header-bg, #2d0a4e);
   }
 
+  // Eyebrow carries a Tailwind bg-white utility; the header wins on dark.
   .eyebrow {
-    background-color: var(--bg-footer, #1a2f3d);
-    color: var(--text-footer, #fff);
-  }
-
-  .footer {
-    background-color: var(--bg-footer, #1a2f3d);
-    color: var(--text-footer, #fff);
-  }
-
-  .page-background {
-    .background-content {
-      background-color: var(--bg-main-alt, #031827);
-    }
+    background-color: var(--brand-header-bg, #2d0a4e);
+    color: var(--brand-header-fg, #fff);
   }
 
   .rich-text {
-    color: var(--text-body, #fff);
+    color: var(--brand-header-fg, #fff);
   }
 }

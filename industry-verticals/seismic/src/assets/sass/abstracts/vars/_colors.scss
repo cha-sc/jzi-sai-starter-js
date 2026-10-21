@@ -18,6 +18,7 @@ body.site-financial,
   --roundness: 0.625rem;
 
   /* Brand tokens used by Seismic variants */
+  --brand-dusk5: #2d0a4e;
   --brand-primary: #2d0a4e;
   --brand-primary-foreground: #ffffff;
   --brand-secondary: #004b50;
@@ -59,6 +60,29 @@ body.site-financial.dark,
   --border-color: #4a1a6b;
   --hr-color: #fff;
   --roundness: 0.625rem;
+}
+
+// Header-only dark: <header class="dark"> in Layout.tsx. The page stays
+// light; these tokens are re-scoped to the header subtree so navigation,
+// eyebrow, and header links render with the dark palette.
+.site-financial header.dark {
+  --text-body: #fff;
+  --text-body-inverted: #1a1a1a;
+  --text-colored: #f8ede6;
+  --text-footer: #d4cde0;
+  --text-accent: #fe5000;
+  --bg-body: #2d0a4e;
+  --bg-footer: #2d0a4e;
+  --bg-main: #004b50;
+  --bg-main-alt: #2d0a4e;
+  --bg-color: #004b50;
+  --bg-saturated: #4a1a6b;
+  --bg-accent: #fe5000;
+  --border-color: #4a1a6b;
+  --hr-color: #fff;
+
+  background-color: var(--brand-header-bg, #2d0a4e);
+  color: var(--brand-header-fg, #fff);
 }
 
 // Services

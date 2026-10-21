@@ -1,39 +1,14 @@
 'use client';
 
-import { useEffect, useState, JSX } from 'react';
+import { JSX } from 'react';
 
-export const Default = (): JSX.Element => {
-  const [isSystemDark, setIsSystemDark] = useState(false);
-
-  useEffect(() => {
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-
-    if (mq.matches) {
-      setIsSystemDark(true);
-    }
-
-    mq.addEventListener('change', (evt) => {
-      setIsSystemDark(evt.matches);
-    });
-  }, []);
-
-  useEffect(() => {
-    document.body.classList.toggle('dark', isSystemDark);
-  }, [isSystemDark]);
-
-  return (
-    <label className="theme-switcher">
-      <label htmlFor="theme-switcher" className="d-none">
-        Switch theme
-      </label>
-      <input
-        name="theme-switcher"
-        id="theme-switcher"
-        type="checkbox"
-        checked={isSystemDark}
-        onChange={() => setIsSystemDark(!isSystemDark)}
-      />
-      <span className="theme-switcher-slider"></span>
-    </label>
-  );
+/**
+ * Theme switcher removed. The site is always light, with the header
+ * permanently styled dark (see `dark` class on <header> in Layout.tsx).
+ * This component renders nothing so any rendering still placed in a
+ * Page Design placeholder disappears without a missing-component error;
+ * the placed rendering can be deleted in Pages at any time.
+ */
+export const Default = (): JSX.Element | null => {
+  return null;
 };
