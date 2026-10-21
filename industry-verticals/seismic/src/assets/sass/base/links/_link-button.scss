@@ -131,7 +131,9 @@ button.btn-dusk-to-orange {
 a.btn-white-to-orange,
 button.btn-white-to-orange {
   background-color: #fff;
-  color: var(--brand-dusk5, #2d0a4e);
+  // !important beats variant CTAs (e.g. .seismic-hero-purple__cta) that
+  // force `color: #fff !important` — otherwise white text lands on white.
+  color: var(--brand-dusk5, #2d0a4e) !important;
   border: 1px solid var(--brand-border, #e2dde8);
 
   &:hover {
@@ -186,18 +188,20 @@ button.btn-white-to-orange {
 .btn-white-to-orange .button-secondary,
 .btn-white-to-orange a[class*='__cta'] {
   background-color: #fff;
-  color: var(--brand-dusk5, #2d0a4e);
+  // !important: variant CTAs force `color: #fff !important`, which would
+  // otherwise leave white text on this white background.
+  color: var(--brand-dusk5, #2d0a4e) !important;
   border: 1px solid var(--brand-border, #e2dde8);
 
   &:hover {
     background-color: var(--brand-accent, #fe5000);
-    color: #fff;
+    color: #fff !important;
     border-color: var(--brand-accent, #fe5000);
     filter: none;
   }
 
   a {
-    color: inherit;
+    color: inherit !important;
   }
 }
 
