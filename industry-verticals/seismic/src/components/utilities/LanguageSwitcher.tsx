@@ -40,6 +40,22 @@ function LanguageSwitcherView({
       className={`language-switcher ${showLanguageDropdown ? 'expanded' : ''}`}
       onClick={onToggleDropdown}
     >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="globe-icon"
+        viewBox="0 0 24 24"
+        width={16}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden="true"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+        <path d="M2 12h20" />
+      </svg>
       <span className="selected-language">{selectedLabel}</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"

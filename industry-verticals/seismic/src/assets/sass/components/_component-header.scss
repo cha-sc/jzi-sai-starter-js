@@ -13,6 +13,28 @@
   .navigation {
     padding: 0 !important;
   }
+
+  // Keep everything placed in the header-right placeholder (menu, language
+  // switcher, etc.) inline on one row instead of stacking vertically.
+  // The navigation rendering is .col-12 / width:100% by default, which would
+  // otherwise claim the full row and push following components below it.
+  .row > .col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+
+    > .navigation {
+      flex: 0 1 auto;
+      width: auto;
+    }
+
+    > .language-switcher {
+      flex: 0 0 auto;
+      margin: 0;
+    }
+  }
 }
 
 // PLAY! finance specific styles

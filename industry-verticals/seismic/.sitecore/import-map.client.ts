@@ -8,10 +8,10 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { useEffect, useState, Suspense, useCallback, useMemo, useRef } from 'react';
 import React from 'react';
 import { getSiteThemeClass } from 'lib/site-theme';
+import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Text, useSitecore, NextImage, Link, RichText, Placeholder, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useParams, useRouter, useSearchParams, usePathname } from 'next/navigation';
 import Image from 'next/image';
@@ -58,14 +58,6 @@ import { pageView } from '@sitecore-content-sdk/events';
 
 const importMap = [
   {
-    module: 'react/jsx-runtime',
-    exports: [
-      { name: 'jsx', value: jsx },
-      { name: 'jsxs', value: jsxs },
-      { name: 'Fragment', value: Fragment },
-    ]
-  },
-  {
     module: 'react',
     exports: [
       { name: 'useEffect', value: useEffect },
@@ -81,6 +73,14 @@ const importMap = [
     module: 'lib/site-theme',
     exports: [
       { name: 'getSiteThemeClass', value: getSiteThemeClass },
+    ]
+  },
+  {
+    module: 'react/jsx-runtime',
+    exports: [
+      { name: 'jsx', value: jsx },
+      { name: 'jsxs', value: jsxs },
+      { name: 'Fragment', value: Fragment },
     ]
   },
   {

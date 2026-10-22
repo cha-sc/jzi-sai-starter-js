@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Highspot by Seismic Team",
+    "slug": "highspot-by-seismic-team",
+    "sitecoreItemName": "Highspot by Seismic Team",
+    "position": "",
+    "bioHtml": "<div class=\"ck-content\"><p>Highspot by Seismic is an AI platform for revenue execution that helps go-to-market teams turn intelligence into action. The platform brings together governed content, training, coaching, buyer engagement, seller activity and insights to help sellers know what matters, act with confidence and keep opportunities moving. Highspot by Seismic helps revenue teams understand what is working, reinforce effective execution, and scale it across the business. Highspot by Seismic is part of Seismic, the go-to-market performance company.</p></div>",
+    "sourceAuthorUrl": "https://www.highspot.com/author/highspot-team/",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/05/Highspot-by-Seismic-background-logo-250-x-250.png",
+    "avatarAlt": "Highspot by Seismic Team",
+    "articles": [
+      "seismic-completes-highspot-merger"
+    ],
+    "avatarLocalFile": "author-highspot-by-seismic-team.png"
+  },
+  {
+    "name": "Chrissy Koskovich",
+    "slug": "chrissy-koskovich",
+    "sitecoreItemName": "Chrissy Koskovich",
+    "position": "Product Marketing Director, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Chrissy Koskovich is a Product Marketing Director at Highspot where she leads the financial services vertical. With 16 years of experience, Chrissy specializes in product launches, engagement and retention, lead acquisition, and audience marketing. Chrissy blends data-driven strategy with creative execution to drive product adoption and brand growth. </p></div>",
+    "sourceAuthorUrl": "https://www.highspot.com/author/chrissy-koskovich/",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/04/chrissy-koskovich.jpg",
+    "avatarAlt": "Chrissy Koskovich",
+    "articles": [
+      "highspot-summer-launch-ai-deal-execution"
+    ],
+    "avatarLocalFile": "author-chrissy-koskovich.jpg"
+  },
+  {
+    "name": "Bridgette Roberts",
+    "slug": "bridgette-roberts",
+    "sitecoreItemName": "Bridgette Roberts",
+    "position": "Product Marketing Manager, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Bridgette Roberts is a Product Marketing Manager at Highspot, driving go-to-market execution for the company’s AI-powered platform innovations and beta programs to help customers improve go-to-market performance.</p></div>",
+    "sourceAuthorUrl": "https://www.highspot.com/author/bridgette-roberts/",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/04/bridgette-roberts.jpg",
+    "avatarAlt": "Bridgette Roberts",
+    "articles": [
+      "highspot-chatgpt-turn-deal-context-into-action"
+    ],
+    "avatarLocalFile": "author-bridgette-roberts.jpg"
+  },
+  {
+    "name": "Lucas Welch",
+    "slug": "lucas-welch",
+    "sitecoreItemName": "Lucas Welch",
+    "position": "Vice President of Communications, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Lucas Welch is a communications and marketing leader with a strong background in the technology sector. He is the Vice President of Corporate Marketing at Highspot, a leading sales enablement platform. Lucas’s expertise encompasses developing and executing comprehensive communication strategies, enhancing brand awareness, and leading teams to achieve significant results. His strategic vision and leadership have been instrumental in scaling businesses and establishing strong market positions across various industries.</p></div>",
+    "sourceAuthorUrl": "https://www.highspot.com/author/lucas-welch/",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/03/lucas_welch.jpg",
+    "avatarAlt": "Lucas Welch",
+    "articles": [
+      "highspot-gtm-agent-spring-launch-2026"
+    ],
+    "avatarLocalFile": "author-lucas-welch.jpg"
+  },
+  {
+    "name": "Laura Valerio",
+    "slug": "laura-valerio",
+    "sitecoreItemName": "Laura Valerio",
+    "position": "Global Evangelist, GTM Performance, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>With over 20 years of experience in sales, enablement, and global leadership, Laura Valerio specializes in driving productivity, motivation, and business impact through strategic, tech-enabled enablement programs. She has led global initiatives for high-growth B2B companies like Expedia, Deliveroo, and Vodafone Business, integrating strategy, people, processes, and technology to deliver flawless execution. She is passionate about coaching and developing future leaders and empowering teams to scale initiatives that boost adoption, accelerate growth, and create lasting success—positioning enablement as a strategic competitive advantage through cross-functional alignment, AI, and analytics.</p></div>",
+    "sourceAuthorUrl": "",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/03/laura_valerio.jpg",
+    "avatarAlt": "Laura Valerio",
+    "articles": [
+      "enterprise-ai-for-go-to-market"
+    ],
+    "avatarLocalFile": "author-laura-valerio.jpg"
+  },
+  {
+    "name": "Stuart Gammon",
+    "slug": "stuart-gammon",
+    "sitecoreItemName": "Stuart Gammon",
+    "position": "Chief Revenue Officer, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Stu is a results-driven revenue leader specializing in building, transforming, and motivating teams to drive world-class results – both for their businesses and for their customers. Stu leads our global field organization with a unique skill for cross-functional collaboration and details-matter rigor, helping drive Highspot’s continued growth worldwide. Before Highspot, Stu held senior field leadership positions at Productboard, Soldo, and Box.</p></div>",
+    "sourceAuthorUrl": "",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/09/leadership-stuart-gammon.jpeg",
+    "avatarAlt": "Stuart Gammon",
+    "articles": [
+      "revenue-ai-build-buy-partner"
+    ],
+    "avatarLocalFile": "author-stuart-gammon.jpeg"
+  },
+  {
+    "name": "Jodi Sutton",
+    "slug": "jodi-sutton",
+    "sitecoreItemName": "Jodi Sutton",
+    "position": "Vice President of Revenue Operations, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Jodi Sutton is the Vice President of Revenue Operations at Highspot. Her expertise encompasses implementing comprehensive sales strategies, driving revenue growth, and executing GTM initiatives. Her strategic vision and leadership have played a key role in scaling businesses and securing strong market positions across diverse industries.</p></div>",
+    "sourceAuthorUrl": "",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/03/jodie_sutton.jpg",
+    "avatarAlt": "Jodi Sutton",
+    "articles": [
+      "ai-tech-stack-for-go-to-market"
+    ],
+    "avatarLocalFile": "author-jodi-sutton.jpg"
+  },
+  {
+    "name": "Brooke Holland",
+    "slug": "brooke-holland",
+    "sitecoreItemName": "Brooke Holland",
+    "position": "Revenue Enablement Manager, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Brooke Holland is a seasoned Revenue Enablement Manager at Highspot. Brooke’s expertise includes developing and executing enablement programs focused on onboarding, enhancing brand awareness, and contributing to team success. Her efforts have supported business growth and strengthened market positions across various industries.</p></div>",
+    "sourceAuthorUrl": "",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/03/brooke_holland.jpg",
+    "avatarAlt": "Brooke Holland",
+    "articles": [
+      "best-sales-onboarding-software"
+    ],
+    "avatarLocalFile": "author-brooke-holland.jpg"
+  },
+  {
+    "name": "Haley Katsman",
+    "slug": "haley-katsman",
+    "sitecoreItemName": "Haley Katsman",
+    "position": "Vice President, Global Strategic Accounts, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>As a seasoned Go-To-Market leader, Haley Katsman brings a wealth of experience in building and scaling high-performance teams across Sales, Strategy, Operations, Enablement, and Analytics. She serves as Vice President of Global Strategic Accounts at Highspot and leads the teams driving strategy, revenue growth, and customer experience. Having served as VP of Revenue Strategy, Operations and Enablement at Highspot for 10+ years, Haley specializes in guiding companies through systematic change management, resulting in increased productivity and profitability. Her expertise lies in GTM architecture, driving key GTM initiatives, and advising customers on how to drive behavior change within their customer-facing teams and with buyers, resulting in increased productivity and revenue growth.</p></div>",
+    "sourceAuthorUrl": "",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2021/01/avatar_user_31_1517426049.jpg",
+    "avatarAlt": "Haley Katsman",
+    "articles": [
+      "sales-conversations"
+    ],
+    "avatarLocalFile": "author-haley-katsman.jpg"
+  },
+  {
+    "name": "Brie Tobin",
+    "slug": "brie-tobin",
+    "sitecoreItemName": "Brie Tobin",
+    "position": "Sr. Director, SMB & Commercial Sales, Highspot",
+    "bioHtml": "<div class=\"ck-content\"><p>Brie Tobin is an innovative and motivated sales leader with over 12 years of experience in B2B SaaS organizations. As the leader of SMB and Commercial Sales at Highspot, an industry-leading enablement platform, Brie helps sales talent strategize, build, and scale their processes to drive consistent, positive results. Known for thriving in fast-paced environments, she combines flexibility, leadership, and a wealth of best practices gained from collaborating with world-class leaders in software sales. With expertise spanning SaaS, sales enablement, funnel management, and advanced methodologies like SPIN and Corporate Visions, Brie is passionate about leveraging her experience to deliver outstanding business results. She takes pride in empowering teams and achieving measurable outcomes that drive growth and success.</p></div>",
+    "sourceAuthorUrl": "https://www.highspot.com/author/brie-tobin/",
+    "avatarSource": "https://www.highspot.com/wp-content/uploads/2025/03/brie_tobin.jpg",
+    "avatarAlt": "Brie Tobin",
+    "articles": [
+      "habits-top-sellers-2026"
+    ],
+    "avatarLocalFile": "author-brie-tobin.jpg"
+  }
+]
