@@ -19,6 +19,23 @@ type PageProps = {
   params: Promise<{ site: string; locale: string; path?: string[]; [key: string]: string | string[] | undefined }>;
 };
 
+/**
+ * Fetches a page, falling back to the default language when the page has no
+ * version in the requested language (language fallback: the content renders
+ * in the default language while the requested locale stays the page context).
+ */
+async function getPageWithLanguageFallback(path: string[], site: string, locale: string) {
+  const page = await client.getPage(path, { site, locale });
+
+  if (page || locale === scConfig.defaultLanguage) {
+    return page;
+  }
+
+  const fallbackPage = await client.getPage(path, { site, locale: scConfig.defaultLanguage });
+
+  return fallbackPage ? { ...fallbackPage, locale } : null;
+}
+
 export default async function Page({ params }: PageProps) {
   const { site, locale, path } = await params;
 
@@ -39,7 +56,7 @@ export default async function Page({ params }: PageProps) {
       page = await client.getPreview(previewData);
     }
   } else {
-    page = await client.getPage(path ?? [], { site, locale });
+    page = await getPageWithLanguageFallback(path ?? [], site, locale);
   }
 
   // If the page is not found, return a 404
@@ -79,7 +96,7 @@ export const generateMetadata = async ({ params }: PageProps) => {
   const { path, site, locale } = await params;
 
   // The same call as for rendering the page. Should be cached by default react behavior
-  const page = await client.getPage(path ?? [], { site, locale });
+  const page = await getPageWithLanguageFallback(path ?? [], site, locale);
   return {
     title: (page?.layout.sitecore.route?.fields as RouteFields)?.Title?.value?.toString() || 'Page',
   };

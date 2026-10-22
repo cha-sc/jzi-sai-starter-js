@@ -9,10 +9,18 @@ import { NextIntlClientProvider } from 'next-intl';
 export default async function NotFound() {
   const { site, locale } = getCachedPageParams();
 
-  const page = await client.getErrorPage(ErrorPage.NotFound, {
-    site: site || scConfig.defaultSite,
-    locale: locale || scConfig.defaultLanguage,
-  });
+  // The SDK throws when the site has no error-handling configuration for the
+  // requested language (errorHandling is null), so guard the fetch and fall
+  // through to the static fallback below.
+  let page = null;
+  try {
+    page = await client.getErrorPage(ErrorPage.NotFound, {
+      site: site || scConfig.defaultSite,
+      locale: locale || scConfig.defaultLanguage,
+    });
+  } catch (error) {
+    console.error('Error fetching 404 page:', error);
+  }
 
   if (page) {
     return (

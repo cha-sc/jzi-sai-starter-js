@@ -2,12 +2,16 @@
 
 import { useSitecore } from '@sitecore-content-sdk/nextjs';
 import { useParams, useRouter, useSearchParams } from 'next/navigation';
+import { LOCALE_COOKIE_NAME } from 'lib/locale-cookie';
 import { Suspense, useCallback, useMemo, useState, JSX } from 'react';
 
+// Hardcoded list — the switcher does not read the site's languages from
+// Sitecore. Keep these codes in sync with the Seismic site's languages in
+// Sitecore and with `locales` in src/i18n/routing.ts.
 const AVAILABLE_LANGUAGES = [
   { code: 'en', label: 'English' },
-  { code: 'fr-CA', label: 'Français' },
-  { code: 'ja-JP', label: '日本語' },
+  { code: 'fr-FR', label: 'Français' },
+  { code: 'de-DE', label: 'Deutsch' },
 ] as const;
 
 function getPathSuffix(path: string | string[] | undefined): string {
@@ -114,22 +118,27 @@ function LanguageSwitcherInner(): JSX.Element {
 
   const changeLanguage = useCallback(
     (langCode: string) => {
-      const site =
-        (typeof params.site === 'string' ? params.site : undefined) ?? page.siteName;
-
-      if (!site) {
-        return;
-      }
-
       const pathSuffix = getPathSuffix(params.path);
       const query = searchParams.toString();
-      const href = `/${site}/${langCode}${pathSuffix}`;
+      // Build the public URL: no site segment (the proxy resolves the site
+      // from the host and inserts site/locale into the internal route), and
+      // no locale prefix for the default language (localePrefix: 'as-needed'
+      // in src/i18n/routing.ts).
+      const href =
+        langCode === AVAILABLE_LANGUAGES[0].code
+          ? pathSuffix || '/'
+          : `/${langCode}${pathSuffix}`;
       const url = query ? `${href}?${query}` : href;
+
+      // Remember the selection so StickyLocaleProxy (src/proxy.ts) can keep
+      // prefix-less internal links in this language instead of falling back
+      // to the default.
+      document.cookie = `${LOCALE_COOKIE_NAME}=${langCode}; path=/; max-age=31536000; SameSite=Lax`;
 
       router.push(url);
       setShowLanguageDropdown(false);
     },
-    [params.path, params.site, page.siteName, router, searchParams]
+    [params.path, router, searchParams]
   );
 
   return (

@@ -7,10 +7,17 @@ import Providers from 'src/Providers';
 
 export default async function NotFound() {
   if (scConfig.defaultSite) {
-    const page = await client.getErrorPage(ErrorPage.NotFound, {
-      site: scConfig.defaultSite,
-      locale: scConfig.defaultLanguage,
-    });
+    // Guarded: the SDK throws when the site has no error-handling
+    // configuration for the language (errorHandling is null).
+    let page = null;
+    try {
+      page = await client.getErrorPage(ErrorPage.NotFound, {
+        site: scConfig.defaultSite,
+        locale: scConfig.defaultLanguage,
+      });
+    } catch (error) {
+      console.error('Error fetching 404 page:', error);
+    }
 
     if (page) {
       return (

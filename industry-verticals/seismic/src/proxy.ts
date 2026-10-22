@@ -1,4 +1,4 @@
-import { NextFetchEvent, type NextRequest } from 'next/server';
+import { NextFetchEvent, NextResponse, type NextRequest } from 'next/server';
 import {
   defineProxy,
   AppRouterMultisiteProxy,
@@ -7,11 +7,69 @@ import {
   LocaleProxy,
   BotTrackingProxy,
   PreviewProxy,
+  ProxyBase,
 } from '@sitecore-content-sdk/nextjs/proxy';
 import sites from '.sitecore/sites.json';
 import scConfig from 'sitecore.config';
 import { routing } from './i18n/routing';
+import { LOCALE_COOKIE_NAME } from './lib/locale-cookie';
 import client from './lib/sitecore-client';
+
+/**
+ * Keeps visitors in the language they selected. Internal links rendered from
+ * Sitecore carry no locale prefix, and LocaleProxy would fall back to the
+ * default language for such paths. This proxy remembers the locale from the
+ * URL (or the LanguageSwitcher's cookie) and redirects prefix-less page
+ * requests back into the selected language.
+ */
+class StickyLocaleProxy extends ProxyBase {
+  get name(): string {
+    return 'StickyLocaleProxy';
+  }
+
+  async handle(req: NextRequest, res: NextResponse): Promise<NextResponse> {
+    if (req.method !== 'GET' || this.isPreview(req)) {
+      return res;
+    }
+
+    const { pathname } = req.nextUrl;
+    // Ignore files and asset-like paths
+    if (pathname.includes('.')) {
+      return res;
+    }
+
+    const locales = routing.locales.slice();
+    const pathLocale = locales.find(
+      (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+    );
+
+    if (pathLocale) {
+      // Sync the cookie with the language in the URL (covers direct visits
+      // and shared links, not just switcher clicks).
+      if (req.cookies.get(LOCALE_COOKIE_NAME)?.value !== pathLocale) {
+        res.cookies.set(LOCALE_COOKIE_NAME, pathLocale, {
+          path: '/',
+          maxAge: 60 * 60 * 24 * 365,
+          sameSite: 'lax',
+        });
+      }
+      return res;
+    }
+
+    const cookieLocale = req.cookies.get(LOCALE_COOKIE_NAME)?.value;
+    if (
+      cookieLocale &&
+      cookieLocale !== routing.defaultLocale &&
+      locales.includes(cookieLocale as (typeof locales)[number])
+    ) {
+      const url = req.nextUrl.clone();
+      url.pathname = pathname === '/' ? `/${cookieLocale}` : `/${cookieLocale}${pathname}`;
+      return NextResponse.redirect(url, 307);
+    }
+
+    return res;
+  }
+}
 
 export default function proxy(req: NextRequest, event: NextFetchEvent) {
   // PreviewProxy authorizes preview requests
@@ -98,7 +156,11 @@ export default function proxy(req: NextRequest, event: NextFetchEvent) {
     // },
   });
 
-  return defineProxy(preview, botTracking, locale, multisite, redirects, personalize).exec(req);
+  const stickyLocale = new StickyLocaleProxy({ sites });
+
+  return defineProxy(preview, botTracking, stickyLocale, locale, multisite, redirects, personalize).exec(
+    req
+  );
 }
 
 export const config = {

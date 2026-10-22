@@ -14,6 +14,7 @@ import { getSiteThemeClass } from 'lib/site-theme';
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Text, useSitecore, NextImage, Link, RichText, Placeholder, withDatasourceCheck, Image as Image_8a80e63291fea86e0744df19113dc44bec187216, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
 import { useParams, useRouter, useSearchParams, usePathname } from 'next/navigation';
+import { LOCALE_COOKIE_NAME } from 'lib/locale-cookie';
 import Image from 'next/image';
 import { useInfiniteSearch, useSuggest, useSearch } from '@sitecore-content-sdk/nextjs/search';
 import { DEFAULT_IMG_URL, HIGHLIGHTED_ARTICLES_RFKID, SEARCH_WIDGET_ID, PREVIEW_WIDGET_ID, HOMEHIGHLIGHTED_WIDGET_ID } from 'src/_data/customizations';
@@ -105,6 +106,12 @@ const importMap = [
       { name: 'useRouter', value: useRouter },
       { name: 'useSearchParams', value: useSearchParams },
       { name: 'usePathname', value: usePathname },
+    ]
+  },
+  {
+    module: 'lib/locale-cookie',
+    exports: [
+      { name: 'LOCALE_COOKIE_NAME', value: LOCALE_COOKIE_NAME },
     ]
   },
   {
