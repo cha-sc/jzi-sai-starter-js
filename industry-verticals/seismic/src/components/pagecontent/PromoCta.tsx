@@ -199,6 +199,164 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
 };
 
 /* *************************************************************** */
+/* SEISMIC — webinar Why Attend + register form card */
+export const WhyAttendRegister = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sessions = (props.params?.Sessions || 'Friday, 23 October|Monday, 16 November|Friday, 4 December').split(
+    '|'
+  );
+
+  return (
+    <section
+      className={`component promo-cta seismic-why-attend ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-why-attend__inner">
+        <div className="seismic-why-attend__copy">
+          <h2 className="seismic-why-attend__title">
+            <Text field={props.fields.Title} />
+          </h2>
+          <div className="seismic-why-attend__text">
+            <RichText field={props.fields.Text} />
+          </div>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="seismic-why-attend__cta" />
+          )}
+        </div>
+        <aside className="seismic-why-attend__form-card" aria-label="Registration">
+          <h3 className="seismic-why-attend__form-title">
+            <Text field={props.fields.Subtitle} />
+          </h3>
+          <form
+            className="seismic-why-attend__form"
+            onSubmit={(e) => e.preventDefault()}
+            noValidate
+          >
+            <label className="seismic-why-attend__field">
+              <span className="visually-hidden">Work Email</span>
+              <input type="email" placeholder="Work Email" required />
+            </label>
+            <label className="seismic-why-attend__field">
+              <span className="visually-hidden">Company Name</span>
+              <input type="text" placeholder="Company Name:" required />
+            </label>
+            <label className="seismic-why-attend__field">
+              <span className="visually-hidden">Country</span>
+              <select defaultValue="">
+                <option value="" disabled>
+                  Select...
+                </option>
+                <option value="US">United States</option>
+                <option value="GB">United Kingdom</option>
+                <option value="CA">Canada</option>
+                <option value="AU">Australia</option>
+              </select>
+            </label>
+            <p className="seismic-why-attend__sessions-label">
+              Please select which upcoming sessions you would like to attend:
+            </p>
+            <div className="seismic-why-attend__sessions">
+              {sessions.map((session) => (
+                <label key={session} className="seismic-why-attend__session">
+                  <input type="checkbox" name="session" value={session} />
+                  <span>{session}</span>
+                </label>
+              ))}
+            </div>
+            {(isPageEditing || props.fields?.Link2?.value?.href) ? (
+              <Link field={props.fields.Link2} className="seismic-why-attend__submit" />
+            ) : (
+              <button type="submit" className="seismic-why-attend__submit">
+                Register Now →
+              </button>
+            )}
+          </form>
+        </aside>
+      </div>
+    </section>
+  );
+};
+
+/* *************************************************************** */
+/* SEISMIC — Meet Your Host (photo + bio) */
+export const MeetHost = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component promo-cta seismic-meet-host ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-meet-host__inner">
+        <h2 className="seismic-meet-host__heading">
+          <Text field={props.fields.Eyebrow} />
+        </h2>
+        <div className="seismic-meet-host__row">
+          <div className="seismic-meet-host__photo">
+            <NextImage
+              field={props.fields.Image}
+              className="seismic-meet-host__img"
+              width={360}
+              height={360}
+            />
+          </div>
+          <div className="seismic-meet-host__bio">
+            <h3 className="seismic-meet-host__name">
+              <Text field={props.fields.Title} />
+            </h3>
+            <p className="seismic-meet-host__role">
+              <Text field={props.fields.Subtitle} />
+            </p>
+            <div className="seismic-meet-host__text">
+              <RichText field={props.fields.Text} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+/* *************************************************************** */
+/* SEISMIC — checklist section (Who Should Attend / What You'll Learn) */
+export const ChecklistSection = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component promo-cta seismic-checklist ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-checklist__inner">
+        <h2 className="seismic-checklist__title">
+          <Text field={props.fields.Title} />
+        </h2>
+        {(isPageEditing || props.fields?.Subtitle?.value) && (
+          <p className="seismic-checklist__intro">
+            <Text field={props.fields.Subtitle} />
+          </p>
+        )}
+        <div className="seismic-checklist__body">
+          <RichText field={props.fields.Text} />
+        </div>
+        {(isPageEditing || props.fields?.Link?.value?.href) && (
+          <p className="seismic-checklist__outro">
+            <Link field={props.fields.Link} />
+          </p>
+        )}
+      </div>
+    </section>
+  );
+};
+
+/* *************************************************************** */
 /* SEISMIC — industry tabs over FS promo panel (other tabs visual) */
 export const IndustryTabs = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;

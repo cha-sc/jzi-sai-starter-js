@@ -97,3 +97,35 @@ export const SingleColumn = (props: QuestionsProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* SEISMIC — plain FAQ block for webinar landing */
+export const FaqPlain = (props: QuestionsProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const questions = props.fields?.items;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionTitle = props.params?.SectionTitle || 'FAQ';
+
+  return (
+    <section
+      className={`component questions seismic-faq ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-faq__inner">
+        <h3 className="seismic-faq__heading">{sectionTitle}</h3>
+        <div className="seismic-faq__list">
+          {questions?.map((item, index) => (
+            <div className="seismic-faq__item" key={item.url || `faq-${index}`}>
+              <p className="seismic-faq__q">
+                <Text field={item.fields.Question} />
+              </p>
+              <div className="seismic-faq__a">
+                <RichText field={item.fields.Answer} />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};

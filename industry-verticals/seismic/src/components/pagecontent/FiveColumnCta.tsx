@@ -107,3 +107,53 @@ export const Default = (props: FiveColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+const splitTitleBody = (value?: string): { title: string; body: string } => {
+  const raw = value || '';
+  const sep = raw.includes('|||') ? '|||' : '\n';
+  const [title, ...rest] = raw.split(sep);
+  return { title: (title || '').trim(), body: rest.join(sep).trim() };
+};
+
+/* *************************************************************** */
+/* SEISMIC — vertical experience cards for webinar landing */
+export const ExperienceStack = (props: FiveColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionTitle = props.params?.SectionTitle || "What You'll Experience";
+  const items = [
+    { image: props.fields.Image1, text: props.fields.Text1 },
+    { image: props.fields.Image2, text: props.fields.Text2 },
+    { image: props.fields.Image3, text: props.fields.Text3 },
+    { image: props.fields.Image4, text: props.fields.Text4 },
+    { image: props.fields.Image5, text: props.fields.Text5 },
+  ];
+
+  return (
+    <section
+      className={`component five-column-cta seismic-experience ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-experience__inner">
+        <h3 className="seismic-experience__heading">{sectionTitle}</h3>
+        <div className="seismic-experience__list">
+          {items.map((item, index) => {
+            const { title, body } = splitTitleBody(item.text?.value);
+            if (!title && !item.image?.value?.src) return null;
+            return (
+              <article className="seismic-experience__card" key={`exp-${index}`}>
+                <div className="seismic-experience__icon">
+                  <NextImage field={item.image} width={48} height={48} />
+                </div>
+                <div className="seismic-experience__copy">
+                  <h4 className="seismic-experience__title">{title}</h4>
+                  {body ? <p className="seismic-experience__body">{body}</p> : null}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};

@@ -119,3 +119,48 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* SEISMIC — vertical experience cards (4-up fallback) */
+export const ExperienceStack = (props: FourColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionTitle = props.params?.SectionTitle || "What You'll Experience";
+  const items = [
+    { image: props.fields.Image1, title: props.fields.Title1, text: props.fields.Text1 },
+    { image: props.fields.Image2, title: props.fields.Title2, text: props.fields.Text2 },
+    { image: props.fields.Image3, title: props.fields.Title3, text: props.fields.Text3 },
+    { image: props.fields.Image4, title: props.fields.Title4, text: props.fields.Text4 },
+  ];
+
+  return (
+    <section
+      className={`component four-column-cta seismic-experience ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-experience__inner">
+        <h3 className="seismic-experience__heading">{sectionTitle}</h3>
+        <div className="seismic-experience__list">
+          {items.map((item, index) => {
+            if (!item.title?.value && !item.image?.value?.src) return null;
+            return (
+              <article className="seismic-experience__card" key={`exp4-${index}`}>
+                <div className="seismic-experience__icon">
+                  <NextImage field={item.image} width={48} height={48} />
+                </div>
+                <div className="seismic-experience__copy">
+                  <h4 className="seismic-experience__title">
+                    <Text field={item.title} />
+                  </h4>
+                  <p className="seismic-experience__body">
+                    <Text field={item.text} />
+                  </p>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};

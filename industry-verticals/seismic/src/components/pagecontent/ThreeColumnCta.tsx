@@ -267,3 +267,61 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* SEISMIC — webinar session date cards (Reserve Your Spot) */
+export const SessionCards = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const sectionTitle = props.params?.SectionTitle || 'Reserve Your Spot';
+  const sectionIntro =
+    props.params?.SectionIntro ||
+    'Join one of our monthly live demonstrations and discover how Seismic helps organisations deliver more effective customer engagement.';
+
+  const cards = [
+    {
+      title: props.fields.Text1,
+      times: props.fields.SubText1,
+      link: props.fields.Link1,
+    },
+    {
+      title: props.fields.Text2,
+      times: props.fields.SubText2,
+      link: props.fields.Link2,
+    },
+    {
+      title: props.fields.Text3,
+      times: props.fields.SubText3,
+      link: props.fields.Link3,
+    },
+  ];
+
+  return (
+    <section
+      className={`component three-column-cta seismic-sessions ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="seismic-sessions__inner">
+        <h2 className="seismic-sessions__heading">{sectionTitle}</h2>
+        <p className="seismic-sessions__intro">{sectionIntro}</p>
+        <div className="seismic-sessions__grid">
+          {cards.map((card, index) => (
+            <article className="seismic-sessions__card" key={`session-${index}`}>
+              <h4 className="seismic-sessions__date">
+                <Text field={card.title} />
+              </h4>
+              <p className="seismic-sessions__times">
+                <Text field={card.times} />
+              </p>
+              {(isPageEditing || card.link?.value?.href) && (
+                <Link field={card.link} className="seismic-sessions__cta" />
+              )}
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
