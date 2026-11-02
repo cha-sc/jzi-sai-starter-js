@@ -322,19 +322,33 @@
 // Hero — WebinarHero (monthly webinar landing)
 // ---------------------------------------------------------------------------
 .seismic-webinar-hero {
+  // Shared with .seismic-why-attend__form-card so the aside can nest into the hero
+  // media column without covering the left-side Register CTA.
+  --webinar-form-overlap: 0px;
+
   position: relative;
-  overflow: hidden;
+  z-index: 1;
+  // Override base `.hero { height: 640px }` — fixed height + overflow was clipping the CTA.
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
   width: 100%;
   max-width: 100%;
-  min-height: clamp(30rem, 55vw, 40rem);
   background: #2d1044;
   color: #fff;
+
+  @media (min-width: 992px) {
+    --webinar-form-overlap: 10rem;
+  }
 
   &.component,
   &[class*='col-'] {
     flex: 1 1 100% !important;
     max-width: 100% !important;
     width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
   }
 
   &__wave {
@@ -342,6 +356,7 @@
     inset: 0;
     z-index: 0;
     pointer-events: none;
+    overflow: hidden;
     background:
       url('https://learn.seismic.com/rs/217-LXS-149/images/Dark-Dusk-Hero-Wave.png?version=0')
         right top / cover no-repeat,
@@ -353,16 +368,29 @@
     z-index: 1;
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
-    align-items: center;
+    align-items: end;
     gap: clamp(1.5rem, 4vw, 3.5rem);
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
+    // Bottom padding = shelf for the overlapping register card (right column only).
     padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 2.5rem);
+    padding-bottom: calc(clamp(2.5rem, 6vw, 4.5rem) + var(--webinar-form-overlap));
 
     @media (max-width: 991px) {
       grid-template-columns: 1fr;
+      align-items: center;
+      padding-bottom: clamp(2.5rem, 6vw, 4.5rem);
     }
+  }
+
+  &__copy {
+    position: relative;
+    z-index: 4;
+    min-width: 0;
+    // Keep copy/CTA in the upper band so the form nests beside the media, not over the button.
+    align-self: center;
+    padding-bottom: 0.5rem;
   }
 
   &__logo {
@@ -405,6 +433,8 @@
   }
 
   &__cta {
+    position: relative;
+    z-index: 5;
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
@@ -424,9 +454,13 @@
   }
 
   &__media {
+    position: relative;
+    z-index: 1;
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35);
+    // Leave a visual pocket at the bottom-right for the floating form card.
+    margin-bottom: calc(var(--webinar-form-overlap) * 0.35);
 
     @media (max-width: 991px) {
       max-width: 28rem;
@@ -446,11 +480,18 @@
 // Promo CTA — WhyAttendRegister
 // ---------------------------------------------------------------------------
 .seismic-why-attend {
+  // Must match .seismic-webinar-hero --webinar-form-overlap on desktop.
+  --webinar-form-overlap: 0px;
+
   background: #fff;
-  padding: clamp(2.5rem, 5vw, 4rem) 0;
-  margin-top: -3rem;
+  // No top padding — the aside pulls into the hero; copy gets its own top spacing.
+  padding: 0 0 clamp(2.5rem, 5vw, 4rem);
   position: relative;
   z-index: 2;
+
+  @media (min-width: 992px) {
+    --webinar-form-overlap: 10rem;
+  }
 
   &__inner {
     width: 100%;
@@ -465,6 +506,12 @@
     @media (max-width: 991px) {
       grid-template-columns: 1fr;
     }
+  }
+
+  &__copy {
+    position: relative;
+    z-index: 1;
+    padding-top: clamp(2.5rem, 5vw, 4rem);
   }
 
   &__title {
@@ -511,6 +558,14 @@
     border-radius: 0.75rem;
     padding: 1.5rem 1.35rem 1.75rem;
     box-shadow: 0 16px 40px rgba(45, 16, 68, 0.28);
+    position: relative;
+    z-index: 3;
+    // Float only the aside into the hero's right/media shelf — left CTA stays clear.
+    margin-top: calc(var(--webinar-form-overlap) * -1);
+
+    @media (max-width: 991px) {
+      margin-top: clamp(1.5rem, 4vw, 2rem);
+    }
   }
 
   &__form-title {
