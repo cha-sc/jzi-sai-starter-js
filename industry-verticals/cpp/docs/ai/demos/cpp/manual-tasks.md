@@ -2,11 +2,11 @@
 
 ## Deploy editing host
 
-Connect `industry-verticals/cpp` in XM Cloud Deploy Portal (GitHub) so editing host `29FaiivpZZkXlP4vYhIj7Y` picks up theme CSS + `HeroSplitCream` / `ProductCardsCarousel` / `WithIcons`.
+Connect `industry-verticals/cpp` in XM Cloud Deploy Portal (GitHub) so editing host `29FaiivpZZkXlP4vYhIj7Y` picks up theme CSS + `HeroSplitCream` / `ChecklistCream` / `ProductCardsCarousel` / `WithIcons`.
 
 ## Variant selection (required)
 
-See `variant-checklist.md`. Set Hero → HeroSplitCream, Product Cards → ProductCardsCarousel, Action Tiles → WithIcons.
+See `variant-checklist.md`. Set Hero → HeroSplitCream, Simplified-issue Promo CTA → ChecklistCream, Product Cards → ProductCardsCarousel, Action Tiles → WithIcons.
 
 ## Add list components (API branch templates missing)
 
@@ -33,7 +33,7 @@ Home still has starter components that cannot be removed via Marketer MCP. In Pa
 Ideal order after cleanup:
 
 1. Hero (HeroSplitCream)
-2. Promo CTA (Simplified issue)
+2. Promo CTA (ChecklistCream — Simplified issue)
 3. Heading CTA (Do I need life insurance?)
 4. Three Column CTA (ProductCardsCarousel)
 5. Testimonials *(manual add)*

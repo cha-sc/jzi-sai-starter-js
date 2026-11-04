@@ -22,3 +22,11 @@ variants:
     reactExport: WithIcons
     scss: three-column-cta.with-icons (teal tiles via _cpp-demo.scss)
     purpose: "Teal action tiles with icons for calculator / quote / advisor"
+
+  - name: ChecklistCream
+    parentComponent: Promo CTA
+    parentRenderingId: c0943942-ae0f-4205-86fa-84884cce4a53
+    variantItemId: 7c28aaac-8dd3-4d68-bd27-298fd91f02e1
+    reactExport: ChecklistCream
+    scss: promo-cta-checklist-cream
+    purpose: "Cream band — centered title/subtitle, checklist with circular checks, pill CTA, framed illustration"

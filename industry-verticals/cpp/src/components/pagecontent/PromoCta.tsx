@@ -157,6 +157,58 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
   );
 };
 
+/* CPP — cream checklist promo: centered title/subtitle, checklist + framed art */
+export const ChecklistCream = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component promo-cta promo-cta-checklist-cream ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="promo-cta-checklist-cream__inner">
+        <header className="promo-cta-checklist-cream__header">
+          <h2 className="promo-cta-checklist-cream__title">
+            <Text field={props.fields.Title} />
+          </h2>
+          {(isPageEditing || props.fields?.Subtitle?.value) && (
+            <p className="promo-cta-checklist-cream__subtitle">
+              <Text field={props.fields.Subtitle} />
+            </p>
+          )}
+        </header>
+
+        <div className="promo-cta-checklist-cream__body">
+          <div className="promo-cta-checklist-cream__copy">
+            <RichText field={props.fields.Text} className="promo-cta-checklist-cream__list" />
+
+            {(isPageEditing || props.fields?.Link?.value?.href) && (
+              <Link field={props.fields.Link} className="promo-cta-checklist-cream__cta" />
+            )}
+            {(isPageEditing || props.fields?.Link2?.value?.href) && (
+              <Link field={props.fields.Link2} className="promo-cta-checklist-cream__cta-secondary" />
+            )}
+          </div>
+
+          <div className="promo-cta-checklist-cream__media">
+            <div className="promo-cta-checklist-cream__frame">
+              <NextImage
+                field={props.fields.Image}
+                className="promo-cta-checklist-cream__img"
+                width={480}
+                height={480}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
