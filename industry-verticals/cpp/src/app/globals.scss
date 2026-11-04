@@ -1,4 +1,7 @@
 @import "tailwindcss";
+
+/* Dark styles only apply when an ancestor has .dark — never from OS preference. */
+@custom-variant dark (&:where(.dark, .dark *));
 @import '../assets/basic/fonts';
 @import 'bootstrap/scss/bootstrap';
 @import '../assets/sass/main';

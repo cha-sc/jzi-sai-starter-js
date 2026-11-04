@@ -1,10 +1,18 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .eyebrow {
-  color: var(--text-footer);
-  background-color: var(--bg-footer);
+  color: var(--brand-secondary-foreground, #fff);
+  background-color: var(--brand-secondary, #5e2750);
   width: 100%;
   transition: 0.4s;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      color: var(--brand-accent, #f5c518);
+    }
+  }
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;

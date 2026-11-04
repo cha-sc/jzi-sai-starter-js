@@ -55,7 +55,7 @@ export const Default = (props: EyebrowProps): JSX.Element => {
   return (
     <>
       <div
-        className={`component eyebrow relative z-[60] bg-white ${props.params.styles?.trimEnd() ?? ''}`}
+        className={`component eyebrow relative z-[60] bg-[var(--brand-secondary,#5e2750)] text-[var(--brand-secondary-foreground,#fff)] ${props.params.styles?.trimEnd() ?? ''}`}
         id={id || undefined}
       >
         <div
@@ -84,7 +84,7 @@ export const Default = (props: EyebrowProps): JSX.Element => {
                   aria-expanded={isSearchOpen}
                   aria-controls="site-search-panel"
                   onClick={() => setIsSearchOpen(true)}
-                  className="inline-flex h-10 w-10 items-center justify-center text-[#004bdf] transition-colors hover:text-[#0037a6]"
+                  className="inline-flex h-10 w-10 items-center justify-center text-white transition-colors hover:text-white/80"
                 >
                   <svg
                     aria-hidden="true"
