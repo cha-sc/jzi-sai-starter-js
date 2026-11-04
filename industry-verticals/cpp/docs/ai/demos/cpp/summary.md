@@ -1,8 +1,8 @@
 # CPP Demo — Build Summary
 
 **Site:** CPP · **Collection:** IOF · **Home:** `2edf2f4e-1040-45e8-af1e-9ab68eda1189`  
-**Quality:** pixel-perfect Phase 5.5 (`HeroSplitCream`, `ProductCardsCarousel`)  
-**Theme:** Open Sans + teal `#007b88` / plum `#5e2750` / lavender hero (`docs/ai/themes/cpp.theme.yaml`)
+**Quality:** pixel-perfect Phase 5.5 (`HeroSplitCream`, `ProductCardsCarousel`) + Elite Term `/personal`  
+**Theme:** Open Sans + teal `#007b88` / plum `#5e2750` / lavender hero (`docs/ai/themes/cpp.theme.yaml`); Elite Term scoped red `#AF272F`
 
 ## Delivered
 
@@ -14,6 +14,7 @@
 | Datasources under `/Data/CPP Demo/` | Done (Phase 3) |
 | Home assembly (Hero, Promos, Heading, Products, App Promo, Actions, Closing CTA) | Done |
 | Home title → Canada Protection Plan | Done |
+| Elite Term `/personal` (variants + content + assembly) | Done — set FieldNames in Pages |
 
 ## Manual follow-ups
 
@@ -27,4 +28,6 @@ See `manual-tasks.md` + `variant-checklist.md`:
 
 ## Page order (after cleanup)
 
-Hero → Simplified Promo → Heading → Product Cards → Testimonials → Not Hard Promo → Easy Everything → Action Tiles → FAQ → Closing CTA
+**Home:** Hero → Simplified Promo → Heading → Product Cards → Testimonials → Not Hard Promo → Easy Everything → Action Tiles → FAQ → Closing CTA
+
+**Personal:** EliteTermHero → EliteTermIntro → EliteTermSectionTitle → EliteTermCards → EliteTermFaq → EliteTermCalculator

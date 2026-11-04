@@ -36,6 +36,18 @@ export type FourColumnCtaProps = {
   fields: Fields;
 };
 
+function parseEliteTermCardText(value: string | undefined): { age: string; features: string[] } {
+  const lines = (value || '')
+    .split(/\r?\n|\\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  return {
+    age: lines[0] || '',
+    features: lines.slice(1),
+  };
+}
+
 export const Default = (props: FourColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
@@ -117,5 +129,74 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* Elite Term — four coverage cards with red headers + footer CTAs */
+export const EliteTermCards = (props: FourColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const cards = [
+    { title: props.fields.Title1, text: props.fields.Text1 },
+    { title: props.fields.Title2, text: props.fields.Text2 },
+    { title: props.fields.Title3, text: props.fields.Text3 },
+    { title: props.fields.Title4, text: props.fields.Text4 },
+  ];
+
+  return (
+    <section
+      className={`component four-column-cta elite-term-cards ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="elite-term-cards__inner">
+        <div className="elite-term-cards__grid">
+          {cards.map((card, index) => {
+            const { age, features } = parseEliteTermCardText(card.text?.value);
+            return (
+              <article key={index} className="elite-term-cards__card">
+                <header className="elite-term-cards__card-header">
+                  <Text field={card.title} />
+                </header>
+                <div className="elite-term-cards__card-body">
+                  {isPageEditing ? (
+                    <p className="elite-term-cards__age">
+                      <Text field={card.text} />
+                    </p>
+                  ) : (
+                    <>
+                      {age && (
+                        <p className="elite-term-cards__age">
+                          <span className="elite-term-cards__age-value">{age}</span>
+                          <span className="elite-term-cards__age-label">years old</span>
+                        </p>
+                      )}
+                      {features.length > 0 && (
+                        <ul className="elite-term-cards__features">
+                          {features.map((feature) => (
+                            <li key={feature}>{feature}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </>
+                  )}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+
+        <div className="elite-term-cards__actions">
+          {(isPageEditing || props.fields?.Link1?.value?.href) && (
+            <Link field={props.fields.Link1} className="elite-term-cards__cta elite-term-cards__cta--outline" />
+          )}
+          {(isPageEditing || props.fields?.Link2?.value?.href) && (
+            <Link field={props.fields.Link2} className="elite-term-cards__cta elite-term-cards__cta--solid" />
+          )}
+        </div>
+      </div>
+    </section>
   );
 };

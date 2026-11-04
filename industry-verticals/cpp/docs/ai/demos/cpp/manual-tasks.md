@@ -2,11 +2,15 @@
 
 ## Deploy editing host
 
-Connect `industry-verticals/cpp` in XM Cloud Deploy Portal (GitHub) so editing host `29FaiivpZZkXlP4vYhIj7Y` picks up theme CSS + `HeroSplitCream` / `ChecklistCream` / `ProductCardsCarousel` / `WithIcons`.
+Connect `industry-verticals/cpp` in XM Cloud Deploy Portal (GitHub) so editing host `29FaiivpZZkXlP4vYhIj7Y` picks up theme CSS + Home cream variants + Elite Term variants (`EliteTermHero`, `EliteTermIntro`, `EliteTermSectionTitle`, `EliteTermCards`, `EliteTermFaq`, `EliteTermCalculator`).
 
 ## Variant selection (required)
 
-See `variant-checklist.md`. Set Hero → HeroSplitCream, Simplified-issue Promo CTA → ChecklistCream, Product Cards → ProductCardsCarousel, Action Tiles → WithIcons.
+See `variant-checklist.md`.
+
+**Home:** Hero → HeroSplitCream, Simplified-issue Promo CTA → ChecklistCream, Product Cards → ProductCardsCarousel, Action Tiles → WithIcons.
+
+**Personal (`/personal`):** Hero → EliteTermHero, intro Heading CTA → EliteTermIntro, section-title Heading CTA → EliteTermSectionTitle, Four Column CTA → EliteTermCards, Questions → EliteTermFaq, calculator Promo CTA → EliteTermCalculator.
 
 ## Add list components (API branch templates missing)
 
@@ -47,6 +51,21 @@ Ideal order after cleanup:
 
 - Eyebrow / Header / Footer live in Page Design — update logo to CPP (`https://www.cpp.ca/wp-content/uploads/2025/10/CPP-Logo-RGB-ENG.svg` or CH upload) and nav labels in Content Editor.
 - Home `Title` set to **Canada Protection Plan**.
+
+## Personal page — Elite Term (assembled)
+
+Page id `ec12661f-7bee-44f9-b335-d94694d956ec`. Prospera banking blocks removed (Three Column CTA, both Promo CTAs, RichText tagline, App Promo). Stack is:
+
+1. Hero → local `Elite_Term_Hero_Temp` (content populated; shared copy also under `CPP Demo/Elite Term Hero`)
+2. Heading CTA → `Elite_Term_Intro` (`Who should consider |Deferred Elite Term?`)
+3. Heading CTA → `Elite_Term_Section_Title_Temp` (`How much insurance can I buy?`)
+4. Four Column CTA → `Elite_Term_Coverage`
+5. Questions → `Questions 1` (5 Elite Term Q&As)
+6. Promo CTA → `Elite_Term_Calculator`
+
+Title / NavigationTitle → **Deferred Elite Term Insurance**. Chrome (Eyebrow / Header / Footer) left alone.
+
+Shared datasources under `/sitecore/content/IOF/CPP/Data/CPP Demo/` (`Elite Term Hero`, `Intro`, `Section Title`, `Coverage`, `Calculator`) are available if you prefer retargeting away from page-local Data items.
 
 ## Preview
 

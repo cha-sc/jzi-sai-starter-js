@@ -151,3 +151,56 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* Elite Term — centered intro; Heading may use "prefix|accent" delimiter */
+export const EliteTermIntro = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const headingValue = props.fields?.Heading?.value || '';
+  const [prefix, accent] = headingValue.includes('|')
+    ? headingValue.split('|').map((part) => part.trim())
+    : [headingValue, ''];
+
+  return (
+    <section
+      className={`component heading-cta elite-term-intro ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="elite-term-intro__inner">
+        <h2 className="elite-term-intro__heading">
+          {accent ? (
+            <>
+              {prefix} <span className="elite-term-intro__accent">{accent}</span>
+            </>
+          ) : (
+            <Text field={props.fields?.Heading} />
+          )}
+        </h2>
+        {props.fields?.Text?.value && (
+          <p className="elite-term-intro__body">
+            <Text field={props.fields?.Text} />
+          </p>
+        )}
+      </div>
+    </section>
+  );
+};
+
+/* Elite Term — simple centered section title above term cards */
+export const EliteTermSectionTitle = (props: HeadingCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component heading-cta elite-term-section-title ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="elite-term-section-title__inner">
+        <h2 className="elite-term-section-title__heading">
+          <Text field={props.fields?.Heading} />
+        </h2>
+      </div>
+    </section>
+  );
+};

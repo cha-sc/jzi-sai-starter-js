@@ -157,6 +157,52 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
   );
 };
 
+/* Elite Term — centered calculator promo panel */
+export const EliteTermCalculator = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+  const hasImage = Boolean(props.fields?.Image?.value?.src);
+
+  return (
+    <section
+      className={`component promo-cta elite-term-calculator ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="elite-term-calculator__panel">
+        <div className="elite-term-calculator__icon" aria-hidden="true">
+          {hasImage ? (
+            <NextImage field={props.fields.Image} width={72} height={72} />
+          ) : (
+            <svg viewBox="0 0 64 64" width="56" height="56" fill="none" stroke="currentColor" strokeWidth="2">
+              <rect x="12" y="8" width="40" height="48" rx="4" />
+              <rect x="18" y="14" width="28" height="10" rx="1" />
+              <circle cx="22" cy="34" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="32" cy="34" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="42" cy="34" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="22" cy="44" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="32" cy="44" r="2.5" fill="currentColor" stroke="none" />
+              <circle cx="42" cy="44" r="2.5" fill="currentColor" stroke="none" />
+            </svg>
+          )}
+        </div>
+        <h2 className="elite-term-calculator__title">
+          <Text field={props.fields.Title} />
+        </h2>
+        {(isPageEditing || props.fields?.Subtitle?.value) && (
+          <p className="elite-term-calculator__subtitle">
+            <Text field={props.fields.Subtitle} />
+          </p>
+        )}
+        {(isPageEditing || props.fields?.Link?.value?.href) && (
+          <Link field={props.fields.Link} className="elite-term-calculator__cta" />
+        )}
+      </div>
+    </section>
+  );
+};
+
 /* CPP — cream checklist promo: centered title/subtitle, checklist + framed art */
 export const ChecklistCream = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
