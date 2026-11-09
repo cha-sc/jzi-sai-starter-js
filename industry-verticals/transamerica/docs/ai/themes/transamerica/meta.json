@@ -1,0 +1,242 @@
+{
+  "title": "Individual home | Transamerica",
+  "themeColor": null,
+  "msColor": null,
+  "ogTitle": "Individual home",
+  "ogDescription": null,
+  "ogImage": null,
+  "ogSiteName": "Transamerica",
+  "favicon": "https://www.transamerica.com/themes/custom/aries/favicon.ico",
+  "googleFontsLinks": [
+    "https://fonts.gstatic.com/s/materialsymbolsoutlined/v83/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOejbd5zrDAt.woff2"
+  ],
+  "fontFaces": [
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-light-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-light-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/forever-forma/foreverforma-heading-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Material Symbols Outlined",
+      "src": "url(\"https://fonts.gstatic.com/s/materialsymbolsoutlined/v83/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1n-q_4MrImHCIJIZrDCvHOejbd5zrDAt.woff2\") format(\"woff2\")",
+      "weight": "400"
+    },
+    {
+      "family": "icomoon",
+      "src": "url(\"/themes/custom/aries/source/assets/fonts/icomoon/fonts/icomoon.woff\") format(\"woff\"), url(\"/themes/custom/aries/source/assets/fonts/icomoon/fonts/icomoon.ttf\") format(\"truetype\")",
+      "weight": "normal"
+    },
+    {
+      "family": "icomoon",
+      "src": "url(\"/themes/custom/aries/dist/assets/icomoon.woff\") format(\"woff\"), url(\"/themes/custom/aries/dist/assets/icomoon.ttf\") format(\"truetype\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-light-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-light-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-light-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-light-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "300"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Body",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-regular-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "normal"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-medium-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-medium-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "500"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-bold-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    },
+    {
+      "family": "Forever Forma Heading",
+      "src": "url(\"/themes/custom/aries/dist/assets/foreverforma-heading-bold-italic-webfont.woff2\") format(\"woff2\")",
+      "weight": "700"
+    }
+  ],
+  "logoCandidates": [],
+  "heroBgImage": null
+}

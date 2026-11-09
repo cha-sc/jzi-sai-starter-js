@@ -1,0 +1,31 @@
+# Phase 5.5 variant specs — Transamerica (pixel-perfect)
+client: Transamerica
+createdAt: "2026-11-09T18:30:00Z"
+
+variants:
+  - name: HeroDiagonalNavy
+    parentComponent: Hero
+    exportName: HeroDiagonalNavy
+    sitecoreItemId: "21f387b1-4250-4e15-92e3-848bad040638"
+    visual:
+      layout: "Full-bleed lifestyle photo with left navy diagonal polygon panel"
+      typography: "Libre Baskerville white H1, Source Sans 3 subcopy"
+      cta: "White pill button on navy"
+      responsive: "Diagonal clip removed below 991px; solid navy overlay"
+
+  - name: PromoHexImage
+    parentComponent: Promo CTA
+    exportName: PromoHexImage
+    sitecoreItemId: "9fb7b1e7-7693-4664-92c2-f548db35e943"
+    visual:
+      layout: "Text left / hexagonal image right, spacious white section"
+      typography: "Serif title, body muted brown"
+      cta: "Navy pill primary"
+
+  - name: StatsWithHexImage
+    parentComponent: StatsCounter
+    exportName: StatsWithHexImage
+    sitecoreItemId: "6fba320d-a98d-4fe4-a88d-c69a2e5ebb57"
+    visual:
+      layout: "Navy band with hex photo left and stacked white stats right"
+      typography: "Large serif values, light captions"

@@ -1,0 +1,128 @@
+# Client Brand Theme — Transamerica
+# Extracted from homepage screenshot + Playwright scrape of https://www.transamerica.com/
+
+client:
+  name: "Transamerica"
+  sourceUrl: "https://www.transamerica.com/"
+  extractedAt: "2026-11-09T17:50:00Z"
+  extractedBy: "cursor"
+
+colors:
+  primary: "#0C2340"
+  primaryForeground: "#ffffff"
+  secondary: "#A8C8E0"
+  secondaryForeground: "#0C2340"
+  accent: "#C8102E"
+  accentForeground: "#ffffff"
+  background: "#ffffff"
+  foreground: "#281805"
+  muted: "#F4F7FA"
+  mutedForeground: "#5C5348"
+  headerBackground: "#ffffff"
+  headerForeground: "#281805"
+  footerBackground: "#3D2B1F"
+  footerForeground: "#F5F0EA"
+  border: "#D8DEE6"
+  ring: "#0C2340"
+  extra:
+    - { name: "navyDeep", value: "#081A2E" }
+    - { name: "skyBanner", value: "#B7D3E8" }
+    - { name: "warmInk", value: "#281805" }
+    - { name: "logoRed", value: "#C8102E" }
+    - { name: "resourcePink", value: "#E8A0B0" }
+    - { name: "resourceGreen", value: "#7BA88A" }
+    - { name: "resourceTan", value: "#C4A574" }
+
+typography:
+  headingFamily: "'Libre Baskerville', Georgia, serif"
+  headingWeight: "400"
+  bodyFamily: "'Source Sans 3', Arial, sans-serif"
+  bodyWeight: "400"
+  monoFamily: "'Source Code Pro', monospace"
+  googleFontsUrl: "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+  scale:
+    hero: "3rem"
+    h1: "2.5rem"
+    h2: "2rem"
+    h3: "1.5rem"
+    body: "1rem"
+    small: "0.875rem"
+  headingTransform: "none"
+  letterSpacing: "normal"
+  lineHeight: "relaxed"
+
+spacing:
+  density: "spacious"
+  sectionGap: "5rem"
+  containerMaxWidth: "1440px"
+  containerPadding: "1.5rem"
+
+shape:
+  borderRadius: "0.25rem"
+  buttonRadius: "1.5rem"
+  cardRadius: "0"
+  imageRadius: "0"
+  shadowStyle: "none"
+  borderStyle: "subtle"
+
+tone:
+  overall: "trustworthy-financial"
+  colorMode: "light"
+  contrast: "high"
+  imagery: "lifestyle-photography"
+  heroStyle: "diagonal-split-full-bleed"
+  cardStyle: "flat-icon"
+  navStyle: "white-bar-utility"
+
+tailwind:
+  colors:
+    brand:
+      primary: "#0C2340"
+      secondary: "#A8C8E0"
+      accent: "#C8102E"
+  fontFamily:
+    heading: ["Libre Baskerville", "Georgia", "serif"]
+    body: ["Source Sans 3", "Arial", "sans-serif"]
+  borderRadius:
+    DEFAULT: "0.25rem"
+    button: "1.5rem"
+    card: "0"
+
+cssVariables: |
+  :root {
+    --brand-primary: #0C2340;
+    --brand-primary-foreground: #ffffff;
+    --brand-secondary: #A8C8E0;
+    --brand-secondary-foreground: #0C2340;
+    --brand-accent: #C8102E;
+    --brand-accent-foreground: #ffffff;
+    --brand-bg: #ffffff;
+    --brand-fg: #281805;
+    --brand-muted: #F4F7FA;
+    --brand-muted-fg: #5C5348;
+    --brand-header-bg: #ffffff;
+    --brand-header-fg: #281805;
+    --brand-footer-bg: #3D2B1F;
+    --brand-footer-fg: #F5F0EA;
+    --brand-border: #D8DEE6;
+    --brand-ring: #0C2340;
+    --brand-heading-font: 'Libre Baskerville', Georgia, serif;
+    --brand-body-font: 'Source Sans 3', Arial, sans-serif;
+    --brand-radius: 0.25rem;
+    --brand-button-radius: 1.5rem;
+    --brand-card-radius: 0;
+  }
+
+extraction:
+  confidence: "high"
+  method: "screenshot-primary + playwright-supplement"
+  notes:
+    - "Primary navy (#0C2340) drives hero diagonal panel and stats blocks."
+    - "Logo red (#C8102E) is the pyramid mark accent — use sparingly."
+    - "Sky-blue banner (#A8C8E0 / #B7D3E8) for mid-page lifestyle strip."
+    - "Footer is warm dark brown (#3D2B1F), not navy."
+    - "Body ink from scrape is warm brown #281805 (rgb 40,24,5)."
+    - "Buttons are pill-shaped (24px radius) — white on navy in hero, dark fill elsewhere."
+    - "Site uses proprietary Forever Forma Heading/Body; Google substitutes Libre Baskerville + Source Sans 3."
+    - "Recurring hexagonal / diagonal crop on lifestyle photography."
+    - "Layout is spacious with large white gaps between sections; avoid card chrome."

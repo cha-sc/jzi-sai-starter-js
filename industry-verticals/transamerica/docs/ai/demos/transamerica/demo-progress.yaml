@@ -1,0 +1,182 @@
+# Demo Progress Tracker
+client:
+  name: "Transamerica"
+  sourceUrl: "https://www.transamerica.com/"
+  startedAt: "2026-11-09T17:45:00Z"
+  lastUpdatedAt: "2026-11-09T19:15:00Z"
+
+hardScope:
+  codeRoot: "industry-verticals/transamerica/"
+  contentRoot: "/sitecore/content/Transamerica/Transamerica"
+
+phases:
+  phase0_inputs:
+    status: "complete"
+    screenshot: true
+    url: "https://www.transamerica.com/"
+
+  phase0_5_manifest:
+    status: "complete"
+    validationMode: "quick"
+    result: "pass_with_warn_missing_uiim_react"
+
+  phase1_theme:
+    status: "complete"
+    themeFile: "docs/ai/themes/transamerica.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/transamerica/build-plan.yaml"
+    totalSections: 13
+    userApproved: true
+    pixelPerfect: true
+
+  phase2_5_content:
+    status: "complete"
+    contentMapFile: "docs/ai/demos/transamerica/content-map.yaml"
+    extractorUsed: true
+
+  phase3_content:
+    status: "complete"
+    completedSections: 10
+    totalSections: 10
+    demoFolderId: "12da172c-a0ae-4632-9ba6-996b5b359dee"
+
+  phase4_theme:
+    status: "complete"
+    themeDelivery: "scss-financial-site"
+    cssWritten: true
+    fontsAdded: true
+    files:
+      - "src/assets/sass/abstracts/vars/_colors.scss"
+      - "src/assets/sass/base/fonts/_fonts.scss"
+
+  phase5_custom:
+    status: "skipped"
+    customComponentsNeeded: 0
+    customComponentsBuilt: 0
+
+  phase5_5_variants:
+    status: "complete"
+    variantsNeeded: 3
+    variantsCreated: 3
+    variantSpecsFile: "docs/ai/demos/transamerica/variant-specs.yaml"
+    skippedReason: ""
+    variants:
+      - { name: "HeroDiagonalNavy", itemId: "21f387b1-4250-4e15-92e3-848bad040638" }
+      - { name: "PromoHexImage", itemId: "9fb7b1e7-7693-4664-92c2-f548db35e943" }
+      - { name: "StatsWithHexImage", itemId: "6fba320d-a98d-4fe4-a88d-c69a2e5ebb57" }
+
+  phase6_assembly:
+    status: "complete"
+    homePageId: "d4d53f3d-e5b2-4749-8205-847669b4a104"
+    componentsAdded: 5
+    datasourcesWired: 10
+    totalComponents: 10
+    notes: "Starter leftovers remain for manual removal; variants set in Pages."
+
+  phase7_summary:
+    status: "complete"
+
+sections:
+  - position: 3
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "3b16389b-ede4-471b-8d24-e22576d4cd31"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 4
+    componentName: "PromoCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "4651cd56-88ed-4fe6-b79d-ab44f8beb3e8"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 5
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "2dbd91c8-f247-405e-aa4c-51145d9dd724"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 6
+    componentName: "PromoCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "313705bb-461f-4e34-ba1d-10961e21acc7"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 7
+    componentName: "CtaBanner"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "98777486-7817-4a96-873b-cae0b56db31f"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 8
+    componentName: "FourColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "a12c6e5a-9bcf-4c51-bd01-2c617e8293b0"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 9
+    componentName: "StatsCounter"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "98bf52a6-5df3-4232-b16f-26149ab274a3"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 10
+    componentName: "TwoColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "b5b64310-8aaf-4ccd-8a1f-13c7fb17a263"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 11
+    componentName: "FiveColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "b23309b3-a30b-4fba-b8f5-76239a77aabb"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+  - position: 12
+    componentName: "Quote"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "4f54fae1-31d8-4c71-b73f-a4a0371c1f36"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""

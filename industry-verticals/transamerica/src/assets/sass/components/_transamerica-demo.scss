@@ -1,0 +1,235 @@
+// Transamerica demo variants — pixel-perfect Phase 5.5
+
+.hero-diagonal-navy {
+  position: relative;
+  overflow: hidden;
+  min-height: clamp(28rem, 62vw, 40rem);
+  background: var(--brand-primary, #0c2340);
+
+  &__media {
+    position: absolute;
+    inset: 0;
+
+    img,
+    picture,
+    .hero-diagonal-navy__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  &__panel {
+    position: relative;
+    z-index: 1;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0, 58% 0, 46% 100%, 0 100%);
+    background: linear-gradient(
+      105deg,
+      rgba(12, 35, 64, 0.97) 0%,
+      rgba(12, 35, 64, 0.92) 55%,
+      rgba(12, 35, 64, 0.55) 100%
+    );
+    max-width: 56%;
+    padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 4vw, 4rem);
+
+    @media (max-width: 991px) {
+      max-width: 100%;
+      clip-path: none;
+      background: rgba(12, 35, 64, 0.92);
+      min-height: auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+  }
+
+  &__copy {
+    max-width: 28rem;
+  }
+
+  &__title {
+    font-family: var(--brand-heading-font, 'Libre Baskerville', Georgia, serif);
+    font-weight: 400;
+    font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+    line-height: 1.15;
+    color: #fff;
+    margin: 0 0 1rem;
+  }
+
+  &__subtitle {
+    font-family: var(--brand-body-font, 'Source Sans 3', Arial, sans-serif);
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 1.75rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: var(--brand-primary, #0c2340) !important;
+    border-radius: var(--brand-button-radius, 1.5rem);
+    padding: 0.7rem 1.75rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none !important;
+    border: none;
+
+    &:hover {
+      filter: brightness(0.96);
+      color: var(--brand-primary, #0c2340) !important;
+    }
+  }
+}
+
+.promo-hex-image {
+  padding: clamp(3rem, 7vw, 5.5rem) 0;
+  background: var(--brand-bg, #fff);
+
+  &__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__title {
+    font-family: var(--brand-heading-font, 'Libre Baskerville', Georgia, serif);
+    font-weight: 400;
+    font-size: clamp(1.85rem, 3vw, 2.5rem);
+    line-height: 1.25;
+    color: var(--brand-fg, #281805);
+    margin: 0 0 1.25rem;
+  }
+
+  &__text {
+    font-family: var(--brand-body-font, 'Source Sans 3', Arial, sans-serif);
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--brand-muted-fg, #5c5348);
+    margin-bottom: 1.75rem;
+
+    p {
+      margin: 0 0 0.75rem;
+    }
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--brand-primary, #0c2340);
+    color: #fff !important;
+    border-radius: var(--brand-button-radius, 1.5rem);
+    padding: 0.7rem 1.75rem;
+    font-weight: 600;
+    text-decoration: none !important;
+
+    &:hover {
+      filter: brightness(1.08);
+      color: #fff !important;
+    }
+  }
+
+  &__media {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__hex {
+    width: min(100%, 34rem);
+    aspect-ratio: 1 / 1;
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+    overflow: hidden;
+    background: var(--brand-muted, #f4f7fa);
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.stats-with-hex-image {
+  background: var(--brand-primary, #0c2340);
+  color: #fff;
+  padding: clamp(3rem, 6vw, 5rem) 0;
+
+  &__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: clamp(2rem, 4vw, 3.5rem);
+    align-items: center;
+
+    @media (max-width: 991px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__hex {
+    width: min(100%, 28rem);
+    aspect-ratio: 1 / 1;
+    clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  &__stat {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1.25rem;
+
+    &:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+
+  &__value {
+    font-family: var(--brand-heading-font, 'Libre Baskerville', Georgia, serif);
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 0.35rem;
+    color: #fff;
+  }
+
+  &__caption {
+    font-family: var(--brand-body-font, 'Source Sans 3', Arial, sans-serif);
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+  }
+}

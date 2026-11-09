@@ -1,0 +1,1184 @@
+{
+  "url": "https://www.transamerica.com/",
+  "extractedAt": "2026-11-09T17:49:34.101Z",
+  "detectedLanguage": "en",
+  "targetLanguage": "en",
+  "translationNeeded": false,
+  "totalSections": 12,
+  "totalImages": 81,
+  "totalVideos": 0,
+  "interactionStats": {
+    "lazySourcesResolved": 0,
+    "tabsClicked": 4,
+    "accordionsExpanded": 0,
+    "carouselDotsClicked": 0,
+    "carouselArrowSlides": 0,
+    "backgroundImagesCollected": 0
+  },
+  "sections": [
+    {
+      "position": 1,
+      "tagName": "div",
+      "classHint": "layout banner-layout bottom-margin--default",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Homepage"
+        },
+        {
+          "tag": "h2",
+          "text": "Life is The Long Game"
+        },
+        {
+          "tag": "h2",
+          "text": "Forbes 2027 top insurance company"
+        },
+        {
+          "tag": "h2",
+          "text": "Best Customer Service 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Lifetime income. Lifetime options."
+        }
+      ],
+      "paragraphs": [
+        "Turn today’s actions into tomorrow’s possibilities.",
+        "Transamerica is once again recognized as one of America’s Best Insurance Companies.",
+        "Recognized by USA TODAY as one of America's Best Customer Service companies.",
+        "A new choice for no-fee lifetime income."
+      ],
+      "links": [
+        {
+          "text": "Tee up your future",
+          "href": "https://www.transamerica.com/about-us/long-game",
+          "target": ""
+        },
+        {
+          "text": "Learn about award",
+          "href": "https://www.transamerica.com/news/transamerica-earns-forbes-recognition-amid-strong-growth-life-insurance",
+          "target": ""
+        },
+        {
+          "text": "Learn more",
+          "href": "https://www.transamerica.com/about-us/awards",
+          "target": "_self"
+        },
+        {
+          "text": "Find out more",
+          "href": "https://www.transamerica.com/individual/annuities/rila-income-annuity",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-09/afewgolfers2.jpg?h=b4fc795d&itok=NQpLyWC_",
+          "alt": "",
+          "type": "img",
+          "width": 1920,
+          "height": 560
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-09/happtwomen.jpg?h=3c5059ea&itok=aXaks2C3",
+          "alt": "",
+          "type": "img",
+          "width": 1920,
+          "height": 560
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-07/happyrunners.jpg?h=136b63c0&itok=oCw13q17",
+          "alt": "",
+          "type": "img",
+          "width": 1920,
+          "height": 560
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2025-10/beach_runners.jpg?h=4db26fa8&itok=HRmArXmj",
+          "alt": "",
+          "type": "img",
+          "width": 1920,
+          "height": 560
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=70f4e6be&itok=J2lZ6ACJ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=8b1a7610&itok=_5P5IuH7",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=3f4147bc&itok=bSspAwcH",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=b565b622&itok=m27YsW7n",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/afewgolfers2.jpg?h=70f4e6be&itok=J2lZ6ACJ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/afewgolfers2.jpg?h=8b1a7610&itok=_5P5IuH7",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/afewgolfers2.jpg?h=3f4147bc&itok=bSspAwcH",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/afewgolfers2.jpg?h=b565b622&itok=m27YsW7n",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/happtwomen.jpg.webp?h=70f4e6be&itok=ehcJeNuF",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/happtwomen.jpg.webp?h=8b1a7610&itok=xdXWoHJN",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/happtwomen.jpg.webp?h=fc138876&itok=jlGxy4xW",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/happtwomen.jpg.webp?h=ac011bd0&itok=EiLMJKNP",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/happtwomen.jpg?h=70f4e6be&itok=ehcJeNuF",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/happtwomen.jpg?h=8b1a7610&itok=xdXWoHJN",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/happtwomen.jpg?h=fc138876&itok=jlGxy4xW",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/happtwomen.jpg?h=ac011bd0&itok=EiLMJKNP",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-07/happyrunners.jpg.webp?h=70f4e6be&itok=xRGQjd5K",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-07/happyrunners.jpg.webp?h=8b1a7610&itok=-EzBzKWj",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-07/happyrunners.jpg.webp?h=36538c46&itok=F4qh2yA7",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-07/happyrunners.jpg.webp?h=8c7ed817&itok=E1N1mNc9",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-07/happyrunners.jpg?h=70f4e6be&itok=xRGQjd5K",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-07/happyrunners.jpg?h=8b1a7610&itok=-EzBzKWj",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-07/happyrunners.jpg?h=36538c46&itok=F4qh2yA7",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-07/happyrunners.jpg?h=8c7ed817&itok=E1N1mNc9",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2025-10/beach_runners.jpg.webp?h=70f4e6be&itok=bOP855IZ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2025-10/beach_runners.jpg.webp?h=17f67726&itok=MK2vI1MS",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2025-10/beach_runners.jpg.webp?h=3f4147bc&itok=X243g45p",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2025-10/beach_runners.jpg.webp?h=30f47a73&itok=ykCEjdAo",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2025-10/beach_runners.jpg?h=70f4e6be&itok=bOP855IZ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2025-10/beach_runners.jpg?h=17f67726&itok=MK2vI1MS",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2025-10/beach_runners.jpg?h=3f4147bc&itok=X243g45p",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2025-10/beach_runners.jpg?h=30f47a73&itok=ykCEjdAo",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Life is The Long Game",
+          "description": "Turn today’s actions into tomorrow’s possibilities.",
+          "link": {
+            "text": "Tee up your future",
+            "href": "https://www.transamerica.com/about-us/long-game"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-09/afewgolfers2.jpg?h=b4fc795d&itok=NQpLyWC_",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "tagName": "div",
+      "classHint": "layout fullonecol-layout hide_if_empty bg-color--none bottom-margin--small grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Go the distance for what matters most"
+        }
+      ],
+      "paragraphs": [
+        "The Long Game isn't just about building a future. It's about protecting it. Because the true measure of success is the impact we create for ourselves, our families, and future generations."
+      ],
+      "links": [
+        {
+          "text": "Get insurance quote",
+          "href": "https://www.transamerica.com/lifepolicyexplorer",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=jmAbIOXs",
+          "alt": "",
+          "type": "img",
+          "width": 1366,
+          "height": 896
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=a1YzmaQ6",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=SbeVik1e",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=pGVRFYGR",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=a1YzmaQ6",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=SbeVik1e",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=pGVRFYGR",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Go the distance for what matters most",
+          "description": "The Long Game isn't just about building a future. It's about protecting it. Because the true measure of success is the impact we create for ourselves, our families, and future generations.",
+          "link": {
+            "text": "Get insurance quote",
+            "href": "https://www.transamerica.com/lifepolicyexplorer"
+          }
+        },
+        {
+          "description": "",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=jmAbIOXs",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "tagName": "div",
+      "classHint": "layout threecol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Retire with ease"
+        },
+        {
+          "tag": "h3",
+          "text": "Insure what’s important to you"
+        },
+        {
+          "tag": "h3",
+          "text": "Invest in tomorrow"
+        }
+      ],
+      "paragraphs": [
+        "Plan and save for the life you want with your workplace retirement plan.",
+        "Know you and your loved ones are protected with life insurance.",
+        "Build financial freedom with our mutual funds and annuity solutions."
+      ],
+      "links": [
+        {
+          "text": "Build your retirement",
+          "href": "https://www.transamerica.com/individual/retirement/retirement-overview",
+          "target": ""
+        },
+        {
+          "text": "Protect your future",
+          "href": "https://www.transamerica.com/individual/insurance/overview",
+          "target": ""
+        },
+        {
+          "text": "Learn about mutual funds",
+          "href": "https://www.transamerica.com/individual/investments/mutual-funds-overview",
+          "target": ""
+        }
+      ],
+      "images": [],
+      "listItems": [
+        {
+          "title": "Retire with ease",
+          "description": "Plan and save for the life you want with your workplace retirement plan.",
+          "link": {
+            "text": "Build your retirement",
+            "href": "https://www.transamerica.com/individual/retirement/retirement-overview"
+          }
+        },
+        {
+          "title": "Insure what’s important to you",
+          "description": "Know you and your loved ones are protected with life insurance.",
+          "link": {
+            "text": "Protect your future",
+            "href": "https://www.transamerica.com/individual/insurance/overview"
+          }
+        },
+        {
+          "title": "Invest in tomorrow",
+          "description": "Build financial freedom with our mutual funds and annuity solutions.",
+          "link": {
+            "text": "Learn about mutual funds",
+            "href": "https://www.transamerica.com/individual/investments/mutual-funds-overview"
+          }
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "tagName": "div",
+      "classHint": "layout onecol-layout hide_if_empty bg-color-- bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Life insurers put life into the things you love"
+        }
+      ],
+      "paragraphs": [
+        "Life insurers support essential parts of the economy. Their long-term investments build and support communities where Americans live and work."
+      ],
+      "links": [
+        {
+          "text": "Watch insurer video",
+          "href": "https://vimeo.com/1076733370",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=jyGAMDY0",
+          "alt": "",
+          "type": "img",
+          "width": 1366,
+          "height": 896
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=kuw2mI-a",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=eHS510hi",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=kNPTIxk2",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=kuw2mI-a",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=eHS510hi",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=kNPTIxk2",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "description": "",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=jyGAMDY0",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Life insurers put life into the things you love",
+          "description": "Life insurers support essential parts of the economy. Their long-term investments build and support communities where Americans live and work.",
+          "link": {
+            "text": "Watch insurer video",
+            "href": "https://vimeo.com/1076733370"
+          }
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "tagName": "div",
+      "classHint": "layout fullonecol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "We’ve got you"
+        }
+      ],
+      "paragraphs": [
+        "Our tools help you manage your finances with ease."
+      ],
+      "links": [
+        {
+          "text": "Resources",
+          "href": "https://www.transamerica.com/about-us/resources",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=bhkagR_q",
+          "alt": "",
+          "type": "img",
+          "width": 1366,
+          "height": 896
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=tXVb5fI3",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=qNw6pN6W",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=lGrjX1B-",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=tXVb5fI3",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=qNw6pN6W",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=lGrjX1B-",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "description": "",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=bhkagR_q",
+            "alt": ""
+          }
+        },
+        {
+          "title": "We’ve got you",
+          "description": "Our tools help you manage your finances with ease.",
+          "link": {
+            "text": "Resources",
+            "href": "https://www.transamerica.com/about-us/resources"
+          }
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "tagName": "div",
+      "classHint": "layout fourcol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "Featured resources"
+        },
+        {
+          "tag": "h3",
+          "text": "How much do you need to retire?"
+        },
+        {
+          "tag": "h3",
+          "text": "What type of life insurance is best for you?"
+        },
+        {
+          "tag": "h3",
+          "text": "Preparing for long term care needs"
+        },
+        {
+          "tag": "h3",
+          "text": "A social security field guide"
+        }
+      ],
+      "paragraphs": [],
+      "links": [
+        {
+          "text": "How to",
+          "href": "https://trsretire.com/media/calculators/en/RetirementPlan.jsp",
+          "target": "_blank"
+        },
+        {
+          "text": "Tool",
+          "href": "https://www.transamerica.com/lifepolicyexplorer",
+          "target": ""
+        },
+        {
+          "text": "How to",
+          "href": "https://cdn.bfldr.com/86JM1UOD/as/sb38vhkrtnhgghszj68vstn/Long_Term_Care_Checkl%E2%80%A6",
+          "target": "_blank"
+        },
+        {
+          "text": "How to",
+          "href": "https://www.transamerica.com/about-us/social-security",
+          "target": ""
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/2025-01/Pig-NL.gif",
+          "alt": "",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/2025-01/Scale-NL.gif",
+          "alt": "",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/2025-01/Hand-plant-NL.gif",
+          "alt": "",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/2025-01/Page-NL.gif",
+          "alt": "",
+          "type": "img",
+          "width": 800,
+          "height": 600
+        }
+      ],
+      "listItems": [
+        {
+          "title": "How much do you need to retire?",
+          "link": {
+            "text": "How to",
+            "href": "https://trsretire.com/media/calculators/en/RetirementPlan.jsp"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/2025-01/Pig-NL.gif",
+            "alt": ""
+          }
+        },
+        {
+          "title": "What type of life insurance is best for you?",
+          "link": {
+            "text": "Tool",
+            "href": "https://www.transamerica.com/lifepolicyexplorer"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/2025-01/Scale-NL.gif",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Preparing for long term care needs",
+          "link": {
+            "text": "How to",
+            "href": "https://cdn.bfldr.com/86JM1UOD/as/sb38vhkrtnhgghszj68vstn/Long_Term_Care_Checkl%E2%80%A6"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/2025-01/Hand-plant-NL.gif",
+            "alt": ""
+          }
+        },
+        {
+          "title": "A social security field guide",
+          "link": {
+            "text": "How to",
+            "href": "https://www.transamerica.com/about-us/social-security"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/2025-01/Page-NL.gif",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "tagName": "div",
+      "classHint": "layout onecol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "For 120+ years"
+        },
+        {
+          "tag": "h3",
+          "text": "$52 billion+"
+        },
+        {
+          "tag": "h3",
+          "text": "10.2 million"
+        },
+        {
+          "tag": "h3",
+          "text": "$444.4 billion"
+        }
+      ],
+      "paragraphs": [
+        "we’ve provided access to financial freedom for all",
+        "paid in insurance, retirement, and annuity claims and benefits",
+        "As of December 31, 2025",
+        "in revenue-generating investments"
+      ],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=5e5ebxE6",
+          "alt": "",
+          "type": "img",
+          "width": 1366,
+          "height": 896
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=lstpuqzJ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=XDf0QxJw",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=JheENwAb",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=lstpuqzJ",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=XDf0QxJw",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=JheENwAb",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "For 120+ years",
+          "description": "we’ve provided access to financial freedom for all",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=5e5ebxE6",
+            "alt": ""
+          }
+        },
+        {
+          "title": "$52 billion+",
+          "description": "paid in insurance, retirement, and annuity claims and benefits"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "tagName": "div",
+      "classHint": "layout fullonecol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "How to work with us"
+        }
+      ],
+      "paragraphs": [
+        "Financial professionals can help put a strategy in place to meet your financial and protection goals. Transamerica offers our products through agents and financial professionals across America.*"
+      ],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SHEnnTA7",
+          "alt": "",
+          "type": "img",
+          "width": 1366,
+          "height": 896
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=SpUOZrzL",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=Y4NFSyNE",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=7gkboEkR",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SpUOZrzL",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=Y4NFSyNE",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=7gkboEkR",
+          "alt": "",
+          "type": "srcset",
+          "width": null,
+          "height": null
+        }
+      ],
+      "listItems": [
+        {
+          "title": "How to work with us",
+          "description": "Financial professionals can help put a strategy in place to meet your financial and protection goals. Transamerica offers our products through agents and financial professionals across America.*"
+        },
+        {
+          "description": "",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SHEnnTA7",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "tagName": "div",
+      "classHint": "layout threecol-layout hide_if_empty bg-color--none bottom-margin--small grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Retirement"
+        },
+        {
+          "tag": "h3",
+          "text": "Investments"
+        },
+        {
+          "tag": "h3",
+          "text": "Employee benefits"
+        }
+      ],
+      "paragraphs": [
+        "Transamerica retirement plans offerings such as 401(k)s and 403(b)s, are provided to employees through their employers.",
+        "Our mutual funds can be purchased through financial professionals.*",
+        "Workplace life insurance, disability insurance, supplemental insurance, and more may be made available to employees through their employer’s employee benefits program."
+      ],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/bar_chart-3-sky.svg",
+          "alt": "",
+          "type": "img",
+          "width": 96,
+          "height": 96
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/account-circle-sky.svg",
+          "alt": "",
+          "type": "img",
+          "width": 96,
+          "height": 96
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/assured-workload-sky.svg",
+          "alt": "",
+          "type": "img",
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Retirement",
+          "description": "Transamerica retirement plans offerings such as 401(k)s and 403(b)s, are provided to employees through their employers.",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/bar_chart-3-sky.svg",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Investments",
+          "description": "Our mutual funds can be purchased through financial professionals.*",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/account-circle-sky.svg",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Employee benefits",
+          "description": "Workplace life insurance, disability insurance, supplemental insurance, and more may be made available to employees through their employer’s employee benefits program.",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/assured-workload-sky.svg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "tagName": "div",
+      "classHint": "layout threecol-layout hide_if_empty bg-color--none bottom-margin--small grid-container",
+      "backgroundHint": "dark",
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "Life insurance"
+        },
+        {
+          "tag": "h3",
+          "text": "Annuities"
+        }
+      ],
+      "paragraphs": [
+        "Transamerica life insurance products are available through a variety of ways: Connect with your local life insurance agent.* Find an agent through our Transamerica Agent Network. Transamerica Financial Advisors (TFA) financial professionals also offer life insurance. Find a licensed independent agent through our subsidiary, World Financial Group, with more than 90,000 agents representing life insurance products.",
+        "Transamerica life insurance products are available through a variety of ways:",
+        "Connect with your local life insurance agent.*",
+        "Find an agent through our Transamerica Agent Network.",
+        "Transamerica Financial Advisors (TFA) financial professionals also offer life insurance.",
+        "Find a licensed independent agent through our subsidiary, World Financial Group, with more than 90,000 agents representing life insurance products.",
+        "You can purchase Transamerica annuities to help provide retirement income through a financial professional.* In addition, Transamerica Financial Advisors (TFA) financial professionals offer variable annuities.",
+        "You can purchase Transamerica annuities to help provide retirement income through a financial professional.*",
+        "In addition, Transamerica Financial Advisors (TFA) financial professionals offer variable annuities."
+      ],
+      "links": [
+        {
+          "text": "Transamerica Agent Network",
+          "href": "https://www.transamerica.com/agent-locator",
+          "target": ""
+        },
+        {
+          "text": "World Financial Group",
+          "href": "https://agents.worldfinancialgroup.com/locate-an-agent",
+          "target": "_blank"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/ecg-heart-sky.svg",
+          "alt": "",
+          "type": "img",
+          "width": 96,
+          "height": 96
+        },
+        {
+          "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/local-atm-sky.svg",
+          "alt": "",
+          "type": "img",
+          "width": 96,
+          "height": 96
+        }
+      ],
+      "listItems": [
+        {
+          "title": "Life insurance",
+          "description": "Transamerica life insurance products are available through a variety of ways: Connect with your local life insurance agent.* Find an agent through our Transamerica Agent Network. Transamerica Financial Advisors (TFA) financial professionals also offer life insurance. Find a licensed independent agent through our subsidiary, World Financial Group, with more than 90,000 agents representing life insurance products.",
+          "link": {
+            "text": "Transamerica Agent Network",
+            "href": "https://www.transamerica.com/agent-locator"
+          },
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/ecg-heart-sky.svg",
+            "alt": ""
+          }
+        },
+        {
+          "title": "Annuities",
+          "description": "You can purchase Transamerica annuities to help provide retirement income through a financial professional.* In addition, Transamerica Financial Advisors (TFA) financial professionals offer variable annuities.",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/local-atm-sky.svg",
+            "alt": ""
+          }
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "tagName": "div",
+      "classHint": "layout onecol-layout hide_if_empty bg-color-- bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "\"Professional and knowledgeable. Whenever I contact Transamerica I have a good experience. They are always professional and efficient. I appreciate their helpfulness with my financial questions.\"Diane—Verified customer",
+        "\"Professional and knowledgeable. Whenever I contact Transamerica I have a good experience. They are always professional and efficient. I appreciate their helpfulness with my financial questions.\"",
+        "Diane—Verified customer"
+      ],
+      "links": [],
+      "images": [
+        {
+          "src": "https://www.transamerica.com/sites/default/files/image/2026-02/trustpilot_asset_3c.png",
+          "alt": "",
+          "type": "img",
+          "width": 797,
+          "height": 575
+        }
+      ],
+      "listItems": [
+        {
+          "description": "",
+          "image": {
+            "src": "https://www.transamerica.com/sites/default/files/image/2026-02/trustpilot_asset_3c.png",
+            "alt": ""
+          }
+        },
+        {
+          "description": "\"Professional and knowledgeable. Whenever I contact Transamerica I have a good experience. They are always professional and efficient. I appreciate their helpfulness with my financial questions.\"Diane—Verified customer"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "tagName": "div",
+      "classHint": "layout fullonecol-layout hide_if_empty bg-color--none bottom-margin--default grid-container",
+      "backgroundHint": "dark",
+      "headings": [],
+      "paragraphs": [
+        "*Not all financial professionals/agents sell Transamerica products."
+      ],
+      "links": [],
+      "images": []
+    }
+  ]
+}

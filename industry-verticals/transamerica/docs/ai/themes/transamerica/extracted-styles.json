@@ -1,0 +1,43 @@
+{
+  "colors": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "bodyColor": "rgb(40, 24, 5)",
+    "headerBackground": "rgba(0, 0, 0, 0)",
+    "headerColor": "rgb(40, 24, 5)",
+    "footerBackground": "rgb(255, 255, 255)",
+    "footerColor": "rgb(40, 24, 5)",
+    "heroBackground": null,
+    "primaryButtonBackground": "rgb(40, 24, 5)",
+    "primaryButtonColor": "rgb(255, 255, 255)",
+    "primaryButtonBorderRadius": "24px",
+    "linkColor": "rgb(255, 255, 255)"
+  },
+  "typography": {
+    "bodyFontFamily": "\"Forever Forma Body\", Arial, san-serif",
+    "bodyFontSize": "16px",
+    "bodyFontWeight": "400",
+    "bodyLineHeight": "24px",
+    "h1FontFamily": "\"Forever Forma Heading\", Arial, san-serif",
+    "h1FontSize": "48px",
+    "h1FontWeight": "400",
+    "h1LetterSpacing": "normal",
+    "h1TextTransform": "none",
+    "h2FontFamily": "\"Forever Forma Heading\", Arial, san-serif",
+    "h2FontSize": "60px",
+    "h2FontWeight": "400",
+    "h3FontFamily": "\"Forever Forma Heading\", Arial, san-serif",
+    "h3FontSize": "26px",
+    "h3FontWeight": "400",
+    "pFontSize": "16px",
+    "pLineHeight": "24px"
+  },
+  "shape": {
+    "imgBorderRadius": "0px"
+  },
+  "spacing": {
+    "heroMinHeight": "0px",
+    "heroPadding": "0px",
+    "containerMaxWidth": "1440px"
+  },
+  "cssVariables": {}
+}

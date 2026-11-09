@@ -56,3 +56,41 @@ export const Default = (props: AppPromoProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* Transamerica — full-bleed lifestyle photo + angled navy copy panel */
+export const HeroDiagonalNavy = (props: AppPromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component hero hero-diagonal-navy ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="hero-diagonal-navy__media" aria-hidden={!props.fields?.Image?.value?.src}>
+        <NextImage
+          field={props.fields.Image}
+          className="hero-diagonal-navy__img"
+          width={1920}
+          height={900}
+        />
+      </div>
+      <div className="hero-diagonal-navy__panel">
+        <div className="hero-diagonal-navy__copy">
+          <h1 className="hero-diagonal-navy__title">
+            <Text field={props.fields.Title} />
+          </h1>
+          <div className="hero-diagonal-navy__subtitle">
+            <RichText field={props.fields.Text} />
+          </div>
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="hero-diagonal-navy__cta" />
+          )}
+        </div>
+      </div>
+    </section>
+  );
+};

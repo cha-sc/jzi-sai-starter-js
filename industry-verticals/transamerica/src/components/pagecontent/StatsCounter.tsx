@@ -99,3 +99,49 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* Transamerica — navy panel with hexagonal photo + large white stats */
+export const StatsWithHexImage = (props: StatsCounterProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const stats = [
+    { value: props.fields?.Value1, symbol: props.fields?.Symbol1, caption: props.fields?.Caption1 },
+    { value: props.fields?.Value2, symbol: props.fields?.Symbol2, caption: props.fields?.Caption2 },
+    { value: props.fields?.Value3, symbol: props.fields?.Symbol3, caption: props.fields?.Caption3 },
+  ];
+
+  return (
+    <section
+      className={`component stats-counter stats-with-hex-image ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="stats-with-hex-image__inner">
+        <div className="stats-with-hex-image__media">
+          <div className="stats-with-hex-image__hex">
+            <NextImage
+              field={props.fields?.Image1}
+              className="stats-with-hex-image__img"
+              width={720}
+              height={720}
+            />
+          </div>
+        </div>
+        <div className="stats-with-hex-image__stats">
+          {stats.map((stat, index) => (
+            <div className="stats-with-hex-image__stat" key={index}>
+              <p className="stats-with-hex-image__value">
+                <Text field={stat.value} />
+                <Text field={stat.symbol} />
+              </p>
+              <p className="stats-with-hex-image__caption">
+                <Text field={stat.caption} />
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};

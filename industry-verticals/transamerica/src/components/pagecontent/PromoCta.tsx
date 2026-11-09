@@ -190,3 +190,41 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* Transamerica — text left, hexagonal lifestyle image right */
+export const PromoHexImage = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  return (
+    <section
+      className={`component promo-cta promo-hex-image ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="promo-hex-image__inner">
+        <div className="promo-hex-image__copy">
+          <h2 className="promo-hex-image__title">
+            <Text field={props.fields.Title} />
+          </h2>
+          <RichText field={props.fields.Text} className="promo-hex-image__text" />
+          {(isPageEditing || props.fields?.Link?.value?.href) && (
+            <Link field={props.fields.Link} className="promo-hex-image__cta" />
+          )}
+        </div>
+        <div className="promo-hex-image__media">
+          <div className="promo-hex-image__hex">
+            <NextImage
+              field={props.fields.Image}
+              className="promo-hex-image__img"
+              width={900}
+              height={900}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};

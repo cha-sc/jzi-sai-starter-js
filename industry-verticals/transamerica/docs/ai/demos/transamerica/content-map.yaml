@@ -1,0 +1,350 @@
+# Transamerica content map — Financial / SXA
+client:
+  name: "Transamerica"
+  sourceUrl: "https://www.transamerica.com/"
+  contentRoot: "/sitecore/content/Transamerica/Transamerica"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/Transamerica/Transamerica/Data/Transamerica Demo"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  PromoCta: "c0943942-ae0f-4205-86fa-84884cce4a53"
+  ThreeColumnCta: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+  FourColumnCta: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+  FiveColumnCta: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+  TwoColumnCta: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+  CtaBanner: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+  StatsCounter: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+  Quote: "cad49c2a-bd85-44fd-852a-10c1a1c8fd72"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Utility links live in header partial placeholders; no separate datasource."
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Context-only. Logo + Insurance / Retirement / Investments / Life & Wealth in partial design."
+
+  - position: 3
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Hero"
+    itemId: "3b16389b-ede4-471b-8d24-e22576d4cd31"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    phase55Variant: "HeroDiagonalNavy"
+    fields:
+      Title: "Life is The Long Game"
+      Text: "<p>Turn today’s actions into tomorrow’s possibilities.</p>"
+      Link: { text: "Tee up your future", href: "https://www.transamerica.com/about-us/long-game", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/afewgolfers2.jpg?h=70f4e6be&itok=J2lZ6ACJ"
+        alt: "Friends celebrating on a golf course"
+        localFile: "section1-img9.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 4
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Go the Distance"
+    itemId: "4651cd56-88ed-4fe6-b79d-ab44f8beb3e8"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    phase55Variant: "PromoHexImage"
+    fields:
+      Eyebrow: ""
+      Title: "Go the distance for what matters most"
+      Subtitle: ""
+      Text: "<p>The Long Game isn't just about building a future. It's about protecting it. Because the true measure of success is the impact we create for ourselves, our families, and future generations.</p>"
+      Link: { text: "Get insurance quote", href: "https://www.transamerica.com/lifepolicyexplorer", target: "_blank" }
+      Link2: { text: "", href: "", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=a1YzmaQ6"
+        alt: "Parent and child gardening together"
+        localFile: "section2-img41.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 5
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Product Focus"
+    itemId: "2dbd91c8-f247-405e-aa4c-51145d9dd724"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "Retire with ease"
+      SubText1: "Plan and save for the life you want with your workplace retirement plan."
+      Link1: { text: "Build your retirement", href: "https://www.transamerica.com/individual/retirement/retirement-overview", target: "_blank" }
+      Text2: "Insure what’s important to you"
+      SubText2: "Know you and your loved ones are protected with life insurance."
+      Link2: { text: "Protect your future", href: "https://www.transamerica.com/individual/insurance/overview", target: "_blank" }
+      Text3: "Invest in tomorrow"
+      SubText3: "Build financial freedom with our mutual funds and annuity solutions."
+      Link3: { text: "Learn about mutual funds", href: "https://www.transamerica.com/individual/investments/mutual-funds-overview", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 6
+    componentName: "PromoCta"
+    manifestName: "Promo CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Life Insurers"
+    itemId: "313705bb-461f-4e34-ba1d-10961e21acc7"
+    apiAddable: true
+    templateId: "c0943942-ae0f-4205-86fa-84884cce4a53"
+    fields:
+      Eyebrow: ""
+      Title: "Life insurers put life into the things you love"
+      Subtitle: ""
+      Text: "<p>Life insurers support essential parts of the economy. Their long-term investments build and support communities where Americans live and work.</p>"
+      Link: { text: "Watch insurer video", href: "https://vimeo.com/1076733370", target: "_blank" }
+      Link2: { text: "", href: "", target: "" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=kuw2mI-a"
+        alt: "Couple walking into their home"
+        localFile: "section4-img48.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 7
+    componentName: "CtaBanner"
+    manifestName: "CTA Banner"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Weve Got You"
+    itemId: "98777486-7817-4a96-873b-cae0b56db31f"
+    apiAddable: true
+    templateId: "4900d7e5-61b0-483a-a9d6-69419d4d5982"
+    fields:
+      Eyebrow: ""
+      Title: "We’ve got you"
+      Text: "<p>Our tools help you manage your finances with ease.</p>"
+      Link: { text: "Resources", href: "https://www.transamerica.com/about-us/resources", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=tXVb5fI3"
+        alt: "Woman working at a laptop in her kitchen"
+        localFile: "section5-img55.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 8
+    componentName: "FourColumnCta"
+    manifestName: "Four Column CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Featured Resources"
+    itemId: "a12c6e5a-9bcf-4c51-bd01-2c617e8293b0"
+    apiAddable: true
+    templateId: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+    fields:
+      Text1: "How much do you need to retire?"
+      SubText1: "Retirement calculator"
+      Link1: { text: "How to", href: "https://trsretire.com/media/calculators/en/RetirementPlan.jsp", target: "_blank" }
+      Text2: "What type of life insurance is best for you?"
+      SubText2: "Life Policy Explorer"
+      Link2: { text: "Tool", href: "https://www.transamerica.com/lifepolicyexplorer", target: "_blank" }
+      Text3: "Preparing for long term care needs"
+      SubText3: "Long-term care checklist"
+      Link3: { text: "How to", href: "https://www.transamerica.com/about-us/resources", target: "_blank" }
+      Text4: "A social security field guide"
+      SubText4: "Social Security guide"
+      Link4: { text: "How to", href: "https://www.transamerica.com/about-us/social-security", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.transamerica.com/sites/default/files/2025-01/Pig-NL.gif"
+        alt: "Retirement piggy bank icon"
+        localFile: "section6-img58.gif"
+      - field: "Image2"
+        src: "https://www.transamerica.com/sites/default/files/2025-01/Scale-NL.gif"
+        alt: "Estate planning scale icon"
+        localFile: "section6-img59.gif"
+      - field: "Image3"
+        src: "https://www.transamerica.com/sites/default/files/2025-01/Hand-plant-NL.gif"
+        alt: "Long-term care hands icon"
+        localFile: "section6-img60.gif"
+      - field: "Image4"
+        src: "https://www.transamerica.com/sites/default/files/2025-01/Page-NL.gif"
+        alt: "Social Security document icon"
+        localFile: "section6-img61.gif"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 9
+    componentName: "StatsCounter"
+    manifestName: "Stats Counter"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Trust Stats"
+    itemId: "98bf52a6-5df3-4232-b16f-26149ab274a3"
+    apiAddable: true
+    templateId: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+    phase55Variant: "StatsWithHexImage"
+    fields:
+      Value1: "52"
+      Symbol1: " billion+"
+      Caption1: "paid in insurance, retirement, and annuity claims and benefits"
+      Value2: "10"
+      Symbol2: ".2 million"
+      Caption2: "customers as of December 31, 2025"
+      Value3: "444"
+      Symbol3: ".4 billion"
+      Caption3: "in revenue-generating investments"
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=lstpuqzJ"
+        alt: "Woman stretching outdoors"
+        localFile: "section7-img66.jpg"
+      - field: "Image2"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=lstpuqzJ"
+        alt: "Woman stretching outdoors"
+        localFile: "section7-img66.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Live site uses For 120+ years / $52B+; screenshot had older $32B / 115+ figures."
+
+  - position: 10
+    componentName: "TwoColumnCta"
+    manifestName: "Two Column CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - How to Work With Us"
+    itemId: "b5b64310-8aaf-4ccd-8a1f-13c7fb17a263"
+    apiAddable: true
+    templateId: "1812bf3e-6bdd-466d-99b2-0d7cebb020fc"
+    fields:
+      Text1: "How to work with us"
+      SubText1: "Financial professionals can help put a strategy in place to meet your financial and protection goals. Transamerica offers our products through agents and financial professionals across America."
+      Link1: { text: "Find an agent", href: "https://www.transamerica.com/agent-locator", target: "_blank" }
+      Text2: ""
+      SubText2: ""
+      Link2: { text: "", href: "", target: "" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SpUOZrzL"
+        alt: "City skyline"
+        localFile: "section8-img73.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 11
+    componentName: "FiveColumnCta"
+    manifestName: "Five Column CTA"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Service Icons"
+    itemId: "b23309b3-a30b-4fba-b8f5-76239a77aabb"
+    apiAddable: true
+    templateId: "3b41d9fc-0edf-48e1-966c-e260339ba815"
+    fields:
+      Text1: "Retirement"
+      Link1: { text: "Retirement", href: "https://www.transamerica.com/individual/retirement/retirement-overview", target: "_blank" }
+      Text2: "Investments"
+      Link2: { text: "Investments", href: "https://www.transamerica.com/individual/investments/mutual-funds-overview", target: "_blank" }
+      Text3: "Employee benefits"
+      Link3: { text: "Employee benefits", href: "https://www.transamerica.com/individual", target: "_blank" }
+      Text4: "Life insurance"
+      Link4: { text: "Life insurance", href: "https://www.transamerica.com/individual/insurance/overview", target: "_blank" }
+      Text5: "Annuities"
+      Link5: { text: "Annuities", href: "https://www.transamerica.com/individual/annuities/rila-income-annuity", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.transamerica.com/sites/default/files/svg/2024-11/bar_chart-3-sky.svg"
+        alt: "Retirement icon"
+        localFile: "section9-img76.svg"
+      - field: "Image2"
+        src: "https://www.transamerica.com/sites/default/files/svg/2024-11/account-circle-sky.svg"
+        alt: "Investments icon"
+        localFile: "section9-img77.svg"
+      - field: "Image3"
+        src: "https://www.transamerica.com/sites/default/files/svg/2024-11/assured-workload-sky.svg"
+        alt: "Employee benefits icon"
+        localFile: "section9-img78.svg"
+      - field: "Image4"
+        src: "https://www.transamerica.com/sites/default/files/svg/2024-11/ecg-heart-sky.svg"
+        alt: "Life insurance icon"
+        localFile: "section10-img79.svg"
+      - field: "Image5"
+        src: "https://www.transamerica.com/sites/default/files/svg/2024-11/local-atm-sky.svg"
+        alt: "Annuities icon"
+        localFile: "section10-img80.svg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 12
+    componentName: "Quote"
+    manifestName: "Quote"
+    kind: "simple"
+    datasourceItemName: "Transamerica - Trustpilot Quote"
+    itemId: "4f54fae1-31d8-4c71-b73f-a4a0371c1f36"
+    apiAddable: true
+    templateId: "cad49c2a-bd85-44fd-852a-10c1a1c8fd72"
+    fields:
+      Quote: "Professional and knowledgeable. Whenever I contact Transamerica I have a good experience. They are always professional and efficient. I appreciate their helpfulness with my financial questions."
+      AuthorName: "Diane"
+      AuthorPosition: "Verified customer"
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.transamerica.com/sites/default/files/image/2026-02/trustpilot_asset_3c.png"
+        alt: "Trustpilot Excellent 4.5"
+        localFile: "section11-img81.png"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+
+  - position: 13
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Context-only. Columns + social + legal in footer partial."
+
+summary:
+  totalSections: 13
+  simple: 10
+  list: 0
+  contextOnly: 3
+  imagesMapped: 18
+  phase55Variants: ["HeroDiagonalNavy", "PromoHexImage", "StatsWithHexImage"]
+  contentSource: "extractor"
+  language: "en"

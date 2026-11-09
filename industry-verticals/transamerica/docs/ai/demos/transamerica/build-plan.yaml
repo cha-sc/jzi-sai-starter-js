@@ -1,0 +1,277 @@
+# Demo Build Plan — Transamerica
+# Library: Financial / SXA (Prospera stack), not UIIM 18-component catalog.
+client:
+  name: "Transamerica"
+  sourceUrl: "https://www.transamerica.com/"
+  themeFile: "docs/ai/themes/transamerica.theme.yaml"
+  analyzedAt: "2026-11-09T17:48:00Z"
+  codeRoot: "industry-verticals/transamerica/"
+  contentRoot: "/sitecore/content/Transamerica/Transamerica"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/transamerica/screenshot-desktop.png"
+    mobile: "docs/ai/themes/transamerica/screenshot-mobile.png"
+    hero: "docs/ai/themes/transamerica/screenshot-hero.png"
+    userProvided: "docs/ai/demos/transamerica/user-screenshot.jpg"
+  totalSections: 13
+  templateMatches: 13
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Top utility bar with audience links (Individuals, Employers, Financial Professionals, Newsroom), search, Log In, Contact Us."
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Individuals · Employers · Financial Professionals · Newsroom · Log In · Contact Us"
+    contentNotes: "Utility links only; search can stay static for demo."
+    variantReason: "Only Eyebrow variant."
+
+  - position: 2
+    description: "White header with Transamerica red-pyramid logo and main nav: Insurance, Retirement, Investments, Life & Wealth."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Transamerica"
+    contentNotes: "Context-only. Logo from scraped favicon/brand mark; nav: Insurance, Retirement, Investments, Life & Wealth."
+    variantReason: "WithLogoImage matches solid white bar with wordmark/logo."
+
+  - position: 3
+    description: "Full-bleed golf lifestyle hero with navy diagonal text panel: Life is The Long Game + guidance subcopy + white Learn more CTA."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "primary"
+    content:
+      Title: "Life is The Long Game."
+      Description: "Get the guidance to help you plan for a lifetime."
+      PrimaryCta: "Learn more"
+    contentNotes: "Default Hero overlays text on image; live site uses a sharp navy diagonal cut. Phase 5.5 HeroDiagonalNavy can match more closely."
+    variantReason: "Closest SXA hero; diagonal navy panel needs custom variant for pixel-perfect."
+    customVariantNeeded:
+      name: "HeroDiagonalNavy"
+      description: "Full-bleed lifestyle photo with angled navy polygon on the left carrying large white serif headline, short subcopy, and pill white CTA."
+      parentComponent: "Hero"
+
+  - position: 4
+    description: "Go the distance — text left about protection/planning, hexagonal crop of mother and child gardening on the right."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "default"
+    content:
+      Title: "Go the distance for what matters most."
+      Description: "Protection and planning that help you take care of today and tomorrow."
+      PrimaryCta: "Learn more"
+    contentNotes: "Hexagonal image crop is brand-specific; default Promo CTA uses rectangular media. Optional HexImageSplit in Phase 5.5."
+    variantReason: "Text + lifestyle image + CTA split matches Promo CTA."
+    customVariantNeeded:
+      name: "PromoHexImage"
+      description: "Text left, large hexagonal-cropped lifestyle image right, generous whitespace."
+      parentComponent: "Promo CTA"
+
+  - position: 5
+    description: "Three product focus columns: Find your focus (Retirement), Insurance for all of life's stages, Investment strategies."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "WithIcons"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Item1Title: "Find your focus"
+      Item1Description: "Retirement"
+      Item1Link: "Learn more"
+      Item2Title: "Insurance for all of life's stages"
+      Item2Link: "Learn more"
+      Item3Title: "Investment strategies"
+      Item3Link: "Learn more"
+    contentNotes: "Live site uses simple icons/headers; WithIcons is the closest match."
+    variantReason: "Three icon + title + link columns."
+
+  - position: 6
+    description: "Horizontal band: couple walking into a house — Life insurance built into the things you love."
+    matchedComponent:
+      registryId: "promo-cta"
+      manifestName: "Promo CTA"
+      variant: "WithBackgroundImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Life insurance built into the things you love."
+      PrimaryCta: "Learn more"
+    contentNotes: "Photo-forward intermediate banner; WithBackgroundImage fits well."
+    variantReason: "Full-bleed photo band with overlaid headline."
+
+  - position: 7
+    description: "Sky-blue We're with you strip with hexagonal kitchen/laptop lifestyle photo."
+    matchedComponent:
+      registryId: "cta-banner"
+      manifestName: "CTA Banner"
+      variant: "LargeImage"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "secondary"
+    content:
+      Title: "We're with you."
+      Description: "Guidance and support when you need it."
+      PrimaryCta: "Explore resources"
+    contentNotes: "Sky-blue full-width band with hex image; LargeImage CTA Banner is closest. Theme secondary bg required."
+    variantReason: "Wide tinted CTA band with supporting image."
+
+  - position: 8
+    description: "Featured resources — four icon tiles: Retirement, Estate planning, Investing, Calculators."
+    matchedComponent:
+      registryId: "four-column-cta"
+      manifestName: "Four Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Featured resources"
+      Item1Title: "Retirement"
+      Item2Title: "Estate planning"
+      Item3Title: "Investing"
+      Item4Title: "Calculators"
+    contentNotes: "Colored icon illustrations (piggy bank, scale, handshake, document) uploaded in Phase 3."
+    variantReason: "Four equal resource columns with icons."
+
+  - position: 9
+    description: "Navy trust/stats block: For 115+ years, $32 billion+ claims, 10.2 million customers, $444.4 billion AUM — with hexagonal stretch photo."
+    matchedComponent:
+      registryId: "stats-counter"
+      manifestName: "Stats Counter"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "primary"
+    content:
+      Title: "For 115+ years"
+      Item1Value: "$32 billion+"
+      Item1Label: "paid in claims and benefits"
+      Item2Value: "10.2 million"
+      Item2Label: "customers"
+      Item3Value: "$444.4 billion"
+      Item3Label: "assets under management"
+    contentNotes: "Stats Counter covers the metrics; hexagonal photo beside stats may need PromoHexImage pairing or Phase 5.5 StatsWithHexImage."
+    variantReason: "Multi-stat trust row on dark navy."
+    customVariantNeeded:
+      name: "StatsWithHexImage"
+      description: "Navy panel with hexagonal lifestyle photo plus 3–4 large white stat tiles."
+      parentComponent: "Stats Counter"
+
+  - position: 10
+    description: "How it works — San Francisco skyline photo with copy about their service model."
+    matchedComponent:
+      registryId: "two-column-cta"
+      manifestName: "Two Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "How we work"
+      Description: "A clear approach to helping you plan insurance, retirement, and investments."
+      PrimaryCta: "Learn more"
+    contentNotes: "Skyline photo left/right depending on layout; exact copy from Phase 2.5."
+    variantReason: "Image + copy two-column split."
+
+  - position: 11
+    description: "Five service icons: bar chart, profile, bank, heart, video — Retirement, Investments, Employee Benefits, Life Insurance, Mutual Funds."
+    matchedComponent:
+      registryId: "five-column-cta"
+      manifestName: "Five Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Item1Title: "Retirement"
+      Item2Title: "Investments"
+      Item3Title: "Employee Benefits"
+      Item4Title: "Life Insurance"
+      Item5Title: "Mutual Funds"
+    contentNotes: "Simple blue line icons; Five Column CTA matches the icon row."
+    variantReason: "Five equal icon+label columns."
+
+  - position: 12
+    description: "Trustpilot social proof strip — 4.5 stars Excellent."
+    matchedComponent:
+      registryId: "quote"
+      manifestName: "Quote"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "muted"
+    content:
+      Title: "Excellent"
+      Description: "4.5 out of 5 on Trustpilot"
+    contentNotes: "Not a true testimonial carousel; Quote stands in for the Trustpilot widget. Optional skip if SE prefers leaner page."
+    variantReason: "Closest simple social-proof block without embedding Trustpilot."
+
+  - position: 13
+    description: "Dark brown multi-column footer: Site Map, About Us, Support, Legal, social icons, compliance fine print."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+      variantMatch: "exact"
+    sectionBackground: "dark"
+    content:
+      Title: "Transamerica"
+    contentNotes: "Context-only. Columns + LinkedIn/Facebook/X + pyramid logo + legal disclaimers in footer Text."
+    variantReason: "WithSocials for social icons + multi-column links."
+
+notes:
+  - "Mapped to Financial/SXA Prospera components (same approach as CPP/Seismic), not the UIIM catalog."
+  - "User homepage screenshot is primary visual; Playwright scrape confirms Forever Forma type and warm ink #281805."
+  - "Hard scope: code under industry-verticals/transamerica/; content under /sitecore/content/Transamerica/Transamerica."
+  - "Optional Phase 5.5: HeroDiagonalNavy, PromoHexImage, StatsWithHexImage for hexagonal/diagonal brand shapes."

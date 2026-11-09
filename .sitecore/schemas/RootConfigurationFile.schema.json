@@ -80,6 +80,17 @@
           "items": {
             "$ref": "#/definitions/FieldFilter"
           }
+        },
+        "maxRequestSizeMB": {
+          "type": "integer",
+          "description": "Max request size to be sent to CM instance in MB.",
+          "format": "int32",
+          "default": 50
+        },
+        "progressiveMetadataPull": {
+          "type": "boolean",
+          "description": "Determines serialization metadata pull mode.",
+          "default": false
         }
       }
     },

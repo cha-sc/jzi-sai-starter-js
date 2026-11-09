@@ -1,0 +1,812 @@
+[
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-09/afewgolfers2.jpg?h=b4fc795d&itok=NQpLyWC_",
+    "alt": "",
+    "localFile": "section1-img1.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 48547,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-09/happtwomen.jpg?h=3c5059ea&itok=aXaks2C3",
+    "alt": "",
+    "localFile": "section1-img2.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 74835,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2026-07/happyrunners.jpg?h=136b63c0&itok=oCw13q17",
+    "alt": "",
+    "localFile": "section1-img3.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 67218,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm/public/image/2025-10/beach_runners.jpg?h=4db26fa8&itok=HRmArXmj",
+    "alt": "",
+    "localFile": "section1-img4.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "img",
+    "fileSize": 75755,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=70f4e6be&itok=J2lZ6ACJ",
+    "alt": "",
+    "localFile": "section1-img5.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 248084,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=8b1a7610&itok=_5P5IuH7",
+    "alt": "",
+    "localFile": "section1-img6.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 206890,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=3f4147bc&itok=bSspAwcH",
+    "alt": "",
+    "localFile": "section1-img7.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 79972,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/afewgolfers2.jpg.webp?h=b565b622&itok=m27YsW7n",
+    "alt": "",
+    "localFile": "section1-img8.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 53490,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/afewgolfers2.jpg?h=70f4e6be&itok=J2lZ6ACJ",
+    "alt": "",
+    "localFile": "section1-img9.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 309054,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/afewgolfers2.jpg?h=8b1a7610&itok=_5P5IuH7",
+    "alt": "",
+    "localFile": "section1-img10.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 252516,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/afewgolfers2.jpg?h=3f4147bc&itok=bSspAwcH",
+    "alt": "",
+    "localFile": "section1-img11.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 98551,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/afewgolfers2.jpg?h=b565b622&itok=m27YsW7n",
+    "alt": "",
+    "localFile": "section1-img12.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 66981,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/happtwomen.jpg.webp?h=70f4e6be&itok=ehcJeNuF",
+    "alt": "",
+    "localFile": "section1-img13.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 270018,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/happtwomen.jpg.webp?h=8b1a7610&itok=xdXWoHJN",
+    "alt": "",
+    "localFile": "section1-img14.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 222960,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/happtwomen.jpg.webp?h=fc138876&itok=jlGxy4xW",
+    "alt": "",
+    "localFile": "section1-img15.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 119310,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/happtwomen.jpg.webp?h=ac011bd0&itok=EiLMJKNP",
+    "alt": "",
+    "localFile": "section1-img16.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 87930,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-09/happtwomen.jpg?h=70f4e6be&itok=ehcJeNuF",
+    "alt": "",
+    "localFile": "section1-img17.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 344272,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-09/happtwomen.jpg?h=8b1a7610&itok=xdXWoHJN",
+    "alt": "",
+    "localFile": "section1-img18.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 273940,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-09/happtwomen.jpg?h=fc138876&itok=jlGxy4xW",
+    "alt": "",
+    "localFile": "section1-img19.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 128378,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-09/happtwomen.jpg?h=ac011bd0&itok=EiLMJKNP",
+    "alt": "",
+    "localFile": "section1-img20.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 96445,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-07/happyrunners.jpg.webp?h=70f4e6be&itok=xRGQjd5K",
+    "alt": "",
+    "localFile": "section1-img21.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 331296,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-07/happyrunners.jpg.webp?h=8b1a7610&itok=-EzBzKWj",
+    "alt": "",
+    "localFile": "section1-img22.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 282928,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-07/happyrunners.jpg.webp?h=36538c46&itok=F4qh2yA7",
+    "alt": "",
+    "localFile": "section1-img23.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 108854,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-07/happyrunners.jpg.webp?h=8c7ed817&itok=E1N1mNc9",
+    "alt": "",
+    "localFile": "section1-img24.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 68872,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2026-07/happyrunners.jpg?h=70f4e6be&itok=xRGQjd5K",
+    "alt": "",
+    "localFile": "section1-img25.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 388341,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2026-07/happyrunners.jpg?h=8b1a7610&itok=-EzBzKWj",
+    "alt": "",
+    "localFile": "section1-img26.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 319705,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2026-07/happyrunners.jpg?h=36538c46&itok=F4qh2yA7",
+    "alt": "",
+    "localFile": "section1-img27.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 123828,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2026-07/happyrunners.jpg?h=8c7ed817&itok=E1N1mNc9",
+    "alt": "",
+    "localFile": "section1-img28.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 82073,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2025-10/beach_runners.jpg.webp?h=70f4e6be&itok=bOP855IZ",
+    "alt": "",
+    "localFile": "section1-img29.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 403534,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2025-10/beach_runners.jpg.webp?h=17f67726&itok=MK2vI1MS",
+    "alt": "",
+    "localFile": "section1-img30.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 311520,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2025-10/beach_runners.jpg.webp?h=3f4147bc&itok=X243g45p",
+    "alt": "",
+    "localFile": "section1-img31.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 168410,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2025-10/beach_runners.jpg.webp?h=30f47a73&itok=ykCEjdAo",
+    "alt": "",
+    "localFile": "section1-img32.webp",
+    "extension": "webp",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 109436,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_xl_2x/public/image/2025-10/beach_runners.jpg?h=70f4e6be&itok=bOP855IZ",
+    "alt": "",
+    "localFile": "section1-img33.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 447646,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_lg_2x/public/image/2025-10/beach_runners.jpg?h=17f67726&itok=MK2vI1MS",
+    "alt": "",
+    "localFile": "section1-img34.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 340132,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_md_2x/public/image/2025-10/beach_runners.jpg?h=3f4147bc&itok=X243g45p",
+    "alt": "",
+    "localFile": "section1-img35.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 160907,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/hero_slider_sm_2x/public/image/2025-10/beach_runners.jpg?h=30f47a73&itok=ykCEjdAo",
+    "alt": "",
+    "localFile": "section1-img36.jpg",
+    "extension": "jpg",
+    "sectionPosition": 1,
+    "type": "srcset",
+    "fileSize": 107102,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=jmAbIOXs",
+    "alt": "",
+    "localFile": "section2-img37.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "img",
+    "fileSize": 63042,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=a1YzmaQ6",
+    "alt": "",
+    "localFile": "section2-img38.webp",
+    "extension": "webp",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 216750,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=SbeVik1e",
+    "alt": "",
+    "localFile": "section2-img39.webp",
+    "extension": "webp",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 141832,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg.webp?h=119335f7&itok=pGVRFYGR",
+    "alt": "",
+    "localFile": "section2-img40.webp",
+    "extension": "webp",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 68088,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=a1YzmaQ6",
+    "alt": "",
+    "localFile": "section2-img41.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 346060,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=SbeVik1e",
+    "alt": "",
+    "localFile": "section2-img42.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 247659,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/asian_woman_with_child_in_garden_0.jpeg?h=119335f7&itok=pGVRFYGR",
+    "alt": "",
+    "localFile": "section2-img43.jpg",
+    "extension": "jpg",
+    "sectionPosition": 2,
+    "type": "srcset",
+    "fileSize": 101140,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=jyGAMDY0",
+    "alt": "",
+    "localFile": "section4-img44.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "img",
+    "fileSize": 360861,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=kuw2mI-a",
+    "alt": "",
+    "localFile": "section4-img45.webp",
+    "extension": "webp",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 56040,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=eHS510hi",
+    "alt": "",
+    "localFile": "section4-img46.webp",
+    "extension": "webp",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 36338,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-05/life-insurer-video-frame.png.webp?h=21941e62&itok=kNPTIxk2",
+    "alt": "",
+    "localFile": "section4-img47.webp",
+    "extension": "webp",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 18514,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=kuw2mI-a",
+    "alt": "",
+    "localFile": "section4-img48.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 1921236,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=eHS510hi",
+    "alt": "",
+    "localFile": "section4-img49.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 1215782,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-05/life-insurer-video-frame.png?h=21941e62&itok=kNPTIxk2",
+    "alt": "",
+    "localFile": "section4-img50.png",
+    "extension": "png",
+    "sectionPosition": 4,
+    "type": "srcset",
+    "fileSize": 488999,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=bhkagR_q",
+    "alt": "",
+    "localFile": "section5-img51.jpg",
+    "extension": "jpg",
+    "sectionPosition": 5,
+    "type": "img",
+    "fileSize": 32143,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=tXVb5fI3",
+    "alt": "",
+    "localFile": "section5-img52.webp",
+    "extension": "webp",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 69642,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=qNw6pN6W",
+    "alt": "",
+    "localFile": "section5-img53.webp",
+    "extension": "webp",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 43372,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg.webp?h=10d202d3&itok=lGrjX1B-",
+    "alt": "",
+    "localFile": "section5-img54.webp",
+    "extension": "webp",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 21584,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=tXVb5fI3",
+    "alt": "",
+    "localFile": "section5-img55.jpg",
+    "extension": "jpg",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 171225,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=qNw6pN6W",
+    "alt": "",
+    "localFile": "section5-img56.jpg",
+    "extension": "jpg",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 99314,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2025-01/AdobeStock_464854295-1200x800-5b2df79.jpg?h=10d202d3&itok=lGrjX1B-",
+    "alt": "",
+    "localFile": "section5-img57.jpg",
+    "extension": "jpg",
+    "sectionPosition": 5,
+    "type": "srcset",
+    "fileSize": 42006,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/2025-01/Pig-NL.gif",
+    "alt": "",
+    "localFile": "section6-img58.gif",
+    "extension": "gif",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 197321,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/2025-01/Scale-NL.gif",
+    "alt": "",
+    "localFile": "section6-img59.gif",
+    "extension": "gif",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 1089524,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/2025-01/Hand-plant-NL.gif",
+    "alt": "",
+    "localFile": "section6-img60.gif",
+    "extension": "gif",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 277552,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/2025-01/Page-NL.gif",
+    "alt": "",
+    "localFile": "section6-img61.gif",
+    "extension": "gif",
+    "sectionPosition": 6,
+    "type": "img",
+    "fileSize": 24134,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=5e5ebxE6",
+    "alt": "",
+    "localFile": "section7-img62.jpg",
+    "extension": "jpg",
+    "sectionPosition": 7,
+    "type": "img",
+    "fileSize": 26443,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=lstpuqzJ",
+    "alt": "",
+    "localFile": "section7-img63.webp",
+    "extension": "webp",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 76788,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=XDf0QxJw",
+    "alt": "",
+    "localFile": "section7-img64.webp",
+    "extension": "webp",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 45776,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg.webp?h=a130fd67&itok=JheENwAb",
+    "alt": "",
+    "localFile": "section7-img65.webp",
+    "extension": "webp",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 19756,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=lstpuqzJ",
+    "alt": "",
+    "localFile": "section7-img66.jpg",
+    "extension": "jpg",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 160359,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=XDf0QxJw",
+    "alt": "",
+    "localFile": "section7-img67.jpg",
+    "extension": "jpg",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 90222,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-11/close_up_of_mature_lady_stretching_on_beach.jpg?h=a130fd67&itok=JheENwAb",
+    "alt": "",
+    "localFile": "section7-img68.jpg",
+    "extension": "jpg",
+    "sectionPosition": 7,
+    "type": "srcset",
+    "fileSize": 35073,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/small_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SHEnnTA7",
+    "alt": "",
+    "localFile": "section8-img69.jpg",
+    "extension": "jpg",
+    "sectionPosition": 8,
+    "type": "img",
+    "fileSize": 56240,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=SpUOZrzL",
+    "alt": "",
+    "localFile": "section8-img70.webp",
+    "extension": "webp",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 297728,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=Y4NFSyNE",
+    "alt": "",
+    "localFile": "section8-img71.webp",
+    "extension": "webp",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 168828,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-12/AdobeStock_142665835.jpeg.webp?h=b014a38b&itok=7gkboEkR",
+    "alt": "",
+    "localFile": "section8-img72.webp",
+    "extension": "webp",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 61870,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/x_large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=SpUOZrzL",
+    "alt": "",
+    "localFile": "section8-img73.jpg",
+    "extension": "jpg",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 414264,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/large_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=Y4NFSyNE",
+    "alt": "",
+    "localFile": "section8-img74.jpg",
+    "extension": "jpg",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 227013,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/styles/medium_6_4/public/image/2024-12/AdobeStock_142665835.jpeg?h=b014a38b&itok=7gkboEkR",
+    "alt": "",
+    "localFile": "section8-img75.jpg",
+    "extension": "jpg",
+    "sectionPosition": 8,
+    "type": "srcset",
+    "fileSize": 78453,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/bar_chart-3-sky.svg",
+    "alt": "",
+    "localFile": "section9-img76.svg",
+    "extension": "svg",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 329,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/account-circle-sky.svg",
+    "alt": "",
+    "localFile": "section9-img77.svg",
+    "extension": "svg",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 2249,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/assured-workload-sky.svg",
+    "alt": "",
+    "localFile": "section9-img78.svg",
+    "extension": "svg",
+    "sectionPosition": 9,
+    "type": "img",
+    "fileSize": 965,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/ecg-heart-sky.svg",
+    "alt": "",
+    "localFile": "section10-img79.svg",
+    "extension": "svg",
+    "sectionPosition": 10,
+    "type": "img",
+    "fileSize": 2585,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/svg/2024-11/local-atm-sky.svg",
+    "alt": "",
+    "localFile": "section10-img80.svg",
+    "extension": "svg",
+    "sectionPosition": 10,
+    "type": "img",
+    "fileSize": 1259,
+    "status": "downloaded"
+  },
+  {
+    "src": "https://www.transamerica.com/sites/default/files/image/2026-02/trustpilot_asset_3c.png",
+    "alt": "",
+    "localFile": "section11-img81.png",
+    "extension": "png",
+    "sectionPosition": 11,
+    "type": "img",
+    "fileSize": 58309,
+    "status": "downloaded"
+  }
+]

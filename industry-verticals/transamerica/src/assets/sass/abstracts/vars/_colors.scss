@@ -1,21 +1,47 @@
-// Financial
+// Financial — skinned for Transamerica demo
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --brand-primary: #0c2340;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #a8c8e0;
+  --brand-secondary-foreground: #0c2340;
+  --brand-accent: #c8102e;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #281805;
+  --brand-muted: #f4f7fa;
+  --brand-muted-fg: #5c5348;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #281805;
+  --brand-footer-bg: #3d2b1f;
+  --brand-footer-fg: #f5f0ea;
+  --brand-border: #d8dee6;
+  --brand-ring: #0c2340;
+  --brand-navy-deep: #081a2e;
+  --brand-sky-banner: #b7d3e8;
+  --brand-heading-font: 'Libre Baskerville', Georgia, serif;
+  --brand-body-font: 'Source Sans 3', Arial, sans-serif;
+  --brand-font-heading: 'Libre Baskerville', Georgia, serif;
+  --brand-font-body: 'Source Sans 3', Arial, sans-serif;
+  --brand-radius: 0.25rem;
+  --brand-button-radius: 1.5rem;
+  --brand-card-radius: 0;
+  --text-body: #281805;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #0c2340;
+  --text-footer: #f5f0ea;
+  --text-accent: #c8102e;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #3d2b1f;
+  --bg-main: #f4f7fa;
+  --bg-main-alt: #b7d3e8;
+  --bg-color: #a8c8e0;
+  --bg-saturated: #0c2340;
+  --bg-accent: #c8102e;
+  --border-color: #d8dee6;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0.25rem;
+  --font-family: 'Source Sans 3', Arial, sans-serif;
 }
 
 body.site-financial.dark,
