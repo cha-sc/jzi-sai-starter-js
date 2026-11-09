@@ -1,0 +1,99 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Transamerica"
+  systemName: "Transamerica"
+  folder: "transamerica"
+  url: "https://www.transamerica.com/"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/transamerica/assets/transamerica-homepage.jpg"
+  startedAt: "2026-11-09T16:14:00Z"
+  lastUpdatedAt: "2026-11-09T17:19:00Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "Transamerica"
+  collectionId: "708fcc2a2ed7476e850374cc1ff52f72"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "4d4d2219-a053-4bca-afdb-1a815bc40abb"
+  copyJobHandle: "c801e6ce-f860-4c7c-a526-b1f3090c4430;sitecoresaaea3f-chadev7ae9-chadev09156390-7b88dd98bf-9gj4k"
+  collectionJobHandle: "ff3c7820-ac77-4689-ae1a-edab02c2e215;sitecoresaaea3f-chadev7ae9-chadev09156390-7b88dd98bf-9gj4k"
+  ehEnvironmentId: ""
+  cmEnvironmentId: "3FrHA2dq9Q5HJqr9ry042u"
+  renderingHostKey: "transamerica"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    siteName: "Transamerica"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  offer_commit:
+    status: "pending"
+    committed: null
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-11-09T16:15:00Z — Inputs complete. Authoring env ID provided: 3FrHA2dq9Q5HJqr9ry042u. Source locked to ProsperaFinancial / prospera."
+  - "2026-11-09T16:16:00Z — Marketer MCP authenticated; ProsperaFinancial confirmed (08d9417d-5071-46ff-896b-eb76b0790526)."
+  - "2026-11-09T17:13:00Z — Collection + site copy done. Local folder + xmcloud.build.json wired. Waiting on Content Editor move into Transamerica collection before commit / 1d."
+  - "2026-11-09T17:19:00Z — Move verified: Transamerica site in Transamerica collection. Offering commit + editing host opt-in."
