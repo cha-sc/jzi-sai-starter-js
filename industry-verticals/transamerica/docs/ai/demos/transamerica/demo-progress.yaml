@@ -66,7 +66,7 @@ phases:
     variants:
       - { name: "HeroDiagonalNavy", itemId: "21f387b1-4250-4e15-92e3-848bad040638" }
       - { name: "PromoHexImage", itemId: "9fb7b1e7-7693-4664-92c2-f548db35e943" }
-      - { name: "StatsWithHexImage", itemId: "6fba320d-a98d-4fe4-a88d-c69a2e5ebb57" }
+      - { name: "StatsWithHexImage", itemId: "4f7ef227-9a2e-4de9-a4f3-f5623bcd4442" }
 
   phase6_assembly:
     status: "complete"

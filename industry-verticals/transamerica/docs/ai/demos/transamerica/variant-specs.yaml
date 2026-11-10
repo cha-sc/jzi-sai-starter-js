@@ -23,9 +23,10 @@ variants:
       cta: "Navy pill primary"
 
   - name: StatsWithHexImage
-    parentComponent: StatsCounter
+    parentComponent: Stats Counter
     exportName: StatsWithHexImage
-    sitecoreItemId: "6fba320d-a98d-4fe4-a88d-c69a2e5ebb57"
+    sitecoreItemId: "4f7ef227-9a2e-4de9-a4f3-f5623bcd4442"
+    note: "Headless Variants folder must be named 'Stats Counter' (with space) to match rendering name; orphan StatsCounter folder is unused."
     visual:
       layout: "Navy band with hex photo left and stacked white stats right"
       typography: "Large serif values, light captions"

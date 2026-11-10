@@ -67,10 +67,10 @@ export const HeroDiagonalNavy = (props: AppPromoProps): JSX.Element => {
 
   return (
     <section
-      className={`component hero hero-diagonal-navy ${sxaStyles}`}
+      className={`component hero hero-diagonal-navy ${isPageEditing ? 'is-editing' : ''} ${sxaStyles}`}
       id={id ? id : undefined}
     >
-      <div className="hero-diagonal-navy__media" aria-hidden={!props.fields?.Image?.value?.src}>
+      <div className="hero-diagonal-navy__media" aria-hidden={!isPageEditing && !props.fields?.Image?.value?.src}>
         <NextImage
           field={props.fields.Image}
           className="hero-diagonal-navy__img"

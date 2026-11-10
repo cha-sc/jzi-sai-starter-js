@@ -2,6 +2,7 @@
 
 .hero-diagonal-navy {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
   min-height: clamp(28rem, 62vw, 40rem);
   background: var(--brand-primary, #0c2340);
@@ -9,10 +10,16 @@
   &__media {
     position: absolute;
     inset: 0;
+    z-index: 0;
 
+    // Sitecore editing chrome / NextImage wrappers can create stacking
+    // contexts that otherwise sit above the copy panel.
+    > *,
     img,
     picture,
     .hero-diagonal-navy__img {
+      position: relative;
+      z-index: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -22,7 +29,7 @@
 
   &__panel {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     min-height: inherit;
     display: flex;
     align-items: center;
@@ -42,6 +49,19 @@
       background: rgba(12, 35, 64, 0.92);
       min-height: auto;
       padding: 3rem 1.5rem 4rem;
+    }
+  }
+
+  // Pages editor: keep copy/fields above image field chrome
+  &.is-editing {
+    .hero-diagonal-navy__media {
+      z-index: 0;
+    }
+
+    .hero-diagonal-navy__panel,
+    .hero-diagonal-navy__copy {
+      position: relative;
+      z-index: 5;
     }
   }
 
