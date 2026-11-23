@@ -3,15 +3,15 @@ lastUpdatedAt: "2026-06-09T00:00:00Z"
 lastUpdatedBy: "claude-agent"
 
 project:
-  siteCollection: "main"
-  siteName: "main-website"
+  siteCollection: "Fasken"
+  siteName: "Fasken"
   sdk: "@sitecore-content-sdk/nextjs"
-  renderingsRoot: "/sitecore/layout/Renderings/Project/fmc-custom-demo"
-  projectTemplatesRoot: "/sitecore/templates/Project/fmc-custom-demo"
-  dataRoot: "/sitecore/content/main/main-website/Data"
-  projectFoldersRoot: "/sitecore/templates/Project/fmc-custom-demo/Folders"
-  renderingParamsRoot: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters"
-  headlessVariantsRoot: "/sitecore/content/main/main-website/Presentation/Headless Variants"
+  renderingsRoot: "/sitecore/layout/Renderings/Project/Financial"
+  projectTemplatesRoot: "/sitecore/templates/Project/Financial"
+  dataRoot: "/sitecore/content/Fasken/Fasken/Data"
+  projectFoldersRoot: "/sitecore/templates/Project/Financial/Folders"
+  renderingParamsRoot: "/sitecore/templates/Project/Financial/Rendering Parameters"
+  headlessVariantsRoot: "/sitecore/content/Fasken/Fasken/Presentation/Headless Variants"
 
 availableRenderings:
   itemId: "{2BF7E311-E3A5-4290-A043-AB97EA1DFB15}"
@@ -52,7 +52,7 @@ components:
 
       folder:
         name: "AnnouncementBar Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/AnnouncementBar Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/AnnouncementBar Folder"
         itemId: "{505568E9-7842-4E74-AA8F-D31C529C7E47}"
         standardValues:
           itemId: "{BD98B8D4-E43A-4EA8-B462-0CDF7019C9DF}"
@@ -61,7 +61,7 @@ components:
 
       renderingParams:
         name: "AnnouncementBar"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Navigation/AnnouncementBar"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Navigation/AnnouncementBar"
         itemId: "{2B0A6906-521D-46B0-A53F-D839F40E51DD}"
         baseTemplatesSet: true
 
@@ -182,7 +182,7 @@ components:
 
       renderingParams:
         name: "NavigationHeader"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Navigation/NavigationHeader"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Navigation/NavigationHeader"
         itemId: "{2072AD97-A552-49A4-A417-2C8F40C52F9A}"
         baseTemplatesSet: true
 
@@ -277,7 +277,7 @@ components:
 
       folder:
         name: "HeroBanner Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/HeroBanner Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/HeroBanner Folder"
         itemId: "{BCB19CD2-C0A8-421C-9566-CDE9491EE8AE}"
         standardValues:
           itemId: "{11D28942-0C79-4041-8EB9-65E1EE1E62BD}"
@@ -286,7 +286,7 @@ components:
 
       renderingParams:
         name: "HeroBanner"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Banners/HeroBanner"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Banners/HeroBanner"
         itemId: "{394BC316-29C9-46DF-9BB7-348172E2DAE8}"
         baseTemplatesSet: true
 
@@ -394,7 +394,7 @@ components:
 
       folder:
         name: "TabNavigationSection Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/TabNavigationSection Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/TabNavigationSection Folder"
         itemId: "{7D48B2C0-AF38-4868-B69F-D8F6CD41CB25}"
         standardValues:
           itemId: "{268BBECD-1538-4831-92BA-4B445A0E32CD}"
@@ -403,7 +403,7 @@ components:
 
       renderingParams:
         name: "TabNavigationSection"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Navigation/TabNavigationSection"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Navigation/TabNavigationSection"
         itemId: "{E730897A-05CD-45F5-91F5-0EB9396DF42F}"
         baseTemplatesSet: true
 
@@ -523,7 +523,7 @@ components:
 
       folder:
         name: "ProductPricingCards Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/ProductPricingCards Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/ProductPricingCards Folder"
         itemId: "{F9A2B3CB-9532-410B-A181-7CFE190D69E5}"
         standardValues:
           itemId: "{E521B7A2-CED4-4BF5-8970-80D682B0DC4B}"
@@ -532,7 +532,7 @@ components:
 
       renderingParams:
         name: "ProductPricingCards"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Cards/ProductPricingCards"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Cards/ProductPricingCards"
         itemId: "{09A830E9-9170-482D-94A9-B024957C7962}"
         baseTemplatesSet: true
 
@@ -633,7 +633,7 @@ components:
 
       folder:
         name: "LegalComplianceBanner Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/LegalComplianceBanner Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/LegalComplianceBanner Folder"
         itemId: "{01E1E871-F228-46E6-817E-F5E9A0018BE6}"
         standardValues:
           itemId: "{B7291FCF-6414-4FA0-9C29-B5DE7F20C84C}"
@@ -642,7 +642,7 @@ components:
 
       renderingParams:
         name: "LegalComplianceBanner"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/LegalComplianceBanner"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/LegalComplianceBanner"
         itemId: "{E9DA71E0-F51B-42CE-980D-C959E2A8D427}"
         baseTemplatesSet: true
 
@@ -750,7 +750,7 @@ components:
 
       folder:
         name: "ValuePropositionGrid Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/ValuePropositionGrid Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/ValuePropositionGrid Folder"
         itemId: "{1C4155D9-9038-4372-8D50-DF5230CC3D5F}"
         standardValues:
           itemId: "{D4817FA6-99AD-4471-9442-959B2BEF168C}"
@@ -759,7 +759,7 @@ components:
 
       renderingParams:
         name: "ValuePropositionGrid"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/ValuePropositionGrid"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/ValuePropositionGrid"
         itemId: "{C2D23D84-A2C4-46E3-BA20-B33C5BA1E21D}"
         baseTemplatesSet: true
 
@@ -872,7 +872,7 @@ components:
 
       folder:
         name: "TrustStatsRow Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/TrustStatsRow Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/TrustStatsRow Folder"
         itemId: "{46D41D60-385E-46C3-BC78-B050A45B2684}"
         standardValues:
           itemId: "{632023A3-2280-49D7-B935-B85D997274B0}"
@@ -881,7 +881,7 @@ components:
 
       renderingParams:
         name: "TrustStatsRow"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/TrustStatsRow"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/TrustStatsRow"
         itemId: "{16C3AA57-3944-427A-B2B8-15CD03355885}"
         baseTemplatesSet: true
 
@@ -992,7 +992,7 @@ components:
 
       folder:
         name: "TestimonialBlock Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/TestimonialBlock Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/TestimonialBlock Folder"
         itemId: "{15CD446D-4B70-44A4-B422-E746D4EE75A7}"
         standardValues:
           itemId: "{3738A485-A0D7-45C3-A9BB-36F3485F4231}"
@@ -1001,7 +1001,7 @@ components:
 
       renderingParams:
         name: "TestimonialBlock"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Social Proof/TestimonialBlock"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Social Proof/TestimonialBlock"
         itemId: "{670B1F23-39B4-4CBD-8E94-9E019B8B3546}"
         baseTemplatesSet: true
 
@@ -1096,7 +1096,7 @@ components:
 
       folder:
         name: "CTABanner Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/CTABanner Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/CTABanner Folder"
         itemId: "{FC43C070-0F25-4C89-84B4-6B3BD4867D2D}"
         standardValues:
           itemId: "{FC79E10D-D927-46C1-9F3A-4044007C266A}"
@@ -1105,7 +1105,7 @@ components:
 
       renderingParams:
         name: "CTABanner"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Banners/CTABanner"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Banners/CTABanner"
         itemId: "{1C5F5CAE-E35F-4DEA-9A14-E1AB0DD0376A}"
         baseTemplatesSet: true
 
@@ -1210,7 +1210,7 @@ components:
 
       folder:
         name: "FeatureCardsGrid Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/FeatureCardsGrid Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/FeatureCardsGrid Folder"
         itemId: "{D78F8FC7-D951-4771-A3E7-F2709984D4ED}"
         standardValues:
           itemId: "{54FB5F51-C345-40FB-A065-54A62E7AB7E4}"
@@ -1219,7 +1219,7 @@ components:
 
       renderingParams:
         name: "FeatureCardsGrid"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Cards/FeatureCardsGrid"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Cards/FeatureCardsGrid"
         itemId: "{F337398E-5A93-4D46-B893-6AA2DCCB6E80}"
         baseTemplatesSet: true
 
@@ -1312,7 +1312,7 @@ components:
 
       folder:
         name: "ImageGallery Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/ImageGallery Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/ImageGallery Folder"
         itemId: "{C291EC18-A95F-4792-9778-C27D29C83062}"
         standardValues:
           itemId: "{B30B0625-DC67-4951-866C-0C31E24F2C6D}"
@@ -1321,7 +1321,7 @@ components:
 
       renderingParams:
         name: "ImageGallery"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Media/ImageGallery"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Media/ImageGallery"
         itemId: "{21B5B0D2-34FB-47FF-B995-906EBAC653EB}"
         baseTemplatesSet: true
 
@@ -1421,7 +1421,7 @@ components:
 
       folder:
         name: "LogoCloud Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/LogoCloud Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/LogoCloud Folder"
         itemId: "{250B1404-5B91-4249-AA2E-B8ADF034E768}"
         standardValues:
           itemId: "{9D3E77AE-C168-42EC-AC40-E035CF8DCD0A}"
@@ -1430,7 +1430,7 @@ components:
 
       renderingParams:
         name: "LogoCloud"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Social Proof/LogoCloud"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Social Proof/LogoCloud"
         itemId: "{27BD1A7E-77B6-4F1C-9F91-EF317149F541}"
         baseTemplatesSet: true
 
@@ -1530,7 +1530,7 @@ components:
 
       renderingParams:
         name: "SiteFooter"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Navigation/SiteFooter"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Navigation/SiteFooter"
         itemId: "{E7E0DD7B-2039-4895-970B-20BB8FCD8C89}"
         baseTemplatesSet: true
 
@@ -1613,7 +1613,7 @@ components:
 
       folder:
         name: "NewsletterSignup Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/NewsletterSignup Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/NewsletterSignup Folder"
         itemId: "{AA127BAE-6335-477A-B960-B01E852D8E6A}"
         standardValues:
           itemId: "{48C7A44C-F842-45E8-809B-5A1CDE1052F9}"
@@ -1622,7 +1622,7 @@ components:
 
       renderingParams:
         name: "NewsletterSignup"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Forms/NewsletterSignup"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Forms/NewsletterSignup"
         itemId: "{CD463E67-290F-4365-B96D-DE763DC43CC2}"
         baseTemplatesSet: true
 
@@ -1722,7 +1722,7 @@ components:
 
       folder:
         name: "FAQAccordion Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/FAQAccordion Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/FAQAccordion Folder"
         itemId: "{241185E3-179A-4689-A63B-760B3E9FDDE3}"
         standardValues:
           itemId: "{74047873-7F8F-4136-BB98-C965E2A20248}"
@@ -1731,7 +1731,7 @@ components:
 
       renderingParams:
         name: "FAQAccordion"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/FAQAccordion"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/FAQAccordion"
         itemId: "{76972C36-B419-4693-8D06-441D9837D77B}"
         baseTemplatesSet: true
 
@@ -1823,7 +1823,7 @@ components:
 
       folder:
         name: "RichTextBlock Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/RichTextBlock Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/RichTextBlock Folder"
         itemId: "{95048E8F-2500-4046-A1A3-385BD346D67E}"
         standardValues:
           itemId: "{A66F194D-2FB8-48BD-A699-B869194BD8C4}"
@@ -1832,7 +1832,7 @@ components:
 
       renderingParams:
         name: "RichTextBlock"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/RichTextBlock"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/RichTextBlock"
         itemId: "{F4E4FB5D-1AA3-4851-B349-14765BD8D390}"
         baseTemplatesSet: true
 
@@ -1921,7 +1921,7 @@ components:
 
       folder:
         name: "FeatureHighlight Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/FeatureHighlight Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/FeatureHighlight Folder"
         itemId: "{2FEF6352-04FC-434B-A550-A0EAF916F630}"
         standardValues:
           itemId: "{30783D70-1791-4E45-BFEA-E152E66504E4}"
@@ -1930,7 +1930,7 @@ components:
 
       renderingParams:
         name: "FeatureHighlight"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content/FeatureHighlight"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content/FeatureHighlight"
         itemId: "{6EA32325-4741-42DF-B476-C9426314C5AA}"
         baseTemplatesSet: true
 
@@ -2037,7 +2037,7 @@ components:
 
       renderingParams:
         name: "HeroBannerCarousel"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Banners/HeroBannerCarousel"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Banners/HeroBannerCarousel"
         itemId: "{F159AA7F-9083-4F44-90C7-97F13AC725CC}"
         baseTemplatesSet: true
 
@@ -2101,7 +2101,7 @@ components:
     templates:
       renderingParams:
         name: "ArticleHero"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Article/ArticleHero"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Article/ArticleHero"
         itemId: "{04e653c6-cd34-4435-8a9f-2224164f1cc5}"
         baseTemplatesSet: true
 
@@ -2157,7 +2157,7 @@ components:
     templates:
       renderingParams:
         name: "ArticleBody"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Article/ArticleBody"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Article/ArticleBody"
         itemId: "{93d4326d-3525-45c4-bc6b-bc3b5d9c1e9a}"
         baseTemplatesSet: true
 
@@ -2207,7 +2207,7 @@ components:
     templates:
       renderingParams:
         name: "LandingHero"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingHero"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingHero"
         itemId: "{38646376-EC1A-4367-A527-58108E8FFDA6}"
         baseTemplatesSet: true
     rendering:
@@ -2251,7 +2251,7 @@ components:
     templates:
       renderingParams:
         name: "LandingFeatures"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingFeatures"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingFeatures"
         itemId: "{6AA6E2B1-9DD8-4FB6-8608-E5D653826F5B}"
         baseTemplatesSet: true
     rendering:
@@ -2290,7 +2290,7 @@ components:
     templates:
       renderingParams:
         name: "LandingStats"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingStats"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingStats"
         itemId: "{112EFD22-E816-4654-BDCC-6A8AFCB312EB}"
         baseTemplatesSet: true
     rendering:
@@ -2329,7 +2329,7 @@ components:
     templates:
       renderingParams:
         name: "LandingSocialProof"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingSocialProof"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingSocialProof"
         itemId: "{292054A5-FC43-40FE-8398-EA7744F50E5C}"
         baseTemplatesSet: true
     rendering:
@@ -2369,7 +2369,7 @@ components:
     templates:
       renderingParams:
         name: "LandingFAQ"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingFAQ"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingFAQ"
         itemId: "{102619E2-6891-46B8-821D-755F85FF5D84}"
         baseTemplatesSet: true
     rendering:
@@ -2408,7 +2408,7 @@ components:
     templates:
       renderingParams:
         name: "LandingFinalCTA"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing/LandingFinalCTA"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing/LandingFinalCTA"
         itemId: "{17AD398D-2EC8-4FB5-8693-89FE5676458A}"
         baseTemplatesSet: true
     rendering:
@@ -2464,7 +2464,7 @@ sharedDataTemplates:
 
       folder:
         name: "Person Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/Person Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/Person Folder"
         itemId: "{b3f8d738-07bf-4f8d-b4af-68a875d78ac6}"
         standardValues:
           itemId: "{4fe086ce-ebbe-4d8d-ae49-c7091f16d6b6}"
@@ -2728,7 +2728,7 @@ pageTemplates:
 
       renderingParams:
         name: "SearchExperience"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Search/SearchExperience"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Search/SearchExperience"
         itemId: "{1CEDC37D-38EB-46AB-A4D4-FBFC708DEA96}"
         baseTemplatesSet: true
 
@@ -2770,7 +2770,7 @@ pageTemplates:
 
       renderingParams:
         name: "PreviewSearch"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Search/PreviewSearch"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Search/PreviewSearch"
         itemId: "{5CB6E348-70EC-4408-AB41-ACBD8CA97B37}"
         baseTemplatesSet: true
 
@@ -2810,7 +2810,7 @@ pageTemplates:
 
       renderingParams:
         name: "SearchResults"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Search/SearchResults"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Search/SearchResults"
         itemId: "{5406C548-15C9-4377-89B4-E58BC1D62DDF}"
         baseTemplatesSet: true
 
@@ -2865,7 +2865,7 @@ pageTemplates:
 
       folder:
         name: "Search Experience V2 Folder"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Folders/Search Experience V2 Folder"
+        path: "/sitecore/templates/Project/Financial/Folders/Search Experience V2 Folder"
         itemId: "{A75BC153-964F-4F97-8A3D-AB3FA61496CB}"
         standardValues:
           itemId: "{B451D7E9-63F7-4FB4-9098-EB8DD2B56EBC}"
@@ -2874,7 +2874,7 @@ pageTemplates:
 
       renderingParams:
         name: "SearchExperienceV2"
-        path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Search/SearchExperienceV2"
+        path: "/sitecore/templates/Project/Financial/Rendering Parameters/Search/SearchExperienceV2"
         itemId: "{8D097502-7D90-4690-822E-A1C9D3432F91}"
         baseTemplatesSet: true
         fields:
@@ -2927,7 +2927,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Search"
     itemId: "{44092340-AF76-44F3-A6C3-AA7347CE9D8B}"
     lastReadAt: "2026-05-20T12:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Search"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Search"
     itemId: "{F741895B-29B4-4DC4-BDB7-053860880C4C}"
     lastReadAt: "2026-05-20T12:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Search"
@@ -2939,10 +2939,10 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components"
     itemId: "{EB0D4C3C-A85E-4F74-A989-9D3BABBDB3CA}"
     lastReadAt: "2026-03-25T12:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Folders"
+  - path: "/sitecore/templates/Project/Financial/Folders"
     itemId: "{55F36BEC-24C5-428E-BB45-B2385B03D492}"
     lastReadAt: "2026-03-25T12:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters"
     itemId: "{BEC41516-9F60-48E0-8E80-D515482B6BCC}"
     lastReadAt: "2026-03-25T12:00:00Z"
   - path: "/sitecore/content/main/main-website/Presentation/Headless Variants"
@@ -2958,7 +2958,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Navigation"
     itemId: "{137B3477-F05E-417E-8720-80C78F734A16}"
     lastReadAt: "2026-03-25T12:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Navigation"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Navigation"
     itemId: "{E585C82C-539D-4CE3-9549-5516B8E446E1}"
     lastReadAt: "2026-03-25T12:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Navigation"
@@ -2967,7 +2967,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Banners"
     itemId: "{BDA5E409-2215-4D36-8935-0D088468BF30}"
     lastReadAt: "2026-03-25T13:30:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Banners"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Banners"
     itemId: "{64C89015-C579-4F00-BA9D-479C8F88517B}"
     lastReadAt: "2026-03-25T13:30:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Banners"
@@ -2976,7 +2976,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Cards"
     itemId: "{2737F062-D331-43A0-9680-4B4FF0297BF5}"
     lastReadAt: "2026-03-25T15:30:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Cards"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Cards"
     itemId: "{920FEF90-2A9E-47FD-9BB0-DE3FF919976C}"
     lastReadAt: "2026-03-25T15:30:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Cards"
@@ -2985,7 +2985,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Content"
     itemId: "{5B2102A8-73B8-42A8-A150-67516452B20F}"
     lastReadAt: "2026-03-25T16:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Content"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Content"
     itemId: "{4FAF69C8-C273-47E0-A5FE-8DAD6E00F1B5}"
     lastReadAt: "2026-03-25T16:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Content"
@@ -2994,7 +2994,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Social Proof"
     itemId: "{BBE9CB99-05F3-41F7-874B-9C5F7F741E0F}"
     lastReadAt: "2026-03-25T17:30:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Social Proof"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Social Proof"
     itemId: "{89311674-1D2F-4561-A279-4695A061DD18}"
     lastReadAt: "2026-03-25T17:30:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Social Proof"
@@ -3003,7 +3003,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Media"
     itemId: "{40BBF51C-CF04-4568-A62C-FE146C454E76}"
     lastReadAt: "2026-03-25T19:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Media"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Media"
     itemId: "{7D1061A3-70D2-4C07-BF3E-BE3D1683B489}"
     lastReadAt: "2026-03-25T19:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Media"
@@ -3012,7 +3012,7 @@ lookups:
   - path: "/sitecore/templates/Project/fmc-custom-demo/Components/Forms"
     itemId: "{294DE541-F302-4ACC-A490-FE3D203A1E23}"
     lastReadAt: "2026-03-25T20:30:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Forms"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Forms"
     itemId: "{7E8CEA1D-2EE5-4CCA-A51F-7DC33EE7A01A}"
     lastReadAt: "2026-03-25T20:30:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Forms"
@@ -3040,7 +3040,7 @@ lookups:
   - path: "/sitecore/content/main/main-website/Home"
     itemId: "{e2124310-f817-4644-8671-bff8e72b66d7}"
     lastReadAt: "2026-05-18T12:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Article"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Article"
     itemId: "{e29ea544-4c99-4a0e-af12-f2c7309db279}"
     lastReadAt: "2026-05-18T12:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Article"
@@ -3051,7 +3051,7 @@ lookups:
   - path: "/sitecore/templates/Project/main/Page Types/Landing Page"
     itemId: "{50AF6EC7-85FD-4B9B-ADF7-1FDE9D9136FE}"
     lastReadAt: "2026-06-09T00:00:00Z"
-  - path: "/sitecore/templates/Project/fmc-custom-demo/Rendering Parameters/Landing"
+  - path: "/sitecore/templates/Project/Financial/Rendering Parameters/Landing"
     itemId: "{3F3D0A73-3486-4AEA-9F4F-CDC12F6ADC4A}"
     lastReadAt: "2026-06-09T00:00:00Z"
   - path: "/sitecore/layout/Renderings/Project/fmc-custom-demo/Landing"
