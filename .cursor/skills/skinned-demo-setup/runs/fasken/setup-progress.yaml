@@ -1,0 +1,98 @@
+# Skinned Demo Setup — Progress Tracker
+# Created after inputs are collected. Updated after each step.
+# Used by "resume skinned demo setup" to skip completed work.
+# Do NOT store secrets (tokens, client secrets, passwords) in this file.
+
+customer:
+  name: "Fasken"
+  systemName: "Fasken"
+  folder: "fasken"
+  url: "https://www.fasken.com/en"
+  screenshotPath: ".cursor/skills/skinned-demo-setup/runs/fasken/assets/fasken-homepage.jpg"
+  startedAt: "2026-11-23T18:25:54Z"
+  lastUpdatedAt: "2026-11-23T18:42:35Z"
+
+selection:
+  collectionMode: "new"
+  customerCollection: "Fasken"
+  collectionId: "b3673989c31a41db89f26d42d37c1012"
+  sourceSiteName: "ProsperaFinancial"
+  sourceSiteId: "08d9417d-5071-46ff-896b-eb76b0790526"
+  sourceCollectionId: "856641099059459ba079f76e3fa09063"
+  sourceFolder: "prospera"
+  needsMove: true
+
+artifacts:
+  newSiteId: "4f0879c8-be8f-4d0e-a41c-2d0448880142"
+  copyJobHandle: ""
+  collectionJobHandle: ""
+  ehEnvironmentId: ""
+  cmEnvironmentId: ""
+  renderingHostKey: "fasken"
+
+steps:
+  inputs:
+    status: "complete"
+
+  preflight_auth:
+    status: "complete"
+    sitesApiOk: true
+    marketerMcpOk: true
+    error: ""
+
+  collection_source_selection:
+    status: "complete"
+
+  source_verification:
+    status: "complete"
+    error: ""
+
+  step1a_collection:
+    status: "complete"
+
+  step1a_duplicate:
+    status: "complete"
+    siteName: "Fasken"
+    error: ""
+
+  step1a_move_notify:
+    status: "complete"
+
+  step1b_local_copy:
+    status: "complete"
+    error: ""
+
+  step1c_env_local:
+    status: "complete"
+    error: ""
+
+  step1c_xmcloud_build:
+    status: "complete"
+    error: ""
+
+  move_verify:
+    status: "complete"
+    error: ""
+
+  offer_commit:
+    status: "complete"
+    committed: true
+    error: ""
+
+  step1d_editing_host:
+    status: "pending"
+    optedIn: null
+    error: ""
+
+  step1_verification:
+    status: "pending"
+    error: ""
+
+  step2_build_demo:
+    status: "pending"
+    error: ""
+
+notes:
+  - "2026-11-23T18:25:54Z — Inputs confirmed: new collection Fasken, source ProsperaFinancial/prospera; user-provided desktop homepage screenshot."
+  - "2026-11-23T18:42:00Z — Collection + site exist (user created after API spawn abort). Local folder + xmcloud.build.json wired. Site still under Financial collection; awaiting Content Editor move."
+  - "2026-11-23T18:42:35Z — Content Editor move verified; committing Step 1 scaffold + creating editing host."
