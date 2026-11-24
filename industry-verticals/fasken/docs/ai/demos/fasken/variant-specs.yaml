@@ -1,0 +1,35 @@
+# Fasken pixel-perfect variant specs (Phase 5.5)
+variantSpecs:
+  - position: 3
+    componentName: "Hero"
+    variantName: "FaskenSplitHeroCarousel"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "40/60 split — left muted copy column, right full-bleed abstract image; five numbered dark tabs under the media"
+      spacing: "Generous left padding; tabs flush under hero with orange active indicator + triangle"
+      typography: "Bold charcoal headline ~2.4rem Montserrat 900; body 0.9rem; LEARN MORE uppercase outline CTA"
+      background: "Left #F2F1F2; right image; tab rail #333132"
+      interactive: "Tabs switch slide title/body/image; orange top border + triangle on active tab"
+      distinctive: "Numbered 01–05 carousel chrome matching fasken.com hero"
+
+  - position: 4
+    componentName: "ThreeColumnCta"
+    variantName: "FaskenInsightsStrip"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "Three equal text columns, no images"
+      spacing: "Tight vertical rhythm; hairline separators optional"
+      typography: "Bold titles; taupe category line in SubText; READ MORE accent"
+      background: "White"
+      distinctive: "Text-forward insight strip under hero"
+
+  - position: 5
+    componentName: "ThreeColumnCta"
+    variantName: "FaskenImageCards"
+    baseVariant: "Default"
+    visualDifferences:
+      layout: "Three image-over-text cards"
+      spacing: "Section gap ~4rem; card gap 1.5rem"
+      typography: "Bold card titles; SubText as category + excerpt"
+      background: "White; flat cards no shadow"
+      distinctive: "Editorial deal/news/knowledge/events card pattern"

@@ -1,0 +1,191 @@
+# Demo Build Plan — Fasken
+# Library: Financial / SXA (Prospera stack in industry-verticals/fasken), not UIIM catalog.
+client:
+  name: "Fasken"
+  sourceUrl: "https://www.fasken.com/en"
+  themeFile: "docs/ai/themes/fasken.theme.yaml"
+  analyzedAt: "2026-11-24T16:00:00Z"
+  codeRoot: "industry-verticals/fasken/"
+  contentRoot: "/sitecore/content/Fasken/Fasken"
+
+pageAnalysis:
+  screenshotFiles:
+    desktop: "docs/ai/themes/fasken/screenshot-desktop.png"
+    mobile: "docs/ai/themes/fasken/screenshot-mobile.png"
+    hero: "docs/ai/themes/fasken/screenshot-hero.png"
+    userProvided: "docs/ai/demos/fasken/homepage-screenshot.jpg"
+  totalSections: 9
+  templateMatches: 9
+  customRequired: 0
+  library: "financial-sxa"
+
+sections:
+  - position: 1
+    description: "Top utility row: Careers, Offices, News, Events, Contact plus Portals / FR / search."
+    matchedComponent:
+      registryId: "eyebrow"
+      manifestName: "Eyebrow"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Careers · Offices · News · Events · Contact"
+    contentNotes: "Utility links; Portals/FR/search can stay static for demo."
+    variantReason: "Only Eyebrow variant."
+
+  - position: 2
+    description: "White header with FASKEN wordmark (Own tomorrow) and primary nav: People, Services, Experience, Knowledge, More +."
+    matchedComponent:
+      registryId: "header"
+      manifestName: "Header"
+      variant: "WithLogoImage"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Fasken"
+    contentNotes: "Context-only partial. Logo wordmark + nav labels from screenshot."
+    variantReason: "Solid white bar with logo/wordmark matches WithLogoImage."
+
+  - position: 3
+    description: "Split hero — left headline Named Global Mining Law Firm of the Year for the 18th Time + LEARN MORE orange outline CTA; right abstract black/white metal imagery; numbered carousel tabs 01–05 under the image."
+    matchedComponent:
+      registryId: "hero"
+      manifestName: "Hero"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "medium"
+      apiAddable: true
+      variantMatch: "partial"
+    sectionBackground: "muted"
+    content:
+      Title: "Named Global Mining Law Firm of the Year for the 18th Time"
+      Description: "Our Global Mining Group has received this recognition more times than any other law firm in the world."
+      PrimaryCta: "Learn more"
+    contentNotes: "Default Hero overlays copy on media; live site is a true left-copy / right-image split with numbered slide tabs. Phase 5.5 FaskenSplitHeroCarousel can match closely."
+    variantReason: "Closest SXA hero for headline + CTA + dominant media."
+    customVariantNeeded:
+      name: "FaskenSplitHeroCarousel"
+      description: "Left column headline + body + orange outline LEARN MORE; right column full-bleed abstract image; five numbered dark tabs under the media that switch slides."
+      parentComponent: "Hero"
+
+  - position: 4
+    description: "Three text insight columns (e.g. ESG Disclosure Study, Wrote the Book on Canadian Private M&A, Mining Law Firm achievement) with category labels and short blurbs — no large images."
+    matchedComponent:
+      registryId: "three-column-cta"
+      manifestName: "Three Column CTA"
+      variant: "Default"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Item1Title: "2026 ESG Disclosure Study"
+      Item1Description: "How Canadian companies are strengthening sustainability practices and transparency."
+      Item2Title: "We Wrote the Book on Canadian Private M&A"
+      Item2Description: "Canada's first comprehensive book on private M&A, published by LexisNexis Canada."
+      Item3Title: "Global Mining Law Firm of the Year"
+      Item3Description: "Our Global Mining Group has received this recognition more times than any other firm."
+    contentNotes: "Text-forward three-up strip under the hero."
+    variantReason: "Three equal text columns with titles and short copy."
+
+  - position: 5
+    description: "Section Our proof is in our clients' success — orange triangle marker + heading; three deal cards with photos (ore, rail, mine), orange category (M&A), headlines, summaries, read more; ALL EXPERIENCE CTA."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "ThreeColumn"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Our proof is in our clients' success"
+      Item1Title: "Advised GATX Corporation and Brookfield Infrastructure"
+      Item1Category: "M&A"
+      Item2Title: "Advised Zijin Gold International"
+      Item2Category: "M&A"
+      Item3Title: "Advised Predictive Discovery Limited"
+      Item3Category: "M&A"
+    contentNotes: "ThreeColumn Article List covers image + title + excerpt cards; section heading uses list Title. Optional FaskenSectionHeading for orange triangle marker."
+    variantReason: "Three image cards with category + headline + read more."
+
+  - position: 6
+    description: "In the News — three news cards with imagery, headlines (appointments, Lexology, Legal 500), summaries, ALL NEWS CTA."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "ThreeColumn"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "In the News"
+      Item1Title: "Fasken Congratulates Geoff Cowper, KC, on Appointment as Deputy Attorney General of British Columbia"
+      Item2Title: "Fasken Featured in the 2026 Edition of Lexology Index"
+      Item3Title: "Fasken Celebrated in the 2027 Edition of Legal 500 Canada"
+    contentNotes: "Second Article List instance for news cards."
+    variantReason: "Same three-up editorial card pattern."
+
+  - position: 7
+    description: "Knowledge — three insight cards (regulatory, arbitration, employment), dark editorial photography, ALL KNOWLEDGE CTA."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "ThreeColumn"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Knowledge"
+      Item1Title: "Federal Financial Services Regulatory Updates: OSFI's New Competition Initiative"
+      Item2Title: "Challenging an Arbitral Award: SCA Draws a Hard Line on Time Bars"
+      Item3Title: "Constructive Dismissal vs Frustration of Contract"
+    contentNotes: "Third Article List instance for knowledge bulletins."
+    variantReason: "Three-up knowledge cards."
+
+  - position: 8
+    description: "Events — three upcoming event cards with dates/locations (U.S. Midterms panel, Financial Services Year in Review, Beyond Excellence), ALL EVENTS CTA."
+    matchedComponent:
+      registryId: "article-list"
+      manifestName: "Article List"
+      variant: "ThreeColumn"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: true
+      variantMatch: "exact"
+    sectionBackground: "default"
+    content:
+      Title: "Events"
+      Item1Title: "The U.S. Midterms 2026: Where to from here?"
+      Item2Title: "Financial Services Regulation: Annual Year in Review & Looking Ahead to 2027"
+      Item3Title: "Beyond Excellence: The Courage to Evolve"
+    contentNotes: "Fourth Article List instance; dates/locations in Excerpt fields."
+    variantReason: "Three-up event cards."
+
+  - position: 9
+    description: "Footer — circular social icons, multi-column sitemap (People/Services/Experience/Knowledge, Firm links, Offices list), dark charcoal legal bar."
+    matchedComponent:
+      registryId: "footer"
+      manifestName: "Footer"
+      variant: "WithSocials"
+      matchType: "template"
+      matchConfidence: "high"
+      apiAddable: false
+      variantMatch: "exact"
+    sectionBackground: "muted"
+    content:
+      Title: "Fasken"
+    contentNotes: "Context-only partial design. Social + columns + legal links."
+    variantReason: "WithSocials matches social row + multi-column footer."

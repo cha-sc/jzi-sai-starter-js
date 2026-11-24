@@ -7,7 +7,7 @@ client:
   name: "Fasken"
   sourceUrl: "https://www.fasken.com/en"
   startedAt: "2026-11-23T18:52:00Z"
-  lastUpdatedAt: "2026-11-23T18:52:00Z"
+  lastUpdatedAt: "2026-11-24T19:15:00Z"
 
 phases:
   phase0_inputs:
@@ -16,59 +16,163 @@ phases:
     url: "https://www.fasken.com/en"
 
   phase0_5_manifest:
-    status: "pending"
-    validationMode: ""
-    result: ""
+    status: "complete"
+    validationMode: "quick"
+    result: "pass_with_warnings"
 
   phase1_theme:
-    status: "pending"
-    themeFile: ""
-    userApproved: false
+    status: "complete"
+    themeFile: "docs/ai/themes/fasken.theme.yaml"
+    userApproved: true
 
   phase2_analysis:
-    status: "pending"
-    buildPlanFile: ""
-    totalSections: 0
-    userApproved: false
+    status: "complete"
+    buildPlanFile: "docs/ai/demos/fasken/build-plan.yaml"
+    totalSections: 9
+    userApproved: true
 
   phase2_5_content:
-    status: "pending"
-    contentMapFile: ""
-    extractorUsed: false
+    status: "complete"
+    contentMapFile: "docs/ai/demos/fasken/content-map.yaml"
+    extractorUsed: true
 
   phase3_content:
-    status: "pending"
-    completedSections: 0
-    totalSections: 0
+    status: "complete"
+    completedSections: 6
+    totalSections: 6
+    imagesUploaded: 17
+    folderId: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
 
   phase4_theme:
-    status: "pending"
-    themeDelivery: ""
-    cssWritten: false
-    fontsAdded: false
+    status: "complete"
+    themeDelivery: "scss-financial-site"
+    cssWritten: true
+    fontsAdded: true
 
   phase5_custom:
-    status: "pending"
+    status: "complete"
     customComponentsNeeded: 0
     customComponentsBuilt: 0
 
   phase5_5_variants:
-    status: "pending"
-    variantsNeeded: 0
-    variantsCreated: 0
-    variantSpecsFile: ""
+    status: "complete"
+    variantsNeeded: 3
+    variantsCreated: 3
+    variantSpecsFile: "docs/ai/demos/fasken/variant-specs.yaml"
     skippedReason: ""
 
   phase6_assembly:
-    status: "pending"
-    componentsAdded: 0
-    datasourcesWired: 0
-    totalComponents: 0
+    status: "complete"
+    componentsAdded: 5
+    datasourcesWired: 5
+    totalComponents: 6
+    note: "Hero + 5 Three Column CTAs populated; Prospera leftovers listed in manual-tasks for removal"
 
   phase7_summary:
-    status: "pending"
+    status: "complete"
+    summaryFile: "docs/ai/demos/fasken/demo-summary.md"
+    manualTasksFile: "docs/ai/demos/fasken/manual-tasks.md"
 
-sections: []
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }
+  - position: 2
+    componentName: "Header"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }
+  - position: 3
+    componentName: "Hero"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "a7704bb2-88aa-4a7d-ab3e-b85bab70de45"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      instanceId: "4e2b20ed-da8a-4d38-afd7-edf01e1eabfb"
+  - position: 4
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "6dc030db-5b97-40df-96f5-d913694d6ba8"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      instanceId: "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6"
+      note: "Page uses Three Column CTA 1 fields updated in place"
+  - position: 5
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "7834f0fe-9e5d-4b4d-91f8-751bf6466e32"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      instanceId: "c7597ab9-c1a5-409a-a220-2e891c2060cf"
+  - position: 6
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "9e53c472-6056-47e6-be2c-eb78eb3a7b50"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      note: "Fasken_News_Block on page"
+  - position: 7
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "5ba3f33c-322b-4bf9-a1d5-bf74ac897f18"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      instanceId: "a461e3aa-c7e5-4294-b7fd-223733fa71b7"
+  - position: 8
+    componentName: "ThreeColumnCta"
+    kind: "simple"
+    phase3:
+      status: "populated"
+      itemId: "76c58dba-819a-4330-9ca8-c85fd38d5aca"
+      fieldsPopulated: true
+      childrenCreated: 0
+      childrenExpected: 0
+      error: ""
+    phase6:
+      status: "wired"
+      note: "Fasken_Events_Block on page"
+  - position: 9
+    componentName: "Footer"
+    kind: "context-only"
+    phase3: { status: "skipped", itemId: "", fieldsPopulated: false, childrenCreated: 0, childrenExpected: 0, error: "" }
+    phase6: { status: "skipped" }
 
 notes:
-  - "2026-11-23T18:52:00Z — Seeded from skinned-demo-setup Step 2 handoff. Code root industry-verticals/fasken/; content root /sitecore/content/Fasken/Fasken. Screenshot: docs/ai/demos/fasken/homepage-screenshot.jpg"
+  - "2026-11-23T18:52:00Z — Seeded from skinned-demo-setup Step 2 handoff. Content root /sitecore/content/Fasken/Fasken."
+  - "2026-11-24T15:54:00Z — Phase 0.5 Quick: config OK, 7/7 root paths PASS, lookups refreshed. WARN: manifest still lists uiim React paths (0/29 on disk; same as Seismic Prospera lineage) — demos use pagecontent/* components."
+  - "2026-11-24T15:56:00Z — Theme drafted at docs/ai/themes/fasken.theme.yaml. Awaiting user approval before Phase 2."
+  - "2026-11-24T18:45:00Z — Phase 2.5 content-map written; 17 images uploaded to Content Hub; Fasken Demo folder + 6 datasources created."
+  - "2026-11-24T19:00:00Z — Phase 4 theme in _colors.scss + Montserrat fonts; Phase 5.5 FaskenSplitHeroCarousel / FaskenInsightsStrip / FaskenImageCards + Sitecore Variant Definitions."
+  - "2026-11-24T19:15:00Z — Phase 6 Home assembly: Hero wired; Three Column CTAs populated; cleanup/variants in manual-tasks. Phase 7 summary written."

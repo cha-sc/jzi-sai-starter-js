@@ -1,0 +1,292 @@
+# Fasken content map — Financial / SXA
+# Positions 5–8 use Three Column CTA (image + text columns) instead of Article List
+# children pages — Article List ThreeColumn needs page items under a folder and is
+# impractical for automated demo datasources; visual intent matches three-up cards.
+client:
+  name: "Fasken"
+  sourceUrl: "https://www.fasken.com/en"
+  contentRoot: "/sitecore/content/Fasken/Fasken"
+  componentLibrary: "financial-sxa"
+  contentSource: "extractor"
+  folderPath: "/sitecore/content/Fasken/Fasken/Data/Fasken Demo"
+  createdAt: "2026-11-24T18:40:00Z"
+
+templates:
+  Folder: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+  Hero: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+  ThreeColumnCta: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+
+sections:
+  - position: 1
+    componentName: "Eyebrow"
+    manifestName: "Eyebrow"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Utility links (Careers, Offices, News, Events, Contact). Context-only partial."
+
+  - position: 2
+    componentName: "Header"
+    manifestName: "Header"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "FASKEN wordmark + People / Services / Experience / Knowledge / More. Context-only."
+
+  - position: 3
+    componentName: "Hero"
+    manifestName: "Hero"
+    kind: "simple"
+    datasourceItemName: "Fasken - Hero"
+    itemId: "a7704bb2-88aa-4a7d-ab3e-b85bab70de45"
+    apiAddable: true
+    templateId: "90d315e8-aa42-4b23-a7eb-4491396453f8"
+    phase55Variant: "FaskenSplitHeroCarousel"
+    fields:
+      Title: "Named Global Mining Law Firm of the Year for the 18th Time"
+      Text: "<p>Our Global Mining Group has received this recognition more times than any other law firm in the world.</p>"
+      Link: { text: "Learn more", href: "https://www.fasken.com/en/news/2026/11/fasken-named-mining-law-firm-of-the-year", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image"
+        src: "https://www.fasken.com/-/media/298877acb4da432b89602c1876fce5c8.jpg?mw=1920&modified=20260109170124&hash=D7E07C8C22E08C4F7250A6DE892C7BB8"
+        alt: "Abstract metal texture — hero slide"
+        localFile: "cap-03.jpg"
+    matchConfidence: "medium"
+    contentSource: "extractor"
+    notes: "Primary slide from carousel. Extra slide assets cap-00..cap-04 reserved for FaskenSplitHeroCarousel."
+
+  - position: 4
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Fasken - Insights Strip"
+    itemId: "6dc030db-5b97-40df-96f5-d913694d6ba8"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "2026 ESG Disclosure Study"
+      SubText1: "Guide · March 3, 2026 — How Canadian companies are strengthening sustainability practices and transparency."
+      Link1: { text: "Read more", href: "https://www.fasken.com/en", target: "_blank" }
+      Text2: "We “Wrote the Book” on Canadian Private M&A"
+      SubText2: "Mergers & Acquisitions — Canada's first comprehensive book on private M&A, published by LexisNexis Canada."
+      Link2: { text: "Read more", href: "https://www.fasken.com/en", target: "_blank" }
+      Text3: "Named Global Mining Law Firm of the Year for the 16th Time"
+      SubText3: "Achievements — Our Global Mining Group has received this recognition more times than any other firm."
+      Link3: { text: "Read more", href: "https://www.fasken.com/en", target: "_blank" }
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+
+  - position: 5
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Fasken - Experience"
+    itemId: "7834f0fe-9e5d-4b4d-91f8-751bf6466e32"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "Advised GATX Corporation and Brookfield Infrastructure"
+      SubText1: "M&A — Deal counsel on a landmark rail and infrastructure transaction."
+      Link1: { text: "Read more", href: "https://www.fasken.com/en/experience", target: "_blank" }
+      Text2: "Advised Zijin Gold International"
+      SubText2: "M&A — Counsel on a major global gold mining transaction."
+      Link2: { text: "Read more", href: "https://www.fasken.com/en/experience", target: "_blank" }
+      Text3: "Advised Predictive Discovery Limited"
+      SubText3: "M&A — Advising on mining exploration and development matters."
+      Link3: { text: "All Experience", href: "https://www.fasken.com/en/experience", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.fasken.com/-/media/4089fe6046894f2db9be747fe3bedab7.jpeg?mw=850&modified=20230308232632&hash=6B64EBE728BC99DF94704CC5F8F7FC2E"
+        alt: "train at station"
+        localFile: "cap-05.jpg"
+      - field: "Image2"
+        src: "https://www.fasken.com/-/media/be3f192a6202412990577bf89d292f01.jpg?mw=850&modified=20241026195408&hash=1B46BC771D6E4DA2CBC4B558033FB96D"
+        alt: "Gold"
+        localFile: "cap-07.jpg"
+      - field: "Image3"
+        src: "https://www.fasken.com/-/media/658dddab862e46e39ebe18f6b53753ac.jpg?mw=850&modified=20260203144644&hash=3CD0A6CADA85BEC5F390B417DED6BE2E"
+        alt: "dump truck in mine"
+        localFile: "cap-06.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Section heading on live site: Our proof is in our clients' success. Three Column CTA stands in for Article List ThreeColumn."
+
+  - position: 6
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Fasken - News"
+    itemId: "9e53c472-6056-47e6-be2c-eb78eb3a7b50"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "Fasken Maintains Top Spot in Canadian M&A and Capital Markets"
+      SubText1: "Firm news covering groundbreaking client work and market rankings."
+      Link1: { text: "Read more", href: "https://www.fasken.com/en/news", target: "_blank" }
+      Text2: "Fasken Congratulates Geoff Cowper, KC, on Appointment as Deputy Attorney General of British Columbia"
+      SubText2: "Recognition of Fasken counsel appointed to public service leadership."
+      Link2: { text: "Read more", href: "https://www.fasken.com/en/news", target: "_blank" }
+      Text3: "Fasken Featured in the 2026 Edition of Lexology Index"
+      SubText3: "Coverage of Fasken practitioners in leading legal directories."
+      Link3: { text: "All News", href: "https://www.fasken.com/en/news", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.fasken.com/-/media/8b20a40d67724bcba447b5a44062bdcf.jpg?mw=850&modified=20261112141636&hash=936CC49B1A000755DCCE3593678A829D"
+        alt: "Fasken Maintains Top Spot in Canadian M&A and Capital Markets"
+        localFile: "cap-08.jpg"
+      - field: "Image2"
+        src: "https://www.fasken.com/-/media/44967df5bbe542ba83050a4331018ee0.jpg?mw=850&modified=20220713203415&hash=43FB30B3E6C62BFB098F3AA61AFAC629"
+        alt: "Fasken Congratulates Geoff Cowper, KC"
+        localFile: "cap-10.jpg"
+      - field: "Image3"
+        src: "https://www.fasken.com/-/media/1352073e80af41d7903ca6705f682454.jpg?mw=850&modified=20261112200220&hash=C12D24A2CCC2BC6AA20C1C09CAD8AA2A"
+        alt: "Fasken Featured in the 2026 Edition of Lexology Index"
+        localFile: "cap-09.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Section heading: In the News. Titles taken from image alts + build plan."
+
+  - position: 7
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Fasken - Knowledge"
+    itemId: "5ba3f33c-322b-4bf9-a1d5-bf74ac897f18"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "Federal Financial Services Regulatory Updates: OSFI's New Competition Initiative"
+      SubText1: "Insight on regulatory developments affecting Canadian financial institutions."
+      Link1: { text: "Read more", href: "https://www.fasken.com/en/knowledge", target: "_blank" }
+      Text2: "Challenging an Arbitral Award: SCA Draws a Hard Line on Time Bars"
+      SubText2: "Analysis of arbitration procedure and limitation periods."
+      Link2: { text: "Read more", href: "https://www.fasken.com/en/knowledge", target: "_blank" }
+      Text3: "Constructive Dismissal vs Frustration of Contract"
+      SubText3: "Employment law guidance for employers and counsel."
+      Link3: { text: "All Knowledge", href: "https://www.fasken.com/en/knowledge", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.fasken.com/-/media/a2a66a1537f144d2ae49e7495e131c96.jpg?mw=850&modified=20260720163818&hash=4F7F2EE0B9B291D5CDAAF9857C18FCA7"
+        alt: "Businesswoman leading project meeting in office"
+        localFile: "cap-11.jpg"
+      - field: "Image2"
+        src: "https://www.fasken.com/-/media/0ff3eec05908473595710fe501d05d4d.jpg?mw=850&modified=20240611225709&hash=69E75757088771AF4A879DCCC2A93300"
+        alt: "Testing Plants"
+        localFile: "cap-12.jpg"
+      - field: "Image3"
+        src: "https://www.fasken.com/-/media/577ea0ef338b466da804d83b7acb6fd4.png?mw=850&modified=20261015171529&hash=B5CA46074EC0E008BAF0B926E05F95E8"
+        alt: "People walking in street with sun behind"
+        localFile: "cap-13.png"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Section heading: Knowledge."
+
+  - position: 8
+    componentName: "ThreeColumnCta"
+    manifestName: "Three Column CTA"
+    kind: "simple"
+    datasourceItemName: "Fasken - Events"
+    itemId: "76c58dba-819a-4330-9ca8-c85fd38d5aca"
+    apiAddable: true
+    templateId: "148d07ba-f923-4fb2-8907-0bd440d5db44"
+    fields:
+      Text1: "The U.S. Midterms 2026: Where to from here?"
+      SubText1: "Panel discussion on political and regulatory implications for Canadian business."
+      Link1: { text: "Register", href: "https://www.fasken.com/en/events", target: "_blank" }
+      Text2: "Financial Services Regulation: Annual Year in Review & Looking Ahead to 2027"
+      SubText2: "CPD-accredited program for financial services counsel and clients."
+      Link2: { text: "Register", href: "https://www.fasken.com/en/events", target: "_blank" }
+      Text3: "Beyond Excellence: The Courage to Evolve"
+      SubText3: "In-person and online professional development for Fasken teams and clients."
+      Link3: { text: "All Events", href: "https://www.fasken.com/en/events", target: "_blank" }
+    children: []
+    imageFields:
+      - field: "Image1"
+        src: "https://www.fasken.com/-/media/46efbbc4ffc744eebb43e1a7d4d91a51.jpg?mw=850&modified=20250122211022&hash=A41E3AD76D0C78D450D9B688D74FBAA4"
+        alt: "Bank Building"
+        localFile: "cap-15.jpg"
+      - field: "Image2"
+        src: "https://www.fasken.com/-/media/f42ffe14435b4d708bfc509da8e540cb.jpg?mw=850&modified=20261112214513&hash=43BFA8A53E3BD387FE8DF37FE9C67991"
+        alt: "Hero-Track"
+        localFile: "cap-14.jpg"
+      - field: "Image3"
+        src: "https://www.fasken.com/-/media/ba68963caade4b6988286219ae3bf090.jpg?mw=850&modified=20250114210506&hash=12E6FB2017FDC844B21FE05F4EE413CB"
+        alt: "Canada-US-Flag"
+        localFile: "cap-16.jpg"
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Section heading: Events."
+
+  - position: 9
+    componentName: "Footer"
+    manifestName: "Footer"
+    kind: "context-only"
+    datasourceItemName: ""
+    apiAddable: false
+    fields: {}
+    children: []
+    imageFields: []
+    matchConfidence: "high"
+    contentSource: "extractor"
+    notes: "Social icons + multi-column sitemap + legal bar. Context-only partial."
+
+datasourceItems:
+  - componentName: "Hero"
+    itemName: "Fasken - Hero"
+    itemId: "a7704bb2-88aa-4a7d-ab3e-b85bab70de45"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Title", "Text", "Link", "Image"]
+    imageFieldsPending: []
+    children: []
+  - componentName: "ThreeColumnCta"
+    itemName: "Fasken - Insights Strip"
+    itemId: "6dc030db-5b97-40df-96f5-d913694d6ba8"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Text1", "SubText1", "Link1", "Text2", "SubText2", "Link2", "Text3", "SubText3", "Link3"]
+    imageFieldsPending: []
+    children: []
+  - componentName: "ThreeColumnCta"
+    itemName: "Fasken - Experience"
+    itemId: "7834f0fe-9e5d-4b4d-91f8-751bf6466e32"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Text1", "SubText1", "Link1", "Image1", "Text2", "SubText2", "Link2", "Image2", "Text3", "SubText3", "Link3", "Image3"]
+    imageFieldsPending: []
+    children: []
+  - componentName: "ThreeColumnCta"
+    itemName: "Fasken - News"
+    itemId: "9e53c472-6056-47e6-be2c-eb78eb3a7b50"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Text1", "SubText1", "Link1", "Image1", "Text2", "SubText2", "Link2", "Image2", "Text3", "SubText3", "Link3", "Image3"]
+    imageFieldsPending: []
+    children: []
+  - componentName: "ThreeColumnCta"
+    itemName: "Fasken - Knowledge"
+    itemId: "5ba3f33c-322b-4bf9-a1d5-bf74ac897f18"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Text1", "SubText1", "Link1", "Image1", "Text2", "SubText2", "Link2", "Image2", "Text3", "SubText3", "Link3", "Image3"]
+    imageFieldsPending: []
+    children: []
+  - componentName: "ThreeColumnCta"
+    itemName: "Fasken - Events"
+    itemId: "76c58dba-819a-4330-9ca8-c85fd38d5aca"
+    parentFolder: "52bf2da2-1f35-47b8-b5c8-bf0c111471f9"
+    fieldsPopulated: ["Text1", "SubText1", "Link1", "Image1", "Text2", "SubText2", "Link2", "Image2", "Text3", "SubText3", "Link3", "Image3"]
+    imageFieldsPending: []
+    children: []
+

@@ -267,3 +267,107 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+/* *************************************************************** */
+/* Fasken — text-only insight strip (no images) */
+export const FaskenInsightsStrip = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const columns = [
+    { text: props.fields.Text1, subText: props.fields.SubText1, link: props.fields.Link1 },
+    { text: props.fields.Text2, subText: props.fields.SubText2, link: props.fields.Link2 },
+    { text: props.fields.Text3, subText: props.fields.SubText3, link: props.fields.Link3 },
+  ];
+
+  return (
+    <div
+      className={`component component-spaced three-column-cta fasken-insights-strip ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row g-4">
+          {columns.map((col, i) => (
+            <div className="col-sm-12 col-lg-4" key={i}>
+              <div className="fasken-insights-strip__card">
+                <h3 className="fasken-insights-strip__title">
+                  <Text field={col.text} />
+                </h3>
+                <p className="fasken-insights-strip__sub">
+                  <Text field={col.subText} />
+                </p>
+                {(isPageEditing || col.link?.value?.href) && (
+                  <Link field={col.link} className="fasken-insights-strip__link" />
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+/* *************************************************************** */
+/* Fasken — editorial image cards (Experience / News / Knowledge / Events) */
+export const FaskenImageCards = (props: ThreeColumnCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`;
+
+  const columns = [
+    {
+      image: props.fields.Image1,
+      text: props.fields.Text1,
+      subText: props.fields.SubText1,
+      link: props.fields.Link1,
+    },
+    {
+      image: props.fields.Image2,
+      text: props.fields.Text2,
+      subText: props.fields.SubText2,
+      link: props.fields.Link2,
+    },
+    {
+      image: props.fields.Image3,
+      text: props.fields.Text3,
+      subText: props.fields.SubText3,
+      link: props.fields.Link3,
+    },
+  ];
+
+  return (
+    <div
+      className={`component component-spaced three-column-cta fasken-image-cards ${sxaStyles}`}
+      id={id ? id : undefined}
+    >
+      <div className="container">
+        <div className="row g-4">
+          {columns.map((col, i) => (
+            <div className="col-sm-12 col-lg-4" key={i}>
+              <article className="fasken-image-cards__card">
+                {(isPageEditing || col.image?.value?.src) && (
+                  <div className="fasken-image-cards__media">
+                    <NextImage field={col.image} width={640} height={400} className="fasken-image-cards__img" />
+                  </div>
+                )}
+                <p className="fasken-image-cards__meta">
+                  <Text field={col.subText} />
+                </p>
+                <h3 className="fasken-image-cards__title">
+                  <Text field={col.text} />
+                </h3>
+                {(isPageEditing || col.link?.value?.href) && (
+                  <Link field={col.link} className="fasken-image-cards__link" />
+                )}
+              </article>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};

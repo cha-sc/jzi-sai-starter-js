@@ -1,21 +1,47 @@
-// Financial
+// Financial — skinned for Fasken demo
 body.site-financial,
 .site-financial {
-  --text-body: #333;
+  --brand-primary: #333132;
+  --brand-primary-foreground: #ffffff;
+  --brand-secondary: #81716a;
+  --brand-secondary-foreground: #ffffff;
+  --brand-accent: #e35205;
+  --brand-accent-foreground: #ffffff;
+  --brand-bg: #ffffff;
+  --brand-fg: #333132;
+  --brand-muted: #f2f1f2;
+  --brand-muted-fg: #6b6567;
+  --brand-header-bg: #ffffff;
+  --brand-header-fg: #333132;
+  --brand-footer-bg: #f2f1f2;
+  --brand-footer-fg: #333132;
+  --brand-footer-bar: #333132;
+  --brand-border: #d9d6d7;
+  --brand-ring: #e35205;
+  --brand-hero-surface: #f2f1f2;
+  --brand-heading-font: 'Montserrat', 'Gordita', Helvetica, Arial, sans-serif;
+  --brand-body-font: 'Montserrat', 'Gordita', Helvetica, Arial, sans-serif;
+  --brand-font-heading: 'Montserrat', 'Gordita', Helvetica, Arial, sans-serif;
+  --brand-font-body: 'Montserrat', 'Gordita', Helvetica, Arial, sans-serif;
+  --brand-radius: 0;
+  --brand-button-radius: 0.25rem;
+  --brand-card-radius: 0;
+  --text-body: #333132;
   --text-body-inverted: #fff;
-  --text-colored: #034c81;
-  --text-footer: #fff;
-  --text-accent: #a82a39;
+  --text-colored: #333132;
+  --text-footer: #333132;
+  --text-accent: #e35205;
   --bg-body: #fff;
-  --bg-footer: #333;
-  --bg-main: #f0f5f7;
-  --bg-main-alt: #f0f5f7;
-  --bg-color: #c5e4f3;
-  --bg-saturated: #034c81;
-  --bg-accent: #c03021;
-  --border-color: #f0f5f7;
+  --bg-footer: #f2f1f2;
+  --bg-main: #f2f1f2;
+  --bg-main-alt: #f2f1f2;
+  --bg-color: #81716a;
+  --bg-saturated: #333132;
+  --bg-accent: #e35205;
+  --border-color: #d9d6d7;
   --hr-color: #fff;
-  --roundness: 1rem;
+  --roundness: 0;
+  --font-family: 'Montserrat', 'Gordita', Helvetica, Arial, sans-serif;
 }
 
 body.site-financial.dark,
