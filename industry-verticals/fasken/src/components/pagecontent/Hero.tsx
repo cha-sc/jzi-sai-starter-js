@@ -131,7 +131,7 @@ export const FaskenSplitHeroCarousel = (props: AppPromoProps): JSX.Element => {
   const sxaStyles = `${props.params?.styles || ''}`;
   const [activeIndex, setActiveIndex] = useState(1);
 
-  const slides = useMemo(() => {
+  const slides = useMemo((): DemoSlide[] => {
     return FASKEN_HERO_SLIDES.map((slide) => {
       if (!slide.usesDatasource) return slide;
       const dsTitle = props.fields?.Title?.value;
@@ -139,6 +139,7 @@ export const FaskenSplitHeroCarousel = (props: AppPromoProps): JSX.Element => {
       const dsHref = props.fields?.Link?.value?.href;
       const dsLinkText = props.fields?.Link?.value?.text;
       const dsImage = props.fields?.Image?.value?.src;
+      const dsAlt = props.fields?.Image?.value?.alt;
       return {
         ...slide,
         title: typeof dsTitle === 'string' && dsTitle ? dsTitle : slide.title,
@@ -146,15 +147,15 @@ export const FaskenSplitHeroCarousel = (props: AppPromoProps): JSX.Element => {
           typeof dsText === 'string' && dsText
             ? dsText.replace(/<[^>]+>/g, '')
             : slide.text,
-        href: dsHref || slide.href,
-        linkText: dsLinkText || slide.linkText,
-        imageSrc: dsImage || slide.imageSrc,
-        imageAlt: props.fields?.Image?.value?.alt || slide.imageAlt,
+        href: typeof dsHref === 'string' && dsHref ? dsHref : slide.href,
+        linkText: typeof dsLinkText === 'string' && dsLinkText ? dsLinkText : slide.linkText,
+        imageSrc: typeof dsImage === 'string' && dsImage ? dsImage : slide.imageSrc,
+        imageAlt: typeof dsAlt === 'string' && dsAlt ? dsAlt : slide.imageAlt,
       };
     });
   }, [props.fields]);
 
-  const active = slides[isPageEditing ? 1 : activeIndex] || slides[1];
+  const active: DemoSlide = slides[isPageEditing ? 1 : activeIndex] ?? slides[1];
 
   return (
     <section
